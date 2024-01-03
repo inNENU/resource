@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as s,a as e,b as c}from"./app-HFzAQKfX.js";const o={},n=e("h2",{id:"简介",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#简介","aria-hidden":"true"},"#"),c(" 简介")],-1),r=e("p",null,"清雨坊书画协会以专业的角度带领大家感受书法的世界，让大家体会到纵情笔墨的乐趣。",-1),_=[n,r];function h(d,i){return a(),s("div",null,_)}const u=t(o,[["render",h],["__file","shuhua.html.vue"]]);export{u as default};

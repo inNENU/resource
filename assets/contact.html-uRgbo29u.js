@@ -1,0 +1,1 @@
+import{_ as c,o as e,c as n,a as t}from"./app-HFzAQKfX.js";const o={},a=t("figure",null,[t("img",{src:"https://assets.innenu.com/img/apartment/education-contact.png",alt:"education-contact"})],-1),s=[a];function _(r,i){return e(),n("div",null,s)}const m=c(o,[["render",_],["__file","contact.html.vue"]]);export{m as default};

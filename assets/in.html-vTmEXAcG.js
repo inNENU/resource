@@ -1,0 +1,1 @@
+import{_ as e,o as n,c as t,a as c}from"./app-HFzAQKfX.js";const s={},o=c("div",{class:"innenu-grid"},null,-1),_=[o];function a(r,i){return n(),t("div",null,_)}const d=e(s,[["render",a],["__file","in.html.vue"]]);export{d as default};

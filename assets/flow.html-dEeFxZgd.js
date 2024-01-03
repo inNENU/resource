@@ -1,0 +1,1 @@
+import{_ as t,o,c,a as e}from"./app-HFzAQKfX.js";const n={},s=e("figure",null,[e("img",{src:"https://assets.innenu.com/img/action/change-major.jpg",alt:"change-major"})],-1),a=[s];function r(_,l){return o(),c("div",null,a)}const m=t(n,[["render",r],["__file","flow.html.vue"]]);export{m as default};

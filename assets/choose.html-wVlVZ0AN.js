@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as s,a as e}from"./app-HFzAQKfX.js";const c={},_=e("p",null,"每学年开学，各学院都会开展研究生导师的师生互选活动。",-1),n=e("p",null,"各学院学生需要自行填写个人介绍表格，并选择心仪导师，导师接收后在表格上签字，完成师生互选。签字后表格上交学院。",-1),l=e("p",null,"对于在师生互选阶段无法选择导师的学生，选择期结束后，由学院安排导师。",-1),a=[_,n,l];function r(d,h){return t(),s("div",null,a)}const u=o(c,[["render",r],["__file","choose.html.vue"]]);export{u as default};

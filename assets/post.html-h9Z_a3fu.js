@@ -1,0 +1,1 @@
+import{_ as e,o as s,c,a as t}from"./app-HFzAQKfX.js";const n={},o=t("div",{class:"hint-container tip"},[t("p",{class:"hint-container-title"},"提示"),t("p",null,"研究生无需进行入学教育课程")],-1),a=[o];function _(i,l){return s(),c("div",null,a)}const p=e(n,[["render",_],["__file","post.html.vue"]]);export{p as default};

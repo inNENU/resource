@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as s,a as t}from"./app-HFzAQKfX.js";const i={},n=t("figure",null,[t("img",{src:"https://assets.innenu.com/img/enroll/2023-activity.png",alt:"2023-activity"})],-1),a=[n];function o(_,r){return c(),s("div",null,a)}const m=e(i,[["render",o],["__file","activity.html.vue"]]);export{m as default};

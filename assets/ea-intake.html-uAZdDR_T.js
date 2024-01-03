@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as a,a as e}from"./app-HFzAQKfX.js";const n={},o=e("figure",null,[e("img",{src:"https://assets.innenu.com/img/association/ea/poster.jpg",alt:"详情"}),e("figcaption",null,"详情")],-1),c=[o];function i(_,r){return s(),a("div",null,c)}const f=t(n,[["render",i],["__file","ea-intake.html.vue"]]);export{f as default};
