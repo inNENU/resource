@@ -1,62 +1,23 @@
-import hopeConfig, {
-  config,
-  globals,
-  tsParser,
-} from "eslint-config-mister-hope";
-import { vue, vueParser } from "eslint-config-mister-hope/vue";
+import { defaultNamingConventionRules, hope } from "eslint-config-mister-hope";
+import { vue } from "eslint-config-mister-hope/vue";
 
-export default config(
-  ...vue,
-  ...hopeConfig,
+export default hope(
   {
-    ignores: [
-      ".oss/**",
-      ".resource/**",
-      ".site/**",
-      "**/node_modules/**",
-      "coverage/**",
-      "**/.vuepress/.cache/",
-      "**/.vuepress/.temp/",
-    ],
-  },
+    ignores: [".oss/**", ".resource/**", ".site/**"],
 
-  {
     languageOptions: {
-      ecmaVersion: "latest",
-      sourceType: "module",
-      parser: vueParser,
       parserOptions: {
-        parser: tsParser,
-        tsconfigDirName: import.meta.dirname,
         project: "./tsconfig.json",
         extraFileExtensions: [".vue"],
       },
     },
   },
 
-  {
-    files: ["**/*.{ts,vue}"],
-    rules: {
+  ...vue({
+    all: {
       "@typescript-eslint/naming-convention": [
         "warn",
-        {
-          selector: "default",
-          format: ["camelCase"],
-          leadingUnderscore: "allowSingleOrDouble",
-          trailingUnderscore: "allow",
-        },
-        {
-          selector: ["variable"],
-          format: ["camelCase", "PascalCase", "UPPER_CASE"],
-          leadingUnderscore: "allowSingleOrDouble",
-          trailingUnderscore: "allowSingleOrDouble",
-        },
-        {
-          selector: ["parameter"],
-          format: ["camelCase", "PascalCase"],
-          leadingUnderscore: "allow",
-          trailingUnderscore: "allow",
-        },
+        ...defaultNamingConventionRules,
         // allow locales path like `/zh/`, alias starting with `@` and css property like `line-width`
         {
           selector: ["property"],
@@ -67,30 +28,9 @@ export default config(
           },
           filter: "(^/$|^/.*/$)",
         },
-        {
-          selector: ["property"],
-          format: ["camelCase", "PascalCase", "UPPER_CASE"],
-          leadingUnderscore: "allow",
-          trailingUnderscore: "allow",
-        },
-        {
-          selector: "import",
-          format: ["PascalCase", "camelCase"],
-        },
-        {
-          selector: "typeLike",
-          format: ["PascalCase"],
-        },
-        {
-          selector: "enumMember",
-          format: ["PascalCase"],
-        },
       ],
     },
-  },
-  {
-    files: ["**/*.vue"],
-    rules: {
+    sfc: {
       "vue/block-lang": [
         "error",
         {
@@ -99,12 +39,5 @@ export default config(
         },
       ],
     },
-  },
-
-  {
-    files: ["scripts/**.ts"],
-    languageOptions: {
-      globals: globals.node,
-    },
-  },
+  }),
 );
