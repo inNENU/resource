@@ -17,7 +17,6 @@ export default hope(
     all: {
       "@typescript-eslint/naming-convention": [
         "warn",
-        ...defaultNamingConventionRules,
         // allow locales path like `/zh/`, alias starting with `@` and css property like `line-width`
         {
           selector: ["property"],
@@ -28,6 +27,7 @@ export default hope(
           },
           filter: "(^/$|^/.*/$)",
         },
+        ...defaultNamingConventionRules,
       ],
     },
     sfc: {
