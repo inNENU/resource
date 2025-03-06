@@ -221,6 +221,7 @@ about:
         url: info?path=Oabout/copyright
 
 service:
+  forceOnline: true
   # 新版统一身份登录存在 Referrer 问题
   auth-init-info: online
   auth-init: online
