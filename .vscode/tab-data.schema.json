@@ -58,12 +58,10 @@
           "$ref": "#/$defs/env"
         }
       },
-      "required": ["text", "icon", "color", "name"],
+      "required": ["text", "icon"],
       "default": {
         "text": "",
         "icon": "",
-        "color": "",
-        "name": "",
         "path": ""
       },
       "additionalProperties": false
