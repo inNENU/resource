@@ -33,7 +33,9 @@ const id = computed(() => page.value.path.replace(/\.html$/, ""));
 .open-app-wrapper {
   @include wrapper.horizontal-wrapper;
 
-  text-align: right;
+  & {
+    text-align: right;
+  }
 }
 
 .open-app-button {
