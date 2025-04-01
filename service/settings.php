@@ -21,9 +21,10 @@ chdir("../config/");
 
 $data = json_decode(file_get_contents('php://input'));
 
-$appID = $data->appID;
+// FIXME: Fallback
+$appId = $data->appId ?? $data->appID;
 $version = $data->version;
-$filename = $appID . "/" . $version . "/settings.json";
+$filename = $appId . "/" . $version . "/settings.json";
 
 $handle = @fopen($filename, "r");
 if ($handle) {

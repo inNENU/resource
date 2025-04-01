@@ -1,8 +1,8 @@
 import { getFileList } from "innenu-generator";
 
-import { appIDInfo } from "./config/index.js";
+import { appIdInfo } from "./config/index.js";
 
-const appidList = Object.keys(appIDInfo);
+const appIdList = Object.keys(appIdInfo);
 
 export const pushPages = (): Promise<void> => {
   const fileList = [
@@ -21,10 +21,10 @@ export const pushPages = (): Promise<void> => {
     query: `path=${filePath}`,
   }));
 
-  const promises = appidList.map((appid) =>
-    Number.isNaN(Number(appid))
+  const promises = appIdList.map((appId) =>
+    Number.isNaN(Number(appId))
       ? fetch(
-          `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appIDInfo[appid]}`,
+          `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appId=${appId}&secret=${appIdInfo[appId]}`,
         )
           // eslint-disable-next-line @typescript-eslint/naming-convention
           .then((res) => res.json() as Promise<{ access_token: string }>)

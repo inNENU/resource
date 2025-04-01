@@ -18,7 +18,8 @@ declare(strict_types=1);
 require_once 'header/post-json.php';
 
 $data = json_decode(file_get_contents('php://input'));
-$appID = $data->appID;
+// FIXME: Fallback
+$appId = $data->appId ?? $data->appID;
 $id = $data->id;
 
 $filename = "../shareLink.json";
@@ -28,8 +29,8 @@ if ($handle) {
   $contents = fread($handle, filesize($filename));
   fclose($handle);
   $shareLinks = json_decode($contents);
-  if (isset($shareLinks->$appID->$id)) {
-    echo "{\"link\":\"" . $shareLinks->$appID->$id . "\",\"error\":false}";
+  if (isset($shareLinks->$appId->$id)) {
+    echo "{\"link\":\"" . $shareLinks->$appId->$id . "\",\"error\":false}";
   } else {
     echo "{\"error\":true}";
   }
