@@ -37,6 +37,7 @@
     "@alicloud/cdn20180510": "5.0.0",
     "@mdit-vue/plugin-frontmatter": "2.1.3",
     "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/helper": "2.0.0-rc.91",
     "@vuepress/plugin-feed": "2.0.0-rc.91",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.91",
     "@vueuse/core": "13.0.0",
