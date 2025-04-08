@@ -20,7 +20,7 @@ require_once 'header/post-json.php';
 enum SearchIndexType: int
 {
   case Title = 1;
-  case Heading = 2;
+  case Header = 2;
   case Text = 3;
   case Image = 4;
   case Card = 5;
@@ -115,7 +115,7 @@ function getWordList(string $searchWord, object $searchIndex): array
       // 检查大小标题是否包含了 searchWord
       if (
         $type === SearchIndexType::Title || $type ===
-        SearchIndexType::Heading
+        SearchIndexType::Header
       ) {
         if (mb_strpos($config, $searchWord) !== false && in_array($config, $words) === false) {
           array_push($words, $config);
@@ -162,14 +162,14 @@ function getMatchList(array $words, array $indexContent)
         }
       }
       // 搜索段落标题，权重为 2
-      else if ($type === SearchIndexType::Heading) {
+      else if ($type === SearchIndexType::Header) {
         if (
           mb_strpos($config, $word->text) !== false
         ) {
           $weight += 2 * $word->weight;
           array_push(
             $matchList,
-            ['heading', $config]
+            ['header', $config]
           );
         }
       }
