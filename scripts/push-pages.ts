@@ -24,7 +24,7 @@ export const pushPages = (): Promise<void> => {
   const promises = appIdList.map((appId) =>
     Number.isNaN(Number(appId))
       ? fetch(
-          `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appId=${appId}&secret=${appIdInfo[appId]}`,
+          `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appId}&secret=${appIdInfo[appId]}`,
         )
           // eslint-disable-next-line @typescript-eslint/naming-convention
           .then((res) => res.json() as Promise<{ access_token: string }>)
