@@ -1,13 +1,4 @@
-import { insertWord } from "nodejs-jieba";
-import { fs, path } from "vuepress/utils";
 import { hopeTheme } from "vuepress-theme-hope";
-
-const words = fs
-  .readFileSync(path.resolve(__dirname, "words"), "utf-8")
-  .split("\n")
-  .filter((line) => line.trim() && !line.startsWith("#"));
-
-words.forEach(insertWord);
 
 export default hopeTheme(
   {
@@ -72,8 +63,6 @@ export default hopeTheme(
       icon: {
         assets: "fontawesome",
       },
-
-      slimsearch: true,
     },
   },
   { custom: true },
