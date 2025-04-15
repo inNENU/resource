@@ -67,7 +67,7 @@ function create_search_map(string $folder): array
           array_push($pageIndex[2], [SearchIndexType::Title, $component['text']]);
         } else if ($component['tag'] === 'text' || $component['tag'] === 'ul' || $component['tag'] === 'ol' || $component['tag'] === 'p') {
           if (isset($component['header']) && is_string($component['header'])) {
-            array_push($pageIndex[2], [SearchIndexType::header, $component['header']]);
+            array_push($pageIndex[2], [SearchIndexType::Header, $component['header']]);
           }
           if (isset($component['text'])) {
             foreach ($component['text'] as $text) {
