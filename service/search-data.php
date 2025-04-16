@@ -27,7 +27,7 @@ enum SearchItemType: int
 enum SearchIndexType: int
 {
   case Title = 1;
-  case Heading = 2;
+  case Header = 2;
   case Text = 3;
   case Image = 4;
   case Card = 5;
@@ -83,7 +83,7 @@ function create_search_map(string $folder): array
           }
         } else if ($component['tag'] === 'list') {
           if (isset($component['header']) && is_string($component['header'])) {
-            array_push($pageIndex[2], [SearchIndexType::Heading, $component['header']]);
+            array_push($pageIndex[2], [SearchIndexType::Header, $component['header']]);
           }
 
           foreach ($component['items'] as $listItem) {
@@ -101,17 +101,17 @@ function create_search_map(string $folder): array
           ]]);
         } else if ($component['tag'] === 'table') {
           if (isset($component['caption'])) {
-            array_push($pageIndex[2], [SearchIndexType::Heading, $component['caption']]);
+            array_push($pageIndex[2], [SearchIndexType::Header, $component['caption']]);
           }
 
-          array_push($pageIndex[2], [SearchIndexType::Heading, join(' | ', $component['header'])]);
+          array_push($pageIndex[2], [SearchIndexType::Header, join(' | ', $component['header'])]);
 
 
           foreach ($component['body'] as $row) {
             array_push($pageIndex[2], [SearchIndexType::Text, join(' | ', $row)]);
           }
         } else if ($component['tag'] === 'account') {
-          array_push($pageIndex[2], [SearchIndexType::Heading, $component['name']]);
+          array_push($pageIndex[2], [SearchIndexType::Header, $component['name']]);
           if (isset($component['detail'])) {
             array_push($pageIndex[2], [SearchIndexType::Text, $component['detail']]);
           }
@@ -120,7 +120,7 @@ function create_search_map(string $folder): array
           }
         } else if ($component['tag'] === 'phone') {
           if (isset($component['header']) && is_string($component['header'])) {
-            array_push($pageIndex[2], [SearchIndexType::Heading, $component['header']]);
+            array_push($pageIndex[2], [SearchIndexType::Header, $component['header']]);
           }
 
           array_push($pageIndex[2], [SearchIndexType::Text, (isset($component['lName']) ? $component['lName'] : '') .  $component['fName'] . ': ' . ($component['num'])]);
