@@ -63,6 +63,13 @@ export default hopeTheme(
       icon: {
         assets: "fontawesome",
       },
+
+      meilisearch: {
+        host: "https://meilisearch.innenu.com",
+        apiKey:
+          "35f2107c9146d9f57fa00454252dce5d40c87c16ee60de6d1ef3f5095c318b50",
+        indexUid: "innenu",
+      },
     },
   },
   { custom: true },

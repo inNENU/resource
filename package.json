@@ -38,14 +38,14 @@
     "@mdit-vue/plugin-frontmatter": "2.1.4",
     "@vuepress/bundler-vite": "2.0.0-rc.21",
     "@vuepress/helper": "2.0.0-rc.94",
-    "@vuepress/plugin-feed": "2.0.0-rc.95",
-    "@vuepress/plugin-meilisearch": "2.0.0-rc.95",
+    "@vuepress/plugin-feed": "2.0.0-rc.96",
+    "@vuepress/plugin-meilisearch": "2.0.0-rc.96",
     "@vueuse/core": "13.1.0",
     "cheerio": "1.0.0",
     "cpx2": "8.0.0",
     "del": "8.0.0",
     "dotenv": "16.5.0",
-    "innenu-generator": "0.0.28",
+    "innenu-generator": "0.0.29",
     "js-yaml": "4.1.0",
     "markdown-it": "14.1.0",
     "sass-embedded": "1.86.3",
@@ -54,7 +54,7 @@
     "vue": "3.5.13",
     "vuepress": "2.0.0-rc.21",
     "vuepress-shared": "2.0.0-rc.81",
-    "vuepress-theme-hope": "2.0.0-rc.81"
+    "vuepress-theme-hope": "2.0.0-rc.82"
   },
   "devDependencies": {
     "@types/js-yaml": "4.0.9",

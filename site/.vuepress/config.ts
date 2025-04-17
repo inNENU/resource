@@ -1,5 +1,4 @@
 import { viteBundler } from "@vuepress/bundler-vite";
-import { meilisearchPlugin } from "@vuepress/plugin-meilisearch";
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 
@@ -51,15 +50,6 @@ export default defineUserConfig({
   ],
 
   bundler: viteBundler(),
-
-  plugins: [
-    meilisearchPlugin({
-      host: "https://meilisearch.innenu.com",
-      apiKey:
-        "fcd7566e2896d1155fa9a614f9f3ec6f5bf1a33cd93a7f568c372f92ac0d1727",
-      indexUid: "innenu",
-    }),
-  ],
 
   theme,
 
