@@ -4,7 +4,7 @@
   "sitemap_urls": ["https://innenu.com/sitemap.xml"],
   "selectors": {
     "lvl0": {
-      "selector": "[vp-content] h1",
+      "selector": ".vp-page-title h1",
       "global": true,
       "default_value": "文档"
     },
