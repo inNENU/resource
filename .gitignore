@@ -3,6 +3,7 @@ node_modules/
 pnpm-lock.yaml
 
 # Generated
+.knowledge/
 .oss/
 .resource/
 .site/
