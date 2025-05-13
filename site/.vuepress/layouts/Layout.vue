@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
-
 import { usePageData } from "vuepress/client";
-
-import HopeNormalPage from "vuepress-theme-hope/components/NormalPage.js";
+import { Layout } from "vuepress-theme-hope/client";
 
 const page = usePageData();
 
@@ -16,7 +14,7 @@ const id = computed(() => page.value.path.replace(/\.html$/, ""));
 </script>
 
 <template>
-  <HopeNormalPage>
+  <Layout>
     <template #contentBefore>
       <div v-if="isEnabled" class="open-app-wrapper">
         <a class="open-app-button" :href="`innenu://pages/info/info?id=${id}`">
@@ -24,7 +22,7 @@ const id = computed(() => page.value.path.replace(/\.html$/, ""));
         </a>
       </div>
     </template>
-  </HopeNormalPage>
+  </Layout>
 </template>
 
 <style lang="scss">

@@ -1,10 +1,7 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
-import { getDirname, path } from "vuepress/utils";
 
 import theme from "./theme.js";
-
-const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   title: "inNENU",
@@ -53,17 +50,12 @@ export default defineUserConfig({
 
   theme,
 
-  alias: {
-    // eslint-disable-next-line @typescript-eslint/naming-convention
-    "@theme-hope/components/NormalPage": path.resolve(
-      __dirname,
-      "components/NormalPage.vue",
-    ),
-    // eslint-disable-next-line @typescript-eslint/naming-convention
-    "@theme-hope/modules/info/components/PageMeta": path.resolve(
-      __dirname,
-      "components/PageMeta.ts",
-    ),
+  extendsPage: (page) => {
+    if (page.filePathRelative) {
+      page.data.filePathRelative = page.filePathRelative
+        .replace(/README\.md$/, "index.yml")
+        .replace(/\.md$/, ".yml");
+    }
   },
 
   shouldPrefetch: false,
