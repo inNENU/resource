@@ -7,6 +7,16 @@
       "type": "string",
       "maxLength": 12
     },
+    "tags": {
+      "description": "页面标签",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 12
+      },
+      "minItems": 1,
+      "maxItems": 5
+    },
     "icon": {
       "description": "页面图标",
       "type": "string"

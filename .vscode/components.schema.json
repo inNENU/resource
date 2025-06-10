@@ -620,7 +620,8 @@
           "type": ["string", "number"],
           "oneOf": [
             { "type": "number" },
-            { "type": "string", "pattern": "^(?:0\\d{2,3}-)?\\d+$" }
+            { "type": "string", "pattern": "^(?:0\\d{2,3}-)?\\d+$" },
+            { "type": "string", "pattern": "^400-\\d{3}-\\d{4}$" }
           ]
         },
         "nick": {

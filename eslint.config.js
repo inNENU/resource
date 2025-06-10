@@ -31,6 +31,12 @@ export default hope(
       ],
     },
     sfc: {
+      "vue/multi-word-component-names": [
+        "error",
+        {
+          ignores: ["Layout"],
+        },
+      ],
       "vue/block-lang": [
         "error",
         {
