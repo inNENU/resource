@@ -1,9 +1,15 @@
 title: 东北师范大学企业号介绍
+tags:
+  - 企业微信
 icon: about
 author: Mr.Hope
 time: 2023-09-22T16:59:13.271Z
 shareable: true
 content:
+  - tag: img
+    src: $img/account/wechat-follow.png
+    desc: 企业微信二维码
+
   - tag: title
     text: 企业号功能
 

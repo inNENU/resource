@@ -17,6 +17,7 @@
           "校园文化",
           "新生入学",
           "学校机构",
+          "学校设施",
           "联系方式",
           "招生",
 
@@ -49,16 +50,17 @@
           "教务系统",
           "转专业",
           "考研/保研",
+          "师范生",
 
-          "账户",
+          "统一身份认证（账户）",
+          "校园邮箱",
           "校园卡",
           "校园网",
           "图书馆",
           "就医",
           "保险",
-          "交通",
+          "交通/通勤",
           "心理",
-          "邮箱",
           "建议",
 
           "宿舍",
@@ -105,6 +107,11 @@
       },
       "minItems": 1,
       "maxItems": 5
+    },
+    "ignore": {
+      "description": "页面是否在 AI 处理中忽略",
+      "type": "boolean",
+      "default": false
     },
     "icon": {
       "description": "页面图标",
@@ -171,6 +178,6 @@
     }
   },
   "additionalProperties": false,
-  "required": ["title", "tags", "content"],
+  "required": ["title", "content"],
   "type": "object"
 }

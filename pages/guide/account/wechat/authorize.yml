@@ -1,4 +1,6 @@
 title: 东北师范大学企业号认证
+tags:
+  - 企业微信
 icon: authorize
 author: Mr.Hope
 time: 2024-06-15T19:54:15.410Z
@@ -7,11 +9,10 @@ content:
   - tag: text
     type: info
     text:
-      - 2023 级同学需要完成首先账号激活。
+      - 2024 级同学需要完成首先账号激活。
       - 账号激活后，如账号绑定的手机号已经与某一微信号相关联，此微信号会自动收到企业邀请。
 
   - tag: list
-    header: false
     items:
       - text: 账号激活
         icon: authorize

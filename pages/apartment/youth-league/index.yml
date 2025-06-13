@@ -1,4 +1,6 @@
 title: 校团委
+tags:
+  - 学校机构
 icon: $img/about/group.png
 grey: true
 author: Mr.Hope
@@ -10,7 +12,6 @@ content:
     logo: $img/media/tuanwei.png
     detail: 东北师范大学团委
     wxid: nenu-tuanwei
-
     account: tuanwei
     site: https://youth.nenu.edu.cn/index.htm
 
@@ -34,11 +35,3 @@ content:
       - text: 标识
         icon: activity
         path: sign
-
-      - text: 共青团热词
-        icon: $img/about/group.png
-        path: group
-
-      - text: 党政热词
-        icon: league
-        path: league

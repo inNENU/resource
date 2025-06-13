@@ -1,4 +1,6 @@
 title: 保卫科
+tags:
+  - 学校机构
 icon: police
 author: Mr.Hope
 time: 2024-07-17T20:15:11.089Z
@@ -37,19 +39,3 @@ content:
 
   - tag: img
     src: $img/apartment/defendDetail.jpg
-
-  - tag: title
-    text: 车辆门禁
-
-  - tag: img
-    src: $img/apartment/door.png
-
-  - tag: ul
-    header: 费用
-    text:
-      - |-
-        月: 50 元
-      - |-
-        季: 150 元
-      - |-
-        年: 600 元
