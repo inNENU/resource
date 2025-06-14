@@ -126,7 +126,8 @@
 #### 当前检查位置
 
 ✅ 已完成检查: `guide/`
-✅ 已完成检查: `intro/` (全部子目录)
+✅ 已完成检查: `intro/` (全部子目录，已确认 `intro/rule` 下所有文件都有"规章制度"标签)
+🔍 正在检查: `newcomer/activity/military/index.yml`
 
 ## 标签使用规则说明
 
