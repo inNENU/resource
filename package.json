@@ -63,7 +63,7 @@
     "@types/node": "22.15.30",
     "domhandler": "5.0.3",
     "eslint": "9.28.0",
-    "eslint-config-mister-hope": "0.9.3",
+    "eslint-config-mister-hope": "0.9.5",
     "eslint-plugin-vue": "10.1.0",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
