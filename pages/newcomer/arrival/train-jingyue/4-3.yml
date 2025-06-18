@@ -1,4 +1,7 @@
 title: 长春站-到净月-4转3
+tags:
+  - 到校路线
+  - 报到
 icon: train
 author: Mr.Hope
 time: 2024-08-15T17:31:26.915Z
@@ -11,7 +14,6 @@ content:
       - 只有您携带了无法通过地铁安检的物品，再考虑此方案。
 
   - tag: list
-    header: false
     items:
       - text: 1 号线转 3 号线
         icon: train

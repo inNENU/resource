@@ -1,4 +1,7 @@
 title: 2024 年报到时间地点
+tags:
+  - 报到
+  - 新生入学
 icon: time
 author: Mr.Hope
 time: 2024-08-30T15:58:21.919Z
@@ -27,7 +30,6 @@ content:
     path: /newcomer/arrival/pickup
 
   - tag: list
-    header: false
     items:
       - text: 认准校区校门
         icon: gate

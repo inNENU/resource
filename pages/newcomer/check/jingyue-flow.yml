@@ -1,4 +1,7 @@
 title: 净月报到流程
+tags:
+  - 报到
+  - 新生入学
 icon: flow
 author:
   - Mr.Hope
@@ -111,7 +114,6 @@ content:
     text: 报到后续步骤
 
   - tag: list
-    header: false
     items:
       - text: 报到后续流程
         icon: flow

@@ -1,4 +1,6 @@
 title: in 东北师大群
+tags:
+  - 迎新
 icon: qq-group
 author: Mr.Hope
 time: 2023-09-25T10:16:17.319Z
@@ -14,7 +16,6 @@ content:
       - wx
 
   - tag: functional-list
-    header: false
     items:
       - text: 加入 inNENU 咨询群
         icon: qq-group

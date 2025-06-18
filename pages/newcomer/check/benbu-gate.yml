@@ -1,4 +1,7 @@
 title: 本部校区校门
+tags:
+  - 报到
+  - 新生入学
 icon: gate
 author: Mr.Hope
 time: 2024-08-30T15:58:21.912Z
@@ -36,7 +39,6 @@ content:
       - 这是离三舍最近的校门，正对着动植物公园门口。下车往左望分别就是三舍 D、C、B、A，很近。很多同学打车回校都会让司机开到这个门。
 
   - tag: list
-    header: false
     items:
       - text: 本部报到流程
         icon: flow
