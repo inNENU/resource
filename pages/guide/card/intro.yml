@@ -57,7 +57,6 @@ content:
     text: 在关注并认证企业微信后可以使用。
 
   - tag: list
-    header: false
     items:
       - text: 企业微信认证
         icon: wechat

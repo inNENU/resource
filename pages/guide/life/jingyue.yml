@@ -9,7 +9,6 @@ content:
     text: 净月
 
   - tag: list
-    header: false
     items:
       - text: 二食堂生活区介绍
         icon: shop

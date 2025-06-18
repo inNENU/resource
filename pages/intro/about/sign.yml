@@ -64,7 +64,6 @@ content:
       - 曲作者吕远是我校 1954 年音乐系毕业生，著名作曲家
 
   - tag: list
-    header: false
     items:
       - text: 点击聆听
         url: music?name=东北师范大学校歌

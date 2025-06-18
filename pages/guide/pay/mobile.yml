@@ -31,7 +31,6 @@ content:
       - 默认账号和密码同统一身份认证账号和密码。
 
   - tag: list
-    header: false
     items:
       - text: 统一身份认证
         icon: account

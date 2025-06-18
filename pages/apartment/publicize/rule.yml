@@ -19,7 +19,6 @@ content:
     url: $file/apartment/publicize-new-media.pdf
 
   - tag: list
-    header: false
     items:
       - text: 东北师范大学校园网“东师新闻”信息发布细则
         path: news

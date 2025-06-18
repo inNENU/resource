@@ -92,7 +92,6 @@ content:
     text: 基本餐价格
 
   - tag: list
-    header: false
     items:
       - text: 了解更多
         icon: money

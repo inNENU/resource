@@ -11,7 +11,6 @@ content:
     text: 推免 (保研)
 
   - tag: list
-    header: false
     items:
       # TODO: Update at 2024-09
       - text: 2023 年推免通知
@@ -38,7 +37,6 @@ content:
     text: 考研报考
 
   - tag: list
-    header: false
     items:
       - text: 2023 年时间安排
         icon: time

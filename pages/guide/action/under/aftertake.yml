@@ -17,7 +17,6 @@ content:
     text: 相关内容
 
   - tag: list
-    header: false
     items:
       # TODO:
       - text: 本科缓考申请

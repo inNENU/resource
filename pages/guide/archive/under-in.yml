@@ -70,7 +70,6 @@ content:
     text: 档案接收人
 
   - tag: list
-    header: false
     items:
       - text: 2024 年档案接收人
         icon: contact

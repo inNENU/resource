@@ -32,7 +32,6 @@ content:
         退补选时间: 9月2日——9月8日为课程退补选时间
 
   - tag: list
-    header: false
     items:
       - text: 本科生 2024 秋季学期选课通知
         icon: notice

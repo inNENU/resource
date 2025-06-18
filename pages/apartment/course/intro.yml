@@ -29,7 +29,6 @@ content:
     desc: 教务处各部门
 
   - tag: list
-    header: false
     items:
       - text: 教务处各部门介绍
         icon: apartment

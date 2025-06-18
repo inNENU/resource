@@ -16,7 +16,6 @@ content:
     text: 2023 年发布内容
 
   - tag: list
-    header: false
     items:
       - text: 教育学部
         icon: education

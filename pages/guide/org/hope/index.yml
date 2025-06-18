@@ -32,7 +32,6 @@ content:
       - 2014 年，净月校区创立厚普公益学校艺术分校，面向净月纳新。
 
   - tag: list
-    header: false
     items:
       - text: 厚普公益学校工作人员纳新
         path: worker-intake

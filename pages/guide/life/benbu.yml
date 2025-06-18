@@ -9,7 +9,6 @@ content:
     text: 本部
 
   - tag: list
-    header: false
     items:
       - text: 北苑生活区介绍
         icon: shop

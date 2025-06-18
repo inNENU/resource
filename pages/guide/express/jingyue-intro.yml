@@ -62,7 +62,6 @@ content:
     watermark: true
 
   - tag: list
-    header: false
     items:
       - text: 菜鸟驿站
         icon: cainiao

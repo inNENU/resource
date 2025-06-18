@@ -21,7 +21,6 @@ content:
     num: 0431-85098320
 
   - tag: list
-    header: false
     items:
       - text: 教学服务系统操作指南
         icon: system

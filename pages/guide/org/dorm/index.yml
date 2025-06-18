@@ -38,7 +38,6 @@ content:
     text: 小窝结构
 
   - tag: list
-    header: false
     items:
       - text: 查看小窝部门组成
         icon: apartment
@@ -48,7 +47,6 @@ content:
     text: 小窝精彩
 
   - tag: list
-    header: false
     items:
       - text: 查看小窝活动
         icon: activity
@@ -58,7 +56,6 @@ content:
     text: 小窝情怀
 
   - tag: list
-    header: false
     items:
       - text: 查看小窝氛围
         icon: environment

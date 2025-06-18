@@ -100,7 +100,6 @@ content:
     text: 如果问题仍然无法解决，则很有可能存在硬件问题。您可以自行重装系统并再次尝试，以完全排除系统、软件问题的可能。也可直接前往官方售后寻求帮助。
 
   - tag: list
-    header: false
     items:
       - text: 系统重置
         icon: reset

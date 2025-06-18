@@ -95,7 +95,6 @@ content:
       - 我校近三年录取分数请点击下方查看。
 
   - tag: list
-    header: false
     items:
       - text: 历史分数线
         icon: time

@@ -73,7 +73,6 @@ content:
     text: 替代选择
 
   - tag: list
-    header: false
     items:
       - text: 使用 IETab 扩展程序
         icon: ie

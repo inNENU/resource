@@ -21,7 +21,6 @@ content:
     text: 您需要先关注微信公众号“台州博诚”，并完成初始化设置。
 
   - tag: list
-    header: false
     items:
       - text: 浴池账户与计费
         icon: account

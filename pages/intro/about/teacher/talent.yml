@@ -13,7 +13,6 @@ content:
     text: 院士
 
   - tag: list
-    header: false
     items:
       - text: 刘益春院士
         icon: teacher
@@ -136,7 +135,6 @@ content:
     text: 其他人才
 
   - tag: list
-    header: false
     items:
       - text: 查看详情
         path: talent-more

@@ -11,7 +11,6 @@ content:
     text: 本部校区
 
   - tag: list
-    header: false
     items:
       - text: 教师技能协会
         path: teach
@@ -41,7 +40,6 @@ content:
     text: 净月校区
 
   - tag: list
-    header: false
     items:
       - text: 模拟联合国协会
         icon: $img/association/mun/logo.png

@@ -72,7 +72,6 @@ content:
       - 1. 请先完成“东北师范大学”企业微信认证。
 
   - tag: list
-    header: false
     items:
       - text: 企业号认证
         icon: apply

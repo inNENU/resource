@@ -15,7 +15,6 @@ content:
       - 如果对自己所学专业不满意或不感兴趣，请考虑转专业，慎重考虑双学位或者辅修自己喜欢的专业。
 
   - tag: list
-    header: false
     items:
       - text: 转专业实施办法
         icon: intro

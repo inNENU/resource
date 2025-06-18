@@ -44,7 +44,6 @@ content:
     text: 交学费这件事情不着急，在报到之后完成即可。
 
   - tag: list
-    header: false
     items:
       - text: PC 缴费
         icon: pc
@@ -66,7 +65,6 @@ content:
     text: 注意事项
 
   - tag: list
-    header: false
     items:
       - text: 缴费注意事项
         icon: alert

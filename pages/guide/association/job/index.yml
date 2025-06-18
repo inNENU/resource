@@ -11,7 +11,6 @@ content:
     text: 本部校区
 
   - tag: list
-    header: false
     items:
       - text: “V·梦” 创新创业协会
         path: vdream
@@ -20,7 +19,6 @@ content:
     text: 净月校区
 
   - tag: list
-    header: false
     items: []
 
   - tag: functional-list

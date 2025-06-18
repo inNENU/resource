@@ -11,7 +11,6 @@ content:
     text: 本部校区
 
   - tag: list
-    header: false
     items:
       - text: 乐群学社
         icon: $img/association/lequn.png
@@ -21,7 +20,6 @@ content:
     text: 净月校区
 
   - tag: list
-    header: false
     items:
       - text: 马列协会
         desc: 暂无详情

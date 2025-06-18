@@ -46,7 +46,6 @@ content:
     text: 其他人员授权
 
   - tag: list
-    header: false
     items:
       - text: 其他人员班车授权
         path: bus-other

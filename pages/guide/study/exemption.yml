@@ -45,7 +45,6 @@ content:
     text: 英语免修
 
   - tag: list
-    header: false
     items:
       - text: 英语免修申请条件
         icon: plan

@@ -14,7 +14,6 @@ content:
     text: 请按照图书检索中中查到的图书资料“分馆馆藏”到相应的阅览室查找图书，“索书号”显示图书在书架上相对应的位置，按照字母从前到后、数字从小到大的顺序排列。
 
   - tag: list
-    header: false
     items:
       - text: 书目检索
         icon: search

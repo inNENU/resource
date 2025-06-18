@@ -18,7 +18,6 @@ content:
       - 2023 年 11 月 8 日可查询考试成绩
 
   - tag: list
-    header: false
     items:
       - text: 相关公告
         icon: notice

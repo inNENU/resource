@@ -16,7 +16,6 @@ content:
     text: 本部校区的主要超市是天猫超市。
 
   - tag: list
-    header: false
     items:
       - text: 天猫超市
         path: tmall
@@ -34,7 +33,6 @@ content:
     header: 校外超市
 
   - tag: list
-    header: false
     items:
       - text: 校外超市
         path: benbu-out

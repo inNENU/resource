@@ -9,7 +9,6 @@ content:
     text: 准备工作
 
   - tag: list
-    header: false
     items:
       - text: 准备工作
         icon: content

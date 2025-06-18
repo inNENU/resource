@@ -87,7 +87,6 @@ content:
       - 机器发出取件成功的提示音后，取件完成
 
   - tag: list
-    header: false
     items:
       - text: 身份码获得
         icon: code

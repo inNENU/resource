@@ -16,7 +16,6 @@ content:
       - 浴池同时配备了免费健身房与休息厅，以及便民商家服务。
 
   - tag: list
-    header: false
     items:
       - text: 如何洗浴
         icon: bath

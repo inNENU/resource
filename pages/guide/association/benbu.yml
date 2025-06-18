@@ -14,7 +14,6 @@ content:
       - 全校社团均由校团委学生社团发展管理中心管理，分为思想政治类、学术科技类、创新创业类、文化体育类、志愿公益类、自律互助类。
 
   - tag: list
-    header: false
     items:
       - text: 学生社团发展管理中心
         icon: $img/organization/sheguan.png
@@ -24,7 +23,6 @@ content:
     text: 本部校区社团
 
   - tag: list
-    header: false
     items:
       - text: 创新创业类
         path: job/benbu

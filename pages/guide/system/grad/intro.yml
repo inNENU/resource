@@ -39,7 +39,6 @@ content:
       - 系统通过统一认证服务登录
 
   - tag: list
-    header: false
     items:
       - text: 统一身份认证
         icon: authorize

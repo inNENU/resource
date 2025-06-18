@@ -88,7 +88,6 @@ content:
 
   # TODO: 完善
   - tag: list
-    header: false
     items:
       - text: |-
           研究生的公共课只有英语和政治。

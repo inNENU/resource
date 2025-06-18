@@ -13,7 +13,6 @@ content:
     text: 无，因招生办人员有限，暂无精力解答 QQ 群内容。如有疑问请致电招生办或向招生办留言。
 
   - tag: list
-    header: false
     items:
       - text: 招生办公室联系方式
         icon: phone

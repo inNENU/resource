@@ -16,7 +16,6 @@ content:
       - 没有评教的同学务必事先完成课程评价，否则无法选课。
 
   - tag: list
-    header: false
     items:
       - text: 课程评价
         icon: heart

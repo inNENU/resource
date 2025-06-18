@@ -116,7 +116,6 @@ content:
       - "武术与民族传统体育: ￥9000/年"
 
   - tag: list
-    header: false
     items:
       - text: 本部校区校门介绍
         icon: gate
@@ -209,7 +208,6 @@ content:
         物流管理 (中外合作): ????/年
 
   - tag: list
-    header: false
     items:
       - text: 净月校区校门介绍
         icon: gate

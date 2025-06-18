@@ -28,7 +28,6 @@ content:
       - 一食堂一楼拥有电信营业厅和中国联通业厅，二楼有学习区域。(是的，你可以边干饭边学习/学累了干饭/干饱了学习😏)
 
   - tag: list
-    header: false
     items:
       - text: 学习区域制度
         icon: study

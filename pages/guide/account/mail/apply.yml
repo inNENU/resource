@@ -91,7 +91,6 @@ content:
     watermark: true
 
   - tag: list
-    header: false
     items:
       - text: 登录邮箱
         path: intro

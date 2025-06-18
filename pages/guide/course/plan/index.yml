@@ -27,7 +27,6 @@ content:
     text: 各学院人才培养方案
 
   - tag: list
-    header: false
     items:
       - text: 教育学部人才培养方案
         icon: education
@@ -66,7 +65,6 @@ content:
     url: $file/course-plan/fineart.pdf
 
   - tag: list
-    header: false
     items:
       - text: 马克思主义学部本科人才培养方案
         icon: marx

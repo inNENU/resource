@@ -15,7 +15,6 @@ content:
     text: 安装
 
   - tag: list
-    header: false
     items:
       - text: 在 Microsoft Edge 中添加扩展程序
         icon: edge

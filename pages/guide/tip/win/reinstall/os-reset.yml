@@ -82,7 +82,6 @@ content:
       - 下载完成后，请耐心等待系统自动的重置工作。系统重置需要多个步骤，且电脑会在该过程中多次重启。整个步骤需要 20 - 40 分钟。重置结束后，您会看到 Windows 用户向导。
 
   - tag: list
-    header: false
     items:
       - text: Windows 11 用户向导
         path: ../win11/setup

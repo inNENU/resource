@@ -28,7 +28,6 @@ content:
       - 包括军训和军事理论教育两个部分，各 1 学分。
 
   - tag: list
-    header: false
     items:
       - text: 军训介绍
         icon: military
