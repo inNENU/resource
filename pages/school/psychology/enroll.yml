@@ -70,7 +70,6 @@ content:
     header: 硕士研究生招生概况
 
   - tag: list
-    header: false
     items:
       - text: 查询地址
         icon: search

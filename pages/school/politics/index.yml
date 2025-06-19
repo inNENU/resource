@@ -19,7 +19,6 @@ content:
     text: 简介
 
   - tag: list
-    header: false
     items:
       - text: 学院简介
         icon: about
