@@ -1,11 +1,11 @@
 title: Hope Studio 招新
+ignore: true
 shareable: true
 content:
   - tag: text
     text: 希望工作室长期招新，有意者请
 
   - tag: functional-list
-    header: false
     items:
       - text: 联系 Mr.Hope
         icon: contact
@@ -52,7 +52,6 @@ content:
     text: 相关详情
 
   - tag: list
-    header: false
     items:
       - text: 工作室介绍
         url: info?path=Ohope-studio/about
