@@ -1,4 +1,7 @@
 title: 经济与管理学院招生
+tags:
+  - 招生
+  - 经济与管理学院
 icon: enroll
 author: Mr.Hope
 time: 2024-07-02T16:28:50.182Z
@@ -50,7 +53,6 @@ content:
     text: 硕士研究生招生概况
 
   - tag: list
-    header: false
     items:
       - text: 查询地址
         icon: search

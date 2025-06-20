@@ -1,4 +1,6 @@
 title: 志愿服务类社团
+tags:
+  - 社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
@@ -9,7 +11,6 @@ content:
     text: 本部校区
 
   - tag: list
-    header: false
     items:
       - text: 东北师范大学国际学生交流协会
         icon: $img/association/NISA.png
@@ -54,7 +55,6 @@ content:
     text: 净月校区
 
   - tag: list
-    header: false
     items:
       - text: 新苗支教团
         desc: 暂无详情

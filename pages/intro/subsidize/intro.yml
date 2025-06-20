@@ -1,4 +1,6 @@
 title: 资助体系介绍
+tags:
+  - 资助
 icon: apartment
 author: Mr.Hope
 time: 2023-09-23T11:16:45.589Z
@@ -22,7 +24,6 @@ content:
       - 学校设立的学校励志奖学金
 
   - tag: list
-    header: false
     items:
       - text: 奖学金详情
         icon: metal
@@ -52,7 +53,6 @@ content:
       - 社会捐助奖助学金
 
   - tag: list
-    header: false
     items:
       - text: 助学金详情
         icon: heart
@@ -74,7 +74,6 @@ content:
       - 勤工助学是学校资助育人的主渠道、主阵地，是同学们获得资助的有效途径，也是做好大学期间能力储备和积累的有效平台。
 
   - tag: list
-    header: false
     items:
       - text: 勤工助学详情
         icon: more

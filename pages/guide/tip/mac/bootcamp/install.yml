@@ -1,4 +1,5 @@
 title: 通过启动转换助理在 Mac 上安装 Windows
+aiIgnore: true
 author: Mr.Hope
 time: 2024-08-16T05:53:04.591Z
 shareable: true
@@ -8,7 +9,6 @@ content:
     text: 准备工作
 
   - tag: list
-    header: false
     items:
       - text: 准备工作
         icon: content

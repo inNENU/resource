@@ -1,4 +1,7 @@
 title: 长春站-到净月
+tags:
+  - 到校路线
+  - 报到
 icon: railway
 author: Mr.Hope
 time: 2024-08-15T16:53:50.180Z
@@ -10,7 +13,6 @@ content:
       - wx
 
   - tag: functional-list
-    header: false
     items:
       - type: navigator
         text: 长春站北出口导航到本部

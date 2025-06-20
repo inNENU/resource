@@ -1,4 +1,6 @@
 title: 校园卡企业号充值
+tags:
+  - 校园卡
 icon: wechat
 author: Mr.Hope
 time: 2023-09-22T16:59:13.442Z
@@ -9,7 +11,6 @@ content:
     text: 在成功关注并认证东北师范大学企业微信号后，可以通过企业微信号中的校园卡栏目，通过微信充值校园卡。
 
   - tag: list
-    header: false
     items:
       - text: 企业号关注与认证
         icon: wechat

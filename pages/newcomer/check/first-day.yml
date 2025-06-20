@@ -1,4 +1,7 @@
 title: 大学第一天
+tags:
+  - 报到
+  - 新生入学
 icon: check
 author: Mr.Hope
 time: 2024-08-16T21:13:24.461Z
@@ -11,7 +14,6 @@ content:
     text: 来到学校
 
   - tag: list
-    header: false
     items:
       - text: |-
           第一步: 认清校区位置
@@ -38,7 +40,6 @@ content:
     text: 生活准备
 
   - tag: list
-    header: false
     items:
       - text: |-
           第四步: 前往校园快递中心取行李

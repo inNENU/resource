@@ -1,4 +1,6 @@
 title: 体育课说明
+tags:
+  - 课程
 icon: basketball
 author: Mr.Hope
 time: 2024-07-17T20:15:12.073Z
@@ -179,7 +181,6 @@ content:
     text: 校园跑
 
   - tag: list
-    header: false
     items:
       - text: 校园跑详情
         path: running

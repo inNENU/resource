@@ -1,4 +1,5 @@
 title: 启动转换助理常见问题
+aiIgnore: true
 author: Mr.Hope
 time: 2022-08-21
 shareable: true
@@ -33,7 +34,6 @@ content:
       - 您也可针对遇到的此类或其他相关问题向 Mr.Hope 寻求帮助。
 
   - tag: functional-list
-    header: false
     items:
       - text: 向 Mr.Hope 寻求帮助
         icon: contact

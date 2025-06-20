@@ -1,4 +1,7 @@
 title: 缴费相关
+tags:
+  - 报到
+  - 学费
 icon: money
 author: Mr.Hope
 time: 2024-07-28T10:30:18.913Z
@@ -27,7 +30,6 @@ content:
     text: 学生需要在开学后通过缴费系统自行缴费。
 
   - tag: list
-    header: false
     items:
       - text: 缴费介绍
         icon: money

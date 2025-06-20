@@ -1,4 +1,6 @@
 title: 本部校区快递介绍
+tags:
+  - 快递
 icon: about
 author: Mr.Hope
 time: 2023-09-23T08:04:54.192Z
@@ -46,7 +48,6 @@ content:
     text: 收件点
 
   - tag: list
-    header: false
     items:
       - text: 菜鸟驿站
         icon: cainiao

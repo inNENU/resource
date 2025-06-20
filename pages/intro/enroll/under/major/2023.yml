@@ -1,4 +1,6 @@
 title: 2023 年本科招生专业
+tags:
+  - 招生
 icon: list
 author: Mr.Hope
 time: 2023-09-23T11:16:45.473Z
@@ -110,7 +112,6 @@ content:
       - "武术与民族传统体育: ￥9000/年"
 
   - tag: list
-    header: false
     items:
       - text: 本部校区校门介绍
         icon: gate
@@ -198,7 +199,6 @@ content:
     text: 预科同学在自己的学院管理，到自己的学院处报到。
 
   - tag: list
-    header: false
     items:
       - text: 净月校区校门介绍
         icon: gate

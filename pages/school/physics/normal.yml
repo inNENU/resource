@@ -1,4 +1,7 @@
 title: 物理学 (公费师范生)
+tags:
+  - 物理学院
+  - 专业介绍
 desc: |-
   来源: 2024 年本科招生指南
 time: 2024-06-22T19:16:14.282Z
@@ -51,7 +54,6 @@ content:
     text: 优秀毕业生建议
 
   - tag: list
-    header: false
     items:
       - text: 顾卓成
         icon: idea

@@ -1,5 +1,7 @@
 title: |-
   记: inNENU
+tags:
+  - 小程序
 author: Mr.Hope
 shareable: true
 content:
@@ -61,7 +63,6 @@ content:
     text: 在此特别感谢所有为 inNENU 作出贡献的人员 (包括不限于提供建议、修正错误、提交资料与打赏支持) ，再次感谢你们。
 
   - tag: list
-    header: false
     items:
       - text: 致谢名单
         url: info?path=Oabout/thanks

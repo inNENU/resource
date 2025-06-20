@@ -1,4 +1,6 @@
 title: 关于 2024 年全日制本科生转专业工作的通知
+tags:
+  - 转专业
 icon: notice
 shareable: true
 cite:
@@ -19,7 +21,6 @@ content:
     num: 0431-85098320
 
   - tag: list
-    header: false
     items:
       - text: 教学服务系统操作指南
         icon: system

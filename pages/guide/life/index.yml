@@ -1,4 +1,5 @@
 title: 生活
+aiIgnore: true
 icon: life
 author: Mr.Hope
 time: 2024-08-16T21:13:25.110Z
@@ -8,7 +9,6 @@ content:
     text: 本部
 
   - tag: list
-    header: false
     items:
       - text: 北苑生活区介绍
         icon: shop
@@ -28,7 +28,6 @@ content:
     text: 净月
 
   - tag: list
-    header: false
     items:
       - text: 二食堂生活区介绍
         icon: shop

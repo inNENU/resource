@@ -1,4 +1,6 @@
 title: 本科教学服务系统介绍
+tags:
+  - 教务系统
 icon: system
 author: Mr.Hope
 time: 2024-07-21T14:45:02.428Z
@@ -55,7 +57,6 @@ content:
       - 如果仍无法找回密码，请本人持卡到学校信息化管理与规划办公室重置密码。
 
   - tag: list
-    header: false
     items:
       - text: 统一身份认证
         icon: authorize

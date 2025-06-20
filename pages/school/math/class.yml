@@ -1,4 +1,7 @@
 title: 数学类介绍
+tags:
+  - 数学与统计学院
+  - 专业介绍
 author: Mr.Hope
 time: 2023-06-27T16:49:20.876Z
 shareable: true
@@ -12,7 +15,6 @@ content:
       - 数学类所有学费均为 6320 元/年。
 
   - tag: list
-    header: false
     items:
       - text: 数学与应用数学
         path: math

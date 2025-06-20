@@ -1,4 +1,6 @@
 title: 学术科技类社团
+tags:
+  - 社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
@@ -9,7 +11,6 @@ content:
     text: 本部校区
 
   - tag: list
-    header: false
     items:
       - text: 教师技能协会
         path: teach
@@ -39,7 +40,6 @@ content:
     text: 净月校区
 
   - tag: list
-    header: false
     items:
       - text: 模拟联合国协会
         icon: $img/association/mun/logo.png

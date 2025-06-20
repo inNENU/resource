@@ -1,4 +1,7 @@
 title: 班车授权
+tags:
+  - 服务办理
+  - 交通/通勤
 icon: bus
 author: Mr.Hope
 time: 2023-09-22T16:59:13.275Z
@@ -43,7 +46,6 @@ content:
     text: 其他人员授权
 
   - tag: list
-    header: false
     items:
       - text: 其他人员班车授权
         path: bus-other

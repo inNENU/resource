@@ -18,7 +18,6 @@ content:
       - 浴池附近同时配备了便民商家服务，方便同学们快捷满足日常需求。
 
   - tag: list
-    header: false
     items:
       - text: 如何洗浴
         icon: bath

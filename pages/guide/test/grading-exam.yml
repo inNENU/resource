@@ -1,4 +1,6 @@
 title: 英语分班考试
+tags:
+  - 校内考试
 icon: english
 author: Mr.Hope
 desc: 感谢梦雨提供订正
@@ -55,7 +57,6 @@ content:
     text: 如果成绩大于 80 分则可以直接免修大一一整学年的英语。对于其余的同学班级的划分是由学校统一进行的，一般原则是尽可能让每个班的学生都来自不同的学院，所以上英语课的时候也可以认识一群其他学院的小伙伴。
 
   - tag: list
-    header: false
     items:
       - text: 英语免修申请
         icon: exemption
@@ -79,7 +80,6 @@ content:
       - 无法通过 DET 考试的学生，无法取得学位证书。
 
   - tag: list
-    header: false
     items:
       - text: DET 介绍
         path: /guide/course/english/DET

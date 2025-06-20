@@ -1,4 +1,5 @@
 title: Microsoft Edge 安装 IETab
+aiIgnore: true
 icon: edge
 author: Mr.Hope
 time: 2023-09-23T10:52:59.596Z
@@ -9,7 +10,6 @@ content:
     text: 由于 Microsoft Edge 上 IE Tab 扩展程序版本较低，Mr.Hope 建议您使用 Chrome。您也可以使用 Microsoft Edge 的 Internet Explorer 兼容模式。
 
   - tag: list
-    header: false
     items:
       - text: 在 Chrome 中使用 IE Tab 扩展程序
         icon: chrome

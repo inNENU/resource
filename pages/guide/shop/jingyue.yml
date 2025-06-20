@@ -1,4 +1,6 @@
 title: 净月超市
+tags:
+  - 超市
 icon: shop
 author: Mr.Hope
 time: 2024-08-30T15:58:22.444Z
@@ -15,7 +17,6 @@ content:
     text: 净月校区原有超市已于 2024 年暑假撤出，新入驻的天猫超市仍在装修中。
 
   - tag: list
-    header: false
     items:
       # TODO: Update
       - text: 天猫超市
@@ -38,7 +39,6 @@ content:
     header: 校外超市
 
   - tag: list
-    header: false
     items:
       - text: 校外超市
         path: jingyue-out

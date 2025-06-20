@@ -1,4 +1,7 @@
 title: 长春站-到净月-3 号线
+tags:
+  - 到校路线
+  - 报到
 icon: train
 author: Mr.Hope
 time: 2024-08-15T17:31:26.914Z
@@ -11,7 +14,6 @@ content:
       - 除非您厌倦换乘而且想要有个座，或者是您携带了无法通过地铁安检的物品，再考虑单乘 3 号线，此方案用时很长(约 1 小时)。
 
   - tag: list
-    header: false
     items:
       - text: 1 号线转 3 号线
         icon: train

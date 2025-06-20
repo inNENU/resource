@@ -1,4 +1,7 @@
 title: 长春站-到净月-打车
+tags:
+  - 到校路线
+  - 报到
 icon: taxi
 author: Mr.Hope
 time: 2024-08-16T05:53:03.604Z
@@ -99,7 +102,6 @@ content:
       - 切勿不要听信在附近拉客的人的说辞，因为这样您不仅有可能乘坐黑车，更有可能被迫跟抱着行李和其他陌生人 (比如其他三个东北大汉) 拼同一辆车。
 
   - tag: list
-    header: false
     items:
       - text: 更多打车相关提示
         icon: taxi

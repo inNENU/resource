@@ -1,4 +1,6 @@
 title: 北苑基本餐
+tags:
+  - 食堂
 icon: dining
 author: Mr.Hope
 time: 2024-08-16T20:57:33.379Z
@@ -90,7 +92,6 @@ content:
     text: 基本餐价格
 
   - tag: list
-    header: false
     items:
       - text: 了解更多
         icon: money

@@ -18,6 +18,7 @@ import {
 } from "innenu-generator";
 import type { PageConfig } from "innenu-generator/typings";
 
+import { allowedTags } from "./config/index.js";
 import { RESOURCE_FOLDERS } from "./generate/resource.js";
 import { generateSettings } from "./generate/settings.js";
 
@@ -28,7 +29,10 @@ const diffFiles = getCurrentChangedFiles();
 // 检查
 RESOURCE_FOLDERS.forEach((folder) => {
   checkYamlFiles<PageConfig>(`./pages/${folder}`, (data, filePath) => {
-    getPageJSON(data, `${folder}/${filePath}`, diffFiles);
+    getPageJSON(data, `${folder}/${filePath}`, diffFiles, {
+      allowedTags,
+      tagRequired: true,
+    });
   });
 });
 

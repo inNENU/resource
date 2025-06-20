@@ -1,10 +1,15 @@
 title: 企业微信号
+aiIgnore: true
 icon: wechat
 grey: true
 author: Mr.Hope
 time: 2023-09-22T16:59:13.270Z
 shareable: true
 content:
+  - tag: img
+    src: $img/account/wechat-follow.png
+    desc: 企业微信二维码
+
   - tag: list
     header: 开始使用
     items:
@@ -30,7 +35,3 @@ content:
       - text: 校园网充值
         icon: network
         path: /guide/network/charge/wechat
-
-  - tag: img
-    src: $img/account/wechat-follow.png
-    desc: 企业微信二维码

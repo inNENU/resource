@@ -1,5 +1,8 @@
 # TODO: Update at 2025-04
 title: 团员组织关系接转
+tags:
+  - 新生入学
+  - 服务办理
 icon: https://assets.innenu.com/img/about/group.png
 author: Mr.Hope
 time: 2024-08-12T11:22:49.346Z
@@ -55,7 +58,6 @@ content:
     text: 线上转接具体流程
 
   - tag: list
-    header: false
     items:
       - text: 智慧团建 PC 转接流程
         icon: pc

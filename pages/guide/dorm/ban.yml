@@ -1,4 +1,6 @@
 title: 寝室禁用物品
+tags:
+  - 宿舍
 icon: ban
 author: Mr.Hope
 time: 2023-09-22T16:59:13.607Z
@@ -49,7 +51,6 @@ content:
     text: 相关条例
 
   - tag: list
-    header: false
     items:
       - text: 学生公寓管理办法
         icon: rule

@@ -1,4 +1,5 @@
 title: 本部食堂
+aiIgnore: true
 icon: dining
 author: Mr.Hope
 time: 2024-08-30T15:58:22.219Z
@@ -19,7 +20,6 @@ content:
         path: benbu/facility/nanyuan
 
   - tag: list
-    header: false
     items:
       - text: 北苑餐厅
         path: beiyuan/
@@ -36,7 +36,6 @@ content:
       - 大家可以免费品尝大量的美食，食堂也会打折。
 
   - tag: list
-    header: false
     items:
       - text: 美食节
         path: /newcomer/intro/activity/festival

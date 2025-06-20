@@ -1,4 +1,6 @@
 title: 献血
+tags:
+  - 入学活动
 icon: heart
 author: Mr.Hope
 time: 2024-08-16T20:57:32.723Z
@@ -19,7 +21,6 @@ content:
     text: 我校会于每年秋季学期中部时段开无偿献血工作，学生自愿献血。
 
   - tag: list
-    header: false
     items:
       # TODO: Update at 2024-09
       - text: 2023 年无偿献血通知

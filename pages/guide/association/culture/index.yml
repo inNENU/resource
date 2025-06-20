@@ -1,4 +1,6 @@
 title: 文化体育类社团
+tags:
+  - 社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
@@ -9,7 +11,6 @@ content:
     text: 本部校区
 
   - tag: list
-    header: false
     items:
       - text: 卓音网络工作室
         icon: $img/association/joinin/logo.png
@@ -72,7 +73,6 @@ content:
     text: 净月校区
 
   - tag: list
-    header: false
     items:
       - text: 师说曲艺社
         icon: $img/association/quyi.png

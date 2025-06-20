@@ -1,4 +1,6 @@
 title: Mr.Hope 个人简介
+tags:
+  - 小程序
 author: Mr.Hope
 time: 2024-08-29T09:00:56.084Z
 shareable: true
@@ -27,7 +29,6 @@ content:
     text: 媒体账号
 
   - tag: grid
-    header: false
     items:
       - text: GitHub
         icon: github

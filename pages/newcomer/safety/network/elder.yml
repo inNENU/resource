@@ -1,4 +1,6 @@
 title: 伪装学长学姐诈骗
+tags:
+  - 防盗防骗
 icon: elder
 author: Mr.Hope
 time: 2024-07-28T19:07:02.040Z
@@ -89,7 +91,6 @@ content:
       - 他们可能拉您进入一些群聊，请查看群聊诈骗章节。
 
   - tag: list
-    header: false
     items:
       - text: 了解更多
         icon: qq-group

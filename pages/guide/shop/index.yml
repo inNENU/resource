@@ -1,4 +1,6 @@
 title: 超市
+tags:
+  - 超市
 icon: shop
 author: Mr.Hope
 time: 2024-08-16T20:57:33.697Z
@@ -17,7 +19,6 @@ content:
     text: 本部校区的主要超市是天猫超市。
 
   - tag: list
-    header: false
     items:
       - text: 天猫超市
         path: tmall
@@ -35,7 +36,6 @@ content:
     header: 校外超市
 
   - tag: list
-    header: false
     items:
       - text: 本部校外超市
         path: benbu-out
@@ -52,7 +52,6 @@ content:
     header: 京东超市可能要从 2024 年暑假撤出，更换为天猫。
 
   - tag: list
-    header: false
     items:
       # TODO: Update
       - text: 天猫超市
@@ -72,7 +71,6 @@ content:
     header: 校外超市
 
   - tag: list
-    header: false
     items:
       - text: 净月校外超市
         path: jingyue-out

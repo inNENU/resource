@@ -1,4 +1,6 @@
 title: inNENU 介绍
+tags:
+  - 小程序
 author: Mr.Hope
 shareable: true
 content:
@@ -77,7 +79,6 @@ content:
     desc: 由于腾讯不允许个人小程序直接放置收款二维码，如果您想要捐赠，请联系 Mr.Hope
 
   - tag: functional-list
-    header: false
     items:
       - text: 联系 Mr.Hope
         icon: contact

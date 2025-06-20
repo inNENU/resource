@@ -1,4 +1,6 @@
 title: 本科交流成绩认定
+tags:
+  - 成绩
 icon: change
 author: Mr.Hope
 time: 2023-09-22T16:59:13.292Z
@@ -23,7 +25,6 @@ content:
     text: 相关内容
 
   - tag: list
-    header: false
     items:
       # TODO:
       - text: 本科交流成绩认定

@@ -1,4 +1,6 @@
 title: 选课系统注意事项
+tags:
+  - 选课
 icon: alert
 author: Mr.Hope
 time: 2024-07-28T19:07:02.970Z
@@ -14,7 +16,6 @@ content:
       - 没有评教的同学务必事先完成课程评价，否则无法选课。
 
   - tag: list
-    header: false
     items:
       - text: 课程评价
         icon: heart

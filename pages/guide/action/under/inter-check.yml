@@ -1,4 +1,6 @@
 title: 本科入学资格复查
+tags:
+  - 新生入学
 icon: plan
 author: Mr.Hope
 time: 2024-06-09T11:20:25.727Z
@@ -28,7 +30,6 @@ content:
     text: 相关内容
 
   - tag: list
-    header: false
     items:
       - text: 本科学籍注册
         path: /guide/system/under/school-roll

@@ -1,4 +1,7 @@
 title: 到达龙嘉机场
+tags:
+  - 报到
+  - 交通/通勤
 icon: landing
 desc: 相关资料来自长春市龙嘉国际机场官网
 author: Mr.Hope
@@ -38,7 +41,6 @@ content:
       - 至高铁站步行只需 10 分钟。
 
   - tag: list
-    header: false
     items:
       - text: 详情
         icon: railway
@@ -50,7 +52,6 @@ content:
       - 售票处在 9 号门旁，票价每张 25 元。
 
   - tag: list
-    header: false
     items:
       - text: 详情
         icon: bus
@@ -62,7 +63,6 @@ content:
       - 接站的社会车辆可按照标识标牌引导进入停车场，接站后分别沿 1 号航站楼停车场主路、2 号航站楼前主路直行，驶离机场。
 
   - tag: list
-    header: false
     items:
       - text: 收费详情
         icon: parking
@@ -72,7 +72,6 @@ content:
     header: 乘坐出租车
 
   - tag: list
-    header: false
     items:
       - text: 详情
         icon: taxi

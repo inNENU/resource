@@ -1,4 +1,7 @@
 title: 教育学部招生
+tags:
+  - 招生
+  - 教育学部
 icon: enroll
 desc: 研究生招生信息来自研究生院
 time: 2024-07-02T16:28:50.191Z
@@ -80,7 +83,6 @@ content:
     text: 硕士研究生招生概况
 
   - tag: list
-    header: false
     items:
       - text: 查询地址
         icon: search

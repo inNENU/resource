@@ -1,4 +1,6 @@
 title: 思想政治类社团
+tags:
+  - 社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
@@ -9,7 +11,6 @@ content:
     text: 本部校区
 
   - tag: list
-    header: false
     items:
       - text: 乐群学社
         icon: $img/association/lequn.png
@@ -19,7 +20,6 @@ content:
     text: 净月校区
 
   - tag: list
-    header: false
     items:
       - text: 马列协会
         desc: 暂无详情

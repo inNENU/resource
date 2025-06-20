@@ -1,4 +1,5 @@
 title: 不建议使用 360 安全浏览器的原因
+aiIgnore: true
 icon: thief
 author: Mr.Hope
 time: 2024-08-16T05:53:04.570Z
@@ -72,7 +73,6 @@ content:
     text: 替代选择
 
   - tag: list
-    header: false
     items:
       - text: 使用 IETab 扩展程序
         icon: ie

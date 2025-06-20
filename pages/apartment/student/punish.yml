@@ -1,4 +1,6 @@
 title: 关于处分
+tags:
+  - 规章制度
 icon: punish
 author: Mr.Hope
 time: 2023-09-22T15:38:33.362Z
@@ -68,7 +70,6 @@ content:
     text: 相关详情
 
   - tag: list
-    header: false
     items:
       - text: 本科生处分
         path: /guide/action/under/sanction

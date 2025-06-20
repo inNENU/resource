@@ -1,4 +1,6 @@
 title: 选课系统常见问题
+tags:
+  - 选课
 icon: faq
 author: Mr.Hope
 time: 2024-07-23T11:29:28.540Z
@@ -14,7 +16,6 @@ content:
       - 未完成评教的同学不能选课，请先完成评教。
 
   - tag: list
-    header: false
     items:
       - text: 课程评价
         icon: heart

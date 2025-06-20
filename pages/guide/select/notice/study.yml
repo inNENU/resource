@@ -1,4 +1,6 @@
 title: 2023 级学硕选课须知
+tags:
+  - 选课
 icon: notice
 time: 2023-11-06T10:17:51.206Z
 cite:
@@ -234,7 +236,6 @@ content:
     text: 审核通过的直接免修名单将于 8 月 29 日在研究生院主页“通知公告”公布，并同时下发给各培养单位研究生秘书。通过直接免修审核的研究生不再参加公共外语课的选课、学习与考试。
 
   - tag: list
-    header: false
     items:
       - text: 选课系统使用指南
         icon: system

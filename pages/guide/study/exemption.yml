@@ -1,4 +1,9 @@
 title: 课程免修
+tags:
+  - 教务
+  - 课程
+  - 校内考试
+  - 规章制度
 icon: exemption
 author: Mr.Hope
 time: 2024-08-16T20:57:33.708Z
@@ -40,7 +45,6 @@ content:
     text: 英语免修
 
   - tag: list
-    header: false
     items:
       - text: 英语免修申请条件
         icon: plan

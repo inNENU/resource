@@ -1,4 +1,7 @@
 title: 专业所在校区
+tags:
+  - 报到
+  - 新生入学
 icon: locate
 author: Mr.Hope
 time: 2024-08-30T15:58:21.918Z
@@ -48,7 +51,6 @@ content:
       - 教师教育研究院
 
   - tag: list
-    header: false
     items:
       - text: 本部校区校门介绍
         icon: gate
@@ -75,7 +77,6 @@ content:
       - 国际汉学院
 
   - tag: list
-    header: false
     items:
       - text: 净月校区校门介绍
         icon: gate
@@ -100,7 +101,6 @@ content:
     text: 校区地址
 
   - tag: list
-    header: false
     items:
       - text: 地址与快递相关
         icon: express

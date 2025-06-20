@@ -1,4 +1,6 @@
 title: 学校家长群
+tags:
+  - 迎新
 icon: qq-group
 author: Mr.Hope
 time: 2023-09-23T12:11:49.049Z
@@ -23,7 +25,6 @@ content:
       - wx
 
   - tag: functional-list
-    header: false
     items:
       - text: 加入东北师范大学家长群
         icon: qq-group

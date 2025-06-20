@@ -1,4 +1,6 @@
 title: 课程
+tags:
+  - 课程
 icon: content
 author: Mr.Hope
 time: 2024-07-17T20:15:12.055Z
@@ -86,7 +88,6 @@ content:
 
   # TODO: 完善
   - tag: list
-    header: false
     items:
       - text: |-
           研究生的公共课只有英语和政治。

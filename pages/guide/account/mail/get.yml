@@ -1,4 +1,6 @@
 title: 校园邮箱账号获取
+tags:
+  - 校园邮箱
 icon: register
 author: Mr.Hope
 time: 2024-06-09T11:20:25.676Z
@@ -70,7 +72,6 @@ content:
       - 1. 请先完成“东北师范大学”企业微信认证。
 
   - tag: list
-    header: false
     items:
       - text: 企业号认证
         icon: apply

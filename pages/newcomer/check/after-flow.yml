@@ -1,4 +1,7 @@
 title: 报到流程
+tags:
+  - 报到
+  - 新生入学
 icon: flow
 author: Mr.Hope
 time: 2023-09-23T12:11:49.016Z
@@ -51,7 +54,6 @@ content:
     align: center
 
   - tag: list
-    header: false
     items:
       - text: 需带物品
         icon: necessity
@@ -70,7 +72,6 @@ content:
     align: center
 
   - tag: list
-    header: false
     items:
       - text: 快递
         icon: express
@@ -88,7 +89,6 @@ content:
     align: center
 
   - tag: list
-    header: false
     items:
       - text: 校园浴池
         icon: bath

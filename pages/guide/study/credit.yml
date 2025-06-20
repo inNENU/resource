@@ -1,4 +1,8 @@
 title: 学分
+tags:
+  - 教务
+  - 成绩
+  - 人才培养
 icon: star
 author: Mr.Hope
 time: 2023-09-23T10:52:59.537Z
@@ -34,7 +38,6 @@ content:
       - 选课时候您要特别注意，看看自己是不是按照学院计划选了课，同时应留意自己的发展方向学分能否按时修完。一定一定要注意。每年毕业审核的时候都有学分没修够被迫读大五的情况。
 
   - tag: list
-    header: false
     items:
       - text: 各专业人才培养计划
         icon: plan

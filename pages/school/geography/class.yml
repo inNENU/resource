@@ -1,4 +1,7 @@
 title: 地理科学类介绍
+tags:
+  - 地理科学学院
+  - 专业介绍
 author: Mr.Hope
 time: 2023-06-27T16:49:20.810Z
 shareable: true
@@ -12,7 +15,6 @@ content:
       - 地理科学类类学费均为 6320 元/年。
 
   - tag: list
-    header: false
     items:
       - text: 地理科学
         path: geography

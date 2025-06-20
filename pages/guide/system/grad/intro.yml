@@ -1,4 +1,6 @@
 title: 研究生教学服务系统介绍
+tags:
+  - 教务系统
 icon: system
 author: Mr.Hope
 time: 2024-07-02T16:28:51.388Z
@@ -37,7 +39,6 @@ content:
       - 系统通过统一认证服务登录
 
   - tag: list
-    header: false
     items:
       - text: 统一身份认证
         icon: authorize
