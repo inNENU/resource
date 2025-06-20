@@ -22,6 +22,7 @@ import {
 } from "innenu-generator";
 import type { PageConfig, PageData } from "innenu-generator/typings";
 
+import { allowedTags } from "./config/index.js";
 import type { Donate } from "./generate/donate.js";
 import { generateDonate } from "./generate/donate.js";
 import { generateLicense } from "./generate/license.js";
@@ -43,7 +44,11 @@ RESOURCE_FOLDERS.forEach((folder) => {
   convertYamlFilesToJson<PageConfig, PageData>(
     `./pages/${folder}`,
     `./.resource/${folder}`,
-    (data, filePath) => getPageJSON(data, `${folder}/${filePath}`, diffFiles),
+    (data, filePath) =>
+      getPageJSON(data, `${folder}/${filePath}`, diffFiles, {
+        allowedTags,
+        removeFields: ["aiIgnore", "tags"],
+      }),
   );
 });
 

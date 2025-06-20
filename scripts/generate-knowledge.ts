@@ -1,7 +1,15 @@
 import { deleteSync } from "del";
-import { generateKnowledgeBase } from "innenu-generator";
+import { config, generateKnowledgeContent } from "innenu-generator";
+
+config({
+  assets: "https://assets.innenu.com",
+  icon: "",
+  mapFolder: "",
+  mapKey: "",
+  pageFolder: "./pages",
+});
 
 deleteSync("./.knowledge/**");
 
 // 生成知识库
-generateKnowledgeBase("./pages", "./.knowledge");
+generateKnowledgeContent("./pages", "./.knowledge");

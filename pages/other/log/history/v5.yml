@@ -1,5 +1,5 @@
 title: V5 更新日志
-ignore: true
+aiIgnore: true
 content:
   - tag: list
     header: v5.8.0
