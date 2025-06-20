@@ -1,4 +1,5 @@
 title: 欢迎加入 2024 本科新生群
+ignore: true
 author: Mr.Hope
 time: 2024-08-05T08:53:16.664Z
 shareable: true
@@ -44,7 +45,6 @@ content:
       - 如果您已经毕业，或有考研、报考等相关问题，您可加入“in 东北师大” QQ 群。
 
   - tag: functional-list
-    header: false
     items:
       - text: 加入 in 东北师大
         icon: qq-group
@@ -98,7 +98,6 @@ content:
       如果您觉得您已准备好，请您:
 
   - tag: functional-list
-    header: false
     items:
       - text: 开始探索东师
         icon: star

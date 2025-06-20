@@ -1,4 +1,6 @@
 title: 致谢名单
+tags:
+  - 小程序
 author: Mr.Hope
 time: 2023-12-20T06:56:43.875Z
 shareable: true
@@ -13,7 +15,6 @@ content:
       - 感谢黄禧愿意接受约稿，稿费 200元 / 852字。(因质量未予展示)
 
   - tag: list
-    header: false
     items:
       - text: 黄禧稿件原文
         url: info?path=Odropped/huangxi
