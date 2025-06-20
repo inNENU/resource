@@ -1,4 +1,6 @@
 title: 防盗防骗与人身安全
+tags:
+  - 防盗防骗
 icon: safe
 author: Mr.Hope
 time: 2024-01-02T08:54:06.355Z
@@ -67,7 +69,6 @@ content:
       - 您可以联系 Mr.Hope 讲述您经历的新型骗局，Mr.Hope 会增添到 inNENU 里用作警示以防他人受骗。
 
   - tag: list
-    header: false
     items:
       - text: 保卫科
         icon: police

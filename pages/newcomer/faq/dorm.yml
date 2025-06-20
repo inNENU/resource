@@ -1,4 +1,7 @@
 title: 寝室相关问答
+tags:
+  - 常见问题
+  - 宿舍
 icon: dorm
 author: Mr.Hope
 time: 2024-07-28T19:07:01.981Z
@@ -8,7 +11,6 @@ content:
     text: 寝室介绍
 
   - tag: list
-    header: false
     items:
       - text: 寝室
         icon: dorm

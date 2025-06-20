@@ -1,4 +1,6 @@
 title: 数码产品类
+tags:
+  - 需带物品
 icon: digital
 author: Mr.Hope
 time: 2023-09-23T12:11:49.093Z
@@ -23,7 +25,6 @@ content:
       - 没有电脑意味着有需求时，需自行前往图书馆的电子阅览室或临时借用室友电脑。这必然会带来一定程度上的不方便，而且电子阅览室在选课阶段可能会较拥挤。
 
   - tag: list
-    header: false
     items:
       - text: 如何选购电脑
         icon: pc

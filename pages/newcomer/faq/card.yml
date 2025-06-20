@@ -1,4 +1,7 @@
 title: 校园卡相关问答
+tags:
+  - 常见问题
+  - 校园卡
 icon: card
 author: Mr.Hope
 time: 2023-09-23T12:11:49.057Z
@@ -24,7 +27,6 @@ content:
       - 支付宝充值可能会有数秒至一分钟延迟到账的情况。由于微信无延迟，推荐在急需刷卡时使用微信进行充值。
 
   - tag: list
-    header: false
     items:
       - text: 校园卡充值
         icon: charge
@@ -41,7 +43,6 @@ content:
       - 大部分错误可以通过校园卡自助终端机进行解决；小部分可能需要携卡到学校信息化办公室进行处理。
 
   - tag: list
-    header: false
     items:
       - text: 常见故障及解决办法
         icon: error
@@ -63,7 +64,6 @@ content:
       - 如果您后续找回了校园卡，请到自助终端机刷卡并输入密码进行解挂。
 
   - tag: list
-    header: false
     items:
       - text: 校园卡丢失
         desc: 立即挂失

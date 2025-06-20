@@ -1,4 +1,6 @@
 title: 警惕群聊诈骗
+tags:
+  - 防盗防骗
 icon: qq-group
 author: Mr.Hope
 time: 2024-07-28T19:07:02.042Z
@@ -62,7 +64,6 @@ content:
       - 老乡群以及上述可靠群聊均可以在 inNENU 找到。
 
   - tag: list
-    header: false
     items:
       - text: 找到组织
         icon: qq-group
@@ -84,7 +85,6 @@ content:
       - 建议进加入 Mr.Hope 推荐的群聊。
 
   - tag: list
-    header: false
     items:
       - text: 校级新生群
         icon: qq-group

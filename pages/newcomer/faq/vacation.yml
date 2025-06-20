@@ -1,4 +1,7 @@
 title: 放假相关问答
+tags:
+  - 常见问题
+  - 校园生活
 icon: calendar
 author: Mr.Hope
 time: 2023-09-23T12:11:49.071Z
@@ -10,7 +13,6 @@ content:
     text: 东师每年寒暑假固定 6 周，更多详情可详见校历。
 
   - tag: list
-    header: false
     items:
       - text: 校历
         icon: calendar
