@@ -2,15 +2,15 @@
   "version": {
     "apartment": 95,
     "function": 294,
-    "guide": 422,
+    "guide": 423,
     "intro": 200,
     "icon": 58,
-    "school": 109,
+    "school": 110,
     "newcomer": 296
   },
   "size": {
     "apartment": 125,
-    "school": 342,
+    "school": 344,
     "function": 124,
     "guide": 827,
     "icon": 327,

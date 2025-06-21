@@ -5,7 +5,7 @@ tags:
 icon: enroll
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2025-06-21T14:38:10.214Z
+time: 2025-06-21T15:27:25.189Z
 shareable: true
 content:
   - tag: title
@@ -26,10 +26,15 @@ content:
         path: normal
 
   - tag: list
+    header: 转专业
     items:
-      - text: 转入要求
+      - text: 非公费转入要求
         icon: alert
-        path: into
+        path: into/psy
+
+      - text: 公费转入要求
+        icon: alert
+        path: into/psy-normal
 
   - tag: doc
     name: 心理学院心理学本科人才培养方案 (2020)

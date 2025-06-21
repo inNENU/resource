@@ -23,7 +23,7 @@ content:
 
       - text: 心理学院
         icon: psychology
-        path: /school/psychology/into
+        path: /school/psychology/into/
 
       - text: 政法学院
         icon: politics
