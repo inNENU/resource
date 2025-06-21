@@ -3,7 +3,7 @@ aiIgnore: true
 icon: rule
 grey: true
 author: Mr.Hope
-time: 2024-06-09T21:26:40.672Z
+time: 2025-06-21T07:59:38.663Z
 shareable: true
 content:
   - tag: list
@@ -16,6 +16,10 @@ content:
       - text: 2025 年全国硕士研究生招生工作管理规定
         icon: rule
         path: 2025-all
+
+      - text: 2025 年博士研究生招生简章
+        icon: rule
+        path: 2025-doc
 
   - tag: list
     header: 历史文件

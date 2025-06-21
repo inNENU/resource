@@ -1,0 +1,18 @@
+title: 硕博连读
+aiIgnore: true
+icon: enroll
+grey: true
+author: Mr.Hope
+time: 2025-06-21T07:59:38.656Z
+shareable: true
+content:
+  - tag: list
+    header: 2025 年
+    items:
+      - text: 2025年硕博连读研究生选拔工作通知
+        icon: notice
+        path: notice
+
+      - text: 东北师范大学硕博连读研究生培养与管理办法
+        icon: rule
+        path: rule

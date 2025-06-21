@@ -1,11 +1,10 @@
+# TODO: Update at 2025-09
 title: 考研报名
 tags:
   - 考研/保研
 icon: apply
-time: 2024-07-02T16:28:50.645Z
+time: 2025-06-21T07:59:38.678Z
 author: Mr.Hope
-cite:
-  - https://mp.weixin.qq.com/s/bAli1W3qsmfl6R_kE5aWmw
 shareable: true
 content:
   - tag: title
@@ -41,14 +40,6 @@ content:
     type: tip
     text:
       - 两个步骤开启时间不同，考生登录研招网后，在“填写考生信息”功能开通后，研招网会及时发送相关通知。
-
-  - tag: title
-    text: 报名时间
-
-  - tag: ul
-    text:
-      - 预报名工作安排在 9 月 24 日至 9 月 27 日 (每天 9:00 - 22:00)
-      - 网上报名工作安排在 10 月 5 日至 10 月 25 日 (每天 9:00 - 22:00)
 
   - tag: title
     text: 预报名常见疑问

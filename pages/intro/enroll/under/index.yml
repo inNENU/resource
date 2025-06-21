@@ -4,11 +4,11 @@ tags:
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2024-08-05T08:53:15.861Z
+time: 2025-06-21T07:59:38.666Z
 shareable: true
 content:
   - tag: list
-    header: 2024 年
+    header: 2025 年
     items:
       - text: 本科招生章程
         icon: rule
@@ -30,24 +30,24 @@ content:
           - qq
           - wx
 
+      # TODO: Update at 2025-06
       - text: 本科开设专业
         icon: list
         path: major/2024
 
-  # FIXME: Fix link
   - tag: action
-    header: 2024 本科招生计划
-    content: http://bkzsw.nenu.edu.cn/col_000018_000171.html
+    header: 2025 本科招生计划
+    content: https://gkcx.nenu.edu.cn/
     env:
       - web
 
-  # FIXME: Fix link
   - tag: action
     header: 历史分数线
-    content: http://bkzsw.nenu.edu.cn/col_000018_000170.html
+    content: https://gkcx.nenu.edu.cn/history_score
     env:
       - web
 
+  # TODO: Update at 2025-06
   - tag: action
     header: 2024 本科招生指南
     content: https://book.eol.cn/books/ipnj/mobile/index.html

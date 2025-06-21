@@ -3,7 +3,7 @@ tags:
   - 考研/保研
 icon: degree
 author: Mr.Hope
-time: 2024-07-02T16:28:50.644Z
+time: 2025-06-21T07:59:38.678Z
 grey: true
 shareable: true
 content:
@@ -36,22 +36,19 @@ content:
   - tag: title
     text: 考研报考
 
+  # TODO: Update at 2025-09
   - tag: list
     items:
-      - text: 2023 年时间安排
+      - text: 2025 年时间安排
         icon: time
         path: exam/time
 
-      - text: 2023 年全国招生规定
+      - text: 2025 年全国招生规定
         icon: rule
-        path: exam/enroll-rule
+        path: /intro/enroll/grad/rule/2025-all
 
   - tag: list
     items:
-      - text: 报考要求
-        icon: alert
-        path: exam/requirement
-
       - text: 考研报名
         icon: apply
         path: exam/apply

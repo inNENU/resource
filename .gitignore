@@ -11,3 +11,6 @@ pnpm-lock.yaml
 
 # env files
 .env
+
+# Mac
+.DS_Store

@@ -111,7 +111,7 @@
       "minItems": 1,
       "maxItems": 5
     },
-    "ignore": {
+    "aiIgnore": {
       "description": "页面是否在 AI 处理中忽略",
       "type": "boolean",
       "default": false
