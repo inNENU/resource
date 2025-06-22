@@ -4,7 +4,7 @@ tags:
   - 物理学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.209Z
+time: 2025-06-22T18:33:30.117Z
 shareable: true
 content:
   - tag: title
@@ -28,20 +28,11 @@ content:
   - tag: list
     header: 准入要求
     items:
-      - text: 物理学
-        path: into/physics
+      - text: 物理学类
+        path: into/class
 
       - text: 物理学 (公费师范)
         path: into/normal
-
-      - text: 物理学 (优师专项)
-        path: into/great
-
-      - text: 电子信息技术
-        path: into/electronic
-
-      - text: 材料物理
-        path: into/material
 
   - tag: doc
     name: 物理学院本科人才培养方案 (2021)
