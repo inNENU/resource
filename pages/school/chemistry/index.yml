@@ -4,7 +4,7 @@ tags:
 icon: chemistry
 grey: true
 author: Mr.Hope
-time: 2024-08-24T13:07:16.788Z
+time: 2025-06-22T11:46:38.877Z
 shareable: true
 content:
   - tag: account
@@ -12,7 +12,6 @@ content:
     logo: $img/media/chemistry.jpg
     detail: 东北师范大学化学学院
     wxid: dongshihuayuan
-
     account: chemistry
     loc: 43.86221,125.33097
     mail: chem@nenu.deu.cn

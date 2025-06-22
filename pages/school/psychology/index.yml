@@ -4,7 +4,7 @@ tags:
 icon: psychology
 grey: true
 author: Mr.Hope
-time: 2024-08-24T13:07:17.029Z
+time: 2025-06-22T11:46:38.921Z
 shareable: true
 content:
   - tag: account
@@ -12,7 +12,6 @@ content:
     logo: $img/media/psychology.png
     detail: 东北师范大学心理学院
     wxid: gh_b8263d1e2906
-
     account: psychology
     loc: 43.863147,125.328065
     mail: psy@nenu.edu.cn

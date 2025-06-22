@@ -4,7 +4,7 @@ tags:
 icon: $img/organization/sheguan.png
 desc: |-
   来源: 校团委官网
-time: 2024-07-28T10:30:19.740Z
+time: 2025-06-22T11:46:38.732Z
 shareable: true
 content:
   - tag: account
@@ -13,7 +13,6 @@ content:
     logo: $img/organization/sheguan.png
     desc: 东北师范大学学生社团发展管理中心
     wxid: dsshetuan
-
     account: association
 
   - tag: p

@@ -4,7 +4,7 @@ tags:
 icon: environment
 grey: true
 author: Mr.Hope
-time: 2024-08-24T13:07:16.858Z
+time: 2025-06-22T11:46:38.891Z
 shareable: true
 content:
   - tag: account
@@ -12,7 +12,6 @@ content:
     logo: $img/media/environment.png
     detail: NENU 环境学院
     wxid: dongshihuanjing
-
     account: environment
     loc: 43.825095,125.426731
     site: https://hjxy.nenu.edu.cn
