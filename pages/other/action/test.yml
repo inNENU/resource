@@ -49,7 +49,7 @@ content:
     items:
       - text: 报名
         icon: apply
-        url: web?url=http://jlbm.cltt.org/pscweb/index.html
+        url: web?url=https://bm.cltt.org/#/index
 
       - text: 成绩查询
         icon: score

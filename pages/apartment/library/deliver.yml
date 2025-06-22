@@ -6,9 +6,9 @@ icon: borrow
 desc: |-
   信息来源: 图书馆官网
 shareable: true
-time: 2023-09-22T15:38:33.218Z
+time: 2025-06-22T11:37:38.789Z
 cite:
-  - http://www.library.nenu.edu.cn/page/87308/show?leftNavId=2995406&pageId=0&wfwfid=21248&websiteId=0
+  - https://www.library.nenu.edu.cn/page/87308/show?leftNavId=2995406&pageId=0&wfwfid=21248&websiteId=0
 content:
   - tag: title
     text: 服务介绍
@@ -54,7 +54,7 @@ content:
 
   - tag: action
     header: CASHL (开世览文)
-    content: http://www.cashl.edu.cn/
+    content: https://www.cashl.edu.cn/
 
   - tag: ul
     header: 获取文献

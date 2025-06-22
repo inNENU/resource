@@ -3,7 +3,7 @@ tags:
   - 档案
 icon: exit
 author: Mr.Hope
-time: 2024-05-22T11:27:02.110Z
+time: 2025-06-22T11:37:38.824Z
 shareable: true
 cite:
   - https://www.ncss.cn/ncss/zt/2023byxz.shtml
@@ -31,11 +31,11 @@ content:
   - tag: text
     type: info
     header: 如何查询自己的档案存在哪里？
-    text: 登录全国人社政务服务平台 (http://zwfw.mohrss.gov.cn/) 并注册，在“就业创业”板块的“跨省流动人员人事档案管理服务”专栏进行查询。目前，该平台支持档案基础信息数据已被上传平台的流动人员在线查询存档情况。或者致电户籍地公共就业人才服务机构进行查询。
+    text: 登录全国人社政务服务平台 (https://zwfw.mohrss.gov.cn/) 并注册，在“就业创业”板块的“跨省流动人员人事档案管理服务”专栏进行查询。目前，该平台支持档案基础信息数据已被上传平台的流动人员在线查询存档情况。或者致电户籍地公共就业人才服务机构进行查询。
 
   - tag: action
     header: 全国人社政务服务平台
-    content: http://zwfw.mohrss.gov.cn/
+    content: https://zwfw.mohrss.gov.cn/
 
   - tag: text
     type: info

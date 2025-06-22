@@ -1,18 +1,14 @@
 - tag: action
   header: 综合管理系统
-  content: https://math127.nenu.edu.cn/HProg/yjsy/index_pc.php
+  content: https://gs.nenu.edu.cn/index
 
 - tag: action
   header: 培养环节系统
-  content: http://py.nenu.edu.cn/
-
-- tag: action
-  header: 学位证书查询
-  content: http://xwcx.nenu.edu.cn/
+  content: https://py.nenu.edu.cn/
 
 - tag: action
   header: 东师智慧学工系统
-  content: http://sas.nenu.edu.cn/
+  content: https://sas.nenu.edu.cn/
 
 - tag: action
   header: 教育部留学服务中心

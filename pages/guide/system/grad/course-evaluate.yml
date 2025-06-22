@@ -2,7 +2,7 @@ title: 研究生教学评价
 tags:
   - 教务系统
 author: Mr.Hope
-time: 2024-07-02T16:28:51.386Z
+time: 2025-06-22T11:37:38.927Z
 shareable: true
 content:
   - tag: title
@@ -12,10 +12,10 @@ content:
     header: 登录系统
 
   - tag: text
-    text: 使用现代浏览器访问 https://math127.nenu.edu.cn/HProg/yjsy/index_pc.php
+    text: 使用现代浏览器访问 https://gs.nenu.edu.cn/index
 
   - tag: action
-    content: https://math127.nenu.edu.cn/HProg/yjsy/index_pc.php
+    content: https://gs.nenu.edu.cn/index
 
   - tag: img
     src: $img/system/post/login.png

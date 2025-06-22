@@ -13,7 +13,7 @@ content:
 
     account: phy
     loc: 43.86133,125.33095
-    site: http://www.phy.nenu.edu.cn/
+    site: https://www.phy.nenu.edu.cn/
 
   - tag: list
     items:

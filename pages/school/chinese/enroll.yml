@@ -4,7 +4,7 @@ tags:
   - 文学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.181Z
+time: 2025-06-22T11:37:39.072Z
 shareable: true
 content:
   - tag: title
@@ -60,10 +60,6 @@ content:
       - text: 查询地址
         icon: search
         url: grad-enroll-plan?school=文学院
-
-  - tag: action
-    header: 书目清单
-    content: http://chinese.nenu.edu.cn/book
 
   - tag: list
     header: 硕士专业介绍

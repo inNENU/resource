@@ -12,7 +12,7 @@ content:
     account: chinese
     loc: 43.85947,125.32917
     mail: chinese@nenu.edu.cn
-    site: http://chinese.nenu.edu.cn/home
+    site: https://chinese.nenu.edu.cn/
 
   - tag: list
     items:

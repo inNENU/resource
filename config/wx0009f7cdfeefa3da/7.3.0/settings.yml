@@ -148,15 +148,15 @@ function-presets:
 
         - text: 网上服务大厅
           icon: network
-          url: web?url=http://my.nenu.edu.cn/
+          url: web?url=https://my.nenu.edu.cn/
 
         - text: 故障报修
           icon: repair
-          url: web?url=http://gyglxt.nenu.edu.cn/repair/redirect/website/index
+          url: web?url=https://gyglxt.nenu.edu.cn/repair/redirect/website/index
 
         - text: 宿舍系统
           icon: system
-          url: web?url=http://gyglxt.nenu.edu.cn/?sid=http://gyglxt.nenu.edu.cn
+          url: web?url=https://gyglxt.nenu.edu.cn/?sid=https://gyglxt.nenu.edu.cn
 
     - tool
 

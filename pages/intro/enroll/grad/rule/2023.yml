@@ -4,7 +4,7 @@ tags:
 icon: rule
 desc: |-
   来源: 研究生院官网
-time: 2024-06-07T07:49:36.037Z
+time: 2025-06-22T11:37:38.971Z
 shareable: true
 cite: https://yjsy.nenu.edu.cn/info/1123/5024.htm
 content:
@@ -257,7 +257,7 @@ content:
 
   - tag: action
     header: 东北师范大学纪委办公室
-    content: http://jw.nenu.edu.cn/
+    content: https://jw.nenu.edu.cn/
 
   - tag: text
     align: right

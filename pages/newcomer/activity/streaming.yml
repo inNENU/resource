@@ -4,7 +4,7 @@ tags:
   - 新生入学
 icon: stream
 author: Mr.Hope
-time: 2024-08-04T09:47:53.871Z
+time: 2025-06-22T11:37:39.029Z
 shareable: true
 content:
   - tag: p
@@ -24,7 +24,7 @@ content:
 
   - tag: action
     header: B 站 inNENU
-    content: http://live.bilibili.com/25489132
+    content: https://live.bilibili.com/25489132
 
   # - tag: action
   #   header: 知乎 Mr.Hope

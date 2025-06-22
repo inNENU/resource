@@ -5,7 +5,7 @@ tags:
 icon: library
 grey: true
 author: Mr.Hope
-time: 2023-09-22T15:38:33.260Z
+time: 2025-06-22T11:37:38.791Z
 shareable: true
 content:
   - tag: account
@@ -16,7 +16,7 @@ content:
     wxid: nenu_lib
 
     account: library
-    site: http://www.library.nenu.edu.cn/
+    site: https://www.library.nenu.edu.cn/
 
   - tag: list
     items:

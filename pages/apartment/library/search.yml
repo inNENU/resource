@@ -6,7 +6,7 @@ icon: search
 desc: |-
   信息来源: 图书馆官网
 cite:
-  - http://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001787&pageId=0&wfwfid=21248&websiteId=0
+  - https://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001787&pageId=0&wfwfid=21248&websiteId=0
 shareable: true
 content:
   - tag: p
@@ -21,7 +21,7 @@ content:
     text: 访问图书馆主页，在检索栏选择“馆藏书目”，输入检索词直接检索。
 
   - tag: action
-    content: http://www.library.nenu.edu.cn/
+    content: https://www.library.nenu.edu.cn/
 
   - tag: img
     src: $img/library/search1.jpg

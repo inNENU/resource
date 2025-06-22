@@ -7,7 +7,7 @@ desc: |-
   信息来源: 图书馆官网
 shareable: true
 cite:
-  - http://www.library.nenu.edu.cn/page/87308/show?leftNavId=3372070&pageId=0&wfwfid=21248&websiteId=0
+  - https://www.library.nenu.edu.cn/page/87308/show?leftNavId=3372070&pageId=0&wfwfid=21248&websiteId=0
 content:
   - tag: title
     text: 系统地址

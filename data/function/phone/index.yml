@@ -28,7 +28,7 @@
       num: 0431-85099068
       locate: benbu
       mail: chinese@nenu.edu.cn
-      site: http://chinese.nenu.edu.cn/home
+      site: https://chinese.nenu.edu.cn/
 
     - name: 历史文化学院
       num: 0431-85099418
@@ -78,7 +78,7 @@
     - name: 物理学院
       num: 0431-85099666
       locate: benbu
-      site: http://www.phy.nenu.edu.cn/
+      site: https://www.phy.nenu.edu.cn/
 
     - name: 化学学院
       num: 0431-85099667

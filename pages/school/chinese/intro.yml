@@ -4,7 +4,7 @@ tags:
 icon: about
 desc: |-
   来源: 2024 年本科招生指南
-time: 2025-06-22T09:14:51.309Z
+time: 2025-06-22T11:37:39.073Z
 cite:
   - https://book.eol.cn/books/ipnj/mobile/index.html
 shareable: true
@@ -14,11 +14,10 @@ content:
     logo: $img/media/chinese.png
     detail: 东北师范大学文学院
     wxid: dongshiwenyuan
-
     account: chinese
     loc: 43.85947,125.32917
     mail: chinese@nenu.edu.cn
-    site: http://chinese.nenu.edu.cn/home
+    site: https://chinese.nenu.edu.cn/
 
   - tag: carousel
     images:
@@ -66,4 +65,4 @@ content:
     hostNum: 0431-85099068
     postCode: 130024
     mail: wenxy@nenu.edu.cn
-    site: http://chinese.nenu.edu.cn/home
+    site: https://chinese.nenu.edu.cn/

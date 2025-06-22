@@ -3,7 +3,7 @@ aiIgnore: true
 icon: student
 grey: true
 author: Mr.Hope
-time: 2023-09-22T15:38:33.355Z
+time: 2025-06-22T11:37:38.801Z
 shareable: true
 content:
   - tag: list
@@ -48,4 +48,4 @@ content:
 
   - tag: action
     header: 东师智慧学工系统
-    content: http://sas.nenu.edu.cn/
+    content: https://sas.nenu.edu.cn/

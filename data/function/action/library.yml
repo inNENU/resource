@@ -2,7 +2,7 @@
   items:
     - text: 图书馆主页
       icon: library
-      url: web?url=http://www.library.nenu.edu.cn/
+      url: web?url=hhttps://www.library.nenu.edu.cn/
 
     - text: 知网访问
       icon: cnki
@@ -16,17 +16,13 @@
       icon: account
       url: web?url=https://authserver.nenu.edu.cn/authserver/login?service=https://nenu.primo.exlibrisgroup.com.cn/discovery/account?vid=86NEN_INST:NEN
 
-    - text: 学习空间预约
-      icon: time
-      url: web?url=http://lcxz.library.nenu.edu.cn/ClientWeb/xcus/ic2/Login.aspx?sys=person
-
     - text: 电子资源远程访问
       icon: book
       url: web?url=https://evpn.library.nenu.edu.cn/
 
 - tag: action
   header: 图书馆主页
-  content: http://www.library.nenu.edu.cn/
+  content: https://www.library.nenu.edu.cn/
   env:
     - qq
     - wx
@@ -51,14 +47,6 @@
 - tag: action
   header: 知行搜索
   content: https://nenu.primo.exlibrisgroup.com.cn/discovery/search?vid=86NEN_INST:NEN
-  env:
-    - qq
-    - wx
-    - web
-
-- tag: action
-  header: 学习空间预约
-  content: http://lcxz.library.nenu.edu.cn/ClientWeb/xcus/ic2/Login.aspx?sys=person
   env:
     - qq
     - wx

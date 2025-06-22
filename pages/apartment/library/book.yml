@@ -6,9 +6,9 @@ icon: time
 desc: |-
   信息来源: 图书馆官网
 shareable: true
-time: 2023-09-22T15:38:33.207Z
+time: 2025-06-22T11:37:38.787Z
 cite:
-  - http://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001788
+  - https://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001788
 content:
   - tag: title
     text: 预约流程
@@ -24,7 +24,7 @@ content:
     text: 在“知行搜索”页面，检索需要的图书。
 
   - tag: action
-    content: http://www.library.nenu.edu.cn/
+    content: https://www.library.nenu.edu.cn/
 
   - tag: img
     src: $img/library/book3.jpg

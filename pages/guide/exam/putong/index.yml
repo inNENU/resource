@@ -3,7 +3,7 @@ tags:
   - 国家考试
 icon: putong
 author: Mr.Hope
-time: 2024-08-16T20:57:33.482Z
+time: 2025-06-22T11:37:38.874Z
 shareable: true
 content:
   - tag: list
@@ -35,10 +35,6 @@ content:
   - tag: text
     text:
       - 我校每年春季 3 月份、秋季 9 月份组织报名；学生报名须登录《普通话水平测试在线报名系统》。
-
-  - tag: action
-    header: 吉林省报名系统
-    content: http://jlbm.cltt.org/pscweb/index.html
 
   - tag: action
     header: 国家报名系统

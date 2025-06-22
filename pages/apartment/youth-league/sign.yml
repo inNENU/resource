@@ -3,7 +3,7 @@ aiIgnore: true
 icon: activity
 desc: |-
   信息来源: 校团委官网
-time: 2023-09-22T15:38:33.383Z
+time: 2025-06-22T11:37:38.804Z
 shareable: true
 content:
   - tag: title
@@ -48,10 +48,10 @@ content:
     header: 团歌合唱
 
   - tag: audio
-    src: http://www.gqt.org.cn/ccylmaterial/song/200612/W020180622624077722652.mp3
+    src: https://www.gqt.org.cn/ccylmaterial/song/200612/W020180622624077722652.mp3
 
   - tag: text
     header: 团歌伴奏
 
   - tag: audio
-    src: http://www.gqt.org.cn/ccylmaterial/song/200612/W020180622624077217403.mp3
+    src: https://www.gqt.org.cn/ccylmaterial/song/200612/W020180622624077217403.mp3

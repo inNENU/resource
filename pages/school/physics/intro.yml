@@ -4,7 +4,7 @@ tags:
 icon: about
 desc: |-
   来源: 2024 年本科招生指南
-time: 2024-08-24T13:07:16.999Z
+time: 2025-06-22T11:37:39.110Z
 cite:
   - https://book.eol.cn/books/ipnj/mobile/index.html
 shareable: true
@@ -14,10 +14,9 @@ content:
     logo: $img/media/phy.jpg
     detail: 东北师范大学物理学院
     wxid: nenuphy
-
     account: phy
     loc: 43.86133,125.33095
-    site: http://www.phy.nenu.edu.cn/
+    site: https://www.phy.nenu.edu.cn/
 
   - tag: carousel
     images:
@@ -71,4 +70,4 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街 5268 号
     postCode: 130024
-    site: http://www.phy.nenu.edu.cn/
+    site: https://www.phy.nenu.edu.cn/

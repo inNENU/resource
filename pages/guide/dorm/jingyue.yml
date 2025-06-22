@@ -3,7 +3,7 @@ aiIgnore: true
 icon: dorm
 grey: true
 author: Mr.Hope
-time: 2023-09-22T16:59:13.626Z
+time: 2025-06-22T11:37:38.863Z
 shareable: true
 content:
   - tag: list
@@ -94,7 +94,7 @@ content:
 
   - tag: action
     header: 故障报修
-    content: http://gyglxt.nenu.edu.cn/repair/redirect/website/index
+    content: https://gyglxt.nenu.edu.cn/repair/redirect/website/index
 
   - tag: list
     items:

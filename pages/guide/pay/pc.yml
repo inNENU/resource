@@ -3,14 +3,14 @@ tags:
   - 学费
 icon: pc
 author: Mr.Hope
-time: 2024-08-16T05:53:04.482Z
+time: 2025-06-22T11:37:38.910Z
 shareable: true
 content:
   - tag: text
     text: 新生可通过校园缴费平台自行线上缴费。
 
   - tag: action
-    content: http://pay.nenu.edu.cn
+    content: https://pay.nenu.edu.cn
 
   - tag: img
     src: $img/pay/main.png

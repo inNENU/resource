@@ -3,7 +3,7 @@ tags:
   - 宿舍
 icon: day-reading
 author: Mr.Hope
-time: 2023-09-22T16:59:13.614Z
+time: 2025-06-22T11:37:38.862Z
 shareable: true
 content:
   - tag: title
@@ -35,7 +35,7 @@ content:
 
   - tag: action
     header: 宿舍管理系统
-    content: http://gyglxt.nenu.edu.cn/?sid=http://gyglxt.nenu.edu.cn
+    content: https://gyglxt.nenu.edu.cn/?sid=https://gyglxt.nenu.edu.cn
 
   - tag: title
     text: 校外居住
@@ -51,4 +51,4 @@ content:
 
   - tag: action
     header: 宿舍管理系统
-    content: http://gyglxt.nenu.edu.cn/?sid=http://gyglxt.nenu.edu.cn
+    content: https://gyglxt.nenu.edu.cn/?sid=https://gyglxt.nenu.edu.cn

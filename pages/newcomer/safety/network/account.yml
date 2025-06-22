@@ -3,7 +3,7 @@ tags:
   - 防盗防骗
 icon: account
 author: Mr.Hope
-time: 2024-07-28T19:07:02.039Z
+time: 2025-06-22T11:37:39.054Z
 shareable: true
 content:
   - tag: text
@@ -55,7 +55,7 @@ content:
     text:
       - |-
         对于学校相关的所有网站，请核实相关网站是否满足 (aaa.)(bbb.)...xxx.nenu.edu.cn/yyy，如:
-        · http://xk.nenu.edu.cn/
+        · https://my.nenu.edu.cn/
         · https://authserver-443.webvpn.nenu.edu.cn/
       - |-
         只要其域名不满足上述格式，那么此网站就不是学校的官方网站，不要输入统一认证的账号和密码。
