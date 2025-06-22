@@ -4,7 +4,7 @@ tags:
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2025-06-21T07:59:38.666Z
+time: 2025-06-22T18:36:07.188Z
 shareable: true
 content:
   - tag: list
@@ -50,7 +50,7 @@ content:
   # TODO: Update at 2025-06
   - tag: action
     header: 2024 本科招生指南
-    content: https://book.eol.cn/books/ipnj/mobile/index.html
+    content: https://book.zjzw.cn/books/lzsj/mobile/index.html
 
   - tag: list
     header: 招生咨询

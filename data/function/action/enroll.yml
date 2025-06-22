@@ -39,7 +39,7 @@
     - text: 本科招生指南
       icon: idea
       name: Guide
-      url: web?url=https://book.eol.cn/books/ipnj/mobile/index.html
+      url: web?url=https://book.zjzw.cn/books/lzsj/mobile/index.html
       env:
         - app
         - web
