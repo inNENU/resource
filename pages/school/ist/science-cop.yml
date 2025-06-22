@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2024 年本科招生指南
-time: 2025-06-22T14:13:45.283Z
+time: 2025-06-22T18:18:54.899Z
 cite:
   - https://book.eol.cn/books/ipnj/mobile/index.html
 shareable: true
@@ -25,8 +25,7 @@ content:
     text:
       - 高等数学
       - 大学物理
-      - 程序设计（C
-      - C＋＋）
+      - 程序设计（C、C＋＋）
       - 面向对象程序设计
       - 离散数学
       - 数据结构
@@ -46,6 +45,12 @@ content:
       - 人工智能
       - 移动软件开发
       - 美国历史
+
+  - tag: text
+    type: note
+    header: Mr.Hope 注
+    text:
+      - 实在不理解，美国历史是怎么成为计算机专业的主干课程之一的？这就是对合作办学的目的吗？
 
   - tag: title
     text: 学费价格

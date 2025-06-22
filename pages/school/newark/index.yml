@@ -4,7 +4,7 @@ tags:
 icon: music
 grey: true
 author: Mr.Hope
-time: 2024-08-24T13:07:16.980Z
+time: 2025-06-22T18:18:54.908Z
 shareable: true
 content:
   - tag: account
@@ -22,3 +22,7 @@ content:
       - text: 学院简介
         icon: about
         path: intro
+
+      - text: 专业介绍
+        icon: intro
+        path: enroll
