@@ -35,9 +35,6 @@ content:
   - tag: list
     header: 详情
     items:
-      - text: 学科建设
-        path: /school/politics/subject
-
       - text: 政治学
         path: /school/politics/politic-subject
 

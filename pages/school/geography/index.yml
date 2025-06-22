@@ -4,7 +4,7 @@ tags:
 icon: geography
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:46:38.896Z
+time: 2025-06-22T14:15:25.476Z
 shareable: true
 content:
   - tag: account
@@ -28,5 +28,5 @@ content:
         path: enroll
 
       - text: 学科建设
-        icon: books
+        icon: content
         path: subject
