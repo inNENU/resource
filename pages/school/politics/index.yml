@@ -3,7 +3,7 @@ tags:
   - 政法学院
 icon: politics
 author: Mr.Hope
-time: 2024-08-24T13:07:17.012Z
+time: 2025-06-22T04:41:00.263Z
 shareable: true
 content:
   - tag: account
@@ -39,14 +39,11 @@ content:
   - tag: list
     header: 详情
     items:
-      - text: 学科建设
-        path: subject
+      - text: 法学
+        path: law-subject
 
       - text: 政治学
         path: politic-subject
-
-      - text: 法学
-        path: law-subject
 
       - text: 公共管理
         path: manage-subject
