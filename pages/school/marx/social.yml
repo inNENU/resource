@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-22T18:36:07.293Z
+time: 2025-06-22T18:40:15.622Z
 cite:
   - https://marxism.nenu.edu.cn/bksjy/zysz.htm
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
@@ -53,5 +53,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 本专业培养的学生可在国内外高等学府与教学科研机构继续从事社会学学习与研究，在党政机关、企事业单位、社会团体从事组织管理、调查研究、政策规划与评估、发展研究与预测工作。

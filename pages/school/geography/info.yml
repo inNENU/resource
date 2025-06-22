@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-22T18:36:07.284Z
+time: 2025-06-22T18:40:15.614Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -47,5 +47,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 从事地理信息处理、分析、应用与决策相关的科学研究和管理等工作，或攻读地理信息系统及相关专业硕士研究生。

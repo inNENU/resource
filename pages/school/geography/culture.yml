@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-22T18:36:07.283Z
+time: 2025-06-22T18:40:15.613Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -49,5 +49,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 从事国土空间规划和城乡建设与发展规划等领域的科学研究、规划设计和管理工作，或攻读人文地理学、城乡规划学及其它相关专业硕士研究生。

@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2025 年本科招生指南、传媒科学学院官网
-time: 2025-06-22T18:36:07.298Z
+time: 2025-06-22T18:40:15.624Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
   - https://chuanmei.nenu.edu.cn/yxsz/ysbd.htm
@@ -106,5 +106,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 有影视史论研究、影视艺术创作与实践、网络与新媒体艺术和影视管理与产业经营等 4 个专业方向，主要面向各级广播电视台、视频网站、传媒企业、机关企事业单位等领域就业。

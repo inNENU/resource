@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-22T18:36:07.311Z
+time: 2025-06-22T18:40:15.634Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -44,5 +44,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 党政机关、企事业单位和社会团体等从事管理、科学研究及思想政治工作等方面岗位。

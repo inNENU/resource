@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2025 年本科招生指南、传媒科学学院官网
-time: 2025-06-22T18:36:07.298Z
+time: 2025-06-22T18:40:15.624Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
   - https://chuanmei.nenu.edu.cn/yxsz/szmt.htm
@@ -86,5 +86,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 数字媒体技术有移动媒体应用设计与开发、媒体大数据、数字动画设计和前沿技术 (人工智能、虚拟现实) 媒体应用 4 个专业方向，就业主要面向广播电视媒体机构、数字媒体公司、党政机关与企事业单位的媒体宣传部门、教育机构等。

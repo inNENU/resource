@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-22T18:36:07.309Z
+time: 2025-06-22T18:40:15.633Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -43,5 +43,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 企事业单位、政府机关、新闻媒体的涉外管理、宣传、服务、咨询、报道等岗位。

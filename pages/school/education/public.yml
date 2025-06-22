@@ -5,7 +5,7 @@ tags:
 desc: |-
   来源: 教育学部官网
   最后更新于: 2020 年 10 月 1 日
-time: 2022-08-21
+time: 2025-06-22T18:40:15.607Z
 shareable: true
 content:
   - tag: text
@@ -51,5 +51,5 @@ content:
   - tag: title
     text: 就业方向
 
-  - tag: p
+  - tag: text
     text: 教育教学管理人员、教育科研人员、各级各类学校教学人员。
