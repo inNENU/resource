@@ -4,7 +4,7 @@ tags:
 icon: economy
 grey: true
 author: Mr.Hope
-time: 2024-08-24T13:07:16.827Z
+time: 2025-06-22T09:14:51.313Z
 shareable: true
 content:
   - tag: account
@@ -26,3 +26,7 @@ content:
       - text: 专业介绍
         icon: intro
         path: enroll
+
+      - text: 学科建设
+        icon: shelf
+        path: subject

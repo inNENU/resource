@@ -4,7 +4,7 @@ tags:
   - 专业介绍
 desc: |-
   来源: 2024 年本科招生指南
-time: 2024-06-22T19:16:14.198Z
+time: 2025-06-22T09:14:51.319Z
 cite:
   - https://book.eol.cn/books/ipnj/mobile/index.html
 shareable: true
@@ -18,13 +18,8 @@ content:
   - tag: title
     text: 主干课程
 
-  - tag: ul
-    text:
-      - 综合商务英语
-      - 跨文化商务交际导论
-      - 管理学
-      - 西方经济学
-      - 跨境电子商务
+  - tag: p
+    text: 开设听、说、读、写、译等实践技能课程，综合商务英语、跨文化商务交际导论等专业基础课程，管理学、西方经济学，跨境电子商务等商务专业课程（商务类课程为全英授课）。
 
   - tag: text
     type: info

@@ -4,7 +4,7 @@ tags:
   - 历史文化学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.195Z
+time: 2025-06-22T09:14:51.327Z
 shareable: true
 content:
   - tag: title
@@ -20,8 +20,7 @@ content:
     text: 本科招生概况
 
   - tag: p
-    text: |-
-      历史文化学院自 1948 年开始招生，学院招生专业包括: 历史学、历史学 (公费师范)、历史学 (优师专项)。
+    text: 学院招生专业包括：历史学（日知试验班）、历史学、历史学（公费师范）、历史学（优师专项）。
 
   - tag: img
     src: $img/enroll/history-major.png
