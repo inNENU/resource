@@ -4,7 +4,7 @@ tags:
 icon: about
 desc: |-
   来源: 2024 年本科招生指南
-time: 2025-06-21T14:38:10.083Z
+time: 2025-06-22T14:13:45.168Z
 cite:
   - https://book.eol.cn/books/ipnj/mobile/index.html
   - https://www.nenu.edu.cn/xxgk/xxjj.htm
@@ -13,11 +13,11 @@ content:
   - tag: title
     text: 学校简介
 
-  - tag: ol
-    type: note
-    header: 编者 Mr.Hope 注
+  - tag: text
+    type: danger
+    header: Mr.Hope 注
     text:
-      - 教授、副教授数量（560、657）在 2023、2024、2025 三年的本科招生指南介绍中完全相同，真实性存疑。
+      - 教授、副教授数量（560、657）在 2023、2024、2025 三年的本科招生指南介绍中完全相同。从各学院分数据来看，大部分学院教师数据都有下滑，因此应当认定本科招生指南中，至少教师数据一项存在不实信息。
 
   - tag: p
     text:

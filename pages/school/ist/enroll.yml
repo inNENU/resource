@@ -4,7 +4,7 @@ tags:
   - 信息科学与技术学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.198Z
+time: 2025-06-22T14:13:45.282Z
 shareable: true
 content:
   - tag: title
@@ -28,11 +28,11 @@ content:
       - text: 计算机类
         path: class
 
-      - text: 教育技术学 (公费师范)
+      - text: 教育技术学 (公费师范)（智能教育）
         path: tech-normal
 
-      - text: 计算机科学与技术 (中外合作办学)
-        path: science-cop
+      # - text: 计算机科学与技术 (中外合作办学)
+      #   path: science-cop
 
   - tag: list
     header: 准入要求
@@ -49,7 +49,7 @@ content:
       - text: 图书馆学
         path: into/library
 
-      - text: 教育技术学 (公费师范)
+      - text: 教育技术学 (公费师范)（智能教育）
         path: into/tech-normal
 
   - tag: doc
