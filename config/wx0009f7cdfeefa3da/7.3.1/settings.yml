@@ -1,6 +1,6 @@
 main-page:
   guest: guest
-  "2024": newcomer
+  "2025": newcomer
   default: at-school
 
 main-presets:
@@ -103,12 +103,6 @@ function-presets:
     - under-enroll
     - grad-enroll
 
-    - tag: list
-      items:
-        - text: 登录开启海量校园功能
-          url: account-login
-      footer: " "
-
   at-school:
     - action
     - under-study
@@ -159,9 +153,7 @@ function-presets:
           url: web?url=https://gyglxt.nenu.edu.cn/?sid=https://gyglxt.nenu.edu.cn
 
     - tool
-
     - under-enroll
-
     - grad-enroll
 
 user:
@@ -255,6 +247,7 @@ service:
   under-system-login: online
   # 本科教务系统全部存在 Referrer 问题
   under-study-check: online
+  under-course-table: online
   under-commentary: online
   under-grade-detail: online
   under-grade-list: online
@@ -269,11 +262,16 @@ service:
 notice:
   main:
     title: 欢迎使用 inNENU
-    content: 欢迎使用 inNENU。这是一个由 Mr.Hope 个人制作的非官方App，内含 104 万字的新生攻略。希望大家能够通过 App 摆脱对大学的迷茫。
+    content: 欢迎使用 inNENU。这是一个由 Mr.Hope 个人制作的非官方 App，内含 104 万字的新生攻略。希望大家能够通过 App 摆脱对大学的迷茫。
+
+  account-login:
+    title: 异地登录提示
+    content: 为了通过统一身份认证系统，小程序需要通过服务器转发登录请求解析登录令牌后以小程序可以理解的方式返回。由于小程序服务器位于北京，这一过程会出现异地登录提示。请放心，这并不会影响您的账号安全。
 
   account-activate:
     title: 提示
-    content: 如果你认为你输入了正确的信息但无法激活，请联系我校信息化办公室，电话 0431-85099005。
+    content: 2025级新生账户尚未启用，研究生新生目前无法激活账户。
+    # content: 如果你认为你输入了正确的信息但无法激活，请联系我校信息化办公室，电话 0431-85099005。
     force: true
 
 update:
