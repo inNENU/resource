@@ -10,7 +10,7 @@ export default hopeTheme({
   editLinkPattern: ":repo/edit/:branch/:path",
 
   footer: "在东师，就用 inNENU",
-  copyright: `使用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> 协议`,
+  copyright: `使用 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans">CC BY-NC-ND 4.0</a> 协议`,
   displayFooter: true,
 
   navbar: [

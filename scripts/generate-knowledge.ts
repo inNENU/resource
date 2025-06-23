@@ -1,13 +1,7 @@
 import { deleteSync } from "del";
-import { config, generateKnowledgeContent } from "innenu-generator";
+import { generateKnowledgeContent } from "innenu-generator";
 
-config({
-  assets: "https://assets.innenu.com",
-  icon: "",
-  mapFolder: "",
-  mapKey: "",
-  pageFolder: "./pages",
-});
+import "./config/env.js";
 
 deleteSync("./.knowledge/**");
 

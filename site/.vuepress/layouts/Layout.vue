@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { usePageData } from "vuepress/client";
-import { Layout } from "vuepress-theme-hope/client";
+import { Layout, useData } from "vuepress-theme-hope/client";
 
-const page = usePageData();
+const { frontmatter, page } = useData();
 
-const isEnabled = computed(() =>
+const enabled = computed(() =>
   ["/apartment/", "/guide/", "/intro/", "/newcomer/", "/school/"].some((item) =>
     page.value.path.startsWith(item),
   ),
@@ -16,9 +15,17 @@ const id = computed(() => page.value.path.replace(/\.html$/, ""));
 <template>
   <Layout>
     <template #contentBefore>
-      <div v-if="isEnabled" class="open-app-wrapper">
+      <div v-if="enabled" class="open-app-wrapper">
         <a class="open-app-button" :href="`innenu://pages/info/info?id=${id}`">
           打开 App 查看
+        </a>
+      </div>
+    </template>
+
+    <template #contentAfter>
+      <div v-if="frontmatter.cite" class="cite-wrapper">
+        <a v-for="(item, index) in frontmatter.cite" :key="index" :href="item">
+          参考链接{{ index + 1 }}
         </a>
       </div>
     </template>
@@ -29,11 +36,7 @@ const id = computed(() => page.value.path.replace(/\.html$/, ""));
 @use "vuepress-theme-hope/styles/wrapper";
 
 .open-app-wrapper {
-  @include wrapper.horizontal-wrapper;
-
-  & {
-    text-align: right;
-  }
+  text-align: right;
 }
 
 .open-app-button {
@@ -48,5 +51,9 @@ const id = computed(() => page.value.path.replace(/\.html$/, ""));
 
   font-size: 14px;
   line-height: 1.5;
+
+  &::after {
+    display: none !important;
+  }
 }
 </style>
