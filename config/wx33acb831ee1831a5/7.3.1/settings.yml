@@ -176,10 +176,6 @@ user:
         type: button
         openType: share
 
-      - text: 评价小程序
-        icon: star
-        url: action?action=rate
-
       - text: 联系 Mr.Hope
         icon: contact
         type: button

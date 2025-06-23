@@ -169,10 +169,6 @@ user:
         openType: contact
         handler: reportInfo
 
-      - text: 评价小程序
-        icon: star
-        url: action?action=rate
-
 about:
   - tag: list
     header: 小程序介绍
