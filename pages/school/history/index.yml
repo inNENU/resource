@@ -4,7 +4,7 @@ tags:
 icon: history
 grey: true
 author: Mr.Hope
-time: 2025-06-22T14:15:25.478Z
+time: 2025-06-23T05:07:46.371Z
 shareable: true
 content:
   - tag: account
@@ -19,12 +19,12 @@ content:
 
   - tag: list
     items:
-      - text: 学院简介
+      - text: 学院介绍
         icon: about
         path: intro
 
-      - text: 专业介绍
-        icon: intro
+      - text: 招生专业介绍
+        icon: enroll
         path: enroll
 
       - text: 学科简介

@@ -4,7 +4,7 @@ tags:
 icon: psychology
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:46:38.921Z
+time: 2025-06-23T05:07:46.394Z
 shareable: true
 content:
   - tag: account
@@ -19,10 +19,10 @@ content:
 
   - tag: list
     items:
-      - text: 学院简介
+      - text: 学院介绍
         icon: about
         path: intro
 
-      - text: 专业介绍
-        icon: intro
+      - text: 招生专业介绍
+        icon: enroll
         path: enroll

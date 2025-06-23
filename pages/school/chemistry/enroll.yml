@@ -4,7 +4,7 @@ tags:
   - 化学学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.179Z
+time: 2025-06-23T05:07:46.347Z
 shareable: true
 content:
   - tag: title
@@ -21,8 +21,9 @@ content:
 
   - tag: ul
     text:
-      - "化学(公费师范): 公费培养"
       - "化学: ￥6320年"
+      - "化学(公费师范): 公费培养"
+      - "化学(优师专项): 公费培养"
 
   - tag: list
     header: 专业详情
@@ -33,17 +34,8 @@ content:
       - text: 化学(公费师范)
         path: normal
 
-  - tag: list
-    header: 转入要求
-    items:
-      - text: 化学专业
-        path: into/chemistry
-
-      - text: 化学专业 (公费师范)
-        path: into/normal
-
-      - text: 化学专业 (优师专项)
-        path: into/great
+      - text: 化学(专项)
+        path: great
 
   - tag: doc
     name: 化学专业本科人才培养方案 (2021)

@@ -4,7 +4,7 @@ tags:
   - 美术学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.174Z
+time: 2025-06-23T05:07:46.340Z
 shareable: true
 content:
   - tag: title
@@ -35,7 +35,7 @@ content:
         path: design
 
       - text: 雕塑
-        path: sculptue
+        path: sculpture
 
   - tag: list
     header: 其他院系介绍

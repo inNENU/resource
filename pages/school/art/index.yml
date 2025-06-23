@@ -4,7 +4,7 @@ tags:
 icon: art
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:46:38.872Z
+time: 2025-06-23T05:07:46.342Z
 shareable: true
 content:
   - tag: account
@@ -19,10 +19,29 @@ content:
 
   - tag: list
     items:
-      - text: 学院简介
+      - text: 学院介绍
         icon: about
         path: intro
 
-      - text: 专业介绍
-        icon: intro
+      - text: 学院历史
+        icon: history
+        path: history
+
+      - text: 招生专业介绍
+        icon: enroll
         path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 美术学(师范)
+        path: art-normal
+
+      - text: 美术学(非师范)
+        path: art
+
+      - text: 设计学类
+        path: design
+
+      - text: 雕塑
+        path: sculpture
