@@ -4,7 +4,7 @@ tags:
 icon: chemistry
 grey: true
 author: Mr.Hope
-time: 2025-06-23T05:07:46.347Z
+time: 2025-06-23T07:02:37.661Z
 shareable: true
 content:
   - tag: account
@@ -23,7 +23,7 @@ content:
         icon: about
         path: intro
 
-      - text: 学院历史
+      - text: 历史沿革
         icon: history
         path: history
 
@@ -32,7 +32,7 @@ content:
         path: enroll
 
   - tag: list
-    header: 专业详情
+    header: 本科专业介绍
     items:
       - text: 化学
         path: chemistry

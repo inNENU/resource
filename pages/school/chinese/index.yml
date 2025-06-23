@@ -4,7 +4,7 @@ tags:
 icon: chinese
 grey: true
 author: Mr.Hope
-time: 2025-06-23T05:07:46.351Z
+time: 2025-06-23T07:02:37.667Z
 shareable: true
 content:
   - tag: account
@@ -23,6 +23,31 @@ content:
         icon: about
         path: intro
 
+      - text: 历史沿革
+        icon: history
+        path: history
+
       - text: 招生专业介绍
         icon: enroll
         path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 汉语言文学
+        path: chinese
+
+      - text: 汉语言文学(公费师范)
+        path: normal
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 汉语言文学专业
+        path: into/chinese
+
+      - text: 汉语言文学专业 (公费师范)
+        path: into/normal
+
+      - text: 汉语言文学专业 (优师专项)
+        path: into/great

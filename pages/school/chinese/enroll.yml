@@ -4,7 +4,7 @@ tags:
   - 文学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-22T11:37:39.072Z
+time: 2025-06-23T07:02:37.666Z
 shareable: true
 content:
   - tag: title
@@ -31,18 +31,6 @@ content:
 
       - text: 汉语言文学(公费师范)
         path: normal
-
-  - tag: list
-    header: 转入要求
-    items:
-      - text: 汉语言文学专业
-        path: into/chinese
-
-      - text: 汉语言文学专业 (公费师范)
-        path: into/normal
-
-      - text: 汉语言文学专业 (优师专项)
-        path: into/great
 
   - tag: doc
     name: 文学院汉语言文学本科人才培养方案 (2020)
