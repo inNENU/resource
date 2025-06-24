@@ -1,0 +1,34 @@
+title: 生命科学学院学科介绍
+tags:
+  - 生命科学学院
+icon: biology
+grey: true
+author: Mr.Hope
+time: 2025-06-24T08:59:26.398Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 生态学
+        path: ecology
+
+      - text: 细胞生物学
+        path: cell
+
+      - text: 遗传学
+        path: genetics
+
+      - text: 微生物学
+        path: microbe
+
+      - text: 植物生理学
+        path: physiology
+
+      - text: 糖生物学
+        path: glycobiology
+
+      - text: 草学
+        path: agrostology
+
+      - text: 应用生物学
+        path: ap

@@ -4,7 +4,7 @@ tags:
 icon: biology
 grey: true
 author: Mr.Hope
-time: 2025-06-23T07:02:37.658Z
+time: 2025-06-24T08:59:26.395Z
 shareable: true
 content:
   - tag: account
@@ -30,6 +30,10 @@ content:
       - text: 招生专业介绍
         icon: enroll
         path: enroll
+
+      - text: 学科简介
+        icon: content
+        path: subject
 
   - tag: list
     header: 本科专业介绍
