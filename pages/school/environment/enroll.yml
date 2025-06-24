@@ -4,7 +4,7 @@ tags:
   - 环境学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-24T10:35:29.411Z
+time: 2025-06-24T12:25:33.949Z
 shareable: true
 content:
   - tag: title
@@ -47,6 +47,16 @@ content:
       - text: 本科人才培养方案
         icon: rule
         url: under-major-plan
+    env:
+      - qq
+      - wx
+      - app
+
+  - tag: action
+    header: 本科人才培养方案
+    content: https://www.nenu.edu.cn/jyjx/bksjy/rcpyfa.htm
+    env:
+      - web
 
   - tag: title
     text: 硕士研究生招生概况

@@ -5,7 +5,7 @@ tags:
 icon: enroll
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-24T11:44:08.393Z
+time: 2025-06-24T12:25:33.973Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -57,6 +57,16 @@ content:
       - text: 本科人才培养方案
         icon: rule
         url: under-major-plan
+    env:
+      - qq
+      - wx
+      - app
+
+  - tag: action
+    header: 本科人才培养方案
+    content: https://www.nenu.edu.cn/jyjx/bksjy/rcpyfa.htm
+    env:
+      - web
 
   - tag: phone
     fName: 数学与统计学院本科招生

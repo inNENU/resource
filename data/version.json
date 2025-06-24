@@ -2,17 +2,17 @@
   "version": {
     "apartment": 97,
     "function": 298,
-    "guide": 428,
+    "guide": 429,
     "intro": 204,
     "icon": 58,
-    "school": 129,
+    "school": 130,
     "newcomer": 298
   },
   "size": {
     "apartment": 130,
-    "school": 384,
+    "school": 385,
     "function": 123,
-    "guide": 827,
+    "guide": 818,
     "icon": 327,
     "intro": 522,
     "newcomer": 239

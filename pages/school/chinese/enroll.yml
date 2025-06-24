@@ -4,7 +4,7 @@ tags:
   - 文学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-24T09:20:18.941Z
+time: 2025-06-24T12:25:33.935Z
 shareable: true
 content:
   - tag: title
@@ -32,13 +32,21 @@ content:
       - text: 汉语言文学(公费师范)
         path: normal
 
-  - tag: doc
-    name: 文学院汉语言文学本科人才培养方案 (2020)
-    url: $file/course-plan/chinese/chinese-2020.pdf
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
+    env:
+      - qq
+      - wx
+      - app
 
-  - tag: doc
-    name: 文学院汉语言文学(公费师范)本科人才培养方案 (2020)
-    url: $file/course-plan/chinese/normal-2020.pdf
+  - tag: action
+    header: 本科人才培养方案
+    content: https://www.nenu.edu.cn/jyjx/bksjy/rcpyfa.htm
+    env:
+      - web
 
   - tag: title
     text: 硕士研究生招生概况

@@ -39,8 +39,6 @@ const diffFiles = getCurrentChangedFiles();
 // 删除旧的文件
 deleteSync("./.resource/**");
 
-console.log(diffFiles);
-
 // 生成资源
 RESOURCE_FOLDERS.forEach((folder) => {
   convertYamlFilesToJson<PageConfig, PageData>(

@@ -5,7 +5,7 @@ tags:
 icon: enroll
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2025-06-24T11:44:08.401Z
+time: 2025-06-24T12:25:33.989Z
 shareable: true
 content:
   - tag: title
@@ -61,6 +61,16 @@ content:
       - text: 本科人才培养方案
         icon: rule
         url: under-major-plan
+    env:
+      - qq
+      - wx
+      - app
+
+  - tag: action
+    header: 本科人才培养方案
+    content: https://www.nenu.edu.cn/jyjx/bksjy/rcpyfa.htm
+    env:
+      - web
 
   - tag: phone
     header: 政法学院本科招生咨询电话
