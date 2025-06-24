@@ -4,7 +4,7 @@ tags:
 icon: math
 grey: true
 author: Mr.Hope
-time: 2025-06-23T07:02:37.694Z
+time: 2025-06-24T11:44:08.393Z
 shareable: true
 content:
   - tag: account
@@ -22,10 +22,34 @@ content:
         icon: about
         path: intro
 
+      - text: 历史沿革
+        icon: time
+        path: history
+
       - text: 招生专业介绍
         icon: enroll
         path: enroll
 
-      - text: 历史沿革
-        icon: history
-        path: history
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 数学与应用数学(公费师范)
+        path: normal
+
+      - text: 数学类
+        path: class
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 数学与应用数学
+        path: into/math
+
+      - text: 数学与应用数学(公费师范)
+        path: into/normal
+
+      - text: 数学与应用数学(优师专项)
+        path: into/great
+
+      - text: 统计学
+        path: into/statistics

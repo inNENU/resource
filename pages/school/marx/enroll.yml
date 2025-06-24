@@ -4,7 +4,7 @@ tags:
   - 马克思主义学部
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.200Z
+time: 2025-06-24T11:44:08.392Z
 shareable: true
 content:
   - tag: title
@@ -40,17 +40,11 @@ content:
       - text: 转入要求
         path: into
 
-  - tag: doc
-    name: 思想政治教育专业人才培养方案 (2021)
-    url: $file/course-plan/marx/2021-ideological-and-political.docx
-
-  - tag: doc
-    name: 哲学专业人才培养方案 (2021)
-    url: $file/course-plan/marx/2021-philosophy.docx
-
-  - tag: doc
-    name: 社会学专业人才培养方案 (2021)
-    url: $file/course-plan/marx/2021-sociology.docx
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: phone
     fName: 马克思主义学部本科招生

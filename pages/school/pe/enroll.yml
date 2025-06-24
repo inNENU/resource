@@ -4,9 +4,18 @@ tags:
   - 体育学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.207Z
+time: 2025-06-24T11:44:08.398Z
 shareable: true
 content:
+  - tag: title
+    text: 院长说专业
+
+  - tag: text
+    header: 东北师范大学体育学院专业介绍
+
+  - tag: video
+    src: https://zsb.nenu.edu.cn/__local/9/42/5B/5D74C33E4EA4B5A7A8327F0A05E_EC23A099_3E3A09C.mp4?e=.mp4
+
   - tag: title
     text: 本科招生概况
 
@@ -33,18 +42,11 @@ content:
       - text: 武术与民族传统体育
         path: martial
 
-  - tag: doc
-    name: 体育学院本科人才培养方案 (2019)
-    url: $file/course-plan/pe/2019.pdf
-
-  - tag: title
-    text: 院长说专业
-
-  - tag: text
-    header: 东北师范大学体育学院专业介绍
-
-  - tag: video
-    src: https://zsb.nenu.edu.cn/__local/9/42/5B/5D74C33E4EA4B5A7A8327F0A05E_EC23A099_3E3A09C.mp4?e=.mp4
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: title
     text: 硕士招生概况

@@ -3,13 +3,14 @@ aiIgnore: true
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2024-07-02T18:12:13.637Z
+time: 2025-06-24T11:44:08.306Z
 shareable: true
 content:
+  # TODO: Update at 2026-06
   - tag: list
     header: 本科招生
     items:
-      - text: 2024 年本科招生简章
+      - text: 2025 年本科招生简章
         icon: rule
         path: under/rule/
 
@@ -45,20 +46,21 @@ content:
         icon: more
         path: under/
 
+  # TODO: Update at 2025-10
   - tag: list
     header: 研究生招生
     items:
-      - text: 2024 年招生专业、人数与联系方式
+      - text: 2025 年招生专业、人数与联系方式
         icon: list
-        path: grad/major/2024
+        path: grad/major/2025
 
-      - text: 2024 年硕士研究生招生简章
+      - text: 2025 年硕士研究生招生简章
         icon: rule
-        path: grad/rule/2024
+        path: grad/rule/2025
 
-      - text: 2024 年全国硕士研究生招生工作管理规定
+      - text: 2025 年全国硕士研究生招生工作管理规定
         icon: rule
-        path: grad/rule/2024-all
+        path: grad/rule/2025-all
 
       - text: 东师研招公众号
         icon: wechat
@@ -68,6 +70,7 @@ content:
         icon: more
         path: grad/
 
+  #¥ FIXME:
   - tag: list
     header: 第二学士学位
     items:

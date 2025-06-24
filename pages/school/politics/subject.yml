@@ -1,0 +1,27 @@
+title: 政法学院学科建设
+tags:
+  - 政法学院
+icon: content
+author: Mr.Hope
+time: 2025-06-24T11:44:08.403Z
+shareable: true
+content:
+  - tag: title
+    text: 学科建设
+
+  - tag: text
+    text:
+      - |-
+        政法学院共有三个一级学科: 政治学、法学和公共管理
+
+  - tag: list
+    header: 详情
+    items:
+      - text: 法学
+        path: law-subject
+
+      - text: 政治学
+        path: politic-subject
+
+      - text: 公共管理
+        path: manage-subject

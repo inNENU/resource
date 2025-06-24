@@ -4,7 +4,7 @@ tags:
 icon: media
 grey: true
 author: Mr.Hope
-time: 2025-06-23T05:07:46.382Z
+time: 2025-06-24T11:44:08.395Z
 shareable: true
 content:
   - tag: account
@@ -26,3 +26,27 @@ content:
       - text: 招生专业介绍
         icon: enroll
         path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 广播电视编导
+        path: director
+
+      - text: 播音与主持艺术
+        path: host
+
+      - text: 新闻传播学类
+        path: class
+
+      - text: 数字媒体技术
+        path: digital
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 数字媒体技术
+        path: into/digital
+
+      - text: 新闻传播学类
+        path: into/news

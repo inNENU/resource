@@ -5,9 +5,18 @@ tags:
 icon: enroll
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2025-06-21T15:27:25.189Z
+time: 2025-06-24T11:44:08.404Z
 shareable: true
 content:
+  - tag: title
+    text: 院长说专业
+
+  - tag: text
+    header: 心理学科的知识地图与职业生涯
+
+  - tag: video
+    src: https://zsb.nenu.edu.cn/__local/A/BA/9D/5317309D3604949FD67708E6408_1382450B_8E529C2.mp4?e=.mp4
+
   - tag: title
     text: 本科招生概况
 
@@ -36,22 +45,11 @@ content:
         icon: alert
         path: into/psy-normal
 
-  - tag: doc
-    name: 心理学院心理学本科人才培养方案 (2020)
-    url: $file/course-plan/psychology/psychology-2020.docx
-
-  - tag: doc
-    name: 心理学院心理学本科人才培养方案 (2020)
-    url: $file/course-plan/psychology/normal-2020.docx
-
-  - tag: title
-    text: 院长说专业
-
-  - tag: text
-    header: 心理学科的知识地图与职业生涯
-
-  - tag: video
-    src: https://zsb.nenu.edu.cn/__local/A/BA/9D/5317309D3604949FD67708E6408_1382450B_8E529C2.mp4?e=.mp4
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: title
     text: 研究生专业

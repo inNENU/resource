@@ -4,7 +4,7 @@ tags:
   - 历史文化学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-22T09:14:51.327Z
+time: 2025-06-24T11:44:08.388Z
 shareable: true
 content:
   - tag: title
@@ -32,7 +32,7 @@ content:
         path: normal
 
       - text: 历史学
-        path: history
+        path: history-major
 
   - tag: list
     header: 转入要求
@@ -46,9 +46,11 @@ content:
       - text: 历史学专业 (优师专项)
         path: into/great
 
-  - tag: doc
-    name: 历史文化学院本科人才培养方案 (2020)
-    url: $file/course-plan/history/2020.pdf
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: phone
     fName: 历史文化学院本科招生咨询

@@ -5,9 +5,18 @@ tags:
 icon: enroll
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2025-06-21T14:38:10.211Z
+time: 2025-06-24T11:44:08.401Z
 shareable: true
 content:
+  - tag: title
+    text: 院长说专业
+
+  - tag: text
+    header: 逐梦政法 接续最美
+
+  - tag: video
+    src: https://zsb.nenu.edu.cn/__local/1/C4/11/4020B43D70ECB2E090792F98E19_6C8E0446_8F0002A.mp4?e=.mp4
+
   - tag: title
     text: 本科招生概况
 
@@ -47,18 +56,11 @@ content:
       - text: 法学
         path: into/law
 
-  - tag: doc
-    name: 政法学院本科人才培养方案 (2019)
-    url: $file/course-plan/politics/2019.pdf
-
-  - tag: title
-    text: 院长说专业
-
-  - tag: text
-    header: 逐梦政法 接续最美
-
-  - tag: video
-    src: https://zsb.nenu.edu.cn/__local/1/C4/11/4020B43D70ECB2E090792F98E19_6C8E0446_8F0002A.mp4?e=.mp4
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: phone
     header: 政法学院本科招生咨询电话
