@@ -4,7 +4,7 @@ tags:
   - 生命科学学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-23T05:07:46.344Z
+time: 2025-06-24T09:20:18.937Z
 shareable: true
 content:
   - tag: title
@@ -45,6 +45,33 @@ content:
       - text: 查询地址
         icon: search
         url: grad-enroll-plan?school=生命科学学院
+
+  - tag: list
+    header: 学科介绍
+    items:
+      - text: 生态学
+        path: subject/ecology
+
+      - text: 细胞生物学
+        path: subject/cell
+
+      - text: 遗传学
+        path: subject/genetics
+
+      - text: 微生物学
+        path: subject/microbe
+
+      - text: 植物生理学
+        path: subject/physiology
+
+      - text: 糖生物学
+        path: subject/glycobiology
+
+      - text: 草学
+        path: subject/agrostology
+
+      - text: 应用生物学
+        path: subject/ap
 
   - tag: phone
     header: 招生负责人

@@ -4,7 +4,7 @@ tags:
   - 文学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-23T07:02:37.666Z
+time: 2025-06-24T09:20:18.941Z
 shareable: true
 content:
   - tag: title
@@ -52,41 +52,38 @@ content:
   - tag: list
     header: 硕士专业介绍
     items:
-      - text: 中国古代文学
-        path: ancient-chinese
+      - text: 古代文学
+        path: subject/ancient
 
-      - text: 中国现当代文学
-        path: present-chinese
+      - text: 现代文学
+        path: subject/modern
 
-      - text: 中国现当代文学
-        path: present-chinese
+      - text: 语言学
+        path: subject/language
 
-      - text: 汉语言文字学
-        path: character
+      - text: 比较文学
+        path: subject/compare
 
-      - text: 文艺学
-        path: literature
+      - text: 文艺理论
+        path: subject/theory
 
-      - text: 比较文学与世界文学
-        path: world-literature
+      - text: 古典文献学
+        path: subject/classic
 
-      - text: 语言学及应用语言学
-        path: language
+      - text: 汉字学
+        path: subject/character
+
+      - text: 语文教学
+        path: subject/teach
+
+      - text: 课程教学论
+        path: subject/course
+
+      - text: 广播电视学
+        path: subject/broadcast
 
       - text: 对外汉语
-        path: foreign
-
-      - text: 语文教育学
-        path: education
-
-      - text: 中国古典文献学
-        path: ancient-lit
-
-      - text: 广播电视 (创意写作)
-        path: broadcast
-
-      - text: 学科教学 (语文)
-        path: teach
+        path: subject/to-out
 
   - tag: phone
     header: 硕士研究生招生咨询电话
