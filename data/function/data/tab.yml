@@ -196,11 +196,11 @@ grad-enroll:
   items:
     - text: 招生简章
       icon: rule
-      path: intro/enroll/grad/rule/2024
+      path: intro/enroll/grad/rule/2025
 
     - text: 招生计划
       icon: enroll
-      path: intro/enroll/grad/major/2024
+      path: intro/enroll/grad/major/2025
 
     - text: 东师研招
       icon: wechat
