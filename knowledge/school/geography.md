@@ -24,7 +24,7 @@
 
 东北师范大学地理科学学院历史积淀厚重，已经建成为国家和东北地区地理科学研究和人才培养的重要基地、服务地理基础教育的重要基地。多项科学研究引领科学前沿，服务地方社会经济发展；多部主编和参编的经典教材凝练理论基础，影响广泛深远；数位教师在国际国内相关学术组织任职，在国内外学术期刊担任副主编或编委。展望未来，学院将继续秉承“勤奋创新，为人师表”的东师校训和“强师报国，求实创造”的东师精神，扎根中国东北大地，践行地理科学使命，服务区域发展和国家战略，为推进建设世界一流师范大学建设而努力奋斗。
 
-![''](https://assets.innenu.com/img/scenery/benbu/school/geography.jpg)![''](https://assets.innenu.com/img/scenery/benbu/school/geography1.jpg)![''](https://assets.innenu.com/img/scenery/benbu/school/geography2.jpg)
+![](https://assets.innenu.com/img/scenery/benbu/school/geography.jpg)![](https://assets.innenu.com/img/scenery/benbu/school/geography1.jpg)![](https://assets.innenu.com/img/scenery/benbu/school/geography2.jpg)
 
 ## 学科建设
 
