@@ -4,7 +4,7 @@ tags:
 icon: environment
 grey: true
 author: Mr.Hope
-time: 2025-06-23T05:07:46.363Z
+time: 2025-06-24T10:35:29.411Z
 shareable: true
 content:
   - tag: account
@@ -22,10 +22,35 @@ content:
         icon: about
         path: intro
 
+      - text: 历史沿革
+        icon: time
+        path: history
+
       - text: 招生专业介绍
         icon: enroll
         path: enroll
 
+  - tag: list
+    header: 本科招生专业
+    items:
+      - text: 环境科学
+        path: science
+
+      - text: 环境工程
+        path: engineer
+
+      - text: 生态学
+        path: ecology
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 准入要求
+        path: into
+
+  - tag: list
+    header: 学院环境
+    items:
       - text: 科研平台
         icon: platform
         path: platform

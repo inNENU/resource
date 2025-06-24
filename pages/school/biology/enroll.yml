@@ -4,7 +4,7 @@ tags:
   - 生命科学学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-24T09:20:18.937Z
+time: 2025-06-24T10:35:29.398Z
 shareable: true
 content:
   - tag: title
@@ -33,9 +33,11 @@ content:
       - text: 生物科学类
         path: class
 
-  - tag: doc
-    name: 生命科学学院本科人才培养方案 (2020)
-    url: $file/course-plan/biology/2020.pdf
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: title
     text: 硕士研究生招生概况

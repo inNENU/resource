@@ -4,7 +4,7 @@ tags:
   - 环境学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.188Z
+time: 2025-06-24T10:35:29.411Z
 shareable: true
 content:
   - tag: title
@@ -42,9 +42,11 @@ content:
       - text: 转入要求
         path: into
 
-  - tag: doc
-    name: 环境学院本科人才培养方案 (2020)
-    url: $file/course-plan/environment/2020.docx
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: title
     text: 硕士研究生招生概况

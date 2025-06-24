@@ -4,7 +4,7 @@ tags:
   - 教育学部
 icon: enroll
 desc: 研究生招生信息来自研究生院
-time: 2025-06-21T15:27:25.161Z
+time: 2025-06-24T10:35:29.408Z
 shareable: true
 content:
   - tag: title
@@ -48,25 +48,11 @@ content:
       - text: 学前教育专业 (公费师范)
         path: into/before
 
-  - tag: doc
-    name: 教育学部学前教育专业人才培养方案
-    url: $file/course-plan/education/before-school.docx
-
-  - tag: doc
-    name: 教育学部学前教育(公费师范)专业人才培养方案
-    url: $file/course-plan/education/before-school-normal.docx
-
-  - tag: doc
-    name: 教育学部小学教育专业人才培养方案
-    url: $file/course-plan/education/primary.docx
-
-  - tag: doc
-    name: 教育学部小学教育(公费师范)专业人才培养方案
-    url: $file/course-plan/education/primary-normal.docx
-
-  - tag: doc
-    name: 教育学部教育学专业人才培养方案
-    url: $file/course-plan/education/education.docx
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: title
     text: 本科招生咨询电话

@@ -4,7 +4,7 @@ tags:
   - 经济与管理学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-21T14:38:10.184Z
+time: 2025-06-24T10:35:29.405Z
 shareable: true
 content:
   - tag: title
@@ -37,9 +37,11 @@ content:
       - text: 转入要求
         path: into
 
-  - tag: doc
-    name: 经济与管理学院本科人才培养方案 (2019)
-    url: $file/course-plan/economy/2019.pdf
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: phone
     header: 本科招生电话
@@ -53,6 +55,18 @@ content:
     text: 硕士研究生招生概况
 
   - tag: list
+    header: 专业介绍
+    items:
+      - text: 理论经济学
+        path: subject/theory
+
+      - text: 应用经济学
+        path: subject/apply
+
+      - text: 管理学
+        path: subject/manage
+
+  - tag: list
     items:
       - text: 查询地址
         icon: search
@@ -63,7 +77,7 @@ content:
     fName: 丽敏
     lName: 荣
     num: 0431-84537675
-    org: 东北师范大学经济学院
+    org: 东北师范大学经济与管理学院
     title: 硕士研究生招生负责人
     street: 吉林省长春市净月大街 2555 号
     postCode: 130117

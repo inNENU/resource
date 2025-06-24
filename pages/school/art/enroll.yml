@@ -4,7 +4,7 @@ tags:
   - 美术学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-23T05:07:46.340Z
+time: 2025-06-24T10:35:29.395Z
 shareable: true
 content:
   - tag: title
@@ -43,9 +43,11 @@ content:
       - text: 综合实验艺术
         path: experiment
 
-  - tag: doc
-    name: 美术学院本科人才培养方案
-    url: $file/course-plan/fineart.pdf
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
 
   - tag: phone
     fName: 美术学院本科招生电话

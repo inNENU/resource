@@ -4,7 +4,7 @@ tags:
 icon: economy
 grey: true
 author: Mr.Hope
-time: 2025-06-23T05:07:46.354Z
+time: 2025-06-24T10:35:29.406Z
 shareable: true
 content:
   - tag: account
@@ -22,10 +22,41 @@ content:
         icon: about
         path: intro
 
+      - text: 历史沿革
+        icon: history
+        path: history
+
       - text: 招生专业介绍
         icon: enroll
         path: enroll
 
       - text: 学科建设
         icon: content
-        path: subject
+        path: subject/
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 经济学类
+        path: class
+
+      - text: 会计学(中外合作办学)
+        path: accountant-cop
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 转专业准入要求
+        path: into
+
+  - tag: list
+    header: 硕士专业介绍
+    items:
+      - text: 理论经济学
+        path: subject/theory
+
+      - text: 应用经济学
+        path: subject/apply
+
+      - text: 管理学
+        path: subject/manage
