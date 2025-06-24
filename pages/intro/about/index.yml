@@ -3,7 +3,7 @@ aiIgnore: true
 icon: about
 grey: true
 author: Mr.Hope
-time: 2024-07-02T18:12:13.613Z
+time: 2025-06-24T19:10:55.221Z
 shareable: true
 content:
   - tag: list
@@ -27,7 +27,7 @@ content:
 
       - text: 领导机构
         icon: leader
-        path: leader
+        path: leader/
 
   - tag: list
     header: 东师实力

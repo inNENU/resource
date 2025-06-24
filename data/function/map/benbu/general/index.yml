@@ -38,7 +38,7 @@ content:
 
       - text: 领导机构
         icon: leader
-        path: /intro/about/leader
+        path: /intro/about/leader/
 
   - tag: list
     header: 东师实力
@@ -54,10 +54,6 @@ content:
       - text: 学科建设
         icon: content
         path: /intro/subject/
-
-      - text: 专业排名
-        icon: rank
-        path: /intro/subject/rank
 
       - text: 对外合作办学
         icon: cooperate

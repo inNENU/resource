@@ -4,7 +4,7 @@ tags:
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2025-06-22T18:36:07.188Z
+time: 2025-06-24T19:10:55.228Z
 shareable: true
 content:
   - tag: list
@@ -30,10 +30,10 @@ content:
           - qq
           - wx
 
-      # TODO: Update at 2025-06
+      # TODO: Update at 2026-06
       - text: 本科开设专业
         icon: list
-        path: major/2024
+        path: major/2025
 
   - tag: action
     header: 2025 本科招生计划
@@ -47,9 +47,9 @@ content:
     env:
       - web
 
-  # TODO: Update at 2025-06
+  # TODO: Update at 2026-06
   - tag: action
-    header: 2024 本科招生指南
+    header: 2025 本科招生指南
     content: https://book.zjzw.cn/books/lzsj/mobile/index.html
 
   - tag: list
@@ -91,8 +91,4 @@ content:
 
       - text: 本科历史招生信息
         icon: time
-        path: history
-
-  - tag: action
-    header: 招生办留言板
-    content: https://zsb.nenu.edu.cn/lyb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1123
+        path: /other/enroll/under/history

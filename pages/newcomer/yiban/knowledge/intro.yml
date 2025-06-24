@@ -3,7 +3,7 @@ tags:
   - 入学教育
 icon: about
 author: Mr.Hope
-time: 2025-06-22T18:36:07.250Z
+time: 2025-06-24T19:10:55.293Z
 shareable: true
 content:
   - tag: ul
@@ -31,7 +31,7 @@ content:
     header: 学校领导
     text:
       - 现任校长是『徐海阳』
-    path: /intro/about/leader
+    path: /intro/about/leader/
 
   - tag: text
     type: info

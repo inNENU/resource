@@ -5,7 +5,7 @@ tags:
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2025-06-21T07:59:38.656Z
+time: 2025-06-24T19:10:55.224Z
 shareable: true
 content:
   - tag: list
@@ -50,7 +50,7 @@ content:
     items:
       - text: 研究生历史招生信息
         icon: time
-        path: history
+        path: /other/enroll/grad/history
 
   - tag: list
     header: 招生咨询

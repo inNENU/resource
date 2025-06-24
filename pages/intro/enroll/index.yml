@@ -3,7 +3,7 @@ aiIgnore: true
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2025-06-24T11:44:08.306Z
+time: 2025-06-24T19:10:55.223Z
 shareable: true
 content:
   # TODO: Update at 2026-06
@@ -74,6 +74,6 @@ content:
   - tag: list
     header: 第二学士学位
     items:
-      - text: 2024 年第二学士学位招生简章
+      - text: 2025 年第二学士学位招生简章
         icon: rule
-        path: second-degree/2024
+        path: second-degree/2025

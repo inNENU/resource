@@ -4,10 +4,12 @@ tags:
 icon: star
 desc: |-
   来源: 东北师范大学官网
-time: 2023-09-23T11:16:45.426Z
+time: 2025-06-24T19:10:55.223Z
 shareable: true
 cite:
-  - https://www.nenu.edu.cn/szdw/jcrc1.htm
+  - https://www.nenu.edu.cn/szdw/ys.htm
+  - https://www.nenu.edu.cn/szdw/ryjs.htm
+  - https://www.nenu.edu.cn/szdw/gwyxkpyzcy.htm
 content:
   - tag: title
     text: 院士
@@ -130,11 +132,3 @@ content:
       - 周丹丹
       - 白娥
       - 江廷磊
-
-  - tag: title
-    text: 其他人才
-
-  - tag: list
-    items:
-      - text: 查看详情
-        path: talent-more
