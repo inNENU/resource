@@ -14,7 +14,7 @@
   },
   "type": "module",
   "scripts": {
-    "check-assets": "tsx ./scripts/check-assets.ts",
+    "assets:check": "tsx ./scripts/check-assets.ts",
     "commit:force": "git commit --no-verify",
     "lint": "eslint . --fix && prettier --check --write .",
     "lint:check": "eslint . && prettier --check .",

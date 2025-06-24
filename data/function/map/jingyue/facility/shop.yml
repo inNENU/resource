@@ -24,5 +24,5 @@ content:
         desc: 装修中
 
       # TODO: Remove later
-      - text: 净月临时售卖点
-        path: /guide/shop/jingyue-temp
+      # - text: 净月临时售卖点
+      #   path: /guide/shop/jingyue-temp

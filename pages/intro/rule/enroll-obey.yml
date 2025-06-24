@@ -3,7 +3,7 @@ aiIgnore: true
 icon: rule
 desc: |-
   来源: 教育部
-cite: https://yz.chsi.com.cn/kyzx/zcdh/201408/20140811/1215967702.html
+cite: https://www.gov.cn/gongbao/content/2014/content_2750416.htm
 content:
   - tag: text
     type: info

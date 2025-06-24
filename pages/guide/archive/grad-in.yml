@@ -1,13 +1,13 @@
-# TODO: Update at 2025-04
+# TODO: Update at 2026-04
 title: 研究生档案转入
 tags:
   - 档案
 icon: enter
 author: Mr.Hope
-time: 2024-07-23T11:29:28.076Z
+time: 2025-06-24T19:39:27.862Z
 shareable: true
 cite:
-  - https://yjsy.nenu.edu.cn/info/1212/5803.htm
+  - https://yjsy.nenu.edu.cn/info/1212/6927.htm
 content:
   - tag: title
     text: 调档说明
@@ -35,11 +35,11 @@ content:
 
   - tag: doc
     name: 硕士调档函
-    url: $file/archive/postgraduate-archive-transfer-letter-2024.pdf
+    url: $file/archive/postgraduate-archive-transfer-letter-2025.pdf
 
   - tag: doc
     name: 博士调档函
-    url: $file/archive/doctor-archive-transfer-letter-2024.pdf
+    url: $file/archive/doctor-archive-transfer-letter-2025.pdf
 
   - tag: action
     header: 本部校区接收地址
@@ -58,4 +58,4 @@ content:
     content: "130117"
 
   - tag: img
-    src: $img/archive/grad-2024-in.png
+    src: $img/archive/grad-2025-in.png

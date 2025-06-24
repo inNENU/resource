@@ -4,6 +4,7 @@ checkAssets(
   ["config", "data", "pages"],
   ["file", "img"],
   [
+    /.DS_Store$/,
     /.drawio$/,
     /^img\/tab\//,
     /^img\/weather\//,
