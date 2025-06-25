@@ -4,7 +4,7 @@ tags:
 icon: politics
 grey: true
 author: Mr.Hope
-time: 2025-06-25T17:10:21.797Z
+time: 2025-06-25T18:00:00.839Z
 shareable: true
 content:
   - tag: account
@@ -15,9 +15,6 @@ content:
     account: politics
     loc: 43.827099,125.42591
     site: https://zf.nenu.edu.cn/
-
-  - tag: title
-    text: 简介
 
   - tag: list
     items:

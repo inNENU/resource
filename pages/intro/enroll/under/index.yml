@@ -4,7 +4,7 @@ tags:
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2025-06-24T19:10:55.228Z
+time: 2025-06-25T18:00:00.698Z
 shareable: true
 content:
   - tag: list
@@ -62,10 +62,6 @@ content:
       - text: 招生咨询群
         icon: qq-group
         path: qq-group
-
-      - text: 线下招生咨询活动
-        icon: activity
-        path: activity
 
   - tag: list
     header: 常见问题
