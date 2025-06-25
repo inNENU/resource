@@ -3,7 +3,7 @@ aiIgnore: true
 icon: student
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:37:38.801Z
+time: 2025-06-25T17:08:37.644Z
 shareable: true
 content:
   - tag: list
@@ -22,10 +22,6 @@ content:
       - text: 学院团委书记通讯录
         icon: phone
         path: group-shuji
-
-      - text: 学院辅导员联系方式
-        icon: phone
-        path: counselor
 
   - tag: list
     header: 校园管理条例

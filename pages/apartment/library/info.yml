@@ -13,7 +13,7 @@ content:
     text: 借阅信息查询
 
   - tag: p
-    text: 进入我的图书馆卡
+    text: 进入我的图书馆
 
   - tag: action
     header: 登录地址

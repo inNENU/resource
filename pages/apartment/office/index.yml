@@ -4,7 +4,7 @@ tags:
 icon: office
 grey: true
 author: Mr.Hope
-time: 2023-09-22T15:38:33.309Z
+time: 2025-06-25T17:08:37.640Z
 shareable: true
 content:
   - tag: list
@@ -25,5 +25,5 @@ content:
     header: 人员信息
     items:
       - text: 学校办公室主任
-        icon: about
-        path: info/leader
+        icon: people
+        path: people

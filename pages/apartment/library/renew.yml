@@ -20,7 +20,7 @@ content:
     content: https://authserver.nenu.edu.cn/authserver/login?service=https://nenu.primo.exlibrisgroup.com.cn/discovery/account?vid=86NEN_INST:NEN
 
   - tag: text
-    text: 在“外借”菜单下，选择需要续借的图书，点击“续借”按钮，即完成续借操作。
+    text: 在“当前借阅”菜单下，选择需要续借的图书，点击“续借”按钮，即完成续借操作。
 
   - tag: img
     src: $img/library/renew.jpg

@@ -16,6 +16,14 @@ content:
     header: 电子资源远程访问系统
     content: https://evpn.library.nenu.edu.cn/
 
+  - tag: action
+    header: 备用地址1
+    content: http://er.library.nenu.edu.cn/
+
+  - tag: action
+    header: 备用地址2
+    content: http://wrd.library.nenu.edu.cn/eresources
+
   - tag: ol
     type: info
     header: 东北师范大学图书馆“远程访问系统”使用守则
@@ -29,12 +37,11 @@ content:
       - 对于违反4~6条的用户，图书馆有权冻结或封停访问权限，如造成严重后果，图书馆将根据学校有关规定，保留追究使用者责任的权利；
       - 为获得最佳体验，建议使用 Chrome、Firefox、IE11、Safari 等浏览器访问。
       - 使用中有任何问题请联系图书馆。
-
       - 读者在使用系统访问数据库过程中如果发现有无法连接、图片样式不正常、数据库功能无法使用等情况，请将数据库信息、操作步骤(有助于我们还原故障过程，准确查找原因)、故障现象、截图等详细信息记录，发送至邮箱 hades@nenu.edu.cn。
 
   - tag: phone
     fName: 业务咨询
-    num: 0431-85098748
+    num: 0431-85099161
     org: 东北师范大学
     remark: 电子资源远程访问系统
 
