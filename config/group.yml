@@ -263,7 +263,8 @@ under-enroll:
   tag: grid
   header: 本科招生
   items:
-    - admission
+    # TODO: Add it back
+    # - admission
 
     - text: 招生简章
       icon: rule
