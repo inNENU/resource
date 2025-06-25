@@ -4,7 +4,7 @@ tags:
   - 学校设施
 icon: pc
 author: Mr.Hope
-time: 2025-06-22T11:37:38.789Z
+time: 2025-06-25T09:33:37.840Z
 shareable: true
 cite:
   - https://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001792&pageId=0&wfwfid=21248&websiteId=0
@@ -26,6 +26,14 @@ content:
     header: 净月
     text: 净月图书馆电子阅览室位于 318 室(三楼 C 区)，共有 123 个机位。
 
+  - tag: img
+    src: $img/library/benbu-digit-room.jpeg
+    desc: 本部图书馆电子阅览室
+
+  - tag: img
+    src: $img/library/jingyue-digit-room.jpeg
+    desc: 净月图书馆电子阅览室
+
   - tag: title
     text: 上机方式
 
@@ -37,11 +45,6 @@ content:
       - 开始使用
       - 退出统一认证
       - 进门处刷卡下机
-
-  # TODO: 检查
-  # - tag: text
-  #   header: 账号
-  #   text: 电子阅览室的默认账号和密码均为学号。
 
   - tag: title
     text: 计费

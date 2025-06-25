@@ -5,21 +5,20 @@ tags:
 icon: apartment
 desc: |-
   信息来源: 校医院官网
-time: 2023-09-22T15:38:33.177Z
+time: 2025-06-25T09:33:37.837Z
 shareable: true
 cite:
-  - https://hos.nenu.edu.cn/ksjs.htm
-  - https://hos.nenu.edu.cn/info/1079/1315.htm
-  - https://hos.nenu.edu.cn/info/1079/1313.htm
-  - https://hos.nenu.edu.cn/info/1079/1311.htm
-  - https://hos.nenu.edu.cn/info/1079/1036.htm
-  - https://hos.nenu.edu.cn/info/1079/1035.htm
-  # - https://hos.nenu.edu.cn/info/1079/1034.htm
-  - https://hos.nenu.edu.cn/info/1079/1033.htm
-  - https://hos.nenu.edu.cn/info/1079/1032.htm
-  - https://hos.nenu.edu.cn/info/1079/1031.htm
-  - https://hos.nenu.edu.cn/info/1079/1024.htm
-  - https://hos.nenu.edu.cn/info/1079/1023.htm
+  - https://hosp.nenu.edu.cn/ksjs.htm
+  - https://hosp.nenu.edu.cn/info/1079/1315.htm
+  - https://hosp.nenu.edu.cn/info/1079/1313.htm
+  - https://hosp.nenu.edu.cn/info/1079/1311.htm
+  - https://hosp.nenu.edu.cn/info/1079/1036.htm
+  - https://hosp.nenu.edu.cn/info/1079/1035.htm
+  - https://hosp.nenu.edu.cn/info/1079/1033.htm
+  - https://hosp.nenu.edu.cn/info/1079/1032.htm
+  - https://hosp.nenu.edu.cn/info/1079/1031.htm
+  - https://hosp.nenu.edu.cn/info/1079/1024.htm
+  - https://hosp.nenu.edu.cn/info/1079/1023.htm
 content:
   - tag: title
     text: 检验科

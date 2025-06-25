@@ -4,61 +4,51 @@ tags:
   - 学校机构
   - 联系方式
 icon: people
-time: 2024-01-13T04:17:30.847Z
+time: 2025-06-25T09:33:37.828Z
 cite:
   - https://career.nenu.edu.cn/aboutchengyuan?headerNav=14&secLNav=16
 content:
   - tag: text
     type: info
-    header: 王娜
+    header: 钟明
     text:
       - 处长
       - 全面主持就业工作
-      - 0431-85098956
-      - wangn561@nenu.edu.cn
-
-  - tag: text
-    type: info
-    header: 毕海洋
-    text:
-      - 副处长
-      - 分管就业市场工作
-      - 0431-85098960
-      - bihaiyang@nenu.edu.cn
+      - zhongm815@nenu.edu.cn
 
   - tag: text
     type: info
     header: 李健
     text:
       - 副处长
-      - 分管就业教育与咨询管理工作
-      - 0431-85098958
-      - lijian@nenu.edu.cn
+      - 分管就业市场工作
+      - 0431-85098960
+      - lij069@nenu.edu.cn
 
   - tag: text
     type: info
-    header: 沈雯
+    header: 赵雪
+    text:
+      - 副处长
+      - 分管就业教育与咨询管理工作
+      - 0431-85098958
+      - zhaox717@nenu.edu.cn
+
+  - tag: text
+    type: info
+    header: 常益
     text:
       - 副处长
       - 分管就业信息与净月校区就业工作
       - 0431-85098957
-      - shenw582@nenu.edu.cn
-
-  - tag: text
-    type: info
-    header: 钟明海
-    text:
-      - 综合办公室主任
-      - 负责综合业务与基层就业工作
-      - 0431-85098817
-      - zhongmh216@nenu.edu.cn
+      - changy123@nenu.edu.cn
 
   - tag: text
     type: info
     header: 孙一越
     text:
-      - 综合办公室职员
-      - 负责签约管理与毕业生派遣工作
+      - 综合办公室负责人
+      - 负责综合业务与基层就业、签约管理与毕业生派遣工作
       - 0431-85098826
       - sunyy369@nenu.edu.cn
 
@@ -73,27 +63,17 @@ content:
 
   - tag: text
     type: info
-    header: 左文敬
-    text:
-      - 信息服务室主任
-      - 负责就业信息化建设工作
-      - 0431-85098867
-      - zuowj232@nenu.edu.cn
-
-  - tag: text
-    type: info
-    header: 赵聪
+    header: 马成龙
     text:
       - 企划发展室主任
       - 负责就业市场建设
       - 0431-85098857
-      - zhaoc973@nenu.edu.cn
+      - macl073@nenu.edu.cn
 
   - tag: text
     type: info
-    header: 刘宝杰
+    header: 孙光春
     text:
-      - 信息服务室主任
       - 负责就业信息与净月校区就业工作
       - 0431-85098867
-      - liubj001@nenu.edu.cn
+      - sungc120@nenu.edu.cn

@@ -4,7 +4,7 @@ tags:
 icon: jwc
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:46:38.616Z
+time: 2025-06-25T09:33:37.829Z
 shareable: true
 content:
   - tag: account
@@ -35,11 +35,11 @@ content:
     items:
       - text: 管理规范
         icon: setting
-        path: manage
+        path: rule/manage
 
       - text: 主动服务规范
-        icon: rule
-        path: rule
+        icon: contact
+        path: rule/service
 
   - tag: list
     header: 人员信息

@@ -4,7 +4,7 @@ tags:
   - 学校机构
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:46:38.620Z
+time: 2025-06-25T09:33:37.834Z
 icon: enroll
 shareable: true
 content:
@@ -19,9 +19,8 @@ content:
 
   - tag: list
     items:
-      - text: 招生办公室人员
-        icon: people
-        path: people
+      - text: 招生办公室人员信息
+        path: /apartment/course/info/enroll
 
       - text: 招生办公室联系方式
         icon: phone

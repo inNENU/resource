@@ -3,8 +3,9 @@ tags:
   - 课程
   - 成绩
 icon: jwc
-author: Mr.Hope
-time: 2024-01-13T04:17:30.886Z
+cite:
+  - https://jwc.nenu.edu.cn/jwgl1/ryxx.htm
+time: 2025-06-25T09:33:37.831Z
 shareable: true
 content:
   - tag: list
@@ -15,10 +16,10 @@ content:
       - text: 综合办公室
         path: complex
 
-      - text: 教学建设与改革办公室
+      - text: 教学建设与改革办公室（教材工作办公室）
         path: construct
 
-      - text: 教学运行管理办公室
+      - text: 教学运行与信息化管理办公室
         path: run
 
       - text: 学籍管理办公室

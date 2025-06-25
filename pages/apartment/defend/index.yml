@@ -1,17 +1,20 @@
-title: 保卫科
+title: 保卫处
 tags:
   - 学校机构
 icon: police
 author: Mr.Hope
-time: 2024-07-17T20:15:11.089Z
+time: 2025-06-25T09:33:37.833Z
 shareable: true
 content:
-  - tag: title
-    text: 简介
+  - tag: list
+    items:
+      - text: 简介
+        icon: about
+        path: intro
 
-  - tag: text
-    text:
-      - 保卫科是负责校园安全的科室。如发现或遭遇安全问题，请同学们一定要拨打保卫科电话。
+      - text: 联系方式
+        icon: contact
+        path: contact
 
   - tag: title
     text: 联系电话
@@ -33,9 +36,3 @@ content:
     street: 吉林省长春市净月大街 2555 号
     postCode: 130024
     site: https://bwc.nenu.edu.cn/
-
-  - tag: title
-    text: 机构设置
-
-  - tag: img
-    src: $img/apartment/defendDetail.jpg

@@ -6,7 +6,7 @@ icon: express
 desc: |-
   信息来源: 图书馆官网
 shareable: true
-time: 2025-06-22T11:37:38.787Z
+time: 2025-06-25T09:33:37.839Z
 cite:
   - https://www.library.nenu.edu.cn/page/87308/show?leftNavId=2995405&pageId=0&wfwfid=21248&websiteId=0
 content:
@@ -26,7 +26,11 @@ content:
   - tag: text
     header: 注册
     text:
-      - 请点击馆际互借与文献传递系统读者端进行注册，工作人员会在注册信息提交成功后的 1-2 个工作日内完成审核。
+      - 请访问馆际互借与文献传递系统读者端进行注册，工作人员会在注册信息提交成功后的 1-2 个工作日内完成审核。
+
+  - tag: action
+    header: 系统地址
+    content: http://ill.calis.edu.cn/reader/index.html?tenant=a000618
 
   - tag: ol
     type: tip
@@ -78,25 +82,11 @@ content:
     header: 联系方式
 
   - tag: phone
-    fName: 静波
-    lName: 许
-    num: 0431-85098516
-    mail: xujb@nenu.edu.cn
-    remark: 本部校区图书馆612室
-
-  - tag: phone
     fName: 枫
     lName: 徐
     num: 0431-85098516
     mail: xuf872@nenu.edu.cn
-    remark: 本部校区图书馆612室
-
-  - tag: phone
-    fName: 青华
-    lName: 刘
-    num: 0431-84536170
-    mail: liuqh@nenu.edu.cn
-    remark: 净月校区图书馆306室
+    remark: 人民大街校区图书馆 137室
 
   - tag: title
     text: 版权声明

@@ -4,7 +4,7 @@ tags:
   - 联系方式
   - 学校机构
 desc: 信息来自东北师范大学本科招生网
-time: 2025-06-24T19:10:55.066Z
+time: 2025-06-25T09:33:37.834Z
 icon: phone
 shareable: true
 cite:
@@ -36,9 +36,9 @@ content:
     mail: zsb@nenu.edu.cn
     site: https://zsb.nenu.edu.cn
 
-  - tag: text
+  - tag: action
     header: 传真
-    text: 0431-85687511
+    content: 0431-85687511
 
   - tag: action
     header: 网址
