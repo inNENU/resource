@@ -6,14 +6,8 @@ icon: alert
 author: Mr.Hope
 shareable: true
 content:
-  - tag: text
-    type: danger
-    text:
-      - 尽管每年大部分学院都不会对转入要求做大范围改变，但每年总体上一定会有一定的变动。
-      - Mr.Hope 不保证第一时间关注并摘录“所有学院、所有专业”的更新内容。请自行关注拟转入专业的学院官网通知，并以通知为准!
-
   - tag: title
-    text: 2023 年发布内容
+    text: 2025 年发布内容
 
   - tag: list
     items:
@@ -80,10 +74,3 @@ content:
       - text: 传媒科学学院
         icon: media
         path: /school/media/into/
-
-  - tag: title
-    text: 历史文件
-
-  - tag: doc
-    name: 各专业准入细则 (2017)
-    url: $file/study/switchMajor.pdf

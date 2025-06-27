@@ -4,7 +4,7 @@ tags:
   - 新生入学
 icon: time
 author: Mr.Hope
-time: 2024-08-30T15:58:21.919Z
+time: 2025-06-27T03:35:12.880Z
 shareable: true
 content:
   - tag: title
@@ -14,14 +14,15 @@ content:
     type: info
     header: 本科新生报到
     text:
-      - 2024 年 8 月 17 日 (星期六)
+      - 2025年8月30日、31日 (星期六、日)
 
   - tag: text
     type: info
     header: 研究生新生报到
     text:
-      - 2024 年 8 月 27 日、28 日 (星期二、星期三)
+      - 2025年9月4日、5日 (星期六、日)
 
+  # TODO: Check this
   - tag: text
     type: tip
     header: 接站
@@ -65,9 +66,10 @@ content:
   - tag: title
     text: 报到(接待)地点
 
-  # - tag: text
-  #   type: warning
-  #   header: 以下为 2023 年安排，2024 年可能有所变动（学校尚未落实 24 年报到工作安排）。
+  # TODO: Update
+  - tag: text
+    type: warning
+    header: 以下为 2024 年安排，2025 年可能有所变动（学校尚未落实 25 年报到工作安排）。
 
   - tag: text
     text:

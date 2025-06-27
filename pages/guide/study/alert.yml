@@ -4,7 +4,7 @@ tags:
   - 规章制度
 icon: alert
 author: Mr.Hope
-time: 2023-09-23T10:52:59.536Z
+time: 2025-06-27T03:35:12.788Z
 shareable: true
 content:
   - tag: p
@@ -49,7 +49,7 @@ content:
 
   - tag: list
     items:
-      # TODO: Update at 2025-03
-      - text: 2024年春季学期本科学生学业预警的通知
+      # TODO: Update at 2025-09
+      - text: 2024年秋季学期本科学生学业预警的通知
         icon: notice
-        url: notice-detail?id=c6e943eb27804c6d95001d977bddc747&title=关于开展2024年春季学期本科学生学业预警的通知的通知
+        url: notice-detail?url=info/1031/15731.htm&title=关于开展2024年秋季学期本科学生学业预警的通知

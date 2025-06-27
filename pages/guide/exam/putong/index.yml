@@ -3,19 +3,19 @@ tags:
   - 国家考试
 icon: putong
 author: Mr.Hope
-time: 2025-06-22T11:37:38.874Z
+time: 2025-06-27T03:35:12.746Z
 shareable: true
 content:
   - tag: list
     items:
-      # TODO: Update at 2024-09
-      - text: 2024 年春季学期报名
+      # TODO: Update at 2025-09
+      - text: 2025 年春季学期报名
         icon: notice
-        url: notice-detail?id=010a911e4eb64db09b5c70fbfa940f90&title=关于2024年春季学期普通话水平测试网上报名工作的通知
+        url: notice-detail?url=info/1031/13761.htm&title=关于2025年春季学期普通话水平测试网上报名工作的通知
 
-      - text: 2024 年春季学期工作安排
+      - text: 2025 年春季学期工作安排
         icon: notice
-        url: notice-detail?id=0dd6f24614b54c0797b4bfd526708d8b&title=关于2024年春季学期普通话水平测试工作安排的通知
+        url: notice-detail?url=info/1031/16621.htm&title=关于2025年春季学期普通话水平测试工作安排的通知
 
   - tag: text
     type: info
@@ -72,11 +72,11 @@ content:
 
   - tag: text
     text:
-      - 我校每年的 4 月 - 5 月(10 月 - 11 月)。学生须携带准考证、身份证、校园卡进入考场，参加测试。
+      - 我校每年的 4月 - 5月(10月 - 11月)。学生须携带准考证、身份证、校园卡进入考场，参加测试。
 
   - tag: title
     text: 证书发放
 
   - tag: text
     text:
-      - 普通话等级证书发放时间为 7 月(1 月)。
+      - 普通话等级证书发放时间为 7月(1月)。

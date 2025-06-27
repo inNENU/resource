@@ -4,11 +4,18 @@ tags:
   - 资助
 icon: money
 author: Mr.Hope
-time: 2025-06-25T18:00:00.728Z
+time: 2025-06-27T03:35:12.855Z
 cite:
-  - https://mp.weixin.qq.com/s/gLkj25_B2nf5itpfpEuZLw
+  - https://info-443.webvpn.nenu.edu.cn/info/1031/24241.htm
 shareable: true
 content:
+  - tag: list
+    items:
+      # TODO: Update at 2026-06
+      - text: 2025 年通知
+        icon: notice
+        url: notice-detail?url=info/1031/24241.htm&title=关于做好2025年毕业生基层就业学费补偿国家助学贷款代偿工作的通知
+
   - tag: title
     text: 简介
 

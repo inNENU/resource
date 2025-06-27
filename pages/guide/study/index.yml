@@ -5,16 +5,16 @@ tags:
 icon: study
 grey: true
 author: Mr.Hope
-time: 2024-08-29T12:44:46.318Z
+time: 2025-06-27T03:35:12.789Z
 shareable: true
 content:
   - tag: list
     header: 相关通知
     items:
-      # TODO: Update 2025-03
-      - text: 2024 年春季学期补考、缓考与免修通知
+      # TODO: Update 2025-09
+      - text: 2024年秋季学期课程补考（缓考）及2025年春季学期课程免修
         icon: notice
-        url: notice-detail?id=97e706a4faa2452889cc213316676763&title=2024年春季学期补考、缓考与免修通知
+        url: notice-detail?url=info/1031/12091.htm&title=关于2024年秋季学期课程补考（缓考）及2025年春季学期课程免修工作的通知
 
       - text: 操作指南
         path: /guide/system/

@@ -3,14 +3,16 @@ tags:
   - 校内考试
 icon: english
 author: Mr.Hope
-time: 2024-08-29T12:44:45.843Z
+time: 2025-06-27T03:35:12.724Z
 shareable: true
 content:
+  # 9,12,3,6 月均有
+  # TODO: Update at 2025-12
   - tag: list
     items:
-      - text: 2024年9月大学英语水平测试报名通知
+      - text: 关于2025年6月大学英语水平测试报名的通知
         icon: notice
-        url: notice-detail?id=ca863ae098d2421888d20d675d208adf&title=关于024年9月大学英语水平测试报名的通知
+        url: notice-detail?url=info/1031/24151.htm&title=关于2025年6月大学英语水平测试报名的通知
 
   - tag: text
     type: info

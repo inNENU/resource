@@ -3,7 +3,7 @@ tags:
   - 迎新
 icon: qq-group
 author: Mr.Hope
-time: 2024-08-16T20:57:32.838Z
+time: 2025-06-27T03:35:12.881Z
 shareable: true
 content:
   - tag: text
@@ -21,21 +21,21 @@ content:
       - Mr.Hope 自己建立了几个拥有身份验证，群内氛围和谐的校级新生群，另外自 2019 年起这已经是 Mr.Hope 第 5 年建群。
 
   - tag: title
-    text: 东北师范大学 2024 本科新生群
+    text: 东北师范大学 2025 本科新生群
 
   - tag: text
     text:
       - 主要提供新生答疑，另外跟新生有关的重要信息会在其中发公告。
 
   - tag: img
-    src: $img/about/under-2024.jpg
+    src: $img/about/under-2025.png
     env:
       - app
       - wx
 
   - tag: functional-list
     items:
-      - text: 加入东北师范大学 2024 本科新生群
+      - text: 加入东北师范大学 2025 本科新生群
         icon: qq-group
         type: button
         openType: openGroupProfile
@@ -51,7 +51,7 @@ content:
       - 内含大量大二大三学姐，适合新生找自己本专业的学长学姐做细致咨询。
 
   - tag: img
-    src: $img/about/under.jpg
+    src: $img/about/under-2024.png
     env:
       - app
       - wx
@@ -62,7 +62,7 @@ content:
         icon: qq-group
         type: button
         openType: openGroupProfile
-        groupId: "769768089"
+        groupId: "970718774"
     env:
       - qq
 

@@ -4,7 +4,7 @@ tags:
 icon: subsidize
 grey: true
 author: Mr.Hope
-time: 2025-06-24T19:39:28.028Z
+time: 2025-06-27T03:35:12.855Z
 shareable: true
 content:
   - tag: p
@@ -63,6 +63,6 @@ content:
     header: 通知公告
     items:
       # FIXME: Update
-      - text: 2023-2024学年资助对象认定
+      - text: 2024-2025 学年资助对象认定
         icon: notice
-        url: notice-detail?id=8b9f8f5a3c7842ada1d9e0484659cb7d&title=2022-2023学年资助对象评定
+        url: notice-detail?id=61be00b634ef4af39f09ab3ecedf1368&title=2024-2025学年资助对象评定

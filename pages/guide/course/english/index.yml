@@ -3,7 +3,7 @@ aiIgnore: true
 icon: english
 grey: true
 author: Mr.Hope
-time: 2023-09-22T16:59:13.483Z
+time: 2025-06-27T03:35:12.724Z
 shareable: true
 content:
   - tag: list
@@ -28,9 +28,10 @@ content:
   - tag: list
     header: 教学计划
     items:
-      - text: 大学外语教学计划 (2020 版)
-        path: 2020-plan
+      - text: 大学外语教学计划 (2024 版)
+        icon: plan
+        path: 2024-plan
 
-      - text: 大学外语教学计划 (2015 版)
-        desc: 旧
-        path: 2015-plan
+      - text: 大学外语教学计划 (2020 版)
+        icon: plan
+        path: 2020-plan

@@ -3,14 +3,20 @@ tags:
   - 国家考试
 icon: apply
 author: Mr.Hope
-time: 2024-05-22T11:27:02.787Z
+time: 2025-06-27T03:35:12.744Z
 shareable: true
 content:
   - tag: list
     items:
-      - text: 2024年应届本科毕业生申请教师资格证认定
+      # TODO: Update at 2026-03
+      - text: 2025年应届本科毕业生申请教师资格证认定
         icon: notice
-        url: notice-detail?id=75e35210b2e84993bffc84a1e9d2da12&title=关于2024年应届本科毕业生申请教师资格证认定工作的通知
+        url: notice-detail?url=info/1031/14891.htm&title=关于2025年应届本科毕业生申请教师资格证认定工作的通知
+
+      # TODO: Update at 2026-03
+      - text: 2025年研究生申请教师资格认定
+        icon: notice
+        url: notice-detail?url=info/1031/14861.htm&title=关于2025年东北师范大学研究生申请教师资格认定工作的通知
 
   - tag: title
     text: 考试成绩合格科目有效期

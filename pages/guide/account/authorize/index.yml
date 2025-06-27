@@ -3,14 +3,16 @@ tags:
   - 统一身份认证（账户）
 icon: authorize
 author: Mr.Hope
-time: 2024-07-23T11:29:28.030Z
+time: 2025-06-27T03:35:12.690Z
 shareable: true
 content:
+  # TODO: Update at 2025-08
   - tag: text
     type: info
     text:
       - 2023 级起，新生需要自己完成账号激活。
-      - 目前所有 2024 级研究生都可以激活自己账号了，2023 级本科生需要等待录取工作全部完成后才能激活账号。
+      - 目前 2025 级全部新生的账号信息尚未录入。
+      # - 目前所有 2024 级研究生都可以激活自己账号了，2024 级本科生需要等待录取工作全部完成后才能激活账号。
 
   - tag: action
     header: 账号激活
@@ -23,8 +25,54 @@ content:
   #   logo: authorize
   #   url: account-activate
 
-  - tag: list
-    items:
-      - text: 统一身份认证介绍
-        icon: about
-        path: intro
+  - tag: title
+    text: 介绍
+
+  - tag: text
+    text:
+      - 在东北师范大学，你会使用各种各样的系统，比如教务系统、选课系统、网上服务大厅、融合门户、图书馆系统、缴费系统等。
+      - 为了让你能够方便地使用这些系统，东北师范大学采用「统一身份认证系统」，即通过一组认证账户和密码、一个登录系统，自动认证并登录全部系统。
+
+  - tag: img
+    src: $img/account/login-page.jpg
+    watermark: true
+
+  - tag: title
+    text: 账户管理
+
+  - tag: text
+    header: 账户名
+    text:
+      - 统一身份认证的账户名是学号，学号是 10 位数字，您收到的录取通知书证书编号和日后发放的校园卡💳卡号即是学号。
+
+  - tag: text
+    header: 账户创建
+    text:
+      - 在信息化办公室完成新生信息地址录入后，新生需要自行通过统一身份认证系统的账号激活功能校验个人信息后，设置密码与密保，完成账号激活。
+
+  - tag: action
+    header: 账号激活地址
+    content: https://authserver.nenu.edu.cn/retrieve-password/accountActivation/index.html
+
+  - tag: title
+    text: 统一身份认证管理
+
+  - tag: text
+    text:
+      - 如需管理自己的统一身份认证账号，请访问下方地址。
+
+  - tag: action
+    header: 校内地址
+    content: https://authserver.nenu.edu.cn/authserver/login
+
+  - tag: action
+    header: 校外地址
+    content: https://authserver-443.webvpn.nenu.edu.cn/authserver/login
+
+  - tag: ul
+    header: 功能
+    text:
+      - 设置登录别名
+      - 修改登录密码、绑定手机与邮箱
+      - 关联第三方账号（目前支持微信）
+      - 管理可信浏览器

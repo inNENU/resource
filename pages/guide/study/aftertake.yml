@@ -6,9 +6,16 @@ tags:
   - 规章制度
 icon: time
 author: Mr.Hope
-time: 2023-09-23T10:52:59.535Z
+time: 2025-06-27T03:35:12.787Z
 shareable: true
 content:
+  - tag: list
+    items:
+      # TODO: Update at 2025-12
+      - text: 本科生 2025 春季学期缓考通知
+        icon: notice
+        url: notice-detail?url=info/1031/24111.htm&title=关于开展2025年春季学期本科课程缓考工作的通知
+
   - tag: title
     text: 相关政策
 

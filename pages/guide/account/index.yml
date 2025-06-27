@@ -4,7 +4,7 @@ tags:
 icon: account
 grey: true
 author: Mr.Hope
-time: 2023-09-22T16:59:13.244Z
+time: 2025-06-27T03:35:12.689Z
 shareable: true
 content:
   - tag: text
@@ -13,7 +13,6 @@ content:
     text:
       - 学校为每个人分配了一个统一身份，这个身份就是您的邮箱账号和密码。
       - 无论您登录校园网、进入内网查看通知、查看是否欠书未还、查看校园卡余额以及消费记录、进入选课平台、访问 BB 平台、通过教学服务系统查成绩查课表等等，各种与信息查询提交的有关的操作都需要这个统一身份。
-      - 更多详情详见“统一身份认证”
     path: authorize/
 
   - tag: list
