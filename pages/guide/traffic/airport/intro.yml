@@ -4,9 +4,12 @@ tags:
 icon: airport
 desc: 相关资料来自长春市龙嘉国际机场官网
 author: Mr.Hope
-time: 2023-09-23T10:52:59.663Z
+time: 2025-06-27T03:57:31.011Z
 shareable: true
-cite: http://www.ccairport.cn/List/introduce
+cite:
+  - https://www.jlairports.com/changchun/contents/29/67.html
+  - https://www.jlairports.com/changchun/contents/29/70.html
+  - https://www.jlairports.com/changchun/contents/29/76.html
 content:
   - tag: p
     text:
