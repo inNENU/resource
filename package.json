@@ -45,7 +45,7 @@
     "cheerio": "1.1.0",
     "cpx2": "8.0.0",
     "del": "8.0.0",
-    "dotenv": "16.5.0",
+    "dotenv": "17.0.0",
     "innenu-generator": "0.2.4",
     "js-yaml": "4.1.0",
     "markdown-it": "14.1.0",
@@ -60,19 +60,19 @@
   "devDependencies": {
     "@types/js-yaml": "4.0.9",
     "@types/markdown-it": "14.1.2",
-    "@types/node": "24.0.3",
+    "@types/node": "24.0.7",
     "domhandler": "5.0.3",
-    "eslint": "9.29.0",
+    "eslint": "9.30.0",
     "eslint-config-mister-hope": "0.9.6",
     "eslint-plugin-vue": "10.2.0",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
-    "prettier": "3.6.0",
+    "prettier": "3.6.2",
     "tsx": "4.20.3",
     "typescript": "5.8.3",
     "vitest": "3.2.4"
   },
-  "packageManager": "pnpm@10.12.2",
+  "packageManager": "pnpm@10.12.4",
   "pnpm": {
     "overrides": {
       "esbuild": "^0.25.4"
