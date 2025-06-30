@@ -3,7 +3,7 @@ tags:
   - 新生入学
 icon: letter
 author: Mr.Hope
-time: 2025-06-27T03:35:12.890Z
+time: 2025-06-30T14:04:02.648Z
 shareable: true
 content:
   - tag: title
@@ -46,7 +46,7 @@ content:
     text: 学号
 
   - tag: text
-    text: 录取通知书编号即为学号，是以 2024 开头的十位数字，在通知书右下角。
+    text: 录取通知书编号即为学号，是以 2025 开头的十位数字，在通知书右下角。
 
   - tag: img
     src: $img/prepare/grad-admission-letter.jpg

@@ -3,7 +3,7 @@ tags:
   - 超市
 icon: shop
 author: Mr.Hope
-time: 2024-08-16T05:53:04.512Z
+time: 2025-06-30T14:04:02.590Z
 shareable: true
 content:
   - tag: list
@@ -18,7 +18,7 @@ content:
   - tag: list
     items:
       - text: 天猫超市
-        path: tmall
+        path: benbu-tmall
 
       - text: 北苑生活区介绍
         path: /guide/life/beiyuan-district

@@ -1,7 +1,7 @@
 import { config as envConfig } from "dotenv";
 import { config as innenuConfig } from "innenu-generator";
 
-envConfig();
+envConfig({ quiet: true });
 innenuConfig({
   assets: "https://assets.innenu.com/",
   icon: "https://res.innenu.com/icons/",
