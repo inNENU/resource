@@ -4,7 +4,7 @@ tags:
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2023-08-31T16:22:59.373Z
+time: 2025-06-30T09:24:41.358Z
 shareable: true
 content:
   - tag: title
@@ -18,8 +18,8 @@ content:
   - tag: title
     text: 净月校区
 
-  - tag: list
-    items: []
+  # - tag: list
+  #   items: []
 
   - tag: functional-list
     header: 欢迎社团入驻本页面

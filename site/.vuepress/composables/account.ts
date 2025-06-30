@@ -20,12 +20,10 @@ export const setupAccount = (): void => {
         .querySelectorAll<HTMLElement>(".account-action")
         .forEach((el) => {
           el.addEventListener("click", () => {
-            const { qqcode, qq, wxcode, wxid } = el.dataset;
+            const { qqcode, qq, wxid } = el.dataset;
 
             if (qqcode) {
               message.pop(`<img src="${qqcode}" />`, 5000);
-            } else if (wxcode) {
-              message.pop(`<img src="${wxcode}" />`, 5000);
             } else if (qq) {
               void copy(qq);
               message.pop(`${CHECK_ICON}<span>QQ 号已复制到剪切板</span>`);

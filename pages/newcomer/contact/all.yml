@@ -3,7 +3,7 @@ tags:
   - 迎新
 icon: qq-group
 author: Mr.Hope
-time: 2025-06-27T03:35:12.881Z
+time: 2025-06-30T09:24:41.491Z
 shareable: true
 content:
   - tag: text
@@ -51,7 +51,7 @@ content:
       - 内含大量大二大三学姐，适合新生找自己本专业的学长学姐做细致咨询。
 
   - tag: img
-    src: $img/about/under-2024.png
+    src: $img/about/under.png
     env:
       - app
       - wx

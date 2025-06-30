@@ -758,10 +758,6 @@
           "description": "主体的微信公众号 ID",
           "type": "string"
         },
-        "wxcode": {
-          "description": "主体的微信二维码地址",
-          "type": "string"
-        },
         "account": {
           "description": "主体的微信公众号配置文件 ID",
           "type": "string"

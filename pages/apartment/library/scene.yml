@@ -4,67 +4,67 @@ tags:
   - 学校设施
 icon: photo
 author: Mr.Hope
-time: 2023-09-22T15:38:33.276Z
+time: 2025-06-30T09:24:41.317Z
 shareable: true
 content:
   - tag: title
     text: 本部校区
 
   - tag: img
-    src: $img/library/benbuMainFace.jfif
+    src: $img/library/benbu-main.jpg
     desc: 本部图书馆正门
 
   - tag: img
-    src: $img/library/benbuLibrary1.jfif
+    src: $img/library/benbu1.jpg
 
   - tag: img
-    src: $img/library/benbuLibrary2.jfif
+    src: $img/library/benbu2.jpg
 
   - tag: img
-    src: $img/library/benbuLibrary3.jfif
+    src: $img/library/benbu3.jpg
 
   - tag: img
-    src: $img/library/benbuLibrary4.jfif
+    src: $img/library/benbu4.jpg
 
   - tag: img
-    src: $img/library/benbuLibrary5.jfif
+    src: $img/library/benbu5.jpg
 
   - tag: img
-    src: $img/library/benbuLibrary6.jfif
+    src: $img/library/benbu6.jpg
 
   - tag: img
-    src: $img/library/benbuLibrary7.jfif
+    src: $img/library/benbu7.jpg
 
   - tag: title
     text: 净月校区
 
   - tag: img
-    src: $img/library/jingyueMainFace.jfif
+    src: $img/library/jingyue-main.jpg
     desc: 净月图书馆正门
 
   - tag: img
-    src: $img/library/jingyue1.jfif
+    src: $img/library/jingyue1.jpg
 
   - tag: img
-    src: $img/library/jingyue2.jfif
+    src: $img/library/jingyue2.jpg
 
   - tag: img
-    src: $img/library/jingyue3.jfif
+    src: $img/library/jingyue3.jpg
 
   - tag: img
-    src: $img/library/jingyue4.jfif
+    src: $img/library/jingyue4.jpg
 
   - tag: img
-    src: $img/library/jingyue5.jfif
+    src: $img/library/jingyue5.jpg
 
   - tag: img
-    src: $img/library/jingyue6.jfif
+    src: $img/library/jingyue6.jpg
 
   - tag: img
-    src: $img/library/jingyue7.jfif
+    src: $img/library/jingyue7.jpg
 
   - tag: img
-    src: $img/library/jingyue8.jfif
+    src: $img/library/jingyue8.jpg
 
   - tag: img
-    src: $img/library/jingyue9.jfif
+    src: $img/library/jingyue9.jpg

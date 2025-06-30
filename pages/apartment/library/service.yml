@@ -4,7 +4,7 @@ tags:
   - 学校设施
 icon: contact
 author: Mr.Hope
-time: 2023-09-22T15:38:33.281Z
+time: 2025-06-30T09:24:41.318Z
 shareable: true
 content:
   - tag: title
@@ -20,10 +20,10 @@ content:
     text: 作用如其名，是留给考研的同学们，让他们可以在里面专心复习。本部图书馆地下一层、四层、五层、六层均有；净月校区图书馆四层、五层、六层均有。目前图书馆采用了新规定，研究生箱只对大三和大四的同学开放预约登记服务。
 
   - tag: img
-    src: $img/library/researchBox1.jfif
+    src: $img/library/research-box1.jpg
 
   - tag: img
-    src: $img/library/researchBox2.jfif
+    src: $img/library/research-box2.jpg
 
   - tag: title
     text: 存包柜

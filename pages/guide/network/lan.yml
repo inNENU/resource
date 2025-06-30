@@ -3,7 +3,7 @@ tags:
   - 校园网
 icon: ethernet
 author: Mr.Hope
-time: 2023-09-23T10:52:59.425Z
+time: 2025-06-30T09:24:41.407Z
 shareable: true
 content:
   - tag: text
@@ -17,7 +17,7 @@ content:
     text: 寝室内的网线接口在进门左手或右手边的墙壁上，每个寝室设有 4 个网线接口 (路由器端口) 供您使用，距离床位有一段距离。
 
   - tag: img
-    src: $img/network/router.jfif
+    src: $img/network/router.jpg
     desc: 寝室所装路由器
     watermark: true
 

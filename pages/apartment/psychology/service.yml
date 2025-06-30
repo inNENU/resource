@@ -5,7 +5,7 @@ tags:
 icon: service
 desc: |-
   信息来源: 学生处官网
-time: 2023-09-22T15:38:33.331Z
+time: 2025-06-30T09:24:41.323Z
 shareable: true
 content:
   - tag: title
@@ -79,10 +79,6 @@ content:
   - tag: phone
     fName: 教育部华中师范大学心理援助热线 (24 小时)
     num: 400-967-8920
-
-  - tag: phone
-    fName: 清华大学公益心理服务热线 (每日 10:00-22:00)
-    num: 4000-100-525
 
   - tag: phone
     header: 长春市心理援助热线 (每日 10:00-22:00)

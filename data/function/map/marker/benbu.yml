@@ -271,6 +271,7 @@ facility:
 
     - loc: 43.863654,125.336322
       name: 快递柜
+      detail: 自由校区快递柜
       path: express-cabinet
 
     - loc: 43.862596,125.333357

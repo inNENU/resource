@@ -3,16 +3,16 @@ aiIgnore: true
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2025-06-23T12:08:24.929Z
+time: 2025-06-30T09:24:41.359Z
 grey: true
 shareable: true
 content:
-  - tag: list
-    items: []
+  # - tag: list
+  #   items: []
 
-      # - text: 5A 职业发展协会
-      #   icon: $img/association/5Alogo.png
-      #   path: 5a-jingyue
+  # - text: 5A 职业发展协会
+  #   icon: $img/association/5Alogo.png
+  #   path: 5a-jingyue
 
   - tag: functional-list
     header: 欢迎社团入驻本页面

@@ -3,7 +3,7 @@ tags:
   - 成绩
 icon: search
 author: Mr.Hope
-time: 2025-06-27T03:35:12.698Z
+time: 2025-06-30T09:24:41.347Z
 shareable: true
 cite: https://info-443.webvpn.nenu.edu.cn/info/1031/13041.htm
 content:
@@ -19,4 +19,4 @@ content:
 
   - tag: doc
     name: 东北师范大学试卷查阅申请单
-    url: $file/action/under-paper-recheck.docx
+    url: $file/action/under-paper-check.docx

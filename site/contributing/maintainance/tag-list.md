@@ -270,7 +270,6 @@ category: 小程序
 | qqid    |  否  |       `string`        | 主体的 QQ Openid            |                           |
 | qqcode  |  否  |       `string`        | 主体的 QQ 二维码地址        |                           |
 | wxid    |  否  |       `string`        | 主体的微信公众号 ID         |                           |
-| wxcode  |  否  |       `string`        | 主体的微信二维码地址        |                           |
 | account |  否  |       `string`        | 主体的微信公众号配置文件 ID |                           |
 | loc     |  是  | `${number},${number}` | 位置信息                    | `latitude,longitude` 格式 |
 | mail    |  否  |       `string`        | 主体的邮箱地址              |                           |

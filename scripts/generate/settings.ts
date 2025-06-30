@@ -90,6 +90,6 @@ export const generateSettings = (data: unknown): unknown => {
     ),
     // eslint-disable-next-line @typescript-eslint/naming-convention
     "function-presets": convertedFunctionPresets,
-    about: getPageContent(about, "settings.about", "pages"),
+    about: getPageContent(about, "settings.about", { id: "pages" }),
   };
 };

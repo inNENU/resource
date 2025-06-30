@@ -4,21 +4,22 @@ import type {
   MapPageConfig,
   MarkersConfig,
   MusicList,
-  QQAccountsConfig,
-  WechatAccountConfig,
-  WechatAccountsConfig,
+  QQAccounts,
+  WechatAccountData,
+  WechatAccounts,
 } from "innenu-generator";
 import {
   convertYamlFilesToJson,
   generateLyrics,
   generateSvgIcons,
-  getAccountListJSON,
   getCurrentChangedFiles,
   getMapPageJSON,
   getMarkersJSON,
   getMusicListJSON,
   getPageJSON,
-  getWechatJSON,
+  getQQAccounts,
+  getWechatAccountDataJSON,
+  getWechatAccounts,
 } from "innenu-generator";
 import type { PageConfig, PageData } from "innenu-generator/typings";
 
@@ -53,10 +54,10 @@ RESOURCE_FOLDERS.forEach((folder) => {
 });
 
 // 转换账号
-convertYamlFilesToJson<WechatAccountConfig>(
+convertYamlFilesToJson<WechatAccountData>(
   "./data/account",
   "./.resource/account",
-  (data, filePath) => getWechatJSON(data, filePath),
+  (data, filePath) => getWechatAccountDataJSON(data, filePath),
 );
 
 // 功能大厅
@@ -72,14 +73,13 @@ convertYamlFilesToJson(
           ? getMapPageJSON(data as MapPageConfig, `function/${filePath}`)
           : /pe-calculator\/(male|female)-(low|high)/u.exec(filePath)
             ? generatePEScore(data as PEConfig)
-            : /account\//u.exec(filePath)
-              ? getAccountListJSON(
-                  data as WechatAccountsConfig | QQAccountsConfig,
-                  filePath,
-                )
-              : /music\/index/u.exec(filePath)
-                ? getMusicListJSON(data as MusicList, filePath)
-                : data,
+            : /account\/wx/u.exec(filePath)
+              ? getWechatAccounts(data as WechatAccounts, filePath)
+              : /account\/qq/u.exec(filePath)
+                ? getQQAccounts(data as QQAccounts, filePath)
+                : /music\/index/u.exec(filePath)
+                  ? getMusicListJSON(data as MusicList, filePath)
+                  : data,
 );
 
 // 转换搜索

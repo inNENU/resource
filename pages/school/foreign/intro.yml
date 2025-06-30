@@ -4,7 +4,7 @@ tags:
 icon: about
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-22T18:36:07.280Z
+time: 2025-06-30T09:24:41.526Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -22,9 +22,9 @@ content:
   - tag: carousel
     images:
       - $img/scenery/benbu/school/foreign.jpg
-      - $img/scenery/benbu/school/foreign.jfif
       - $img/scenery/benbu/school/foreign1.jpg
       - $img/scenery/benbu/school/foreign2.jpg
+      - $img/scenery/benbu/school/foreign3.jpg
 
   - tag: title
     text: 学院简介
@@ -63,6 +63,6 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街 5268 号
     hostNum: 0431-85099679
-    postCode: 130024 (本部) / 130117 (净月)
+    postCode: 130024
     mail: wy@nenu.edu.cn
     site: https://wy.nenu.edu.cn/

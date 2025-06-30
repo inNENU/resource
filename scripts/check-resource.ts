@@ -2,19 +2,19 @@ import type {
   MapPageConfig,
   MarkersConfig,
   MusicList,
-  QQAccountsConfig,
-  WechatAccountConfig,
-  WechatAccountsConfig,
+  QQAccounts,
+  WechatAccountData,
+  WechatAccounts,
 } from "innenu-generator";
 import {
+  checkMapPageConfig,
+  checkMarkersConfig,
+  checkMusicList,
+  checkPageConfig,
+  checkQQAccounts,
+  checkWechatAccountData,
+  checkWechatAccounts,
   checkYamlFiles,
-  getAccountListJSON,
-  getCurrentChangedFiles,
-  getMapPageJSON,
-  getMarkersJSON,
-  getMusicListJSON,
-  getPageJSON,
-  getWechatJSON,
 } from "innenu-generator";
 import type { PageConfig } from "innenu-generator/typings";
 
@@ -24,12 +24,10 @@ import { generateSettings } from "./generate/settings.js";
 
 import "./config/env.js";
 
-const diffFiles = getCurrentChangedFiles();
-
 // 检查
 RESOURCE_FOLDERS.forEach((folder) => {
   checkYamlFiles<PageConfig>(`./pages/${folder}`, (data, filePath) => {
-    getPageJSON(data, `${folder}/${filePath}`, diffFiles, {
+    checkPageConfig(data, `${folder}/${filePath}`, {
       allowedTags,
       tagRequired: true,
     });
@@ -37,25 +35,24 @@ RESOURCE_FOLDERS.forEach((folder) => {
 });
 
 // 转换账号
-checkYamlFiles<WechatAccountConfig>("./data/account", (data, filePath) => {
-  getWechatJSON(data, filePath);
+checkYamlFiles<WechatAccountData>("./data/account", (data, filePath) => {
+  checkWechatAccountData(data, filePath);
 });
 
 // 功能大厅
 checkYamlFiles("./data/function", (data, filePath) => {
   if (/map\/marker\/benbu/u.exec(filePath)) {
-    getMarkersJSON(data as MarkersConfig, "benbu");
+    checkMarkersConfig(data as MarkersConfig, "benbu");
   } else if (/map\/marker\/jingyue/u.exec(filePath)) {
-    getMarkersJSON(data as MarkersConfig, "jingyue");
+    checkMarkersConfig(data as MarkersConfig, "jingyue");
   } else if (/map\/(benbu|jingyue)\//u.exec(filePath)) {
-    getMapPageJSON(data as MapPageConfig, `function/${filePath}`);
-  } else if (/account\//u.exec(filePath)) {
-    getAccountListJSON(
-      data as WechatAccountsConfig | QQAccountsConfig,
-      filePath,
-    );
+    checkMapPageConfig(data as MapPageConfig, `function/${filePath}`);
+  } else if (/account\/qq/u.exec(filePath)) {
+    checkQQAccounts(data as QQAccounts, filePath);
+  } else if (/account\/wx/u.exec(filePath)) {
+    checkWechatAccounts(data as WechatAccounts, filePath);
   } else if (/music\/index/u.exec(filePath)) {
-    getMusicListJSON(data as MusicList, filePath);
+    checkMusicList(data as MusicList, filePath);
   }
 });
 
