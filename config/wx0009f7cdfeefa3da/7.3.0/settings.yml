@@ -142,7 +142,7 @@ function-presets:
 
         - text: 网上服务大厅
           icon: network
-          url: web?url=https://my.nenu.edu.cn/
+          url: web?url=https://oa.nenu.edu.cn/
 
         - text: 故障报修
           icon: repair

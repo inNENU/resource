@@ -3,7 +3,7 @@ tags:
   - 校园邮箱
 icon: apply
 author: Mr.Hope
-time: 2025-06-22T11:37:38.817Z
+time: 2025-06-30T15:25:10.560Z
 shareable: true
 content:
   - tag: text
@@ -31,11 +31,11 @@ content:
 
   - tag: action
     header: 校内访问
-    content: https://my.nenu.edu.cn/
+    content: https://oa.nenu.edu.cn/
 
   - tag: action
     header: 校外访问
-    content: https://my-443.webvpn.nenu.edu.cn/
+    content: https://oa-443.webvpn.nenu.edu.cn/
 
   - tag: text
     text:

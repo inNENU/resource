@@ -16,6 +16,8 @@
     - text: 成绩查询
       icon: score
       url: web?url=https://cjcx.neea.edu.cn/html1/folder/21045/4883-1.htm
+  env:
+    - app
 
 - tag: grid
   header: 全国计算机等级考试 (NCRE)
@@ -27,6 +29,8 @@
     - text: 成绩查询
       icon: score
       url: web?url=https://cjcx.neea.edu.cn/html1/folder/22014/5476-1.htm
+  env:
+    - app
 
 - tag: grid
   header: 中小学教师资格考试 (NTCE)
@@ -38,6 +42,8 @@
     - text: 成绩查询
       icon: score
       url: web?url=https://cjcx.neea.edu.cn/html1/folder/21064/9282-1.htm
+  env:
+    - app
 
 - tag: grid
   header: 普通话水平测试
@@ -49,3 +55,5 @@
     - text: 成绩查询
       icon: score
       url: web?url=https://www.cltt.org/#/scoreQuery
+  env:
+    - app

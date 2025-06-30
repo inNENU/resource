@@ -11,7 +11,7 @@ content:
 
       - text: 网上服务大厅
         icon: network
-        url: web?url=https://my.nenu.edu.cn/
+        url: web?url=https://oa.nenu.edu.cn/
 
       - text: 校园邮箱
         icon: email
@@ -24,8 +24,35 @@ content:
       - text: 宿舍系统
         icon: system
         url: web?url=https://gyglxt.nenu.edu.cn/?sid=https://gyglxt.nenu.edu.cn
+    env:
+      - app
 
-      # FIXME:
-      - text: 补办学生证
-        icon: card
-        url: web?url=http://dsjx.nenu.edu.cn/ggxx/xj/xs_zjbl_list.jsp
+  - tag: action
+    header: 统一身份认证
+    content: https://authserver.nenu.edu.cn/authserver/login
+    env:
+      - web
+
+  - tag: action
+    header: 网上服务大厅
+    content: https://oa.nenu.edu.cn/
+    env:
+      - web
+
+  - tag: action
+    header: 校园邮箱
+    content: https://mail.nenu.edu.cn/
+    env:
+      - web
+
+  - tag: action
+    header: 故障报修
+    content: https://gyglxt.nenu.edu.cn/repair/redirect/website/index
+    env:
+      - web
+
+  - tag: action
+    header: 宿舍系统
+    content: https://gyglxt.nenu.edu.cn/?sid=https://gyglxt.nenu.edu.cn
+    env:
+      - web
