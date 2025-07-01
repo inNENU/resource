@@ -1,9 +1,9 @@
 title: 本部周边
 tags:
-  - 就医
+  - 校园生活
 icon: nearby
 author: Mr.Hope
-time: 2023-09-23T10:52:59.401Z
+time: 2025-07-01T04:32:00.579Z
 shareable: true
 content:
   - tag: title
@@ -17,14 +17,6 @@ content:
     header: Mr.Hope 提示
     text:
       - 想去酒吧，建议只和熟人去清吧小酌。
-
-  - tag: ul
-    header: 大型超市
-    text: 恒客隆，可以去那里采购物品
-
-  - tag: ul
-    header: 电影院
-    text: 花草间
 
   - tag: text
     header: 路线
@@ -77,7 +69,7 @@ content:
     text: 文昌路
 
   - tag: p
-    text: 从学校南门出来就是文昌路，路的对面便是吉大南岭校区，文昌路以晚上的街边小吃最有特色，也有不少的小饭店，适合和朋友们小搓一顿。文昌路上的水果也不错哦。
+    text: 从学校南门出来就是文昌路，路的对面便是吉大南岭校区，文昌路有不少的小饭店，适合和大群朋友们临时就近小搓一顿。
 
   - tag: text
     header: 路线
