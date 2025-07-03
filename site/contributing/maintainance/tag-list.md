@@ -2,23 +2,27 @@
 title: 小程序页面简易参数表
 icon: table
 category: 小程序
+order: -1
 ---
 
 ![版本: V7](https://img.shields.io/badge/版本-V7-blue.svg?style=for-the-badge)
 
 ## 总体结构
 
-|   参数    | 必填 |        值类型        | 内容         | 备注                                         |
-| :-------: | :--: | :------------------: | ------------ | -------------------------------------------- |
-|   title   |  是  |       `string`       | 导航栏标题   | 一般不超过八个字，六字及以下为佳             |
-|   desc    |  否  |       `string`       | 页面描述     | 会显示在页脚                                 |
-|  author   |  否  | `string[] \| string` | 页面的作者   | 会显示在页脚                                 |
-|   time    |  否  |        `Date`        | 页面更新时间 | 会显示在页脚                                 |
-|   grey    |  否  |      `boolean`       | 使用灰色背景 | 默认为白色背景                               |
-|  content  |  否  | `ComponentConfig[]`  | 页面的内容   | 数组的每个对象会最终渲染为一个组件           |
-|   cite    |  否  | `string \| string[]` | 页面引用链接 |                                              |
-| outdated  |  否  |      `boolean`       | 是否已过时   | 可展示一条“页面过时”提示                     |
-| shareable |  否  |      `boolean`       | 是否可被分享 | 是否可以使用小程序的界面分享，默认为 `false` |
+|   参数    | 必填 |        值类型        | 内容           | 备注                                                                    |
+| :-------: | :--: | :------------------: | -------------- | ----------------------------------------------------------------------- |
+|   title   |  是  |       `string`       | 导航栏标题     | 一般不超过八个字，六字及以下为佳                                        |
+|   icon    |  是  |       `string`       | 页面图标       | 会显示在网站、搜索等位置                                                |
+|   desc    |  否  |       `string`       | 页面描述       | 会显示在页脚                                                            |
+|  author   |  否  | `string[] \| string` | 页面的作者     | 会显示在页脚                                                            |
+|   tags    |  是  |      `string[]`      | 页面的标签，   | 需要限制为一系列主要标签，主要用于 AI，当 `aiIgnore: true` 时目前可忽略 |
+|   time    |  否  |        `Date`        | 页面更新时间   | 会显示在页脚                                                            |
+|   grey    |  否  |      `boolean`       | 使用灰色背景   | 默认为白色背景                                                          |
+|  content  |  否  | `ComponentConfig[]`  | 页面的内容     | 数组的每个对象会最终渲染为一个组件                                      |
+|   cite    |  否  | `string \| string[]` | 页面引用链接   |                                                                         |
+| outdated  |  否  |      `boolean`       | 是否已过时     | 可展示一条“页面过时”提示                                                |
+| shareable |  否  |      `boolean`       | 是否可被分享   | 是否可以使用小程序的界面分享，默认为 `false`                            |
+| aiIgnore  |  否  |      `boolean`       | 是否被 AI 忽略 | 是否被 AI 忽略，默认为 `false`                                          |
 
 ::: details 高级参数
 

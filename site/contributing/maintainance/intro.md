@@ -1,6 +1,7 @@
 ---
 title: inNENU 维护介绍
 icon: info-circle
+order: 1
 category: 小程序
 ---
 

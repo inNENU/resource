@@ -1,6 +1,7 @@
 ---
 title: 如何编写 YAML
 icon: feather
+order: 2
 category: 小程序
 ---
 
