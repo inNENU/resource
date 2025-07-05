@@ -36,7 +36,7 @@
     "*.{js,ts}": "eslint --fix"
   },
   "dependencies": {
-    "@alicloud/cdn20180510": "6.0.0",
+    "@alicloud/cdn20180510": "7.0.0",
     "@mdit-vue/plugin-frontmatter": "2.1.4",
     "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/helper": "2.0.0-rc.109",
