@@ -434,7 +434,7 @@ study:
       path: guide/test/
 
     - text: 国家考试
-      icon: exam
+      icon: test
       path: guide/exam/
 
     - text: 考研/保研

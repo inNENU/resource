@@ -97,7 +97,7 @@
     - 期末分数
 
 - text: 考场查询
-  icon: exam
+  icon: test
   url: exam-place
   tags:
     - 考试
