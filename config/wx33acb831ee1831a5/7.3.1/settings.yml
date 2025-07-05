@@ -155,7 +155,12 @@ user:
         type: button
         openType: share
 
-      - text: 查看 inNENU 微信视频号
+      - text: inNENU 微信公众号
+        icon: wechat
+        type: button
+        handler: openOfficial
+
+      - text: inNENU 微信视频号
         icon: wechat
         type: button
         handler: openChannel
