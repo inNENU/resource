@@ -65,7 +65,7 @@
     "domhandler": "5.0.3",
     "eslint": "9.30.0",
     "eslint-config-mister-hope": "0.9.6",
-    "eslint-plugin-vue": "10.2.0",
+    "eslint-plugin-vue": "10.3.0",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
     "prettier": "3.6.2",
