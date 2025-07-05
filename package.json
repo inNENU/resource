@@ -54,7 +54,7 @@
     "svgo": "4.0.0",
     "vidstack": "1.12.13",
     "vue": "3.5.17",
-    "vuepress": "2.0.0-rc.23",
+    "vuepress": "2.0.0-rc.24",
     "vuepress-shared": "2.0.0-rc.90",
     "vuepress-theme-hope": "2.0.0-rc.93"
   },
