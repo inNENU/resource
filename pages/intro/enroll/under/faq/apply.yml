@@ -3,7 +3,7 @@ tags:
   - 招生
 icon: apply
 author: Mr.Hope
-time: 2025-07-06T17:54:50.102Z
+time: 2025-07-06T18:02:16.165Z
 shareable: true
 content:
   - tag: title
@@ -92,13 +92,15 @@ content:
       - text: 历史分数线
         icon: time
         url: under-enroll-score
-        env:
-          - app
-          - qq
-          - wx
+    env:
+      - app
+      - qq
+      - wx
 
   - tag: action
     content: https://gkcx.nenu.edu.cn/history_score
+    env:
+      - web
 
   - tag: title
     text: 提档

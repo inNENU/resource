@@ -6,7 +6,7 @@ icon: letter
 author:
   - Mr.Hope
   - 薇
-time: 2025-07-06T17:54:50.103Z
+time: 2025-07-06T18:02:16.166Z
 shareable: true
 cite:
   - https://answer.eol.cn/index/index?id=718&source=gw_pc
@@ -402,13 +402,15 @@ content:
       - text: 历史分数线
         icon: time
         url: under-enroll-score
-        env:
-          - app
-          - qq
-          - wx
+    env:
+      - app
+      - qq
+      - wx
 
   - tag: action
     content: https://gkcx.nenu.edu.cn/history_score
+    env:
+      - web
 
   - tag: text
     type: info
