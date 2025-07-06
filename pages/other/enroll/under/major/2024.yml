@@ -3,7 +3,7 @@ tags:
   - 招生
 icon: list
 author: Mr.Hope
-time: 2025-06-24T19:10:55.388Z
+time: 2025-07-06T17:54:50.559Z
 shareable: true
 content:
   - tag: text
@@ -12,7 +12,7 @@ content:
 
   - tag: text
     type: tip
-    text: 预科同学在自己的学院管理，到自己的学院处报到。
+    text: 预科生由其所在学院进行管理，请新生到各自学院报到。
 
   - tag: title
     text: 本部各学院与其招生专业
@@ -115,16 +115,6 @@ content:
       - "运动训练: ￥9000/年"
       - "武术与民族传统体育: ￥9000/年"
 
-  - tag: list
-    items:
-      - text: 本部校区校门介绍
-        icon: gate
-        path: /newcomer/check/benbu-gate
-
-      - text: 本部校区寝室介绍
-        icon: dorm
-        path: /guide/dorm/locate/benbu
-
   - tag: title
     text: 净月各学院与其招生专业
 
@@ -154,7 +144,7 @@ content:
       - "德语: ￥5290/年"
       - "商务英语: ￥5810/年"
       - "商务英语(预科): ￥5000/年"
-      - "英语(中外合作办学): ￥26000元/年"
+      - "英语(中外合作办学): ￥26000/年"
 
   - tag: ul
     header: 音乐学院
@@ -198,21 +188,10 @@ content:
       - "广播电视编导: ￥12000/年"
       - "播音与主持艺术: ￥12000/年"
 
-  # FIXME: 2024 年的学费和专业
   - tag: ul
     header: 纽瓦克学院
     text:
       - |-
-        金融学 (中外合作): ????/年
+        金融学 (中外合作): ￥60000/年
       - |-
-        物流管理 (中外合作): ????/年
-
-  - tag: list
-    items:
-      - text: 净月校区校门介绍
-        icon: gate
-        path: /newcomer/check/jingyue-gate
-
-      - text: 净月校区寝室介绍
-        icon: dorm
-        path: /guide/dorm/locate/jingyue
+        物流管理 (中外合作): ￥60000/年

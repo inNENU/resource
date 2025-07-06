@@ -6,7 +6,7 @@ icon: letter
 author:
   - Mr.Hope
   - 薇
-time: 2025-06-24T19:10:55.231Z
+time: 2025-07-06T17:54:50.103Z
 shareable: true
 cite:
   - https://answer.eol.cn/index/index?id=718&source=gw_pc
@@ -186,7 +186,7 @@ content:
 
   - tag: text
     type: info
-    header: 录取通知书什么时候发，哪能查到快递号？
+    header: 录取通知书什么时候发，在哪里可以查到快递号？
     text:
       - 录取通知书会在录取工作结束后陆续发出。
       - 考生登录东北师范大学本科招生网“高考录取”查询系统，查询录取通知书EMS快递单号，点击EMS快递单号即可查看快递情况。
@@ -263,7 +263,7 @@ content:
 
   - tag: text
     type: info
-    header: 学校课程安排的满吗？
+    header: 学校课程安排得满吗？
     text:
       - 我校学生可根据培养方案课程设置自行选课。
 
@@ -327,7 +327,7 @@ content:
 
   - tag: text
     type: info
-    header: 报考你们学校的英语专业一定要看口语成绩的嘛我当时没有报考怎么办？
+    header: 报考英语专业对高考口语成绩有要求吗？如果当时没有报考口语考试该怎么办？
     text:
       - 我校对口语没有要求。
 
@@ -395,7 +395,20 @@ content:
     type: info
     header: 我校招生最低录取控制线是多少？
     text:
-      - 您可以搜索登录“东北师范大学本科招生网，在信息公开项目中历年分数栏目查询近三年分省分专业录取分数线https://bkzsw.nenu.edu.cn/col_000018_000170.html。
+      - 我校近三年录取分数请点击下方查看。
+
+  - tag: list
+    items:
+      - text: 历史分数线
+        icon: time
+        url: under-enroll-score
+        env:
+          - app
+          - qq
+          - wx
+
+  - tag: action
+    content: https://gkcx.nenu.edu.cn/history_score
 
   - tag: text
     type: info

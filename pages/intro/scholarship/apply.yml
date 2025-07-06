@@ -3,14 +3,15 @@ tags:
   - 奖学金
 icon: apply
 author: Mr.Hope
-time: 2024-08-29T09:00:55.456Z
+time: 2025-07-06T17:54:50.137Z
 shareable: true
 content:
   - tag: title
     text: 申请方式
 
+  # TODO: Check this
   - tag: p
-    text: 目前同学们可以在学校开发的 “奖学宝” 微信小程序上申请奖学金。
+    text: 在学校开发的 “奖学宝” 微信小程序上申请奖学金。
 
   - tag: card
     title: 奖学宝
