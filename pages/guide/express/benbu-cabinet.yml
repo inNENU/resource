@@ -6,7 +6,7 @@ author:
   - Mr.Hope
   - 战俊华
   - 小源
-time: 2024-08-30T15:58:22.277Z
+time: 2025-07-07T20:00:00.219Z
 shareable: true
 content:
   - tag: title
@@ -14,7 +14,7 @@ content:
 
   - tag: text
     text:
-      - 快递柜共9个，位于三舍 C 和三舍 B 中间地带，编号分别是 6 - 15 号。
+      - 快递柜共10个，位于三舍 C 和三舍 B 中间地带，编号分别是 6 - 15 号。
 
   - tag: img
     src: $img/express/benbu/cabinet-location.jpg
@@ -50,6 +50,7 @@ content:
   - tag: title
     text: 常见问题
 
+  # FIXME: @YinXin Check this
   - tag: text
     type: tip
     header: 取件柜放哪些快递?

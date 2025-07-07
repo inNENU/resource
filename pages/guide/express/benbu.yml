@@ -2,7 +2,7 @@ title: 本部快递
 aiIgnore: true
 icon: express
 author: Mr.Hope
-time: 2024-08-30T15:58:22.280Z
+time: 2025-07-07T20:00:00.220Z
 grey: true
 shareable: true
 content:
@@ -26,7 +26,3 @@ content:
       - text: 快递柜
         icon: express-cabinet
         path: benbu-cabinet
-
-      - text: 地下车库取件点
-        icon: express
-        path: benbu-garage

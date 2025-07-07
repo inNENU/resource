@@ -3,7 +3,7 @@ tags:
   - 快递
 icon: express
 author: Mr.Hope
-time: 2024-08-17T02:18:37.042Z
+time: 2025-07-07T20:00:00.221Z
 grey: true
 shareable: true
 content:
@@ -28,10 +28,6 @@ content:
       - text: 快递柜
         icon: express-cabinet
         path: benbu-cabinet
-
-      - text: 地下车库取件点
-        icon: express
-        path: benbu-garage
 
   - tag: list
     header: 净月

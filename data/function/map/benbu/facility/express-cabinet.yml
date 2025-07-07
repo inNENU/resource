@@ -14,7 +14,7 @@ content:
 
   - tag: text
     text:
-      - 快递柜共9个，位于三舍 C 和三舍 B 中间地带，编号分别是 6 - 15 号。
+      - 快递柜共10个，位于三舍 C 和三舍 B 中间地带，编号分别是 6 - 15 号。
 
   - tag: img
     src: $img/express/benbu/cabinet-location.jpg

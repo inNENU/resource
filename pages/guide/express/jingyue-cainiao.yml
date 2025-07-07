@@ -5,7 +5,7 @@ icon: cainiao
 desc: 照片来自王慕梓
 author:
   - Mr.Hope
-time: 2024-08-30T15:58:22.283Z
+time: 2025-07-07T20:00:00.222Z
 shareable: true
 content:
   - tag: title
@@ -26,8 +26,8 @@ content:
 
   - tag: text
     text:
-      # 需要校对
-      - 8:30🕣 - 20:00🕖
+      # FIXME: 需要校对
+      - 8:30 - 20:00
       - 四季时间不变，节假日不休息
 
   - tag: title
@@ -36,7 +36,7 @@ content:
   - tag: ul
     header: 分布情况
     text:
-      - EMS、邮政以及寄件在里面的左手边人工服务台
+      - 位于左侧的人工服务台负责处理 EMS、邮政包裹及寄件业务。
       - 京东在最里面中间的人工服务台。
       - 顺丰在最里面右手边的人工服务台。
 
