@@ -5,7 +5,7 @@ icon: association
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2023-09-23T12:19:59.618Z
+time: 2025-07-07T07:13:13.730Z
 shareable: true
 content:
   - tag: text
@@ -36,7 +36,7 @@ content:
       - text: 思想政治类
         path: politic/benbu
 
-      - text: 志愿服务类
+      - text: 志愿公益类
         path: volunteer/benbu
 
   - tag: title
@@ -56,7 +56,7 @@ content:
       - text: 学术科技类
         path: study/jingyue
 
-      - text: 志愿服务类
+      - text: 志愿公益类
         path: volunteer/jingyue
 
   - tag: functional-list

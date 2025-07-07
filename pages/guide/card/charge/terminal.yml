@@ -5,7 +5,7 @@ icon: atm
 desc: |-
   部分图像来自 20 安徽历史杨
 author: Mr.Hope
-time: 2023-09-22T16:59:13.440Z
+time: 2025-07-07T07:13:13.743Z
 shareable: true
 content:
   - tag: text
@@ -16,7 +16,6 @@ content:
   - tag: ul
     type: tip
     text:
-      - 19 级及以前的同学所拥有的学校下发的交行学子卡无需开通网银即可绑定
       - 其他银行卡需开通网上银行服务
 
   - tag: img
@@ -49,9 +48,9 @@ content:
     desc: 点击右上角的“银行服务”
     watermark: true
 
-  # TODO: Update
+  # FIXME: @YinXin Confirm the feature availability
   - tag: p
-    text: 点击第二项银校转账。在弹出的窗口中，请您填写身份证号、银行卡号、卡密码后点击确定申请转账，输入转账金额、校园卡密码点击转账。
+    text: 点击第二项银校转账。在弹出的窗口中，请您填写身份证号、银行卡号、银行卡密码后点击确定申请转账，输入转账金额、校园卡密码点击转账。
 
   - tag: title
     text: Mr.Hope の提示

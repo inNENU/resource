@@ -4,7 +4,7 @@ tags:
   - 校园生活
 icon: error
 author: Mr.Hope
-time: 2023-09-22T16:59:13.425Z
+time: 2025-07-07T07:13:13.742Z
 shareable: true
 content:
   - tag: title
@@ -52,12 +52,11 @@ content:
     text: 如果您补办了一张新卡，并激活了直饮水服务后，您可能需要长达 24 小时才能使用它接直饮水。
 
   - tag: title
-    text: 无法在食堂或超市刷卡
+    text: 无法在食堂刷卡
 
   - tag: ol
     header: 问题原因
     text:
-      - 日消费超出卡限额，请您告诉食堂工作人员密码或者自己在超市划卡机器上输入密码。
       - 卡消磁，请您到信息化办对卡重新初始化或补办新卡。
 
   - tag: title

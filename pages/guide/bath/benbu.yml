@@ -4,7 +4,7 @@ tags:
   - 校园生活
 icon: bath
 author: Mr.Hope
-time: 2024-08-30T15:58:22.161Z
+time: 2025-07-07T07:13:13.740Z
 shareable: true
 content:
   - tag: title
@@ -13,7 +13,7 @@ content:
   - tag: text
     text:
       - 本部学生新浴池在教育部园长中心大楼左侧，进门后左边是男宾、右边是女宾。
-      - 新浴池附近同时包含眼镜店、水果店、打字社、理发店等店铺。
+      - 新浴池附近同时包含眼镜店、水果店、复印店、理发店等店铺。
 
   - tag: location
     header: 本部浴池
@@ -85,7 +85,7 @@ content:
   - tag: img
     src: $img/bath/benbu-shop3.jpg
     desc: |-
-      周边店铺: 打字社
+      周边店铺: 复印店
     watermark: true
 
   - tag: title

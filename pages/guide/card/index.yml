@@ -5,15 +5,15 @@ tags:
 icon: card
 grey: true
 author: Mr.Hope
-time: 2023-09-22T16:59:13.419Z
+time: 2025-07-07T07:13:13.741Z
 shareable: true
 content:
   - tag: text
     type: warning
-    header: 校园卡不是手机卡
+    header: 注意：校园卡并非手机卡
     text:
-      - 校园卡由学校统一发放，是一张银行卡大小的 IC 卡片，与手机卡没有任何关系。
-      - 如有任何人拿手机卡《忽悠》你是校园卡要求你必须办理，请严词拒绝，如必要请联系保卫处。
+      - 校园卡是学校官方发放的校内身份与消费凭证，为 IC 卡片形式，与任何运营商的手机卡均无关联。
+      - 如遇任何人以“校园卡”名义推销手机卡，请注意甄别并谨慎办理。如对方明显使用话术暗示这个卡新生必办，请悄悄录音并向辅导员或学校保卫处反映情况。
 
   - tag: list
     header: 初识校园卡
@@ -23,16 +23,16 @@ content:
         path: intro
 
       - text: 使用前准备
-        desc: 新卡到手后
+        desc: 新卡激活与检查
         icon: prepare
         path: prepare
 
       - text: 校园卡照片
         icon: photo
-        desc: why 这么丑
+        desc: 啊？好丑
         path: photo
 
-      - text: 爱护校园卡
+      - text: 校园卡使用与保管
         icon: card
         path: protect
 
@@ -50,28 +50,28 @@ content:
   - tag: list
     header: 校园卡丢失
     items:
-      - text: 挂失卡片
+      - text: 校园卡挂失
         icon: lost
         path: lost
 
-      - text: 补卡
+      - text: 校园卡补办
         icon: add
         path: remake
 
   - tag: list
     header: 其他
     items:
-      - text: 常见故障及解决办法
+      - text: 常见故障与解决方法
         icon: error
         path: malfunction
 
-      - text: 更多业务办理
-        desc: 信息化办
+      - text: 其他业务办理
+        desc: 信息化办公室
         icon: tech
         path: /apartment/xxhb/
 
   - tag: list
     items:
-      - text: Mr.Hope の个人建议
+      - text: 来自 Mr.Hope 的建议
         icon: idea
         path: advice

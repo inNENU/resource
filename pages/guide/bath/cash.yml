@@ -3,7 +3,7 @@ tags:
   - 浴池
 icon: money
 author: Mr.Hope
-time: 2024-08-27T09:40:29.168Z
+time: 2025-07-07T07:13:13.740Z
 shareable: true
 content:
   - tag: title
@@ -40,7 +40,7 @@ content:
     header: 友情提示
     text:
       - 满一元提现是微信的要求。
-      - 由于微信支付会收取 0.06% 的手续费，因此退款时会将这一部分扣除。
+      - 由于微信支付会收取 0.6% 的手续费，因此退款时会将这一部分扣除。
 
   - tag: text
     text:

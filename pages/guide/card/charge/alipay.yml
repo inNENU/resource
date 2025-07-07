@@ -3,13 +3,13 @@ tags:
   - 校园卡
 icon: alipay
 author: Mr.Hope
-time: 2023-09-22T16:59:13.436Z
+time: 2025-07-07T07:13:13.743Z
 shareable: true
 content:
   - tag: text
     type: info
     header: 支付宝充值校园卡
-    text: 您可以通过支付宝内的“校园一卡通”功能对校园卡进行重置。
+    text: 您可以通过支付宝内的“校园一卡通”功能对校园卡进行充值。
 
   - tag: title
     text: 充值流程
@@ -21,7 +21,7 @@ content:
 
   - tag: img
     src: $img/card/ali-pay2.jpg
-    desc: 点击进入，并搜素东北师范大学
+    desc: 点击进入，并搜索东北师范大学
     watermark: true
 
   - tag: img
