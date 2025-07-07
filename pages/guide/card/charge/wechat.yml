@@ -1,59 +1,58 @@
-title: 校园卡企业号充值
+title: 企业微信充值校园卡
 tags:
   - 校园卡
 icon: wechat
 author: Mr.Hope
-time: 2023-09-22T16:59:13.442Z
+time: 2025-07-07T07:34:48.513Z
 shareable: true
 content:
   - tag: text
     type: info
-    text: 在成功关注并认证东北师范大学企业微信号后，可以通过企业微信号中的校园卡栏目，通过微信充值校园卡。
+    text: 完成企业微信认证后，您即可通过其内置的“校园卡”应用为校园卡进行充值。
 
   - tag: list
     items:
-      - text: 企业号关注与认证
+      - text: 企业微信认证指引
         icon: wechat
         path: /guide/account/wechat/
 
   - tag: title
-    text: 充值
+    text: 充值流程
 
   - tag: text
-    text: 打开微信进入东北师范大学企业号列表，并选择校园卡栏目。
+    text: 进入企业微信，在工作台中找到并打开“校园卡”应用。
 
   - tag: img
     src: $img/card/wechat-card-charge.jpg
+    desc: 企业微信中的工作台界面
     watermark: true
 
   - tag: text
-    text: 点击屏幕下方的“校园卡”自定义菜单
+    text: 点击底部菜单栏的“校园卡”选项。
 
   - tag: img
     src: $img/card/wechat-card.jpg
-    desc: 在弹出的页面选择“校园卡充值”
+    desc: 在弹出的菜单中选择“校园卡充值”。
     watermark: true
 
   - tag: text
-    text: 直接输入充值金额，点击微信支付并点击支付按钮即可
+    text: 根据提示输入充值金额，并完成微信支付。
 
   - tag: title
-    text: Mr.Hope の提示
-
-  - tag: text
-    type: info
-    text:
-      - 校园卡每次最多充值 500 元。
+    text: 充值须知与重要提示
 
   - tag: ul
     type: warning
+    header: 注意事项
     text:
-      - 在高峰期转账可能会显示与学校一卡通服务连接超时，请您重试即可。
-      - 夜间学校一卡通服务会进行短暂维护，届时您将无法充值或查询余额。
-      - 转完账后，余额可能不能立即更新，需要您稍等几分钟，所以请您务必提前圈存。
+      - 单次充值金额上限为 500 元。
+      - 在高峰时段，转账可能会因网络繁忙提示“与学校一卡通服务连接超时”，重试即可。
+      - 夜间一卡通服务会进行短暂的例行维护，期间将无法充值或查询余额。
+      - 转账成功后，校园卡余额可能不会立即更新，通常需要等待几分钟。为避免影响使用，建议您提前充值。
 
   - tag: text
     type: danger
+    header: 余额上限提醒
     text:
-      - 校园卡总额务必不要达到 4 位数(即一千元以上)，否则无法刷卡，这是因为普通卡机显示屏没有千位，导致刷卡会报错。
-      - 如果不小心转账超过一千元，请本人持卡到信息化办进行部分退费处理。
+      - 请确保校园卡账户总余额不超过 999 元。因部分消费终端系统限制，余额达到四位数（即 1000 元及以上）可能导致无法刷卡。
+      - 如不慎使余额超过上限，请持本人校园卡前往信息化办公室办理部分退费。
