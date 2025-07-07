@@ -3,7 +3,7 @@ tags:
   - 课程
 icon: content
 author: Mr.Hope
-time: 2024-07-17T20:15:12.055Z
+time: 2025-07-07T17:57:47.353Z
 grey: true
 shareable: true
 content:
@@ -76,6 +76,15 @@ content:
       - text: 小语种外语课程
         icon: more
         path: english/other
+
+      - text: 大学外语教学计划 (2024 版)
+        icon: plan
+        path: english/2024-plan
+
+      - text: 大学外语教学计划 (2020 版)
+        desc: 旧版
+        icon: plan
+        path: english/2020-plan
 
   - tag: list
     items:

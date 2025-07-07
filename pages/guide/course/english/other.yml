@@ -3,7 +3,7 @@ tags:
   - 课程
 icon: more
 author: Mr.Hope
-time: 2023-09-22T16:59:13.486Z
+time: 2025-07-07T17:57:47.356Z
 shareable: true
 content:
   - tag: title
@@ -19,8 +19,8 @@ content:
     text:
       - 学德语的同学请注意，目前学校未开设综合德语课程，所以往届的情况是需要修读大学英语课程的。
 
-  # FIXME: Update
-  - tag: text
-    type: note
-    text:
-      - 2022 年外国语学院德语专业恢复招生了，所以可能会安排德语课程，如有开设，欢迎联系我更正。
+  # # FIXME: Update
+  # - tag: text
+  #   type: note
+  #   text:
+  #     - 2022 年外国语学院德语专业恢复招生了，所以可能会安排德语课程，如有开设，欢迎联系我更正。
