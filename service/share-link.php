@@ -18,8 +18,7 @@ declare(strict_types=1);
 require_once 'header/post-json.php';
 
 $data = json_decode(file_get_contents('php://input'));
-// FIXME: Fallback
-$appId = $data->appId ?? $data->appID;
+$appId = $data->appId;
 $id = $data->id;
 
 $filename = "../shareLink.json";

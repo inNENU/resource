@@ -3,7 +3,7 @@ tags:
   - 选课
 icon: select
 author: Mr.Hope
-time: 2025-06-27T03:35:12.782Z
+time: 2025-07-07T19:15:14.907Z
 grey: true
 shareable: true
 content:
@@ -22,7 +22,7 @@ content:
         icon: notice
         url: notice-detail?url=info/1031/7551.htm&title=关于2025年春季学期本科生选课的通知
 
-      # FIXME: Update at 2024-09
+      # TODO: add latest notice in 2025-08
       # - text: 2023 级学硕选课须知
       #   icon: notice
       #   path: notice/study

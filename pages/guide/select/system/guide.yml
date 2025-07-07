@@ -3,7 +3,7 @@ tags:
   - 选课
 icon: idea
 author: Mr.Hope
-time: 2024-07-23T11:29:28.541Z
+time: 2025-07-07T19:15:14.910Z
 shareable: true
 content:
   - tag: title
@@ -19,7 +19,7 @@ content:
     header: 本科生
     content: http://bkjx.nenu.edu.cn/
 
-  # FIXME: 研究生选课系统网址
+  # FIXME: 更新研究生选课系统网址
   - tag: action
     header: 研究生
     content: https://dsyjs.nenu.edu.cn/yjsxk/
@@ -32,6 +32,6 @@ content:
       - |-
         研究生: 在【选课系统】下选择【选课系统】
 
-  # TODO: 2024-09 在选课时更新
+  # TODO: 2025-09 在选课时更新
   # - tag: title
   #   text: 具体操作简介

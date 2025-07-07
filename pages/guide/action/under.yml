@@ -2,7 +2,7 @@ title: 本科生服务办理
 aiIgnore: true
 icon: service
 author: Mr.Hope
-time: 2024-08-16T20:57:33.202Z
+time: 2025-07-07T19:15:14.817Z
 grey: true
 shareable: true
 content:
@@ -24,7 +24,7 @@ content:
         icon: select
         path: under/select
 
-      # TODO: Update
+      # TODO: @YinXin Update
       # - text: 本科生补考、免修
       #   icon: exemption
       #   path: under/exemption

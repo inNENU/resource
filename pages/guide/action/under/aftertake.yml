@@ -3,7 +3,7 @@ tags:
   - 成绩
 icon: time
 author: Mr.Hope
-time: 2025-06-22T11:37:38.822Z
+time: 2025-07-07T19:15:14.817Z
 shareable: true
 cite: https://my.nenu.edu.cn/hallIndex/showAppDetail?appid=a830e4f1dd744f83b2b65511a42fe2cb
 content:
@@ -18,7 +18,7 @@ content:
 
   - tag: list
     items:
-      # TODO:
+      # TODO: @YinXin Update
       - text: 本科缓考申请
         desc: 制作中
         path: /guide/system/under/
