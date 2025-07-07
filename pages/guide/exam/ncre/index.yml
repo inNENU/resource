@@ -3,7 +3,7 @@ tags:
   - 国家考试
 icon: pc
 author: Mr.Hope
-time: 2025-06-27T03:35:12.743Z
+time: 2025-07-07T19:39:08.852Z
 grey: true
 shareable: true
 content:
@@ -34,21 +34,6 @@ content:
       - text: 成绩说明
         icon: score
         path: grade
-
-  - tag: list
-    header: 各等级详情
-    items:
-      - text: 计算机二级
-        icon: pc
-        path: ncre2
-
-      - text: 计算机三级
-        icon: pc
-        path: ncre3
-
-      - text: 计算机四级
-        icon: pc
-        path: ncre4
 
   - tag: list
     items:
