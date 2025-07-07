@@ -4,7 +4,7 @@ tags:
 icon: dining
 desc: 售卖菜品与价格持续更新中，具体请以实际为准
 author: Mr.Hope
-time: 2024-08-16T20:57:33.385Z
+time: 2025-07-07T08:15:22.522Z
 shareable: true
 content:
   - tag: title
@@ -13,16 +13,16 @@ content:
   - tag: ul
     text:
       - 东北小炒
-      - 韩国明洞料理
+      - 韩国料理（已关闭）
       - 四川风味
-      - 五谷渔粉
+      - 儒来砂锅居
       - 味之道营养套餐
       - 麻辣香锅
       - 港味龙叉烧饭
       - 北京风味
-      - 美食妹手拍粉(也卖炸串)
-      - 尚品双拼饭
-      - 奇和祥 (麻辣爆肚)
+      - 美食妹手拍粉
+      - 尚品双拼
+      - 奇和祥烫拌
       - 旋转火锅
 
   - tag: title
@@ -39,12 +39,12 @@ content:
 
   - tag: img
     src: $img/dining/beiyuan/2f-detail3.jpg
-    desc: 韩国明洞料理
+    desc: 韩国料理（已关闭）
     watermark: true
 
   - tag: img
     src: $img/dining/beiyuan/2f-detail4.jpg
-    desc: 韩国明洞料理
+    desc: 韩国料理（已关闭）
     watermark: true
 
   - tag: img
@@ -59,12 +59,12 @@ content:
 
   - tag: img
     src: $img/dining/beiyuan/2f-detail7.jpg
-    desc: 五谷渔粉
+    desc: 儒来砂锅居
     watermark: true
 
   - tag: img
     src: $img/dining/beiyuan/2f-detail8.jpg
-    desc: 五谷渔粉
+    desc: 儒来砂锅居
     watermark: true
 
   - tag: img
@@ -114,7 +114,7 @@ content:
 
   - tag: img
     src: $img/dining/beiyuan/2f-detail18.jpg
-    desc: 奇和祥 (麻辣爆肚)
+    desc: 奇和祥烫拌
     watermark: true
 
   - tag: img
