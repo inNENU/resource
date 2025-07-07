@@ -3,13 +3,13 @@ tags:
   - 企业微信
 icon: authorize
 author: Mr.Hope
-time: 2024-06-15T19:54:15.410Z
+time: 2025-07-07T03:05:16.188Z
 shareable: true
 content:
   - tag: text
     type: info
     text:
-      - 2024 级同学需要完成首先账号激活。
+      - 2024 级同学需要首先完成账号激活。
       - 账号激活后，如账号绑定的手机号已经与某一微信号相关联，此微信号会自动收到企业邀请。
 
   - tag: list
@@ -24,7 +24,7 @@ content:
   - tag: text
     type: tip
     text:
-      - 如您完成账号激活后，没有收到企业邀请，或是你绑定的手机号没有绑定微信，可以通过以下方式手动认证。
+      - 如您完成账号激活后，没有收到企业邀请，或是您绑定的手机号没有绑定微信，可以通过以下方式手动认证。
 
   - tag: img
     src: $img/account/wechat-follow.png

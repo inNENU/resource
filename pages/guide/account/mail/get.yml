@@ -3,96 +3,71 @@ tags:
   - 校园邮箱
 icon: register
 author: Mr.Hope
-time: 2025-06-30T15:25:10.560Z
+time: 2025-07-07T03:05:16.186Z
 shareable: true
 content:
   - tag: ul
     type: info
     text:
-      - 对于 2021 级及之前的同学们，邮箱账号是学校默认分配的，其格式为 “姓全拼 + 名首字母缩写 + 三位数字序号”。
-      - 对于 2022 级及之后的同学们，邮箱账号是自行申请的。
-      - 对于本科在东师就读的同学们，研究生阶段使用同一个邮箱，学校不会额外分配新邮箱。
+      - 2021 级及之前的学生，邮箱账号由学校默认分配，格式通常为“姓的全拼 + 名的首字母 + 随机数字”。
+      - 2022 级及之后的学生，邮箱账号需自行在线申请。
+      - 若您本科就读于本校，升入研究生阶段后将继续使用原邮箱，学校不再分配新邮箱。
 
   - tag: text
     text:
-      - 如果你忘记了你的邮箱账号，你可以通过以下流程获得邮箱。
+      - 如您忘记邮箱账号，可参照以下流程找回或申请。
 
   - tag: title
-    text: 2022 级及之后
+    text: 2022 级及之后的学生
 
   - tag: text
+    header: 步骤
     text:
-      - 1. 登录网上服务大厅
+      - 1. 登录“网上服务大厅”（智慧东师）。
+      - 2. 在“服务中心”搜索并找到“个人邮箱申请”业务。
+      # CHeck This
+      - 3. 点击“开始办理”，系统将显示您已获批的邮箱账号；如未申请，可在此处完成申请。
 
   - tag: action
-    header: 校内访问
+    header: 网上服务大厅（校内访问）
     content: https://oa.nenu.edu.cn/
 
   - tag: action
-    header: 校外访问
+    header: 网上服务大厅（校外访问）
     content: https://oa-443.webvpn.nenu.edu.cn/
 
-  - tag: text
-    text:
-      - 2. 进行如下选择
-
-  - tag: img
-    src: $img/account/mail-apply1.jpg
-    watermark: true
-
-  - tag: text
-    text:
-      - 3. 找到“个人邮箱申请”入口。
-
+  # FIXME: Update image
   - tag: img
     src: $img/account/mail-apply2.jpg
+    desc: 在服务中心找到“个人邮箱申请”
     watermark: true
 
-  - tag: text
-    text:
-      - 4. 点击开始办理
-
-  - tag: img
-    src: $img/account/mail-apply3.jpg
-    watermark: true
-
-  - tag: text
-    text:
-      - 5. 系统会提示分配的邮箱账户名称
-
+  # FIXME: Update image
   - tag: img
     src: $img/account/mail-account-hint.jpg
+    desc: 系统将提示已分配的邮箱账号
     watermark: true
 
   - tag: title
-    text: 2021 级及之前
+    text: 2021 级及之前的学生
 
   - tag: text
+    header: 步骤
     text:
       - 1. 请先完成“东北师范大学”企业微信认证。
+      - 2. 下载并登录企业微信 App，并确保切换到“东北师范大学”机构。
+      - 3. 在 App 的“工作台”中，进入“个人中心”→“信息查询”→“人员信息”，即可查看您的邮箱账号。
 
   - tag: list
     items:
-      - text: 企业号认证
+      - text: 查看企业号认证指南
         icon: apply
         path: ../wechat/authorize
 
-  - tag: text
-    text:
-      - 2. 下载企业微信 App 并完成登录。
-
   - tag: action
     header: 安卓下载企业微信
-    content: https://work.weixin.qq.com/wework_admin/commdownload?platform=android&from=wwindex
+    content: https://work.weixin.qq.com/wework_admin/commdownload?platform=android
 
   - tag: action
     header: iOS 下载企业微信
-    content: https://work.weixin.qq.com/wework_admin/commdownload?platform=ios&from=wwindex
-
-  - tag: text
-    text:
-      - 3. 请通过微信登录企业微信
-      - 4. 在侧边栏中选择“东北师范大学”机构
-      - 5. 点击下方 Tab 栏中的 “工作台”
-      - 6. 在工作台中找到“个人中心”并进入
-      - 7. 点击个人中心下方菜单栏中的 “信息查询”-“人员信息”
+    content: https://work.weixin.qq.com/wework_admin/commdownload?platform=ios

@@ -1,9 +1,10 @@
+# FIXME: Outdated process, needs update
 title: 校园邮箱申请
 tags:
   - 校园邮箱
 icon: apply
 author: Mr.Hope
-time: 2025-06-30T15:25:10.560Z
+time: 2025-07-07T03:05:16.185Z
 shareable: true
 content:
   - tag: text
@@ -99,7 +100,6 @@ content:
     type: warning
     text:
       - 请妥善截图或记录初始密码，如果不小心退出或忘记初始密码，请在首页中点击“我的申请查看”
-      - 目前在手机页面下无法正确显示邮箱密码，请使用 PC 版网页查看。
 
   - tag: img
     src: $img/account/mail-apply-password.jpg

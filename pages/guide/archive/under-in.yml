@@ -3,7 +3,7 @@ tags:
   - 档案
 icon: enter
 author: Mr.Hope
-time: 2024-07-14T15:54:42.348Z
+time: 2025-07-07T03:05:16.199Z
 shareable: true
 content:
   - tag: title
@@ -23,7 +23,7 @@ content:
       - 要求考生自携的，优先选择自携而不是自行寄出。非对公邮寄丢失非常麻烦！
 
   - tag: text
-    type: warning
+    type: danger
     text:
       - 个人档案必须用封条密封，在封条上加盖原单位 (高中学校) 公章。
       - 无封条或封条破损的个人档案，我校会拒收。
@@ -35,8 +35,8 @@ content:
     text: 必须选择 EMS 邮寄，寄付。
 
   - tag: text
-    type: warning
-    header: 使用其他方式邮寄或选择到付退回丢失者，后果自负。
+    type: danger
+    header: 使用其他方式邮寄或选择到付退回丢失者，后果自负！
 
   - tag: title
     text: 档案接收地址
