@@ -4,13 +4,13 @@ tags:
 icon: network
 grey: true
 author: Mr.Hope
-time: 2023-09-23T10:52:59.424Z
+time: 2025-07-08T10:57:42.309Z
 shareable: true
 content:
   - tag: text
     header: 校园网简介
     text:
-      - 当您在校内时，可以通过校园网来进行上网。
+      - 在校内时，您可以通过校园网接入互联网。
       - 很多系统只针对校园网内部开放，比如图书馆数据库、选课系统、本科教学服务系统等。
 
   - tag: list

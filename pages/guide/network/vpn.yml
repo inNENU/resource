@@ -3,7 +3,7 @@ tags:
   - 校园网
 icon: vpn
 author: Mr.Hope
-time: 2023-09-23T10:52:59.427Z
+time: 2025-07-08T10:57:42.310Z
 shareable: true
 content:
   - tag: title
@@ -33,10 +33,10 @@ content:
     text: 您可以在此页面选择您需要使用的功能。
 
   - tag: title
-    text: Easy connect 客户端
+    text: EasyConnect 客户端
 
   - tag: p
-    text: 一些面向教职工的、不常访问的资源没有支持 Web VPN 访问方式，这时就要使用旧版的 VPN 客户端方式进行访问。
+    text: 一些面向教职工的、不常访问的资源尚不支持 Web VPN 访问方式，这时就要使用旧版的 VPN 客户端方式进行访问。
 
   - tag: doc
     name: VPN 使用方式介绍

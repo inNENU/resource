@@ -3,21 +3,21 @@ tags:
   - 校园网
 icon: about
 author: Mr.Hope
-time: 2023-09-23T10:52:59.419Z
+time: 2025-07-08T10:57:42.309Z
 shareable: true
 content:
   - tag: title
     text: 介绍
 
   - tag: text
-    text: 校园网提供了“无感知认证”功能，可以在设备连接 Wifi 之后登录完成认证。
+    text: 校园网提供了“无感知认证”功能。首次设置后，设备再次连接 Wi-Fi 时即可自动完成认证，无需手动登录。
 
   - tag: text
     type: info
     header: 原理
     text:
       - 当您连接 Wifi，并在认证时勾选无感知认证，系统会在您成功登录后记录下设备的 MAC 地址，并绑定到您的账户上。
-      - 当以后有具有相同 MAC 地址的设备连接校园网后，认证系统会识别并自动将其作为您的设备进行自动认证。
+      - 当具有相同 MAC 地址的设备连接校园网后，认证系统会识别并自动将其作为您的设备进行自动认证。
 
   - tag: title
     text: 额外设置
@@ -62,7 +62,7 @@ content:
     text: 高级管理
 
   - tag: text
-    text: 访问以下连接登录管理页面。
+    text: 访问以下链接登录管理页面。
 
   - tag: action
     header: 地址
