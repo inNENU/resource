@@ -2,7 +2,7 @@ title: 中日联谊医院院内导航
 tags:
   - 就医
 icon: locate
-time: 2023-09-23T10:52:59.400Z
+time: 2025-07-08T11:15:47.281Z
 shareable: true
 cite:
   - https://www.zrlyyy.com/zhyy/yndh/
@@ -24,7 +24,7 @@ content:
     desc: 使用微信扫码并关注
 
   - tag: text
-    text: 进入微信公众号后，，进入医院地图，在几秒钟之内就能定位到您当前所处的实时位置。
+    text: 进入微信公众号后，进入医院地图，在几秒钟之内就能定位到您当前所处的实时位置。
 
   - tag: img
     src: $img/life/hospital/zhongri-navigate1.png

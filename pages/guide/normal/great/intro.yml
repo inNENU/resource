@@ -4,7 +4,7 @@ tags:
   - 人才培养
 icon: about
 author: Mr.Hope
-time: 2024-07-23T18:53:08.956Z
+time: 2025-07-08T11:15:47.291Z
 shareable: true
 content:
   - tag: title
@@ -27,12 +27,12 @@ content:
   - tag: title
     text: 优惠政策
 
-  - tag: ol
+  - tag: p
     text:
-      - 是由中央财政负责安排公费师范生在校期间的学费、住宿费，并发放生活补贴；
+      - 由中央财政负责安排公费师范生在校期间的学费、住宿费，并发放生活补贴。
 
   - tag: title
     text: 政策要求
 
   - tag: text
-    text: 履约任教服务年限为 6 年。定向到贫困地区就业。
+    text: 履约任教服务年限为 6 年，到生源所在省份的定向县中小学履约任教。
