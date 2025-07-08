@@ -3,7 +3,7 @@ tags:
   - 资助
 icon: apartment
 author: Mr.Hope
-time: 2023-09-23T11:16:45.589Z
+time: 2025-07-08T10:25:39.422Z
 shareable: true
 content:
   - tag: title
@@ -40,10 +40,6 @@ content:
         icon: money
         path: reimburse
 
-      - text: 服兵役学生国家教育资助
-        icon: military
-        path: military/intro
-
   - tag: ul
     header: “助”
     text:
@@ -57,6 +53,10 @@ content:
       - text: 助学金详情
         icon: heart
         path: help/intro
+
+      - text: 服兵役学生国家教育资助
+        icon: military
+        path: military/intro
 
   - tag: ul
     header: “补”

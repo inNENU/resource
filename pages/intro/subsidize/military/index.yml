@@ -4,19 +4,20 @@ tags:
 icon: military
 grey: true
 author: Mr.Hope
-time: 2023-09-23T11:16:45.608Z
+time: 2025-07-08T10:25:39.426Z
 shareable: true
 content:
+  - tag: text
+    type: info
+    text:
+      - 国家为鼓励高校学生参军入伍，设立了标准更高、流程更便捷的教育资助政策。原《高等学校学生应征入伍服义务兵役国家资助办法》已正式废止。
+
   - tag: list
     items:
-      - text: 服兵役学生国家教育资助介绍
+      - text: 最新政策核心介绍
         icon: about
         path: intro
 
-      - text: 高等学校学生应征入伍服义务兵役国家资助办法
-        icon: rule
-        path: rule
-
-      - text: 常见问题
+      - text: 常见问题解答 (FAQ)
         icon: faq
         path: faq
