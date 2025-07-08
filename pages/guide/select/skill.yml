@@ -4,13 +4,13 @@ tags:
   - 建议
 icon: idea
 author: Mr.Hope
-time: 2023-12-20T06:56:43.625Z
+time: 2025-07-08T12:04:11.078Z
 shareable: true
 content:
   - tag: text
     type: tip
     text:
-      - 新生第一学习选课为注课(注册课程)，不用抢课(因为选课系统会专门为您开一次)
+      - 新生第一学期选课为注课(注册课程)，不用抢课(因为选课系统会专门为您开一次)
 
   - tag: title
     text: 有用的技巧
@@ -34,7 +34,7 @@ content:
     type: danger
     header: 严禁课程买卖
     text:
-      - 请注意! 学校严厉打击课程买卖，一经发现严肃处理!
+      - 请注意！学校严厉打击课程买卖，一经发现严肃处理!
 
   - tag: title
     text: 关于预选

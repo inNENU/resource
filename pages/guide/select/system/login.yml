@@ -4,7 +4,7 @@ tags:
   - 教务系统
 icon: account
 author: Mr.Hope
-time: 2024-07-28T19:07:02.974Z
+time: 2025-07-08T12:04:11.080Z
 shareable: true
 content:
   - tag: text
@@ -19,7 +19,7 @@ content:
 
   - tag: text
     header: 本科生
-    text: 打开浏览器输入 http://bkjx.nenu.edu.cn/ ，完成登陆后选择【报名服务】-【选课报名】直接进入选课页面。
+    text: 打开浏览器输入 http://bkjx.nenu.edu.cn/ ，完成登录后选择【报名服务】-【选课报名】直接进入选课页面。
 
   - tag: action
     content: http://bkjx.nenu.edu.cn/

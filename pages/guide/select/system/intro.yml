@@ -4,7 +4,7 @@ tags:
   - 教务系统
 icon: idea
 author: Mr.Hope
-time: 2024-08-16T05:53:04.508Z
+time: 2025-07-08T12:04:11.079Z
 shareable: true
 content:
   - tag: text
@@ -33,7 +33,7 @@ content:
     watermark: true
 
   - tag: text
-    text: 在这页面您可以退选已选课程，并选择其他同名课程。
+    text: 在此页面您可以退选已选课程，并选择其他同名课程。
 
   - tag: text
     header: 课程列表

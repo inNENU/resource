@@ -3,7 +3,7 @@ tags:
   - 选课
 icon: content
 author: Mr.Hope
-time: 2023-09-23T10:52:59.492Z
+time: 2025-07-08T12:04:11.075Z
 shareable: true
 content:
   - tag: title
@@ -29,7 +29,7 @@ content:
         icon: content
         path: /guide/course/professional
 
-      - text: 发展课程课程
+      - text: 发展方向课程
         icon: content
         path: /guide/course/develop
 
