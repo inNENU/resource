@@ -2,7 +2,7 @@ title: 就业
 aiIgnore: true
 icon: job
 author: Mr.Hope
-time: 2023-09-23T08:04:54.224Z
+time: 2025-07-08T10:46:58.124Z
 grey: true
 shareable: true
 content:
@@ -39,19 +39,6 @@ content:
       - text: 更多
         icon: more
         path: agreement/
-
-  - tag: list
-    header: 就业报到证
-    items:
-      - text: 自 2023 年起，国家已经取消了就业报到证。
-
-      - text: 相关通知
-        icon: notice
-        path: dispatch/notice
-
-      - text: 相关新闻
-        icon: intro
-        path: dispatch/explain
 
   - tag: list
     header: 常见问题

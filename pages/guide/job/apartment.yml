@@ -4,7 +4,7 @@ tags:
   - 服务办理
 icon: apartment
 author: Mr.Hope
-time: 2023-09-23T08:04:54.218Z
+time: 2025-07-08T10:46:58.123Z
 shareable: true
 content:
   - tag: text
@@ -31,11 +31,6 @@ content:
     type: info
     header: 出国事宜
     text: 本科到教务处，研究生到研究生院管理处，需将相关材料报就业指导中心
-
-  - tag: text
-    type: info
-    header: 报到证
-    text: 即派遣证，学校根据就业协议书编制就业计划上报教育部，每年 6 月中下旬前往吉林省高等学校毕业生就业指导中心(省就业中心)打印报到证，在毕业生离校前统一发放到院系。
 
   - tag: text
     type: info
