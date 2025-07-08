@@ -2,7 +2,7 @@ title: Mr.Hope 个人简介
 tags:
   - 小程序
 author: Mr.Hope
-time: 2024-08-29T09:00:56.084Z
+time: 2025-07-08T17:25:09.580Z
 shareable: true
 content:
   - tag: account
@@ -14,10 +14,10 @@ content:
     site: https://mister-hope.com
 
   - tag: p
-    text: "Mr.Hope，男，1998 年生于辽宁省，为东北师范大学 2021 级理论物理硕士研究生，同时为 2020 届物理学本科生。"
+    text: "Mr.Hope，男，1998 年生于辽宁省，为东北师范大学 2020 届物理学本科生、2025 届理论物理研究生，现工作于某省重点高中。"
 
   - tag: p
-    text: 在本科入学后，Mr.Hope 一直利用闲暇时间自学前端开发，服务器搭建、维护等相关知识，并致力于服务东师学子。Mr.Hope 同时参与了大量的学生工作，包括在年级、院团委、校学生会、厚普公益学校等服务他人。
+    text: 自本科入学起，Mr.Hope 利用闲暇时间自学前端开发，服务器搭建、维护等相关知识，一直通过小程序、App、 网站、小程序客服、个人QQ、QQ群等致力于服务东师学子。同时，Mr.Hope 也参与了大量的学生工作，包括在年级、院团委、校学生会、厚普公益学校等。
 
   - tag: title
     text: 个人博客
@@ -115,7 +115,7 @@ content:
       - wx
 
   - tag: title
-    text: 本科所获奖学金、奖项与荣誉称号
+    text: 在东师所获奖学金、奖项与荣誉称号
 
   - tag: ul
     text:
@@ -124,6 +124,8 @@ content:
       - 大四学年——校长奖学金
       - 第十一届 DI 吉林省赛区一等奖
       - 第十一届 DI 中国区一等奖
+      - 大学生挑战杯创业竞赛省赛金奖
+      - 大学生挑战杯创业竞赛国赛铜奖
       - 优秀学生干部
       - 五四红旗团员
       - 五四优秀团员
@@ -133,7 +135,7 @@ content:
       - 抗击疫情特殊贡献奖 (院)
 
   - tag: title
-    text: 本科主要经历
+    text: 主要学生工作经历
 
   - tag: ul
     header: 年级
@@ -156,6 +158,9 @@ content:
       - 2018 年——任校学生会新媒体中心功能部部长
       - 2018 年 12 月至 2020 年 6 月——任校学生会新媒体中心主任
 
+  - tag: title
+    text: 主要公益经历
+
   - tag: ul
     header: 公益
     text:
@@ -163,10 +168,14 @@ content:
       - 大二学年——任厚普公益学校高二化学组教师
       - 2017 年 JUPT 竞赛志愿者
       - 红烛志愿者协会会员
-      - 向中国儿童少年基金会捐赠 500 元
+      - 捐赠中国儿童少年基金会 500 元
       - 汶川大地震捐款 400 元
       - 厚普爱心学校参与者
-      - inNENU 公益项目发起人与运营人，累计投入超 3300 小时
+      - inNENU 公益项目发起人与运营人，累计用户 10 万+，累计投入 4000 小时
+      - VuePress 核心团队成员，VuePress Ecosystem 维护者， VuePress 累计下载量 120 万次
+      - Waline 评论服务开发者，Waline 客户端月 CDN 下载量 200 万次
+      - markdown-it 插件开发者
+      - 其他开源项目开发者，包括 bcrypt-ts、vuepress-theme-hope、create-codepen、slimsearch、gulp5-plugin-sass 等
 
   - tag: title
     text: 情感状态
@@ -190,4 +199,4 @@ content:
     text: 个人技能
 
   - tag: p
-    text: 全栈开发，同时精通前端开发。深入了解 JS 运行机制与原理，熟练掌握 Node.js，熟悉 TypeScript 以及 Vue 框架的使用与开发；后端运维了解知识面广，对 Linux 命令、服务器常见环境的配置与使用十分了解。了解 C、C++，PHP、dart、Java 等多种语言。对 Flutter、Angular、React 等框架也有所使用和了解。略有涉猎 Kotlin 和 Python。
+    text: 精通前端开发的全栈开发。Node.js 专家，精通 Javascript、TypeScript 与 Vue；熟练掌握后端运维。了解 C、C++，PHP、dart、Java 等多种语言以及微信小程序、Flutter 等多种框架。略有涉猎 Kotlin 和 Python。

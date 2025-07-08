@@ -3,13 +3,13 @@ aiIgnore: true
 icon: dorm
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:37:38.862Z
+time: 2025-07-08T17:25:09.330Z
 shareable: true
 content:
   - tag: list
     header: 寝室分布
     items:
-      - text: 寝室分配
+      - text: 寝室分配与选择
         desc: 是否可以选择寝室
         icon: explain
         path: choose
@@ -45,46 +45,46 @@ content:
         path: detail/person
 
   - tag: list
-    header: 配套设置
+    header: 配套设施
     items:
-      - text: 热水房/晾衣间
+      - text: 热水房与晾衣间
         icon: hot-water
         path: detail/hot-water
 
-      - text: 洗漱间
+      - text: 公共洗漱间
         icon: washing-room
         path: detail/washing
 
-      - text: 本部洗衣房/洗衣机
+      - text: 本部校区洗衣服务
         icon: washer
         path: detail/benbu-washer
 
-      - text: 净月洗衣房/洗衣机
+      - text: 净月校区洗衣服务
         icon: washer
         path: detail/jingyue-washer
 
-      - text: 电梯
+      - text: 电梯设施
         icon: lift
         path: detail/lift
 
-      - text: 吹风机
+      - text: 公共吹风机
         icon: hair-dryer
         path: detail/hair-dryer
 
-      - text: 自习室
+      - text: 楼内自习室
         icon: study
         path: detail/self-study
 
-      - text: 微波炉
+      - text: 公共微波炉
         icon: microwave
         path: detail/microwave
 
-      - text: 卫生间
+      - text: 公共卫生间
         icon: toilet
         path: detail/toilet
 
   - tag: list
-    header: 供电供网
+    header: 供电与网络
     items:
       - text: 供电时间
         icon: time
@@ -94,11 +94,11 @@ content:
         icon: power
         path: electricity/power
 
-      - text: 缴纳电费
+      - text: 电费缴纳
         icon: money
         path: electricity/pay
 
-      - text: 寝室供网
+      - text: 寝室网络
         icon: network
         path: network
 
@@ -113,7 +113,7 @@ content:
         icon: day-reading
         path: day-reading
 
-      - text: 违禁物品
+      - text: 违禁物品规定
         icon: ban
         path: ban
 
@@ -123,6 +123,6 @@ content:
 
   - tag: list
     items:
-      - text: Mr.Hope の建议
+      - text: Mr.Hope 的建议
         icon: idea
         path: advice

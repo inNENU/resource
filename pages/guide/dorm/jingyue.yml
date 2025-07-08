@@ -3,13 +3,13 @@ aiIgnore: true
 icon: dorm
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:37:38.863Z
+time: 2025-07-08T17:25:09.330Z
 shareable: true
 content:
   - tag: list
     header: 寝室分布
     items:
-      - text: 寝室分配
+      - text: 寝室分配与选择
         desc: 是否可以选择寝室
         icon: explain
         path: choose
@@ -36,7 +36,7 @@ content:
         path: detail/person
 
   - tag: list
-    header: 配套设置
+    header: 配套设施
     items:
       - text: 热水房
         icon: hot-water
@@ -59,7 +59,7 @@ content:
         path: detail/toilet
 
   - tag: list
-    header: 供电供网
+    header: 供电与网络
     items:
       - text: 供电时间
         icon: time
@@ -69,11 +69,11 @@ content:
         icon: power
         path: electricity/power
 
-      - text: 缴纳电费
+      - text: 电费缴纳
         icon: money
         path: electricity/pay
 
-      - text: 寝室供网
+      - text: 寝室网络
         icon: network
         path: network
 
@@ -88,7 +88,7 @@ content:
         icon: day-reading
         path: day-reading
 
-      - text: 违禁物品
+      - text: 违禁物品规定
         icon: ban
         path: ban
 
@@ -98,6 +98,6 @@ content:
 
   - tag: list
     items:
-      - text: Mr.Hope の建议
+      - text: Mr.Hope 的建议
         icon: idea
         path: advice
