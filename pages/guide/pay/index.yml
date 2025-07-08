@@ -3,35 +3,31 @@ tags:
   - 学费
 icon: money
 author: Mr.Hope
-time: 2024-07-14T16:30:37.211Z
+time: 2025-07-08T11:49:54.521Z
 cite:
-  - https://publish.nenu.edu.cn/info/1068/2632.htm
-  - https://publish.nenu.edu.cn/info/1068/2634.htm
+  - https://publish.nenu.edu.cn/info/1068/2853.htm
+  - https://publish.nenu.edu.cn/info/1068/2883.htm
+  - https://publish.nenu.edu.cn/info/1068/2873.htm
 shareable: true
 content:
   - tag: text
     type: danger
     text: 报到时不需交学费和住宿费。请大家警惕谨防被骗!!!!
 
-  - tag: text
-    header: 2023 年缴费时间
-    text:
-      - 2023年9月4日起。
-
   - tag: title
     text: 收费标准
 
   - tag: doc
-    name: 2023 级本科生学分学费收费标准
-    url: $file/intro/2023-under-fee.pdf
+    name: 2025 级本科生学分学费收费标准
+    url: $file/intro/2025-under-fee.pdf
 
   - tag: doc
-    name: 2023 级研究生学费标准
-    url: $file/intro/2023-post-fee.pdf
+    name: 2025 级研究生学费标准
+    url: $file/intro/2025-post-fee.pdf
 
   - tag: doc
-    name: 2024 年住宿费标准
-    url: $file/intro/2024-dorm-fee.pdf
+    name: 2025 年住宿费标准
+    url: $file/intro/2025-dorm-fee.pdf
 
   - tag: title
     text: 缴费方式

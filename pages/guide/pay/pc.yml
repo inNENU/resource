@@ -3,7 +3,7 @@ tags:
   - 学费
 icon: pc
 author: Mr.Hope
-time: 2025-06-22T11:37:38.910Z
+time: 2025-07-08T11:49:54.521Z
 shareable: true
 content:
   - tag: text
@@ -67,7 +67,7 @@ content:
 
   - tag: text
     type: tip
-    header: Mr.Hope の 提示
+    header: Mr.Hope 提示
     text: 每笔缴费最高为一万元，如果您的学费超过了 1 万元，请您分批缴费(选择部分缴费)。
 
   - tag: ul
