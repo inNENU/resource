@@ -3,7 +3,7 @@ tags:
   - 交通/通勤
 icon: id
 author: Mr.Hope
-time: 2023-09-23T10:52:59.692Z
+time: 2025-07-08T18:21:16.900Z
 shareable: true
 content:
   - tag: text
@@ -31,7 +31,7 @@ content:
     type: info
     header: 所需材料
     text:
-      - 只需要提供“身份证件号码 + 人面面部识别” ，即可办理临时身份证明。
+      - 只需要提供“身份证件号码 + 面部识别” ，即可办理临时身份证明。
 
   - tag: ul
     type: warning
