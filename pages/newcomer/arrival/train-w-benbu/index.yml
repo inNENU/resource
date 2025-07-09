@@ -4,7 +4,7 @@ tags:
   - 报到
 icon: railway
 author: Mr.Hope
-time: 2024-08-15T17:15:05.795Z
+time: 2025-07-09T10:09:37.811Z
 shareable: true
 content:
   - tag: title
@@ -53,7 +53,7 @@ content:
     header: 出租车/网约车
     text:
       - 如果您出站时轨道交通已不在运行时间，那么您应该需要打车或呼叫网约车。
-      - 在其他情况下，Mr.Hope 推荐您使用轨道交通。
+      - 在其他情况下，推荐您使用轨道交通。
     path: taxi
 
   - tag: text

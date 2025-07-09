@@ -3,7 +3,7 @@ tags:
   - 校园邮箱
 icon: about
 author: Mr.Hope
-time: 2025-07-07T03:05:16.186Z
+time: 2025-07-09T10:09:37.620Z
 shareable: true
 content:
   - tag: title
@@ -52,7 +52,7 @@ content:
 
   - tag: text
     type: tip
-    header: Mr.Hope の 提示
+    header: Mr.Hope 提示
     text: 为了保障账户安全，建议在登录时勾选“SSL 安全登录”与“全程 SSL”选项。
 
   - tag: img

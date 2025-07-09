@@ -1,52 +1,50 @@
-title: 入学体检
+title: 新生入学体检指南
 tags:
   - 报到
   - 新生入学
   - 入学活动
 icon: medical-exam
 author: Mr.Hope
-time: 2025-06-27T03:35:12.880Z
+time: 2025-07-09T10:09:37.817Z
 shareable: true
 content:
   - tag: title
     text: 体检费用
 
   - tag: text
-    text: 55 元/人
+    text: 55元/人
 
   - tag: title
-    text: 体检注意事项
+    text: 体检流程与注意事项
 
   - tag: ol
     text:
-      - 自己找时间去体检。准时参加。每个学生体检时带通知单中性笔，填好姓名学院及专业。
-      - 买体检表时先出示一卡通。
-      - 没有参加上新生体检的同学校医院将统一安排时间补检。
-      - 采血需要空腹或清淡饮食。
-
+      - 新生须在学校统一安排的时间段内，自行前往所在校区的校医院参加体检。
+      - 购买体检表时，请主动出示本人校园卡。体检时，请携带中性笔，用于填写体检表上的个人信息（如姓名、学院、专业等）。
+      - 因故未能按时参加体检的同学，无需担心，校医院后续将安排统一补检，具体时间请留意后续通知。
   - tag: text
     type: warning
     text:
-      - 新生如有采血项目，要求空腹或清淡饮食。
+      - 体检项目通常包含血液采集，请务必在体检当天保持空腹，或仅于体检前进食少量清淡食物。
 
   - tag: title
     text: 体检时间
 
   - tag: text
     type: tip
-    text: 以学校通知为准。
+    text: 新生体检通常以学院为单位分批进行，具体时间安排请留意辅导员或学校发布的正式通知。
 
   - tag: title
     text: 体检地点
 
   - tag: location
-    header: 本部
+    header: 本部校区
     points:
       - loc: 43.862803,125.325728
-        name: 校医院
+        name: 东北师范大学医院（本部）
 
   - tag: location
-    header: 净月
+    header: 净月校区
     points:
       - loc: 43.825723,125.424439
-        name: 校医院
+        name: 东北师范大学医院（净月）

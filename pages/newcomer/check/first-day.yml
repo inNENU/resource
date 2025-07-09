@@ -4,7 +4,7 @@ tags:
   - 新生入学
 icon: check
 author: Mr.Hope
-time: 2024-08-16T21:13:24.461Z
+time: 2025-07-09T10:09:37.815Z
 shareable: true
 content:
   - tag: p
@@ -46,11 +46,11 @@ content:
         path: /guide/express/
 
       - text: |-
-          第五步: 清理寝室灰尘，整理行李
+          第五步: 激活校园卡，并完成充值
+        path: /guide/card/prepare
 
       - text: |-
-          第六步: 激活校园卡，并完成充值
-        path: /guide/card/prepare
+          第六步: 清理寝室灰尘，整理行李
 
       - text: |-
           第七步: 校内采购生活用品

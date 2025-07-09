@@ -96,6 +96,6 @@ content:
 
   - tag: list
     items:
-      - text: Mr.Hope の建议
+      - text: Mr.Hope 的建议
         icon: idea
         path: /guide/dorm/advice

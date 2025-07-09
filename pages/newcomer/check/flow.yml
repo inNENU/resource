@@ -3,7 +3,7 @@ aiIgnore: true
 icon: flow
 grey: true
 author: Mr.Hope
-time: 2023-09-23T12:11:49.026Z
+time: 2025-07-09T10:09:37.815Z
 shareable: true
 content:
   - tag: list
@@ -18,6 +18,6 @@ content:
 
   - tag: list
     items:
-      - text: 后续报到流程
+      - text: 报到后续流程
         icon: flow
         path: after-flow

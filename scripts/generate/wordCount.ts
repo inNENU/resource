@@ -24,7 +24,7 @@ export const updateWordCount = (): void => {
 
   const wordsTip = `现有字数为 ${allWords} 字，其中东师指南部分 ${guideWords} 字，新生迎新部分 ${newcomerWords} 字，东师介绍部分 ${introWords} 字，机构介绍部分 ${apartmentWords} 字，学院介绍部分 ${schoolWords} 字，功能大厅部分 ${functionWords} 字，其他部分 ${otherWords} 字。`;
 
-  getFileList("./config", ".yml").forEach((filePath) => {
+  getFileList("./config", "yml").forEach((filePath) => {
     if (filePath.endsWith("/settings.yml")) {
       const content = readFileSync(resolve("./config/", filePath), {
         encoding: "utf-8",

@@ -2,7 +2,7 @@ title: 研究生开学活动
 aiIgnore: true
 icon: activity
 author: Mr.Hope
-time: 2024-07-02T16:28:50.348Z
+time: 2025-07-09T10:09:37.796Z
 grey: true
 shareable: true
 content:
@@ -35,10 +35,6 @@ content:
         desc: 自愿
         icon: insurance
         path: /guide/insurance/
-
-      - text: 火车优惠卡申领
-        icon: train
-        path: train-card
 
       - text: 献血
         icon: heart

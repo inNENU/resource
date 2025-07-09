@@ -3,7 +3,7 @@ tags:
   - 学费
 icon: pc
 author: Mr.Hope
-time: 2025-07-08T11:49:54.521Z
+time: 2025-07-09T10:09:37.716Z
 shareable: true
 content:
   - tag: text
@@ -45,7 +45,7 @@ content:
 
   - tag: text
     type: info
-    header: Mr.Hope の 提示
+    header: Mr.Hope 提示
     text: 校外用户是指需要向学校缴纳其他费用的其他人员。并不是校内访问和校外访问的区分。您在校外也可以访问该系统。
 
   - tag: title

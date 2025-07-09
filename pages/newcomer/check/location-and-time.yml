@@ -4,30 +4,30 @@ tags:
   - 新生入学
 icon: time
 author: Mr.Hope
-time: 2025-07-07T19:15:15.014Z
+time: 2025-07-09T10:09:37.817Z
 shareable: true
 content:
   - tag: title
-    text: 报到时间
+    text: 报到日期安排
 
   - tag: text
     type: info
-    header: 本科新生报到
+    header: 本科新生报到日
     text:
-      - 2025年8月30日、31日 (星期六、日)
+      - 2025年8月30日（星期六）至31日（星期日）
 
   - tag: text
     type: info
-    header: 研究生新生报到
+    header: 研究生新生报到日
     text:
-      - 2025年9月4日、5日 (星期六、日)
+      - 2025年9月4日（星期四）至5日（星期五）
 
   # TODO: Check this at 2025-08
   - tag: text
     type: tip
-    header: 接站
+    header: 关于接站服务
     text:
-      - 火车站、机场均将设有新生接待处，但无接站大巴。
+      - 学校将在长春站、长春西站及龙嘉国际机场设有新生接待点，但请注意，不提供接站校车服务。
     path: /newcomer/arrival/pickup
 
   - tag: list
@@ -37,19 +37,19 @@ content:
         path: locate
 
   - tag: title
-    text: 提前或延后
+    text: 关于提前或延迟报到
 
   - tag: text
     type: warning
-    header: 可以提前报到么
-    text: 不可以。如实有特殊情况，请联系辅导员。
+    header: 关于提前报到
+    text: 原则上不允许提前报到。如确有特殊情况，请务必提前与辅导员联系并获得批准。
 
   - tag: text
     type: danger
-    header: 因故不能按时报到
+    header: 关于延迟报到
     text:
-      - 必须事先向所在学院 (部) 提交书面申请进行请假，请假时间一般不得超过两周。
-      - 未请假或逾期不报到者除因不可抗力等正当事由外，视为自动放弃入学资格。
+      - 新生若因故无法在规定日期内报到，必须事先向所属学院（部）提交书面申请并办理请假手续。请假期限通常不超过两周。
+      - 未办理请假手续或逾期未报到者，除因不可抗力等正当事由外，将被视为自动放弃入学资格。
 
   - tag: title
     text: 报到(接待)时间
@@ -61,22 +61,22 @@ content:
   - tag: text
     type: note
     text:
-      - 如需在其他时间段报到，需提前联系辅导员。
+      - 若您预计在上述时间段外抵达，请务必提前与辅导员沟通报到事宜。
 
   - tag: title
-    text: 报到(接待)地点
+    text: 报到地点安排
 
   # TODO: Update
   - tag: text
     type: warning
-    header: 以下为 2024 年安排，2025 年可能有所变动（学校尚未落实 25 年报到工作安排）。
+    header: 重要提示：以下为2024年迎新安排，仅供参考。2025年具体安排待学校正式通知后更新，届时请以最新官方信息为准。
 
   - tag: text
     text:
-      - 本部校区在惟真楼对面。
+      - 本部校区报到处设于惟真楼对面区域。
 
   - tag: location
-    header: 本部报到校门与报到处
+    header: 本部校区报到处（参考2024年）
     points:
       - loc: 43.86409,125.33468
         name: 东北门
@@ -95,11 +95,11 @@ content:
 
       - loc: 43.863133,125.331584
         name: 报到处
-        detail: 2024年本部报到处
+        detail: 2024年本部校区报到处
 
   - tag: text
     text:
-      - 净月校区在图书馆门前。
+      - 净月校区报到处设于图书馆门前广场。
       # - 净月校区在雕塑门 (2 号门)
 
   # - tag: location
@@ -108,7 +108,7 @@ content:
   #     - loc: 43.82886,125.42689
 
   - tag: location
-    header: 净月报到校门与报到处
+    header: 净月校区报到处（参考2024年）
     points:
       - loc: 43.829067,125.427172
         name: 二号门

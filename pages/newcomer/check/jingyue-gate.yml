@@ -1,10 +1,10 @@
-title: 净月校区校门
+title: 净月校区校门指引
 tags:
   - 报到
   - 新生入学
 icon: gate
 author: Mr.Hope
-time: 2024-08-30T15:58:21.916Z
+time: 2025-07-09T10:09:37.816Z
 shareable: true
 content:
   # TODO: Update at 2025-08
@@ -12,7 +12,7 @@ content:
     type: note
     text:
       # - 报到期间只会开放正门(又叫北门、1 号门)。
-      - 报到期间只会开放 2 号门 (又叫雕塑门) 或 4 号门
+      - 新生报到期间，净月校区将主要开放2号门与4号门，供新生及家长通行。
 
   # - tag: title
   #   text: 净月 1 号门 (正门、东北门)
@@ -28,10 +28,10 @@ content:
   #   watermark: true
 
   - tag: title
-    text: 净月 2 号门 (雕塑门)
+    text: 净月校区2号门（雕塑门）
 
   - tag: location
-    header: 2 号门
+    header: 2号门
     points:
       - loc: 43.829133,125.427097
         name: 二号门
@@ -44,18 +44,18 @@ content:
 
   - tag: p
     text:
-      - 此门名称的由来是门口有雕塑。
+      - 该校门因其入口处设有标志性雕塑而得名“雕塑门”。
       # - 进门后一直往前走(这条路有点长)，经过“大菜花”(其实官方称号叫生命树)后右转直行，走到头就是图书馆前的空地了，迎新摆台就在那里。
 
   - tag: title
-    text: 净月 4 号门
+    text: 净月校区4号门（西北门）
 
   - tag: img
     src: $img/scenery/jingyue/gate/gate4.jpg
     watermark: true
 
   - tag: location
-    header: 4 号门
+    header: 4号门
     points:
       - loc: 43.826572,125.420067
         name: 四号门

@@ -3,17 +3,17 @@ aiIgnore: true
 icon: gate
 grey: true
 author: Mr.Hope
-time: 2024-08-30T15:58:21.912Z
+time: 2025-07-09T10:09:37.815Z
 shareable: true
 content:
   - tag: list
-    header: 确认报到位置
+    header: 报到前确认事项
     items:
       - text: 专业所在校区
         icon: gate
         path: locate
 
-      - text: 报到时间地点
+      - text: 报到时间与地点
         icon: time
         path: location-and-time
 
@@ -33,31 +33,31 @@ content:
         path: /intro/subsidize/green-tunnel/
 
   - tag: list
-    header: 相关事务
+    header: 入学相关手续
     items:
-      - text: 使用校园卡
+      - text: 校园卡激活与使用
         icon: card
         path: /guide/card/prepare
 
-      - text: 入学体检
+      - text: 新生入学体检
         icon: medical-exam
         path: medical-examination
 
-      - text: 党员组织关系接转
+      - text: 党员组织关系转接
         icon: league
         path: /newcomer/prepare/league
 
-      - text: 团员组织关系接转
+      - text: 团员组织关系转接
         icon: https://assets.innenu.com/img/about/group.png
         path: /newcomer/prepare/group
 
-      - text: 户口迁移
+      - text: 户口迁移办理
         icon: hukou
         path: /newcomer/prepare/hukou
 
   - tag: list
-    header: 防盗防骗攻略
+    header: 安全提示
     items:
-      - text: 防盗防骗攻略
+      - text: 新生防盗防骗指南
         icon: safe
         path: /newcomer/safety/

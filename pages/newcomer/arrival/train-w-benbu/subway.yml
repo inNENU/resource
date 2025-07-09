@@ -4,7 +4,7 @@ tags:
   - 报到
 icon: train
 author: Mr.Hope
-time: 2024-08-15T17:15:05.797Z
+time: 2025-07-09T10:09:37.811Z
 shareable: true
 content:
   - tag: text
@@ -72,7 +72,7 @@ content:
 
   - tag: text
     text:
-      - 进站后左转下楼，做右手边的“东方广场”方向地铁。
+      - 进站后左转下楼，坐右手边的“东方广场”方向地铁。
 
   - tag: text
     type: info
@@ -90,9 +90,15 @@ content:
 
   - tag: text
     type: tip
+    header: 交通联合卡（推荐）
+    text:
+      - 长春轨道交通已全面支持交通联合卡，如果你手机钱包或实体卡中有交通联合卡，可以直接使用该卡乘坐地铁。
+
+  - tag: text
+    type: tip
     header: 扫码乘车
     text:
-      - 长春轨道交通支持微信和支付宝扫码乘车。强烈推荐使用小程序扫码进出站，方便快捷无需买票! 相关内容详见“扫码乘车”。
+      - 长春轨道交通已全面支持微信和支付宝的乘车码，该方式无需购票方便快捷。详情请参阅“扫码乘车”页面。
     path: /guide/traffic/railway/scan
 
   - tag: text
