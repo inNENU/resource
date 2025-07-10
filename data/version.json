@@ -6,7 +6,7 @@
     "intro": 221,
     "icon": 58,
     "school": 142,
-    "newcomer": 326
+    "newcomer": 327
   },
   "size": {
     "apartment": 133,
@@ -15,6 +15,6 @@
     "guide": 800,
     "icon": 327,
     "intro": 360,
-    "newcomer": 250
+    "newcomer": 251
   }
 }
