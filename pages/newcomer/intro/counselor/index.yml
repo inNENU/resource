@@ -2,7 +2,7 @@ title: 辅导员
 aiIgnore: true
 icon: teacher
 author: Mr.Hope
-time: 2024-08-12T11:22:49.314Z
+time: 2025-07-10T04:01:12.604Z
 grey: true
 shareable: true
 content:
@@ -11,6 +11,10 @@ content:
       - text: 辅导员介绍
         icon: about
         path: intro
+
+      - text: Mr.Hope 的提示
+        icon: idea
+        path: advice
 
       - text: 2024 级辅导员大揭秘
         icon: teacher
