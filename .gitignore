@@ -8,7 +8,6 @@ pnpm-lock.yaml
 .resource/
 .site/
 .text/
-.text/
 
 # env files
 .env
