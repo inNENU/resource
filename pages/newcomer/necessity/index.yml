@@ -3,7 +3,7 @@ tags:
   - 需带物品
 icon: necessity
 author: Mr.Hope
-time: 2025-07-09T10:09:37.828Z
+time: 2025-07-11T07:56:14.542Z
 grey: true
 shareable: true
 content:
@@ -49,7 +49,7 @@ content:
         icon: dining
         path: food
 
-      - text: 寝室神器类
+      - text: 宿舍神器类
         icon: star
         path: artifact
 
@@ -59,7 +59,7 @@ content:
 
   - tag: list
     items:
-      - text: 寝室违禁物品
+      - text: 宿舍违禁物品
         icon: ban
         path: /guide/dorm/ban
 

@@ -1,18 +1,18 @@
-title: 寝室相关问答
+title: 宿舍相关问答
 tags:
   - 常见问题
   - 宿舍
 icon: dorm
 author: Mr.Hope
-time: 2025-07-09T10:09:37.823Z
+time: 2025-07-11T07:56:14.536Z
 shareable: true
 content:
   - tag: title
-    text: 寝室介绍
+    text: 学生公寓介绍
 
   - tag: list
     items:
-      - text: 寝室
+      - text: 学生公寓
         icon: dorm
         path: /guide/dorm/
 
@@ -25,16 +25,16 @@ content:
 
   - tag: text
     type: info
-    header: 宿舍是上床下桌结构吗？
+    header: 学生公寓是上床下桌结构吗？
     text:
-      - 本科生宿舍全部为上床下桌结构。
-      - 研究生宿舍绝大部分也为上床下桌。因往年扩招等原因，部分研究生宿舍（尤其是男生宿舍）调整为六人间，采用上下铺设计，例如本部校区七舍的部分房间。
+      - 本科生学生公寓全部为上床下桌结构。
+      - 研究生学生公寓绝大部分也为上床下桌。因往年扩招等原因，部分研究生宿舍（尤其是男生宿舍）调整为六人间，采用上下铺设计，例如本部校区七舍的部分房间。
 
   - tag: text
     type: info
     header: 有宿舍的实拍照片吗？
     text:
-      - 有。关于宿舍的实景照片，请参阅“寝室环境”板块的详细内容。
+      - 有。关于宿舍的实景照片，请参阅“宿舍环境”板块的详细内容。
     path: /guide/dorm/detail/env
 
   - tag: text

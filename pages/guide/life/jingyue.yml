@@ -2,7 +2,7 @@ title: 净月生活
 aiIgnore: true
 icon: life
 author: Mr.Hope
-time: 2024-08-29T09:00:55.803Z
+time: 2025-07-11T07:56:14.405Z
 shareable: true
 content:
   - tag: title
@@ -51,7 +51,7 @@ content:
   - tag: grid
     header: 住
     items:
-      - text: 寝室
+      - text: 学生公寓
         icon: dorm
         path: /guide/dorm/
 

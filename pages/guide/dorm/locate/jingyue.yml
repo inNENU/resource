@@ -1,9 +1,9 @@
-title: 净月本科寝室安排
+title: 净月本科学生公寓安排
 tags:
   - 宿舍
 icon: dorm
 author: Mr.Hope
-time: 2025-07-08T17:25:09.337Z
+time: 2025-07-11T07:56:14.387Z
 shareable: true
 content:
   - tag: text
@@ -12,7 +12,7 @@ content:
     text: 净月校区公寓大多集中在图书馆、食堂的后面。由于楼层最高为 6 层，没有电梯。
 
   - tag: location
-    header: 净月本科生寝室
+    header: 净月本科生学生公寓
     points:
       - loc: 43.824705,125.421396
         name: 春华公寓
@@ -44,9 +44,9 @@ content:
 
   - tag: text
     text:
-      - 楼高六层，分为 A、B 栋，为本科生寝室。
-      - A 栋为男生寝室，主要入住环境学院、外国语学院、政法学院的本科生。
-      - B 栋为女生寝室，主要入住环境学院、政法学院的本科生。
+      - 楼高六层，分为 A、B 栋，为本科生宿舍。
+      - A 栋为男生宿舍，主要入住环境学院、外国语学院、政法学院的本科生。
+      - B 栋为女生宿舍，主要入住环境学院、政法学院的本科生。
 
   - tag: img
     src: $img/scenery/jingyue/dorm/summer1.jpg

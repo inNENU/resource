@@ -1,22 +1,22 @@
-title: 净月研究生寝室安排
+title: 净月研究生学生公寓安排
 tags:
   - 宿舍
 icon: dorm
 desc: 部分图片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2024-08-30T15:58:22.259Z
+time: 2025-07-11T07:56:14.387Z
 shareable: true
 content:
   - tag: title
-    text: 寝室安排
+    text: 学生公寓安排
 
   - tag: text
     type: note
-    header: 研究生寝室分布数据
+    header: 研究生学生公寓分布数据
     path: data
 
   - tag: location
-    header: 净月研究生寝室
+    header: 净月研究生学生公寓
     points:
       - loc: 43.824705,125.421396
         name: 春华公寓
@@ -48,7 +48,7 @@ content:
 
   - tag: text
     text:
-      - 男女混寝，A 栋 4 - 6 楼为女生寝室。
+      - 男女混寝，A 栋 4 - 6 楼为女生学生公寓。
       - 居住美术学院、音乐学院、信息科学与技术学院、政法学院、环境学院、经济与管理学院、传媒科学学院、外国语学院研究生。
 
   - tag: img

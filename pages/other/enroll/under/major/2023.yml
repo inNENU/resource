@@ -3,7 +3,7 @@ tags:
   - 招生
 icon: list
 author: Mr.Hope
-time: 2025-07-06T17:54:50.558Z
+time: 2025-07-11T07:56:14.639Z
 shareable: true
 content:
   - tag: text
@@ -117,7 +117,7 @@ content:
         icon: gate
         path: /newcomer/check/benbu-gate
 
-      - text: 本部校区寝室介绍
+      - text: 本部校区宿舍介绍
         icon: dorm
         path: /guide/dorm/locate/benbu
 
@@ -204,6 +204,6 @@ content:
         icon: gate
         path: /newcomer/check/jingyue-gate
 
-      - text: 净月校区寝室介绍
+      - text: 净月校区宿舍介绍
         icon: dorm
         path: /guide/dorm/locate/jingyue

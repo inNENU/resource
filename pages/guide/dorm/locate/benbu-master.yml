@@ -1,22 +1,22 @@
-title: 本部研究生寝室安排
+title: 本部研究生宿舍安排
 tags:
   - 宿舍
 icon: dorm
 desc: 部分照片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2024-08-30T15:58:22.256Z
+time: 2025-07-11T07:56:14.386Z
 shareable: true
 content:
   - tag: title
-    text: 寝室分布
+    text: 宿舍分布
 
   - tag: text
     type: note
-    header: 研究生寝室分布数据
+    header: 研究生宿舍分布数据
     path: data
 
   - tag: location
-    header: 本部研究生寝室
+    header: 本部研究生宿舍
     points:
       - loc: 43.86359,125.33286
         name: 二舍

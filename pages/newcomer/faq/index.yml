@@ -2,7 +2,7 @@ title: 常见问题
 aiIgnore: true
 icon: faq
 author: Mr.Hope
-time: 2023-09-23T12:11:49.065Z
+time: 2025-07-11T07:56:14.536Z
 grey: true
 shareable: true
 content:
@@ -47,7 +47,7 @@ content:
         icon: network
         path: network
 
-      - text: 寝室相关
+      - text: 宿舍相关
         icon: dorm
         path: dorm
 
