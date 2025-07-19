@@ -119,6 +119,7 @@ basic-info:
     - text: 社团
       icon: association
       path: guide/association/
+  footer: 更多详情请访问下方东师介绍与东师指南查看
 
 common:
   tag: grid

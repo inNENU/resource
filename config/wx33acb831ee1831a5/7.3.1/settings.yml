@@ -12,6 +12,7 @@ main-presets:
 
     - under-enroll
     - basic-info
+    - faq-card
 
   newcomer:
     - tag: functional-list
