@@ -1,0 +1,64 @@
+title: 研究生录取通知书
+tags:
+  - 新生入学
+icon: letter
+author: Mr.Hope
+time: 2025-07-23T09:43:28.647Z
+shareable: true
+content:
+  - tag: title
+    text: 录取通知书的制作与寄送
+
+  - tag: text
+    text: 研究生录取通知书通常在拟录取名单公示结束后开始制作。期间，学校会开放通讯地址修改权限，请考生务必在规定时间内确认或更新邮寄地址与联系电话。通知书预计于六月中旬通过中国邮政特快专递（EMS）统一寄出，以确保能够快速、安全地送达。
+
+  - tag: card
+    cover: $img/tab/admission.jpg
+    title: 录取查询
+    logo: letter
+    url: admission?type=search
+
+  - tag: img
+    src: $img/prepare/grad-admission-bag.jpg
+    desc: 录取通知书
+    watermark: true
+
+  - tag: title
+    text: 录取通知书内容
+
+  - tag: ul
+    text:
+      - 录取通知书 1 份
+      - 调档函 1 份
+
+  - tag: text
+    type: warning
+    header: 重要提醒
+    text:
+      - 录取通知书信封内不含手机卡、银行卡或校园卡。
+      - 上述物品均需在入学报到后，根据学校的统一安排进行办理。
+
+  - tag: title
+    text: 关于学号
+
+  - tag: text
+    text: 录取通知书右下角的“通知书编号”即为新生的学号。该学号为十位数字，通常以入学年份（如 2025）为开头。
+
+  - tag: img
+    src: $img/prepare/grad-admission-letter.jpg
+    desc: 录取通知书
+    watermark: true
+
+  - tag: img
+    src: $img/prepare/grad-admission-letter-back.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/prepare/grad-admission-gift1.jpg
+    desc: 本子
+    watermark: true
+
+  - tag: img
+    src: $img/prepare/grad-admission-gift2.jpg
+    desc: 书签
+    watermark: true

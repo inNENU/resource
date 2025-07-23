@@ -1,0 +1,16 @@
+title: 物理学院准入要求
+aiIgnore: true
+time: 2025-06-22T18:18:54.912Z
+shareable: true
+content:
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 物理学类
+        path: class
+
+      - text: 物理学 (公费师范)
+        path: normal
+
+      - text: 物理学 (优师专项)
+        path: great

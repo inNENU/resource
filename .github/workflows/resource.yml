@@ -1,0 +1,81 @@
+name: Deploy resource
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "config/**"
+      - "data/**"
+      - "pages/**"
+      - "file/**"
+      - "img/**"
+      - "scripts/**"
+      - "site/**"
+      - "package.json"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Write env files
+        run: |
+          echo "${{ secrets.ENV }}" > .env
+
+      - name: Generate resource
+        run: |
+          pnpm resource:generate
+
+      - name: Sync OSS
+        run: |
+          pnpm sync:oss
+
+      - name: Deploy to resource branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: resource
+          folder: .resource
+          single-commit: true
+
+  deploy-server:
+    runs-on: ubuntu-latest
+    needs: generate-data
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: resource
+          fetch-depth: 0
+
+      - name: Config environment
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan res.innenu.com >> ~/.ssh/known_hosts
+          git config --global user.name 'Mr.Hope'
+          git config --global user.email 'mister-hope@outlook.com'
+
+      - name: Deploy
+        run: |
+          git push -f git@res.innenu.com:/www/wwwroot/innenu-res resource
+          ssh git@res.innenu.com "cd /www/wwwroot/innenu-res && git reset --hard HEAD"

@@ -1,0 +1,28 @@
+title: 本部烘焙坊
+tags:
+  - 校园生活
+icon: bake
+author: Mr.Hope
+time: 2024-08-30T15:58:22.312Z
+shareable: true
+content:
+  - tag: title
+    text: 校内店铺
+
+  # TODO: Update
+  - tag: text
+    text: 暂无
+
+  - tag: title
+    text: 校外店铺
+
+  - tag: location
+    header: 校外蛋糕店
+    points:
+      - loc: 43.860055,125.341138
+        name: 点典面包房
+        detail: 文昌路东侧
+
+  - tag: text
+    text:
+      - 文昌路上有一家点典面包房。

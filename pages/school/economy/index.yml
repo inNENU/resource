@@ -1,0 +1,62 @@
+title: 经济与管理学院
+tags:
+  - 经济与管理学院
+icon: economy
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.376Z
+shareable: true
+content:
+  - tag: account
+    name: 经济与管理学院
+    logo: $img/media/economic.jpg
+    detail: 东北师范大学经济与管理学院
+    wxid: nenubs
+    account: economy
+    loc: 43.827634,125.427246
+    site: https://bs.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 历史沿革
+        icon: time
+        path: history
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+      - text: 学科建设
+        icon: content
+        path: subject/
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 经济学类
+        path: class
+
+      - text: 会计学(中外合作办学)
+        path: accountant-cop
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 转专业准入要求
+        path: into
+
+  - tag: list
+    header: 硕士专业介绍
+    items:
+      - text: 理论经济学
+        path: subject/theory
+
+      - text: 应用经济学
+        path: subject/apply
+
+      - text: 管理学
+        path: subject/manage

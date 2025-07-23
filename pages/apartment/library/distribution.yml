@@ -1,0 +1,22 @@
+title: 馆藏分布
+tags:
+  - 图书馆
+  - 学校设施
+icon: books
+author: Mr.Hope
+time: 2025-06-22T11:37:38.790Z
+cite:
+  - https://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001786&pageId=0&wfwfid=21248&websiteId=0
+shareable: true
+content:
+  - tag: title
+    text: 本部校区
+
+  - tag: img
+    src: $img/library/benbu-store.png
+
+  - tag: title
+    text: 净月校区
+
+  - tag: img
+    src: $img/library/jingyue-store.png

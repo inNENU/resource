@@ -1,0 +1,1 @@
+pnpm resource:generate && git add config/ data/ pages/ && pnpm nano-staged

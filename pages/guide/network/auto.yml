@@ -1,0 +1,80 @@
+title: 无感知认证
+tags:
+  - 校园网
+icon: about
+author: Mr.Hope
+time: 2025-07-23T09:43:28.494Z
+shareable: true
+content:
+  - tag: title
+    text: 功能介绍
+
+  - tag: text
+    text: 校园网支持“无感知认证”功能。首次设置后，您的设备在连接校园 Wi-Fi 时将自动完成认证，无需重复手动登录。
+
+  - tag: text
+    type: info
+    header: 工作原理
+    text:
+      - 当您首次登录校园网并启用无感知认证时，认证系统会自动记录您设备的 MAC 地址，并与您的账户进行绑定。
+      - 此后，当该 MAC 地址的设备再次连接校园网时，系统便会自动识别并完成认证，实现无感登录。
+
+  - tag: title
+    text: 兼容性设置
+
+  - tag: text
+    text:
+      - 无感知认证依赖于设备固定的 MAC 地址进行识别。为确保该功能正常运行，您的设备在连接校园网时必须使用其真实的、固定的设备 MAC 地址。
+      - 然而，为了保护用户隐私，较新版本的 iOS 与 Android 系统默认会为每个 Wi-Fi 网络使用随机的 MAC 地址。这会导致认证系统无法识别您的设备，从而使无感知认证失效。因此，您需要手动为校园网关闭此功能。
+
+  - tag: text
+    header: iOS
+    text:
+      - 请按以下步骤关闭“私有 Wi-Fi 地址”功能。
+
+  - tag: img
+    src: $img/network/use-device-mac.jpg
+    desc: 请分别为 iNENU-2G 和 iNENU-5G 网络关闭“私有地址”开关
+    watermark: true
+
+  - tag: text
+    header: Android
+    text:
+      - 请按以下步骤将 Wi-Fi 的 MAC 地址类型设为“使用设备 MAC”。
+
+  - tag: img
+    src: $img/network/fix-mac1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/network/fix-mac2.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/network/fix-mac3.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/network/fix-mac4.jpg
+    watermark: true
+
+  - tag: title
+    text: 设备管理
+
+  - tag: text
+    text: 您可以访问以下地址登录管理页面。
+
+  - tag: action
+    header: 地址
+    content: "10.100.100.67:8900"
+
+  - tag: img
+    src: $img/network/auto-manage1.png
+    watermark: true
+
+  - tag: img
+    src: $img/network/auto-manage2.png
+    watermark: true
+
+  - tag: text
+    text: 在此页面，您可以新增、删除或管理已绑定无感知认证的设备。

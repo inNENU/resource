@@ -1,0 +1,57 @@
+title: 信息科学与技术学院
+tags:
+  - 信息科学与技术学院
+icon: ist
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.390Z
+shareable: true
+content:
+  - tag: account
+    name: 信息科学与技术学院
+    logo: $img/media/ist.png
+    detail: 东北师范大学信息科学与技术学院
+    wxid: dsxk2017
+    account: ist
+    loc: 43.825714,125.426986
+    site: https://ist.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 计算机类
+        path: class
+
+      - text: 教育技术学 (公费师范)（智能教育）
+        path: tech-normal
+
+      - text: 计算机科学与技术 (中外合作办学)
+        path: science-cop
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 计算机科学与技术
+        path: into/science
+
+      - text: 智能科学与技术
+        path: into/ai
+
+      - text: 教育技术学
+        path: into/tech
+
+      - text: 图书馆学
+        path: into/library
+
+      - text: 教育技术学 (公费师范)（智能教育）
+        path: into/tech-normal

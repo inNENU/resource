@@ -1,0 +1,53 @@
+title: 体育学院 (冰雪学院)
+tags:
+  - 体育学院
+icon: basketball
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.398Z
+shareable: true
+content:
+  - tag: account
+    name: 体育学院 (冰雪学院)
+    logo: $img/media/pe.png
+    detail: 青年力量
+    wxid: nenupetw
+    account: pe
+    loc: 43.85841,125.32668
+    mail: pe@nenu.edu.cn
+    site: https://pe.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+      - text: 学科建设
+        icon: content
+        path: subject
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 体育教育 (含公费师范)
+        path: education
+
+      - text: 冰雪运动
+        path: ice
+
+      - text: 运动训练
+        path: train
+
+      - text: 武术与民族传统体育
+        path: martial
+
+  - tag: list
+    items:
+      - text: 体育学院管理介绍
+        icon: idea
+        path: tip

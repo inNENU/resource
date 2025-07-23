@@ -1,0 +1,95 @@
+title: 报到后续流程
+tags:
+  - 报到
+  - 新生入学
+icon: flow
+author: Mr.Hope
+time: 2025-07-23T09:43:28.630Z
+shareable: true
+content:
+  - tag: title
+    text: 新生报到后续流程
+
+  - tag: text
+    text: 请至食堂自助终端机处，修改校园卡密码并设置消费限额
+    align: center
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: text
+    text:
+      - 返回宿舍，整理个人行李。安顿妥当后，建议提前完成以下准备工作：
+      - 通过企业微信或支付宝为校园卡充值
+      - 通过企业微信的校园卡功能缴纳网费
+      - 前往宿舍楼内的洗漱间与热水间，测试校园卡是否能正常取用生活用水和饮用水（请注意：生活用水仅在特定时段供应，但在非供应时段刷卡仍可正常显示余额或升数；若无法使用，系统通常会显示错误代码）
+    align: center
+
+  # - tag: text
+  #   text: 👇
+  #   align: center
+  #   style:
+  #     font-weight: "500"
+  #     font-size: 20px
+
+  # - tag: text
+  #   text:
+  #     - 前往校医院进行新生体检
+  #   align: center
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: text
+    text:
+      - 对照小程序需带物品部分，检查并清点个人所带物品，根据需要列出购物清单，并前往校内超市采购
+    align: center
+
+  - tag: list
+    items:
+      - text: 需带物品
+        icon: necessity
+        path: /newcomer/necessity/
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: text
+    text:
+      - 前往校园快递服务中心（本部或净月校区的菜鸟驿站）领取个人快递包裹
+    align: center
+
+  - tag: list
+    items:
+      - text: 快递
+        icon: express
+        path: /guide/express/
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: text
+    text: 根据个人安排前往校园浴池洗浴，晚上请按时返回宿舍，等待辅导员查寝
+    align: center
+
+  - tag: list
+    items:
+      - text: 校园浴池
+        icon: bath
+        path: /guide/bath/

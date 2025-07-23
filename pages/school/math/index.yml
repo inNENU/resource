@@ -1,0 +1,55 @@
+title: 数学与统计学院
+tags:
+  - 数学与统计学院
+icon: math
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.393Z
+shareable: true
+content:
+  - tag: account
+    name: 数学与统计学院
+    logo: $img/media/math.png
+    detail: 东北师范大学数学与统计学院
+    wxid: gh_83fa6f6e7577
+    account: math
+    loc: 43.86014,125.32797
+    site: https://math.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 历史沿革
+        icon: time
+        path: history
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 数学与应用数学(公费师范)
+        path: normal
+
+      - text: 数学类
+        path: class
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 数学与应用数学
+        path: into/math
+
+      - text: 数学与应用数学(公费师范)
+        path: into/normal
+
+      - text: 数学与应用数学(优师专项)
+        path: into/great
+
+      - text: 统计学
+        path: into/statistics

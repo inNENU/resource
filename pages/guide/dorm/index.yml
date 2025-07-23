@@ -1,0 +1,128 @@
+title: 寝室
+aiIgnore: true
+icon: dorm
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.452Z
+shareable: true
+content:
+  - tag: list
+    header: 寝室分布
+    items:
+      - text: 寝室分配与选择
+        desc: 是否可以选择寝室
+        icon: explain
+        path: choose
+
+      - text: 入住数据
+        icon: data
+        path: locate/data
+
+      - text: 本部校区本科寝室
+        path: locate/benbu
+
+      - text: 本部校区体育公寓
+        path: locate/pe
+
+      - text: 本部校区研究生寝室
+        path: locate/benbu-master
+
+      - text: 净月校区本科寝室
+        path: locate/jingyue
+
+      - text: 净月校区研究生寝室
+        path: locate/jingyue-master
+
+  - tag: list
+    header: 寝室详细介绍
+    items:
+      - text: 室内环境介绍
+        icon: environment
+        path: detail/env
+
+      - text: 个人区域介绍
+        icon: environment
+        path: detail/person
+
+  - tag: list
+    header: 配套设施
+    items:
+      - text: 热水房与晾衣间
+        icon: hot-water
+        path: detail/hot-water
+
+      - text: 公共洗漱间
+        icon: washing-room
+        path: detail/washing
+
+      - text: 本部校区洗衣服务
+        icon: washer
+        path: detail/benbu-washer
+
+      - text: 净月校区洗衣服务
+        icon: washer
+        path: detail/jingyue-washer
+
+      - text: 电梯设施
+        icon: lift
+        path: detail/lift
+
+      - text: 公共吹风机
+        icon: hair-dryer
+        path: detail/hair-dryer
+
+      - text: 楼内自习室
+        icon: study
+        path: detail/self-study
+
+      - text: 公共微波炉
+        icon: microwave
+        path: detail/microwave
+
+      - text: 公共卫生间
+        icon: toilet
+        path: detail/toilet
+
+  - tag: list
+    header: 供电与网络
+    items:
+      - text: 供电时间
+        icon: time
+        path: electricity/time
+
+      - text: 功率限制
+        icon: power
+        path: electricity/power
+
+      - text: 电费缴纳
+        icon: money
+        path: electricity/pay
+
+      - text: 寝室网络
+        icon: network
+        path: network
+
+  - tag: list
+    header: 规章制度
+    items:
+      - text: 寝室门禁
+        icon: door-guard
+        path: door-guard
+
+      - text: 走读与调宿
+        icon: day-reading
+        path: day-reading
+
+      - text: 违禁物品规定
+        icon: ban
+        path: ban
+
+  - tag: action
+    header: 故障报修
+    content: https://gyglxt.nenu.edu.cn/repair/redirect/website/index
+
+  - tag: list
+    items:
+      - text: Mr.Hope 的建议
+        icon: idea
+        path: advice

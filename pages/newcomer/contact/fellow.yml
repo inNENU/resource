@@ -1,0 +1,179 @@
+title: 老乡群
+tags:
+  - 迎新
+icon: qq-group
+author: Mr.Hope
+desc: |-
+  如需补充或申请替换群聊，请联系 QQ: 1178522294
+  申请替换需满足以下条件：
+  · 群内该地区的东北师大在校生人数不少于 50 人；
+  · 原群主失联且活跃管理员少于两人，或申请替换的群聊活跃度显著高于原群聊（满足其一即可）；
+  · 允许 Mr.Hope 加入群聊以进行核验。
+time: 2025-07-23T09:43:28.635Z
+shareable: true
+content:
+  - tag: title
+    text: 东北师范大学老乡群
+
+  - tag: text
+    type: tip
+    text:
+      - 以下为 Mr.Hope 已加入并定期关注的群聊。由于经过基本核验，您可以相对放心地在群内交流。
+      - 请注意：在任何群聊中，都应警惕陌生人的私聊信息，谨防诈骗。
+
+  - tag: action
+    header: 吉林
+    content: "882426824"
+
+  - tag: action
+    header: 黑龙江
+    content: "1140357621"
+
+  - tag: action
+    header: 辽宁
+    content: "703028542"
+
+  - tag: action
+    header: 湖北
+    content: "315504674"
+
+  - tag: action
+    header: 湖南
+    content: "157808753"
+
+  - tag: action
+    header: 四川
+    content: "199463006"
+
+  - tag: action
+    header: 北京
+    content: "174840954"
+
+  - tag: action
+    header: 上海
+    content: "302137443"
+
+  - tag: action
+    header: 江苏
+    content: "470036355"
+
+  - tag: action
+    header: 江西
+    content: "962204345"
+
+  - tag: action
+    header: 山东
+    content: "272228535"
+
+  - tag: action
+    header: 新疆
+    content: "307427221"
+
+  - tag: action
+    header: 西藏
+    content: "497538741"
+
+  - tag: action
+    header: 广东
+    content: "794986523"
+
+  - tag: action
+    header: 青海
+    content: "193593119"
+
+  - tag: action
+    header: 宁夏
+    content: "366354996"
+
+  - tag: action
+    header: 安徽
+    content: "340128156"
+
+  - tag: action
+    header: 重庆
+    content: "327126156"
+
+  - tag: action
+    header: 浙江
+    content: "853464867"
+
+  - tag: action
+    header: 河南
+    content: "577320496"
+
+  - tag: action
+    header: 贵州
+    content: "98786880"
+
+  - tag: action
+    header: 云南
+    content: "457556109"
+
+  - tag: action
+    header: 陕西
+    content: "753334220"
+
+  - tag: action
+    header: 甘肃
+    content: "577264612"
+
+  - tag: action
+    header: 山西
+    content: "303745491"
+
+  - tag: text
+    type: danger
+    header: 慎重加入以下群聊
+    text:
+      - Mr.Hope 未能加入以下群聊，因此无法核实其成员身份及群内环境。这些群聊由部分在校生推荐，但其安全性与可靠性未经确认。请在决定加入前，审慎评估潜在风险。
+
+  # 不在
+  - tag: action
+    header: 河北
+    content: "666048072"
+
+  # 不在
+  - tag: action
+    header: 内蒙古
+    content: "207474263"
+
+  # 不在
+  - tag: action
+    header: 广西
+    content: "518898289"
+
+  # 不在
+
+  # 不在
+  - tag: action
+    header: 海南
+    content: "48355600"
+
+  # 不在
+
+  # NOTE: 不允许我入群
+  - tag: action
+    header: 福建
+    content: "107092900"
+
+  # - tag: text
+  #   type: tip
+  #   text:
+  #     - 福建群连续数年拒绝我，并且沟通让我进去扫一眼群成员和消息列表也是不行的，所以请你慎重加入。
+
+  # NOTE: 20地理科学姚雨辰不欢迎
+  # - tag: text
+  #   text: 天津
+
+  - tag: action
+    header: 天津
+    content: "822145879"
+
+  - tag: text
+    type: tip
+    text:
+      - 比如，在尝试加入天津群时，Mr.Hope 曾遭遇该群某位管理员（昵称“20地理科学姚雨辰”）的恶意阻拦与言语攻击“你算什么东西你来加我们天津群”，并因此退出该群。
+
+  # - tag: text
+  #   type: warning
+  #   text: 由于不允许 Mr.Hope 入群，因此 Mr.Hope 将不再展示个别省份的现有老乡群。任何人可随时建立新群，在满足要求后联系 Mr.Hope

@@ -1,0 +1,44 @@
+title: 净月超市
+tags:
+  - 超市
+icon: shop
+author: Mr.Hope
+time: 2024-08-30T15:58:22.444Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: Mr.Hope 的建议
+        icon: idea
+        path: tip
+
+  # TODO: Update
+  - tag: text
+    text: 净月校区原有超市已于 2024 年暑假撤出，新入驻的天猫超市仍在装修中。
+
+  - tag: list
+    items:
+      # TODO: Update
+      - text: 天猫超市
+        desc: 装修中
+
+      # TODO: Update
+      - text: 二食堂生活区
+        desc: 装修中
+
+      - text: 净月临时售卖点
+        path: jingyue-temp
+
+  - tag: text
+    type: info
+    header: 水之源超市
+    text:
+      - 学生浴池旁边有一家水之源超市，价格为普通零售价，性质类似于小区食杂店。主要售卖大众食品饮料以及常用生活用品等，东西不全。
+
+  - tag: text
+    header: 校外超市
+
+  - tag: list
+    items:
+      - text: 校外超市
+        path: jingyue-out

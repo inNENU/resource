@@ -1,0 +1,58 @@
+title: 研究生入学准备
+aiIgnore: true
+icon: prepare
+author: Mr.Hope
+time: 2025-07-23T09:43:28.648Z
+grey: true
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 报到时间
+        icon: time
+        path: /newcomer/check/location-and-time
+
+  - tag: list
+    header: 防止诈骗
+    items:
+      - text: 常上诈骗手段与防范
+        icon: alert
+        path: /newcomer/safety/
+
+  - tag: list
+    header: 入学准备
+    items:
+      - text: 档案邮寄
+        icon: archive
+        path: /guide/archive/grad-in
+
+      - text: 证件材料
+        icon: id
+        path: /newcomer/necessity/material
+
+      - text: 党员组织关系接转
+        icon: league
+        path: league
+
+      - text: 团员组织关系接转
+        icon: league
+        path: group
+
+      - text: 录取通知书详情
+        icon: letter
+        path: grad-admission-notice
+
+      - text: 户口迁移
+        icon: hukou
+        path: hukou
+
+  - tag: list
+    header: 找到组织
+    items:
+      - text: 专业所属学院、校区
+        icon: content
+        path: /intro/enroll/grad/major/2025
+
+      - text: 新生群
+        icon: qq-group
+        path: /newcomer/contact/

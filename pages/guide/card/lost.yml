@@ -1,0 +1,74 @@
+title: 校园卡丢失
+tags:
+  - 校园卡
+icon: lost
+author: Mr.Hope
+time: 2025-07-23T09:43:28.427Z
+shareable: true
+content:
+  - tag: ol
+    type: warning
+    header: 校园卡不慎丢失后
+    text:
+      - 立即通过微信企业号或自助终端机挂失，以防卡内余额被盗刷。
+      - 尝试在常去地点（如教室、食堂、图书馆）寻找，并留意各学院、食堂及学生公寓的失物招领信息。
+
+  - tag: ul
+    text:
+      - 若您找回了校园卡，可通过微信企业号线上解挂，或携带校园卡前往自助终端机解挂。
+      - 若校园卡未能找回，您需要前往自助终端机补办新卡。
+
+  - tag: title
+    text: 挂失流程
+
+  - tag: text
+    header: 自助终端机挂失
+    text:
+      - 您可在校内任意一台自助终端机上按以下步骤操作：
+
+  - tag: img
+    src: $img/card/main.jpg
+    desc: 点击屏幕左侧的“自助服务”
+    watermark: true
+
+  - tag: img
+    src: $img/card/service.jpg
+    desc: 点击右上角的“校园卡挂失”
+    watermark: true
+
+  - tag: img
+    src: $img/card/lost1.jpg
+    desc: 输入学号
+    watermark: true
+
+  - tag: img
+    src: $img/card/lost2.jpg
+    desc: 确认信息并输入密码
+    watermark: true
+
+  - tag: title
+    text: 解挂流程
+
+  - tag: text
+    header: 自助终端机解挂
+    text:
+      - 找到校园卡后，请在自助终端机上按以下步骤解挂：
+
+  - tag: img
+    src: $img/card/main.jpg
+    desc: 点击屏幕左侧的“自助服务”
+    watermark: true
+
+  - tag: img
+    src: $img/card/service.jpg
+    desc: 点击左下角的“校园卡解挂”
+    watermark: true
+
+  - tag: title
+    text: 补办新卡
+
+  - tag: list
+    items:
+      - text: 校园卡补办流程
+        icon: add
+        path: remake

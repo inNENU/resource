@@ -1,0 +1,18 @@
+title: 乐在东师
+aiIgnore: true
+icon: nearby
+grey: true
+content:
+  - tag: grid
+    items:
+      - text: 学生组织
+        icon: student-org
+        path: org/
+
+      - text: 社团
+        icon: association
+        path: association/
+
+      - text: 吃喝玩乐
+        icon: nearby
+        path: life/nearby/

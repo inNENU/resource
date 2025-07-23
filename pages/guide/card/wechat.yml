@@ -1,0 +1,65 @@
+title: 微信校园卡
+tags:
+  - 校园卡
+icon: wechat
+author: Mr.Hope
+time: 2025-07-23T09:43:28.430Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    text: 成功关注并认证东北师范大学企业微信（需提前激活统一身份认证账号）后，即可在“校园卡”应用中管理和使用您的校园卡。
+
+  - tag: list
+    items:
+      - text: 企业号关注与认证
+        icon: wechat
+        path: /guide/account/wechat/
+
+  - tag: title
+    text: 充值与使用
+
+  - tag: text
+    text: 在企业微信的工作台中打开“校园卡”应用，主界面会显示校园卡余额，并提供充值入口。
+
+  - tag: img
+    src: $img/card/wechat-card-charge.jpg
+    watermark: true
+
+  - tag: text
+    text: 如需使用校园码付款，请点击屏幕下方的“校园卡”自定义菜单。
+
+  - tag: img
+    src: $img/card/wechat-card.jpg
+    desc: 在弹出的菜单中选择“校园码”，即可生成付款码。
+    watermark: true
+
+  - tag: title
+    text: 绑定微信与支付宝支付
+
+  - tag: text
+    text:
+      - 虚拟校园码默认使用校园卡余额支付。如需直接通过微信或支付宝付款，请先完成支付渠道绑定。
+
+  - tag: text
+    type: tip
+    header: 绑定说明
+    text:
+      - 微信支付：使用当前企业微信绑定的微信号扫描对应二维码即可绑定，无需额外认证。
+      - 支付宝：扫描对应二维码后，根据提示授权并输入您的学号和校园卡密码方可完成认证。
+
+  - tag: img
+    src: $img/card/wechat-pay.jpg
+    desc: 微信绑定码
+
+  - tag: img
+    src: $img/card/alipay-pay.jpg
+    desc: 支付宝绑定码
+
+  - tag: title
+    text: 使用注意事项
+
+  - tag: ol
+    text:
+      - 付款二维码为动态码，仅单次使用有效，被扫描或支付成功后即失效。
+      - 二维码有效期为 60 秒，超时后需刷新页面以获取新码。

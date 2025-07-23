@@ -1,0 +1,74 @@
+title: 热水房与公共晾衣间
+tags:
+  - 宿舍
+  - 校园生活
+icon: hot-water
+author: Mr.Hope
+time: 2025-07-23T09:43:28.454Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 部分宿舍楼的所有寝室均配有阳台，这些楼宇可能不设公共热水房/晾衣间，其直饮水机通常安装在楼层的公共洗漱间内。
+
+  - tag: title
+    text: 直饮水机
+
+  - tag: ul
+    text:
+      - 学校在各宿舍楼均配备了直饮水机，以保障师生日常饮水需求。
+      - 使用校园卡可接取冷水、常温水和热水。每人每日有90秒的免费使用时长（约合2-4升，具体水量取决于水压），全天有效。超出免费额度后，将按成本价收取费用：热水0.3元/升，常温水0.2元/升。
+      - 直饮水费用从校园卡的“直饮水钱包”中扣除。师生可在校内自助终端机上，将校园卡主钱包的余额转入直饮水钱包。
+      - 直饮水机可提供100℃的热水（开水），部分机器还可提供约15℃的冷水。
+
+  - tag: img
+    src: $img/dorm/drinker1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dorm/drinker2.jpg
+    watermark: true
+
+  - tag: list
+    header: 无法接水
+    items:
+      - text: 直饮机常见错误及解决办法
+        icon: error
+        path: /guide/card/malfunction
+
+  - tag: title
+    text: 公共晾衣间
+
+  - tag: p
+    text: 本部三舍因只有阴面有阳台，有专门的热水房/晾衣间，设有鞋架和晾衣架，可供大家晾鞋或晾衣服。拥有阳台的其他宿舍楼通常不设公共晾衣间，阳台上有晾衣架可供使用。
+
+  - tag: img
+    src: $img/dorm/clothing1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dorm/clothing2.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dorm/clothing3.jpg
+    watermark: true
+
+  - tag: text
+    type: info
+    header: 自律晾衣间管理规定
+    text:
+      - 1. 晾衣前请将衣物甩干，以免出现渗水现象
+      - 2. 衣物晒干后请及时收回，避免再次潮湿。
+      - 3. 直饮机上方禁止晾晒衣物避免触电。
+      - 4. 爱护晾衣间设施，用完请放回原处
+      - 5. 将晾晒衣物，鞋袜摆放整齐
+      - 6. 晾衣间禁止堆放 (除衣物和鞋袜) 私人物品。
+      - 7. 晾衣间内禁止吸烟酗酒，保持室内清洁。
+      - 公寓管理中心 宣
+
+  - tag: p
+    type: tip
+    header: Mr.Hope 的吐槽
+    text: 求求三舍 B 各位男同胞，鞋架是用来晾鞋的，不是用来放置具有生化威力的来不及洗的臭鞋的🤡，大家还要接饮用水的，亲。

@@ -1,0 +1,50 @@
+title: 学在东师
+aiIgnore: true
+icon: study
+grey: true
+content:
+  - tag: grid
+    items:
+      - text: 学位
+        icon: degree
+        path: degree/
+
+      - text: 转专业
+        icon: change
+        path: change-major/
+
+      - text: 师范生
+        icon: teacher
+        path: normal/
+
+      - text: 课程
+        icon: content
+        path: course/
+
+      - text: 学习
+        icon: study
+        path: study/
+
+      - text: 选课
+        icon: select
+        path: select/
+
+      - text: 图书馆
+        icon: library
+        path: /apartment/library/
+
+      - text: 校内考试
+        icon: test
+        path: test/
+
+      - text: 国家考试
+        icon: test
+        path: exam/
+
+      - text: 考研/保研
+        icon: study
+        path: /intro/grad/
+
+      - text: 优秀毕业生建议
+        icon: idea
+        path: /newcomer/advice/

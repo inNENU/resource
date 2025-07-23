@@ -1,0 +1,131 @@
+title: 本部报到流程
+tags:
+  - 报到
+  - 新生入学
+icon: flow
+author: Mr.Hope
+time: 2025-07-23T09:43:28.631Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 报到前，请确认随身携带录取通知书、身份证原件及一寸免冠照片。
+      - 请注意：体育学院的新生请直接前往学院报到，无需到校级集中报到处。
+
+  - tag: title
+    text: 第一步：抵达校区与报到处
+
+  - tag: location
+    header: 本部校区指定校门与报到处
+    points:
+      - loc: 43.86409,125.33468
+        name: 东北门
+        detail: 东北师范大学东北门
+        path: benbu/gate/north-east
+
+      - loc: 43.86167,125.325642
+        name: 西门
+        detail: 东北师范大学西门(正门)
+        path: benbu/gate/west
+
+      # - loc: 43.85967,125.33021
+      #   name: 南门
+      #   detail: 东北师范大学南门
+      #   path: benbu/gate/south
+
+      - loc: 43.863133,125.331584
+        name: 报到处
+        detail: 2024年本部报到处
+
+  - tag: ol
+    type: tip
+    header: Mr.Hope 的友情提示
+    text:
+      - 东北门所临的自由大路中央设有隔离护栏，穿行马路需经由附近的天桥或十字路口。若携带行李较多，过马路会非常不便，建议乘坐出租车的同学请司机师傅掉头停在校门同侧。
+      - 从距离上看，东北门距报到处最近，最为便捷；西门相对较远，建议优先选择东北门进入。
+      - 请家长注意，人民大街与自由大路两侧均未设置停车位，只可临时停靠。为避免违章罚款甚至车辆被拖移，切勿长时间停车。
+
+  - tag: text
+    type: note
+    text:
+      - 上方地图可实时显示您的当前位置，请根据地图指引，步行前往报到处。
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: title
+    text: 第二步：办理报到手续
+
+  - tag: text
+    text:
+      - 请根据现场指引，找到惟真楼对面的所属学院接待点，办理新生报到手续。
+
+  - tag: img
+    src: $img/check/benbu-2024.png
+    desc: 本部校区 2024 年迎新接待点示意图
+    watermark: true
+
+  - tag: text
+    text:
+      - 在学院接待点，负责迎新的学长学姐会查验您的录取通知书并核实身份，随后发放宿舍钥匙、校园卡及一张未激活的银行卡。
+
+  - tag: text
+    type: note
+    text:
+      - 若您未提前获知床位信息，现场工作人员会告知具体的宿舍及床位安排。
+      - 部分学院可能会在报到时收取班费或年级费，请按学院通知提前准备。
+      - 您领取的银行卡尚处未激活状态，无法使用，学校后续将统一组织激活。为防遗失，部分学院可能选择稍后统一发放银行卡，具体安排请以学院通知为准。
+
+  - tag: img
+    src: $img/check/benbu-check1.jpg
+    desc: 学院迎新接待点
+    watermark: true
+
+  - tag: img
+    src: $img/check/benbu-check2.jpg
+    desc: 学院迎新接待点
+    watermark: true
+
+  - tag: img
+    src: $img/check/benbu-check3.jpg
+    desc: 新生报到现场
+    watermark: true
+
+  - tag: img
+    src: $img/check/benbu-check4.jpg
+    desc: 新生报到现场
+    watermark: true
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: title
+    text: 第三步：办理宿舍入住
+
+  - tag: text
+    text:
+      - 领取物品后，请携带行李前往指定宿舍楼。在宿舍大厅管理员处，凭个人信息与分配到的床位号办理入住登记，随后可乘电梯将行李运至房间。
+
+  - tag: text
+    type: tip
+    text:
+      - 办理入住登记时需提交一张一寸照片，建议提前备好。
+      - 特别提示：学生公寓三舍的电梯分为单层、双层及货梯。低楼层同学可搭乘货梯；高楼层同学请留意电梯口的指示牌，根据自己所在的楼层选择乘坐对应的单/双层电梯。
+
+  - tag: title
+    text: 后续报到流程
+
+  - tag: list
+    items:
+      - text: 后续报到流程
+        icon: flow
+        path: after-flow

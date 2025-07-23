@@ -1,0 +1,26 @@
+title: 卫生间
+tags:
+  - 校园生活
+icon: toilet
+author: Mr.Hope
+time: 2025-07-23T09:43:28.456Z
+shareable: true
+content:
+  - tag: ul
+    text:
+      - 公共卫生间由保洁人员定时清扫，可保持日常整洁。
+      - 每层楼的卫生间通常设有 7-8 个隔间。
+
+  - tag: img
+    src: $img/dorm/toilet.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dorm/toilet2.jpg
+    watermark: true
+
+  - tag: title
+    text: Mr.Hope 吐槽
+
+  - tag: p
+    text: 由于卫生间为公共设施，隔间数量有限，在早课高峰时段（约 7:20 至 7:40）可能会比较拥挤。以本部校区男生宿舍为例，高峰时段可能会出现“一位难求”的情况（例如 B 座存在一层楼 144 人共用 8 个隔间的状况），可以跑去其他没有早课的楼层就厕或使用其他楼宇如食堂、学院的卫生间。相比之下，净月校区的宿舍楼此现象可能有所缓解。

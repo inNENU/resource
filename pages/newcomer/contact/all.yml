@@ -1,0 +1,124 @@
+title: 学校新生群
+tags:
+  - 迎新
+icon: qq-group
+author: Mr.Hope
+time: 2025-07-23T09:43:28.634Z
+shareable: true
+content:
+  - tag: text
+    type: warning
+    header: 注意
+    text:
+      - 学校从未设立任何官方新生群⚠。任何以“官方”名义建立的群聊，其宣传均不属实，请注意辨别。
+      - 每年都有一些组织或个人借建立新生群的名义，伺机向新生推销被褥、电话卡、培训班等产品或服务，请对此类行为保持警惕。
+      - 此外，部分使用“东师”字样或校徽的“表白墙”、“资料墙”等平台，并非由本校学生运营，可能存在诈骗风险，请务必谨慎。
+    path: cheat
+
+  - tag: text
+    type: tip
+    text:
+      - 为方便新生交流，Mr.Hope 建立了如下新生社群，均支持身份认证，群内氛围良好。自 2019 年起，这已是连续第 7 年运营新生社群。
+
+  - tag: title
+    text: 东北师范大学 2025 本科新生群
+
+  - tag: text
+    text:
+      - 本群主要用于新生答疑解惑，并会同步发布与新生相关的重要通知。
+
+  - tag: img
+    src: $img/about/under-2025.png
+    env:
+      - app
+      - wx
+
+  - tag: functional-list
+    items:
+      - text: 加入东北师范大学 2025 本科新生群
+        icon: qq-group
+        type: button
+        openType: openGroupProfile
+        groupId: "970718774"
+    env:
+      - qq
+
+  - tag: title
+    text: 东北师范大学本科交流群
+
+  - tag: text
+    text:
+      - 群内有许多高年级的学长学姐，方便新生联系本专业的前辈进行深入咨询。
+
+  - tag: img
+    src: $img/about/under.png
+    env:
+      - app
+      - wx
+
+  - tag: functional-list
+    items:
+      - text: 加入东北师范大学本科交流群
+        icon: qq-group
+        type: button
+        openType: openGroupProfile
+        groupId: "970718774"
+    env:
+      - qq
+
+  - tag: title
+    text: 东北师范大学研究生交流群
+
+  - tag: text
+    text:
+      - 专门为研究生建立的群聊，身份验证是可选的。
+
+  - tag: img
+    src: $img/about/post.jpg
+    env:
+      - app
+      - wx
+
+  - tag: functional-list
+    items:
+      - text: 加入东北师范大学研究生交流群
+        icon: qq-group
+        type: button
+        openType: openGroupProfile
+        groupId: "231792797"
+    env:
+      - qq
+
+  - tag: title
+    text: 相关说明
+
+  - tag: ul
+    type: note
+    text:
+      - 为营造安全、高效的交流环境，群内推行身份认证。通过认证的同学将获得专属头衔，以证明其在校生身份。您可以放心地与持有专属头衔的成员交流。
+      - 专属头衔的格式形如“21硕物理”、“20本历史”，可以清晰地标示出年级、培养层次和学院。该头衔在手机QQ和电脑客户端上均默认可见。入群后，您需要主动向 Mr.Hope 发送用途为【认证 inNENU 新生群】的微信小程序身份码，以获取认证头衔。
+      # - 在您收到录取通知后，请向 Mr.Hope 发送完整可校验的录取通知书截图来换取群头衔以便和其他新生小伙伴愉快的交流。
+
+  - tag: ul
+    type: warning
+    text:
+      - 请注意，群内可能混入未认证的外部人员。如果遇到没有专属头衔的成员主动添加您为好友，请保持警惕，并及时向群管理员举报以便处理。
+
+  - tag: title
+    text: 东北师大频道
+
+  - tag: text
+    text: 请在 QQ 频道手动搜索“东北师大”。
+    env:
+      - app
+      - wx
+
+  - tag: functional-list
+    items:
+      - text: 加入东北师大频道
+        icon: qq-group
+        type: button
+        openType: openGuildProfile
+        guildId: "5684461640601496"
+    env:
+      - qq

@@ -1,0 +1,175 @@
+title: 东师指南
+aiIgnore: true
+icon: idea
+grey: true
+content:
+  - tag: grid
+    header: 行在东师
+    items:
+      - text: 校园卡
+        icon: card
+        path: card/
+
+      - text: 校园网
+        icon: network
+        path: network/
+
+      - text: 学费缴纳
+        icon: money
+        path: pay/
+
+      - text: 保险
+        icon: insurance
+        path: insurance/
+
+      - text: 规章制度
+        icon: rule
+        path: /intro/rule/
+
+      - text: 常见服务
+        icon: service
+        path: action/
+
+  - tag: grid
+    header: 东师日常
+    items:
+      - text: 寝室
+        icon: dorm
+        path: dorm/
+
+      - text: 食堂
+        icon: dining
+        path: dining/
+
+      - text: 快递
+        icon: express
+        path: express/
+
+      - text: 超市
+        icon: shop
+        path: shop/
+
+      - text: 洗浴
+        icon: bath
+        path: bath/
+
+      - text: 生活
+        icon: life
+        path: life/
+
+  - tag: grid
+    header: 数字东师
+    items:
+      - text: 统一身份认证
+        icon: authorize
+        path: account/authorize/
+
+      - text: 校园邮箱
+        icon: email
+        path: account/mail/
+
+      - text: 企业号
+        icon: wechat
+        path: account/wechat/
+
+      - text: 教务系统
+        icon: system
+        path: system/
+
+      - text: 选课系统
+        icon: select
+        path: select/system/
+
+  - tag: grid
+    header: 学在东师
+    items:
+      - text: 学位
+        icon: degree
+        path: degree/
+
+      - text: 专业介绍
+        icon: about
+        path: /school/major
+
+      - text: 转专业
+        icon: change
+        path: change-major/
+
+      - text: 师范生
+        icon: teacher
+        path: normal/
+
+      - text: 课程
+        icon: content
+        path: course/
+
+      - text: 学习
+        icon: study
+        path: study/
+
+      - text: 选课
+        icon: select
+        path: select/
+
+      - text: 图书馆
+        icon: library
+        path: /apartment/library/
+
+      - text: 校内考试
+        icon: test
+        path: test/
+
+      - text: 国家考试
+        icon: test
+        path: exam/
+
+      - text: 考研/保研
+        icon: study
+        path: /intro/grad/
+
+      - text: 优秀毕业生建议
+        icon: idea
+        path: /newcomer/advice/
+
+  - tag: grid
+    header: 东师贴士
+    items:
+      - text: 生活贴士
+        icon: life
+        path: tip/life
+
+      - text: 交通出行
+        icon: traffic
+        path: traffic/
+
+      - text: 数码产品
+        icon: digital
+        path: tip/digital
+
+  - tag: grid
+    header: 乐在东师
+    items:
+      - text: 学生组织
+        icon: student-org
+        path: org/
+
+      - text: 社团
+        icon: association
+        path: association/
+
+      - text: 吃喝玩乐
+        icon: nearby
+        path: life/nearby/
+
+  - tag: grid
+    header: 再见东师
+    items:
+      - text: 就业
+        icon: job
+        path: job/
+
+      - text: 档案
+        icon: archive
+        path: archive/
+
+    footer: " "

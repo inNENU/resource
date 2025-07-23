@@ -1,0 +1,57 @@
+title: 生命科学学院
+tags:
+  - 生命科学学院
+icon: biology
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.369Z
+shareable: true
+content:
+  - tag: account
+    name: 生命科学学院
+    logo: $img/media/biology.png
+    detail: 东北师范大学生命科学学院
+    wxid: skyxxxczx2015
+    account: biology
+    loc: 43.859984,125.328941
+    mail: sky@nenu.edu.cn
+    site: https://sky.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 历史沿革
+        icon: time
+        path: history
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+      - text: 学科简介
+        icon: content
+        path: subject
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 生命科学(公费师范)
+        path: normal
+
+      - text: 生物科学类
+        path: class
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 生物科学类
+        path: into/class
+
+      - text: 生物科学(公费师范)
+        path: into/normal
+
+      - text: 生物科学(优师专项)
+        path: into/great

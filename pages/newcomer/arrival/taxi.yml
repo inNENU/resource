@@ -1,0 +1,56 @@
+title: 打车提示
+tags:
+  - 到校路线
+  - 报到
+icon: taxi
+author: Mr.Hope
+time: 2025-07-23T09:43:28.623Z
+shareable: true
+content:
+  - tag: title
+    text: 出租车乘坐指南
+
+  - tag: text
+    type: warning
+    text:
+      - 请注意，长春站与长春西站的出站口附近常有非法运营车辆（“黑车”）或不打表议价的出租车司机揽客。为保障您的权益与安全，请切勿乘坐此类车辆。
+      - 建议您前往站内的官方出租车乘降中心候车，或通过正规网约车平台叫车。
+
+  - tag: p
+    text:
+      - 长春站的南北出站口地下均设有综合换乘中心。出站后，沿地下通道的指示牌即可轻松找到正规的出租车乘降点。这些区域有监控覆盖，乘车更为安全、规范。
+      - 上车后，请明确告知司机前往“东北师范大学本部校区”或“东北师范大学净月校区”。如遇司机不熟悉校区位置，可补充说明：本部校区是“人民大街与自由大路交汇处那个”，净月校区在“博硕路上那个”。
+
+  - tag: img
+    src: $img/arrival/train-north-taxi.jpg
+    desc: 出租车乘降中心指示牌
+    watermark: true
+
+  - tag: title
+    text: 关于目的地
+
+  - tag: ol
+    text:
+      - 本部校区：北侧主要有两个校门，即东北门（正对动植物公园）和北门（靠近幼儿园与东师会馆）。请注意，北门目前因校园管理要求，通常不开放车辆通行。
+      - 由于自由大路中央设有隔离护栏，行人过马路需走天桥。若乘车从长春站方向经高架桥前来，建议请司机在动植物公园正门西侧的天桥下停车，方便过街入校。
+      # - 本部正门也就是西门。如在人民大街西侧下车需要横穿马路才能到达学校，学校正门处有斑马线但没有红绿灯，请注意安全。
+      # - 净月 1 号门 (正门、东北门) 在净月大街上。
+      - 净月校区：2号门（又称“雕塑门”）位于博硕路上，是车辆和行人的主要出入口之一。
+
+  - tag: functional-list
+    header: 导航
+    items:
+      - type: navigator
+        text: 导航到本部
+        url: plugin://route-plan/index?key=7ZXBZ-DZO6W-TK3RO-OGHG5-4J4EQ-PBFFX&referer=weNENU+&endPoint={"latitude":43.863927,"longitude":125.334771,"name":"本部校区"}&mode=transit&themeColor=#2ecc71
+        # 西门
+        # url: plugin://route-plan/index?key=7ZXBZ-DZO6W-TK3RO-OGHG5-4J4EQ-PBFFX&referer=weNENU+&endPoint={"latitude":43.86167,"longitude":125.325642,"name":"本部校区"}&mode=transit&themeColor=#2ecc71
+
+      - type: navigator
+        text: 导航到净月
+        # 1 号门
+        # url: plugin://route-plan/index?key=7ZXBZ-DZO6W-TK3RO-OGHG5-4J4EQ-PBFFX&referer=weNENU+&endPoint={"latitude":43.828525,"longitude":125.43107,"name":"净月校区"}&mode=transit&themeColor=#2ecc71
+        # 2 号门
+        url: plugin://route-plan/index?key=7ZXBZ-DZO6W-TK3RO-OGHG5-4J4EQ-PBFFX&referer=weNENU+&endPoint={"latitude":43.82886,"longitude":125.42689,"name":"净月校区"}&mode=transit&themeColor=#2ecc71
+    env:
+      - wx

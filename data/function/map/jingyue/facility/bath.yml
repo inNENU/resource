@@ -1,0 +1,67 @@
+title: 净月浴池
+desc: 特别鸣谢苏凛提供相关照片和信息
+author: Mr.Hope
+time: 2023-07-16T11:41:46.474Z
+photo:
+  - $img/bath/jingyue-main.jpg
+  - $img/bath/jingyue-entrance.jpg
+  - $img/bath/jingyue-bath.jpg
+  - $img/bath/jingyue-fitness1.jpg
+  - $img/bath/jingyue-fitness2.jpg
+shareable: true
+content:
+  - tag: title
+    text: 地址
+
+  - tag: text
+    text:
+      - 位于净月校区教师进修中心1楼，在光华宿舍楼的西北方向。
+
+  - tag: location
+    header: 净月浴池
+    points:
+      - loc: 43.826263,125.420696
+
+  - tag: text
+    text:
+      - 浴池内提供直饮水服务并免费提供电吹风，同时还有健身房。
+      - 浴池旁有打印店、奶茶店、小型超市、修理铺等商家，可满足同学们部分日常需求。
+
+  - tag: img
+    src: $img/bath/jingyue-main.jpg
+    desc: 浴池外景
+    watermark: true
+
+  - tag: text
+    type: info
+    header: 开放时间
+    text:
+      - 8:00 - 22:00
+      - "检修时间: 每月第二周星期三"
+
+  - tag: img
+    src: $img/bath/jingyue-entrance.jpg
+    desc: 浴池入口
+    watermark: true
+
+  - tag: text
+    text: 入门后，左侧为男浴区和男女共用的休息室，右侧为女浴区。浴池内配有吹风机。浴池均为单间设计，每个单间内都带有衣帽柜。
+
+  - tag: text
+    type: tip
+    text:
+      - 由于学校男女比例原因，净月校区女浴区偶尔需要排队，男浴区则较少出现此情况。
+
+  - tag: img
+    src: $img/bath/jingyue-bath.jpg
+    desc: 浴池洗浴间
+    watermark: true
+
+  - tag: img
+    src: $img/bath/jingyue-fitness1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/bath/jingyue-fitness2.jpg
+    desc: 健身房
+    watermark: true

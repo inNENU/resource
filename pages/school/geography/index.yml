@@ -1,0 +1,57 @@
+title: 地理科学学院
+tags:
+  - 地理科学学院
+icon: geography
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.386Z
+shareable: true
+content:
+  - tag: account
+    name: 地理科学学院
+    logo: $img/media/geo.png
+    detail: 东北师范大学地理科学学院
+    wxid: geonenu
+    account: geo
+    loc: 43.86294,125.33052
+    mail: dili@nenu.edu.cn
+    site: https://geo.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 历史沿革
+        icon: time
+        path: history
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+      - text: 学科建设
+        icon: content
+        path: subject
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 地理科学 (公费师范)
+        path: normal
+
+      - text: 地理科学类
+        path: class
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 地理科学类
+        path: into/class
+
+      - text: 地理科学专业 (公费师范)
+        path: into/normal
+
+      - text: 地理科学专业 (优师专项)
+        path: into/great

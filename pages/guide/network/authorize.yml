@@ -1,0 +1,55 @@
+title: 校园网认证
+tags:
+  - 校园网
+icon: authorize
+author: Mr.Hope
+time: 2025-07-23T09:43:28.493Z
+shareable: true
+content:
+  - tag: title
+    text: 认证方式
+
+  - tag: text
+    text: 连接有线或无线网络后，设备通常会自动弹出认证页面。若未自动弹出，请手动在浏览器中访问以下地址。
+
+  - tag: action
+    header: 认证网址
+    content: "10.100.100.67"
+
+  - tag: title
+    text: 认证账户
+
+  - tag: text
+    text: 校园网采用统一身份认证系统。登录时，可使用学号或个人邮箱作为账户名。
+
+  - tag: list
+    header: 更多信息
+    items:
+      - text: 统一身份认证
+        icon: about
+        path: /guide/account/authorize/
+
+  - tag: title
+    text: 在线设备数量
+
+  - tag: ul
+    text:
+      - 同一账户最多支持三台设备同时在线。
+      - 同一账户最多可绑定六台设备，以实现无感知认证（即设备连接网络后无需登录即可直接上网）。
+
+  - tag: text
+    type: tip
+    text: 若因科研等特殊原因，确需超过三台设备同时联网，可联系信息化办公室申请。经本人所在学院及信息化办公室审批通过后，即可在指定期限内临时增加同时在线设备数量。
+
+  - tag: title
+    text: 信息查询与管理
+
+  - tag: action
+    header: 管理页面地址
+    content: "10.100.100.67:8900"
+
+  - tag: ul
+    header: 主要功能
+    text:
+      - 查询名下各设备的流量使用详情与在线时长。
+      - 管理已绑定的设备，如移除旧设备或为新设备开启无感知认证。

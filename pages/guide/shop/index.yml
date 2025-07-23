@@ -1,0 +1,67 @@
+title: 超市
+tags:
+  - 超市
+icon: shop
+author: Mr.Hope
+time: 2025-07-23T09:43:28.523Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: Mr.Hope 的建议
+        icon: idea
+        path: tip
+
+  - tag: text
+    text: 两校区的主要超市都是天猫超市。
+
+  - tag: title
+    text: 本部
+
+  - tag: list
+    items:
+      - text: 本部天猫超市
+        path: benbu-tmall
+
+      - text: 北苑生活区介绍
+        path: /guide/life/beiyuan-district
+
+      - text: 临时购买点
+        path: benbu-temp
+
+      - text: 南苑超市
+        path: nanyuan
+
+  - tag: text
+    header: 校外超市
+
+  - tag: list
+    items:
+      - text: 本部校外超市
+        path: benbu-out
+
+  - tag: title
+    text: 净月
+
+  - tag: list
+    items:
+      - text: 净月天猫超市
+        desc: 待补充
+
+      # TODO: Update
+      - text: 二食堂生活区
+        desc: 待补充
+
+      - text: 水之源超市
+        path: shuizhiyuan
+
+      - text: 净月临时售卖点
+        path: jingyue-temp
+
+  - tag: text
+    header: 校外超市
+
+  - tag: list
+    items:
+      - text: 净月校外超市
+        path: jingyue-out

@@ -1,0 +1,86 @@
+{
+  "name": "innenu-resource",
+  "private": true,
+  "description": "inNENU 小程序资源文件",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:inNENU/resource.git"
+  },
+  "license": "Mr.Hope LICENSE",
+  "author": {
+    "name": "Mr.Hope",
+    "email": "mister-hope@outlook.com",
+    "url": "https://mister-hope.com"
+  },
+  "type": "module",
+  "scripts": {
+    "assets:check": "tsx ./scripts/check-assets.ts",
+    "commit:force": "git commit --no-verify",
+    "lint": "eslint . --fix && prettier --check --write .",
+    "lint:check": "eslint . && prettier --check .",
+    "knowledge:generate": "tsx ./scripts/generate-knowledge.ts",
+    "prepare": "husky",
+    "push-pages": "tsx ./scripts/push-pages.ts",
+    "resource:check": "tsx ./scripts/check-resource.ts",
+    "resource:generate": "tsx ./scripts/generate-resource.ts",
+    "site:build": "vuepress build .site",
+    "site:dev": "vuepress dev .site",
+    "site:generate": "tsx ./scripts/generate-site.ts",
+    "sync:account": "tsx ./scripts/sync-account.ts",
+    "sync:oss": "tsx ./scripts/sync-oss.ts",
+    "text:generate": "tsx ./scripts/generate-text.ts"
+  },
+  "nano-staged": {
+    "**/*": "prettier --write -u",
+    "*.{js,ts}": "eslint --fix"
+  },
+  "dependencies": {
+    "@alicloud/cdn20180510": "7.0.1",
+    "@mdit-vue/plugin-frontmatter": "2.1.4",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/helper": "2.0.0-rc.112",
+    "@vuepress/plugin-feed": "2.0.0-rc.112",
+    "@vuepress/plugin-meilisearch": "2.0.0-rc.112",
+    "@vueuse/core": "13.5.0",
+    "cheerio": "1.1.2",
+    "cpx2": "8.0.0",
+    "del": "8.0.0",
+    "dotenv": "17.2.0",
+    "innenu-generator": "0.5.6",
+    "js-yaml": "4.1.0",
+    "markdown-it": "14.1.0",
+    "sass-embedded": "1.89.2",
+    "svgo": "4.0.0",
+    "vidstack": "1.12.13",
+    "vue": "3.5.18",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-shared": "2.0.0-rc.94",
+    "vuepress-theme-hope": "2.0.0-rc.94"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "4.0.9",
+    "@types/markdown-it": "14.1.2",
+    "@types/node": "24.1.0",
+    "domhandler": "5.0.3",
+    "eslint": "9.31.0",
+    "eslint-config-mister-hope": "0.9.6",
+    "eslint-plugin-vue": "10.3.0",
+    "husky": "9.1.7",
+    "nano-staged": "0.8.0",
+    "prettier": "3.6.2",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3",
+    "vitest": "3.2.4"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "pnpm": {
+    "overrides": {
+      "esbuild": "^0.25.6"
+    },
+    "onlyBuiltDependencies": [
+      "@alicloud/openapi-core",
+      "esbuild",
+      "unrs-resolver"
+    ]
+  }
+}

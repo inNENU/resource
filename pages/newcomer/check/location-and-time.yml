@@ -1,0 +1,125 @@
+title: 2025 年报到时间地点
+tags:
+  - 报到
+  - 新生入学
+icon: time
+author: Mr.Hope
+time: 2025-07-23T09:43:28.634Z
+shareable: true
+content:
+  - tag: title
+    text: 报到日期安排
+
+  - tag: text
+    type: info
+    header: 本科新生报到日
+    text:
+      - 2025年8月30日（星期六）至31日（星期日）
+
+  - tag: text
+    type: info
+    header: 研究生新生报到日
+    text:
+      - 2025年9月4日（星期四）至5日（星期五）
+
+  # TODO: Check this at 2025-08
+  - tag: text
+    type: tip
+    header: 关于接站服务
+    text:
+      - 学校将在长春站、长春西站及龙嘉国际机场设有新生接待点，但请注意，不提供接站校车服务。
+    path: /newcomer/arrival/pickup
+
+  - tag: list
+    items:
+      - text: 认准校区校门
+        icon: gate
+        path: locate
+
+  - tag: title
+    text: 关于提前或延迟报到
+
+  - tag: text
+    type: warning
+    header: 关于提前报到
+    text: 原则上不允许提前报到。如确有特殊情况，请务必提前与辅导员联系并获得批准。
+
+  - tag: text
+    type: danger
+    header: 关于延迟报到
+    text:
+      - 新生若因故无法在规定日期内报到，必须事先向所属学院（部）提交书面申请并办理请假手续。请假期限通常不超过两周。
+      - 未办理请假手续或逾期未报到者，除因不可抗力等正当事由外，将被视为自动放弃入学资格。
+
+  - tag: title
+    text: 报到(接待)时间
+
+  - tag: text
+    text:
+      - 7:00 - 22:00
+
+  - tag: text
+    type: note
+    text:
+      - 若您预计在上述时间段外抵达，请务必提前与辅导员沟通报到事宜。
+
+  - tag: title
+    text: 报到地点安排
+
+  # TODO: Update
+  - tag: text
+    type: warning
+    header: 重要提示：以下为2024年迎新安排，仅供参考。2025年具体安排待学校正式通知后更新，届时请以最新官方信息为准。
+
+  - tag: text
+    text:
+      - 本部校区报到处设于惟真楼对面区域。
+
+  - tag: location
+    header: 本部校区报到处（参考2024年）
+    points:
+      - loc: 43.86409,125.33468
+        name: 东北门
+        detail: 东北师范大学东北门
+        path: benbu/gate/north-east
+
+      - loc: 43.86167,125.325642
+        name: 西门
+        detail: 东北师范大学西门(正门)
+        path: benbu/gate/west
+
+      # - loc: 43.85967,125.33021
+      #   name: 南门
+      #   detail: 东北师范大学南门
+      #   path: benbu/gate/south
+
+      - loc: 43.863133,125.331584
+        name: 报到处
+        detail: 2024年本部校区报到处
+
+  - tag: text
+    text:
+      - 净月校区报到处设于图书馆门前广场。
+      # - 净月校区在雕塑门 (2 号门)
+
+  # - tag: location
+  #   title: 净月 2 号门
+  #   points:
+  #     - loc: 43.82886,125.42689
+
+  - tag: location
+    header: 净月校区报到处（参考2024年）
+    points:
+      - loc: 43.829067,125.427172
+        name: 二号门
+        detail: 净月校区二号门
+        path: jingyue/gate/gate2
+
+      - loc: 43.826572,125.420067
+        name: 四号门
+        detail: 净月校区四号门
+        path: jingyue/gate/gate4
+
+      - loc: 43.826361,125.424778
+        name: 报到处
+        detail: 2024年净月校区报到处

@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+pnpm-lock.yaml
+
+# Generated
+.oss/
+.resource/
+.site/
+
+# env files
+.env
+
+# Mac
+.DS_Store

@@ -1,0 +1,21 @@
+title: 第二学士招生简章
+aiIgnore: true
+icon: rule
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.568Z
+shareable: true
+content:
+  - tag: list
+    header: 2025 年
+    items:
+      - text: 2025 年第二学士学位招生简章
+        icon: rule
+        path: "2025"
+
+  - tag: list
+    header: 历史信息
+    items:
+      - text: 查看详情
+        icon: more
+        path: /other/enroll/second-degree/history

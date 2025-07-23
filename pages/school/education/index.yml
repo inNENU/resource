@@ -1,0 +1,71 @@
+title: 教育学部
+tags:
+  - 教育学部
+icon: education
+grey: true
+author: Mr.Hope
+time: 2025-06-24T10:35:29.409Z
+shareable: true
+content:
+  - tag: account
+    name: 教育学部
+    logo: $img/media/education-wechat.png
+    detail: 东北师范大学教育学部
+    wxid: edunenu
+    account: education
+    loc: 43.8617,125.32983
+    mail: fed@nenu.edu.cn
+    site: https://edu.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 历史沿革
+        icon: time
+        path: history
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+      - text: 学科建设
+        icon: content
+        path: subject
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 教育学类
+        path: class
+
+      - text: 小学教育(公费师范)
+        path: primary-normal
+
+      - text: 学前教育(公费师范)
+        path: before-normal
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 教育学类
+        path: into/class
+
+      - text: 小学教育专业 (公费师范)
+        path: into/primary
+
+      - text: 学前教育专业 (公费师范)
+        path: into/before
+
+  - tag: list
+    header: 优秀毕业生建议
+    items:
+      - text: 董玥彤
+        icon: idea
+        path: /newcomer/advice/education/dong
+
+      - text: 林传舜
+        icon: idea
+        path: /newcomer/advice/education/lin

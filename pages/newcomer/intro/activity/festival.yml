@@ -1,0 +1,107 @@
+title: 美食节介绍
+tags:
+  - 食堂
+icon: dining
+desc: 部分图片来自东北师范大学官网与东北师范大学官方微信公众号
+author: Mr.Hope
+time: 2025-07-23T09:43:28.640Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    text:
+      - 学校每年定期举办美食节，这是一项集美食评选与文化展示于一体的校园品牌活动。
+      - 活动期间，各食堂档口将精心制作招牌菜品参与评比，评选结束后，部分菜品会向师生提供免费品尝。此外，美食节当天，所有食堂档口均提供折扣优惠（例如全场八折）。
+
+  - tag: card
+    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnvrnSHL17d4licOamoQt8OpgakUvGmcsiaWfgWBW8YxXtGRnUpyaVVEiayWOwDKkqVLRkeCg2nSmqjQ/0?wx_fmt=jpeg
+    url: https://mp.weixin.qq.com/s/HTWlygZatf5KQLykmgko9w
+    title: 东北师范大学第七届美食节
+    logo: $img/organization/nenuyouth.png
+    name: 东师青年
+
+  - tag: img
+    src: $img/dining/benbu-festival1.jpg
+
+  - tag: img
+    src: $img/dining/benbu-festival2.jpg
+
+  - tag: img
+    src: $img/dining/benbu-festival3.jpg
+
+  - tag: img
+    src: $img/dining/benbu-festival4.jpg
+
+  - tag: img
+    src: $img/dining/jingyue-festival1.jpg
+
+  - tag: img
+    src: $img/dining/jingyue-festival2.jpg
+
+  - tag: img
+    src: $img/dining/jingyue-festival3.jpg
+
+  - tag: img
+    src: $img/dining/jingyue-festival4.jpg
+
+  - tag: title
+    text: 北苑
+
+  - tag: img
+    src: $img/dining/beiyuan/festival1.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival2.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival3.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival4.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival5.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival6.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival7.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival8.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan/festival9.jpg
+
+  - tag: title
+    text: 南苑
+
+  - tag: img
+    src: $img/dining/nanyuan/festival1.jpg
+
+  - tag: img
+    src: $img/dining/nanyuan/festival2.jpg
+
+  - tag: img
+    src: $img/dining/nanyuan/festival3.jpg
+
+  - tag: img
+    src: $img/dining/nanyuan/festival4.jpg
+
+  - tag: title
+    text: 一食堂
+
+  - tag: img
+    src: $img/dining/dining1/festival1.jpg
+
+  - tag: img
+    src: $img/dining/dining1/festival2.jpg
+
+  - tag: p
+    type: tip
+    header: Mr.Hope の 吐槽
+    text:
+      - 与其说是美食节，不如戏称为“萝卜雕刻大赛”。味道好坏似乎是次要的，关键在于菜品摆盘的观赏性。为了在评比中脱颖而出，各个档口都会卯足了劲，用萝卜等食材雕刻出精美的造型作为装饰。
+      - 活动的另一大亮点是学校会提供一个超大尺寸的免费蛋糕，分发给前来参加的同学。同时，参与评比的档口也会在展示结束后，将部分美食免费提供给师生品尝。
+      - 不过，对于大一、大二的同学来说，想品尝到免费美食颇具挑战。因为课程安排，等你下课赶到食堂时，免费的菜品和蛋糕往往已经被“一扫而空”了。

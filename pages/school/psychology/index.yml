@@ -1,0 +1,48 @@
+title: 心理学院
+tags:
+  - 心理学院
+icon: psychology
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.404Z
+shareable: true
+content:
+  - tag: account
+    name: 心理学院
+    logo: $img/media/psychology.png
+    detail: 东北师范大学心理学院
+    wxid: gh_b8263d1e2906
+    account: psychology
+    loc: 43.863147,125.328065
+    mail: psy@nenu.edu.cn
+    site: https://psy.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 心理学
+        path: psychology
+
+      - text: 心理学 (公费师范)
+        path: normal
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 非公费转入要求
+        icon: alert
+        path: into/psy
+
+      - text: 公费转入要求
+        icon: alert
+        path: into/psy-normal

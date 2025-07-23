@@ -1,0 +1,53 @@
+title: 校园卡支付宝充值
+tags:
+  - 校园卡
+icon: alipay
+author: Mr.Hope
+time: 2025-07-23T09:43:28.430Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    header: 通过支付宝充值校园卡
+    text: 您可以通过支付宝 App 内的“校园一卡通”功能为校园卡充值。
+
+  - tag: title
+    text: 充值流程
+
+  - tag: img
+    src: $img/card/ali-pay1.jpg
+    desc: 打开支付宝，在首页搜索“校园一卡通”并进入该服务。
+    watermark: true
+
+  - tag: img
+    src: $img/card/ali-pay2.jpg
+    desc: 在服务页面中，搜索并选择“东北师范大学”。
+    watermark: true
+
+  - tag: img
+    src: $img/card/ali-pay3.jpg
+    desc: 根据提示输入姓名和学号进行绑定，随后输入充值金额并完成支付。
+    watermark: true
+
+  - tag: title
+    text: 充值须知与提示
+
+  - tag: text
+    type: tip
+    header: 首次绑定与后续使用
+    text: 首次成功充值后，支付宝首页将自动保存校园卡入口，方便您后续直接进行充值和余额查询。
+
+  - tag: ul
+    type: warning
+    header: 注意事项
+    text:
+      - 单次充值金额上限为 500 元。
+      - 充值到账可能存在数分钟延迟，建议您提前充值，避免在需要立即使用时余额不足。
+      - 在高峰时段或夜间系统维护期间，充值服务可能会暂时中断，如遇失败请稍后重试。
+
+  - tag: text
+    type: danger
+    header: 余额上限提醒
+    text:
+      - 请确保校园卡账户总余额不超过 999 元。因部分消费终端系统限制，余额达到四位数（即 1000 元及以上）可能导致无法刷卡。
+      - 如不慎使余额超过上限，请持本人校园卡前往信息化办公室办理部分退费。

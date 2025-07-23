@@ -1,0 +1,50 @@
+@use "@sass-palette/hope-config";
+
+.innenu-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.innenu-grid-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.innenu-grid-item {
+  width: calc(25% - 10px);
+  margin: 5px;
+  padding: 10px 0;
+  border-radius: 6px;
+  text-align: center;
+  color: var(--vp-c-text);
+
+  background-color: var(--vp-c-control);
+
+  @media (min-width: hope-config.$tablet) {
+    width: calc(16.666% - 10px);
+  }
+
+  @media (min-width: hope-config.$pc) {
+    width: calc(12.5% - 10px);
+  }
+
+  &:hover {
+    background-color: var(--vp-c-control-hover) !important;
+    text-decoration: none !important;
+  }
+}
+
+.innenu-grid-text {
+  color: var(--vp-c-text-mute);
+  font-size: 14px;
+}
+
+.innenu-grid-footer {
+  min-height: 16px;
+  padding: 5px 16px;
+
+  color: var(--vp-c-text-mute);
+
+  font-size: 13px;
+  text-align: left;
+}

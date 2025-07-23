@@ -1,0 +1,48 @@
+title: 新生缴费指南
+tags:
+  - 报到
+  - 学费
+icon: money
+author: Mr.Hope
+time: 2025-07-23T09:43:28.634Z
+shareable: true
+content:
+  - tag: text
+    type: danger
+    header: 谨防诈骗！
+    text: 新生报到现场不收取任何学费与住宿费。请全体新生及家长提高警惕，谨防诈骗！
+
+  - tag: text
+    type: warning
+    text:
+      - 若有任何人员在报到现场以任何名义要求您缴纳学费，请委婉拒绝避免触怒对方并记下其体貌特征，第一时间联系学校保卫部门。
+    path: /apartment/defend/
+
+  - tag: text
+    type: tip
+    text:
+      - 对于缴纳学费暂时存在困难的同学，学校已开设“绿色通道”，请提前了解并按流程申请，以确保顺利入学。
+    path: /intro/subsidize/green-tunnel/
+
+  - tag: title
+    text: 学宿费缴纳方式
+
+  - tag: text
+    text: 所有学费及住宿费均需在开学后，由学生本人通过学校官方缴费平台统一在线缴纳。
+
+  - tag: list
+    items:
+      - text: 学校官方缴费平台介绍
+        icon: money
+        path: /guide/pay/
+
+  - tag: title
+    text: 关于学院收取的费用
+
+  - tag: p
+    type: tip
+    header: Mr.Hope 提示
+    text:
+      - 虽然学校不统一在报到现场收取学费和住宿费，但部分学院可能会根据惯例，在迎新接待点组织收取一定数额的班费或年级费（通常为数百元）。
+      - 当您在所属学院的迎新接待点（通常设有学院标识），有辅导员或佩戴工作证的学长学姐明确要求缴纳该费用，并进行实名登记时，通常可确认为正规收费，请配合缴纳。
+      - 该费用一般作为班级或年级公款，用于后续的集体活动开支，例如：组织文体活动、统一购买军训服装或学院院服、运动会物资采购以及毕业季相关活动等。

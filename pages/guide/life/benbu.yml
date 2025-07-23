@@ -1,0 +1,106 @@
+title: 本部生活分板块介绍
+aiIgnore: true
+icon: life
+author: Mr.Hope
+time: 2024-08-29T09:00:55.798Z
+shareable: true
+content:
+  - tag: title
+    text: 本部
+
+  - tag: list
+    items:
+      - text: 北苑生活区介绍
+        icon: shop
+        path: beiyuan-district
+
+      - text: 浴池生活区介绍
+        icon: bath
+        path: benbu-bath-district
+
+  - tag: title
+    text: 分板块介绍
+
+  - tag: grid
+    header: 衣
+    items:
+      - text: 洗衣店
+        icon: washer
+        path: washing/benbu
+
+      - text: 眼镜店
+        icon: glasses
+        path: glasses/benbu
+
+  - tag: grid
+    header: 食
+    items:
+      - text: 食堂
+        icon: dining
+        path: /guide/dining/benbu
+
+      - text: 水果
+        icon: fruit
+        path: fruit/benbu
+
+      - text: 烘焙坊
+        icon: bake
+        path: bake/benbu
+
+      - text: 饮品店
+        icon: drink
+        path: drink/benbu
+
+  - tag: grid
+    header: 住
+    items:
+      - text: 寝室
+        icon: dorm
+        path: /guide/dorm/
+
+      - text: 浴池
+        icon: bath
+        path: /guide/bath/benbu
+
+      - text: 理发
+        icon: haircut
+        path: haircut/benbu
+
+      - text: 照相
+        icon: photo
+        path: photo/benbu
+
+      - text: 打印复印
+        icon: print
+        path: print/benbu
+
+      - text: 数码电子
+        icon: digital
+        path: digital/benbu
+
+      - text: 书店
+        icon: books
+        path: book/benbu
+
+      - text: 营业厅
+        icon: sim
+        path: sim/
+
+  - tag: grid
+    header: 行
+    items:
+      - text: 交通出行
+        icon: traffic
+        path: /guide/traffic/
+
+      - text: 存取款
+        icon: atm
+        path: atm/benbu
+
+      - text: 就医
+        icon: hospital
+        path: hostpital/benbu
+
+      - text: 校园周边
+        icon: nearby
+        path: nearby/benbu

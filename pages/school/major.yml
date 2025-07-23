@@ -1,0 +1,89 @@
+title: 专业介绍
+aiIgnore: true
+icon: study
+grey: true
+author: Mr.Hope
+time: 2024-08-29T09:00:55.059Z
+shareable: true
+content:
+  - tag: grid
+    items:
+      - text: 教育学部
+        icon: education
+        path: education/enroll
+
+      - text: 心理学院
+        icon: psychology
+        path: psychology/enroll
+
+      - text: 政法学院
+        icon: politics
+        path: politics/enroll
+
+      - text: 经济与管理学院
+        icon: economy
+        path: economy/enroll
+
+      - text: 文学院
+        icon: chinese
+        path: chinese/enroll
+
+      - text: 历史文化学院
+        icon: history
+        path: history/enroll
+
+      - text: 外国语学院
+        icon: foreign
+        path: foreign/enroll
+
+      - text: 音乐学院
+        icon: music
+        path: music/enroll
+
+      - text: 美术学院
+        icon: art
+        path: art/enroll
+
+      - text: 马克思主义学部
+        icon: marx
+        path: marx/enroll
+
+      - text: 数学与统计学院
+        icon: math
+        path: math/enroll
+
+      - text: 信息科学与技术学院
+        icon: ist
+        path: ist/enroll
+
+      - text: 物理学院
+        icon: physics
+        path: physics/enroll
+
+      - text: 化学学院
+        icon: chemistry
+        path: chemistry/enroll
+
+      - text: 生命科学学院
+        icon: biology
+        path: biology/enroll
+
+      - text: 地理科学学院
+        icon: geography
+        path: geography/enroll
+
+      - text: 环境学院
+        icon: environment
+        path: environment/enroll
+
+      - text: 体育学院
+        icon: basketball
+        path: pe/enroll
+
+      - text: 传媒科学学院
+        icon: media
+        path: media/enroll
+
+      - text: 纽瓦克学院
+        icon: activity
+        path: newark/

@@ -1,0 +1,101 @@
+title: 历史文化学院招生
+tags:
+  - 招生
+  - 历史文化学院
+icon: enroll
+author: Mr.Hope
+time: 2025-06-24T12:25:33.960Z
+shareable: true
+content:
+  - tag: title
+    text: 院长说专业
+
+  - tag: text
+    header: 青蓝赓续 史苑春秋
+
+  - tag: video
+    src: https://zsb.nenu.edu.cn/__local/E/32/23/8F86EA0FBDC3035EE6051684C0A_A67DAA06_584E7A9.mp4?e=.mp4
+
+  - tag: title
+    text: 本科招生概况
+
+  - tag: p
+    text: 学院招生专业包括：历史学（日知试验班）、历史学、历史学（公费师范）、历史学（优师专项）。
+
+  - tag: img
+    src: $img/enroll/history-major.png
+
+  - tag: list
+    header: 专业详情
+    items:
+      - text: 历史学(公费师范)
+        path: normal
+
+      - text: 历史学
+        path: history-major
+
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 历史学
+        path: into/history
+
+      - text: 历史学专业 (公费师范)
+        path: into/normal
+
+      - text: 历史学专业 (优师专项)
+        path: into/great
+
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
+    env:
+      - qq
+      - wx
+      - app
+
+  - tag: action
+    header: 本科人才培养方案
+    content: https://www.nenu.edu.cn/jyjx/bksjy/rcpyfa.htm
+    env:
+      - web
+
+  - tag: phone
+    fName: 历史文化学院本科招生咨询
+    num: 0431-85099418
+    org: 东北师范大学
+    street: 吉林省长春市人民大街 5268 号
+    postCode: 130024
+    mail: sohac@nenu.edu.cn
+    site: https://sohac.nenu.edu.cn/
+
+  - tag: title
+    text: 历史文化学院硕士专业设置
+
+  - tag: img
+    src: $img/enroll/history-master-all.png
+
+  - tag: list
+    items:
+      - text: 查询地址
+        icon: search
+        url: grad-enroll-plan?school=历史文化学院
+
+  - tag: phone
+    header: 硕士研究生招生咨询电话
+    fName: 泰居
+    lName: 张
+    num: 0431-85099418
+    org: 东北师范大历史文化学院
+    title: 硕士研究生招生负责人
+    street: 吉林省长春市人民大街 5268 号
+    postCode: 130024
+    mail: zhangtj557@nenu.edu.cn
+
+  - tag: title
+    text: 历史文化学院博士专业设置
+
+  - tag: img
+    src: $img/enroll/history-doctor.png

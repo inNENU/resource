@@ -1,0 +1,38 @@
+title: 保卫处
+tags:
+  - 学校机构
+icon: police
+author: Mr.Hope
+time: 2025-07-23T09:43:28.364Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 简介
+        icon: about
+        path: intro
+
+      - text: 联系方式
+        icon: contact
+        path: contact
+
+  - tag: title
+    text: 联系电话
+
+  - tag: phone
+    header: 本部保卫科
+    fName: 本部保卫科
+    num: 0431-85098110
+    org: 东北师范大学
+    street: 吉林省长春市人民大街 5268 号
+    postCode: 130024
+    site: https://bwc.nenu.edu.cn/
+
+  - tag: phone
+    header: 净月保卫科
+    fName: 净月保卫科
+    num: 0431-85096110
+    org: 东北师范大学
+    street: 吉林省长春市净月大街 2555 号
+    postCode: 130024
+    site: https://bwc.nenu.edu.cn/

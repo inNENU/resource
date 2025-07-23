@@ -1,0 +1,19 @@
+title: 放假相关问答
+tags:
+  - 常见问题
+  - 校园生活
+icon: calendar
+author: Mr.Hope
+time: 2025-07-23T09:43:28.639Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    header: 东师寒暑假如何安排
+    text: 东师寒暑假通常为 6 周，更多详情可详见校历。
+
+  - tag: list
+    items:
+      - text: 校历
+        icon: calendar
+        url: calendar

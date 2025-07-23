@@ -1,0 +1,41 @@
+title: 洗浴充值
+tags:
+  - 浴池
+  - 校园生活
+icon: charge
+author: Mr.Hope
+time: 2025-07-23T09:43:28.425Z
+shareable: true
+content:
+  - tag: text
+    type: note
+    text: 充值前，请先关注微信公众号“台州博诚”，并根据提示完成账户绑定等初始设置。
+
+  - tag: list
+    items:
+      - text: 浴池账户与计费
+        icon: account
+        path: account
+
+  - tag: text
+    text: 进入“台州博诚”公众号后，点击“钱包充值”菜单，然后选择您所在的校区。
+
+  - tag: img
+    src: $img/bath/charge-menu.jpg
+    desc: 充值菜单
+    watermark: true
+
+  - tag: text
+    text: 接下来，输入充值金额并完成支付。单次充值金额最低为20元。
+
+  - tag: img
+    src: $img/bath/charge-pay.jpg
+    desc: 充值页面
+    watermark: true
+
+  - tag: text
+    type: warning
+    header: 风险提示
+    text:
+      - 消费密码的安全性有限，且淋浴间内无监控设施，为保障资金安全、避免盗用风险，建议账户内不要存放过多金额。
+      - 消费密码每日最多可修改三次。如发现账户出现异常消费，请立即修改密码。

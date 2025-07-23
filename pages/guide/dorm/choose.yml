@@ -1,0 +1,78 @@
+title: 寝室选择
+tags:
+  - 宿舍
+icon: faq
+author: Mr.Hope
+time: 2025-07-23T09:43:28.451Z
+cite:
+  - https://publish.nenu.edu.cn/info/1068/2633.htm
+shareable: true
+content:
+  - tag: text
+    type: info
+    header: 是否可以自主选择寝室
+    text: 不可以
+
+  - tag: title
+    text: 寝室分配
+
+  - tag: p
+    text:
+      - 寝室分配工作由辅导员统一安排，通常在开学前完成。
+      - 分配遵循男女分寝、同专业同寝的基本原则。此外，多数学院会采用“同地不同室”的策略，即来自同一地区的同学通常不会被分到同一寝室。在满足以上原则后，辅导员会进行随机分配。
+      - 此举旨在促进同学间的交流与融合，增进对不同地域文化的了解和尊重，从而营造和谐的寝室氛围。
+
+  - tag: text
+    type: tip
+    header: 寝室调整
+    text:
+      - 因研究生毕业时间不一，很多新生会入住已有寝室的空床位。如果自己组内师兄师姐寝室有空床位，可以在入住名单确定前和导员联系进行调整。
+
+  - tag: title
+    text: 住宿费
+
+  - tag: p
+    text: 住宿费与寝室的类型、面积、楼层等具体条件直接相关，通常按学年收取。根据近年标准，本科生住宿费为 700 - 800 元/学年，研究生为 600 - 1200 元/学年。
+
+  # TODO: Update at 2026-06
+  - tag: doc
+    name: 2025 年住宿费标准
+    url: $file/intro/2025-dorm-fee.pdf
+
+  - tag: text
+    type: tip
+    text:
+      - 因学生宿舍资源紧张，户籍在长春市城区的学生以及超出标准修业年限的学生，原则上不予安排宿舍。
+
+  - tag: list
+    items:
+      - text: 宿舍分配管理办法 (试行)
+        icon: rule
+        path: /intro/rule/dorm-distribution
+
+  - tag: title
+    text: 寝室床号
+
+  - tag: text
+    text: 寝室床位通常从门口开始，按逆时针方向进行编号。
+
+  - tag: text
+    type: info
+    header: 六人寝
+    align: center
+    text:
+      - 窗
+      - 4  3
+      - 5  2
+      - 6  1
+      - 门
+
+  - tag: text
+    type: info
+    header: 四人寝
+    align: center
+    text:
+      - 窗
+      - 3  2
+      - 4  1
+      - 门

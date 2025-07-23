@@ -1,0 +1,74 @@
+title: 新生银行卡办理指南
+tags:
+  - 入学活动
+  - 新生入学
+icon: card
+author: Mr.Hope
+time: 2025-07-23T09:43:28.611Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    text:
+      - 学校将为全体新生统一办理交通银行“学子卡”。该卡是一张个人I类借记卡，将用于接收公费师范生补助、各类奖助学金、勤工助学薪酬及路费补贴等款项的发放。
+
+  - tag: title
+    text: 银行卡性质
+
+  - tag: p
+    text:
+      - 该卡是学校为在校生统一办理的交通银行I类借记卡。
+      - 其功能与普通借记卡完全相同，支持正常的存取款、转账，并可绑定支付宝、微信等平台进行线上消费。
+
+  - tag: text
+    type: note
+    text:
+      - 借记卡即我们通常所说的储蓄卡，卡内无信用额度，需先存款后消费。
+
+  - tag: title
+    text: 办理方式
+
+  - tag: p
+    text:
+      - 开学后，学校将邀请交通银行工作人员在两校区内设立临时服务点。届时，请同学们根据学院通知，在指定时间段内，携带本人身份证原件与手机，前往指定地点排队办理开卡手续。
+
+  - tag: title
+    text: 重要注意事项
+
+  - tag: text
+    text: 根据银行规定，新办理的银行卡须在激活后的10个月内产生至少一笔动帐（如消费、转账、取款等），否则该卡将被暂时冻结。
+
+  - tag: title
+    text: 常见问题
+
+  - tag: text
+    header: 如何开通网上支付功能（绑定支付宝/微信）？
+    text: 新卡默认未开通线上支付功能。您需要通过交通银行手机App手动开通“短信密码”作为安全认证工具，具体步骤如下：
+
+  - tag: text
+    text: 第一步：在交通银行App首页，点击右上角的『全部』功能入口。
+
+  - tag: img
+    src: $img/activity/bank-card-tool1.jpg
+    watermark: true
+
+  - tag: text
+    text: 第二步：向下滑动页面，在『助手』栏目中找到并点击『我的安全』。
+
+  - tag: img
+    src: $img/activity/bank-card-tool2.jpg
+    watermark: true
+
+  - tag: text
+    text: 第三步：进入安全中心后，点击『身份认证工具』选项。
+
+  - tag: img
+    src: $img/activity/bank-card-tool3.jpg
+    watermark: true
+
+  - tag: text
+    text: 第四步：在认证工具列表中，选择『短信密码』并按提示完成申领即可。
+
+  - tag: img
+    src: $img/activity/bank-card-tool4.jpg
+    watermark: true

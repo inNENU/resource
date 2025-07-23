@@ -1,0 +1,45 @@
+# ==== enroll =====
+
+admission:
+  text: 高考录取查询
+  icon: letter
+  url: admission?type=search
+
+# ==== info =====
+
+calendar:
+  text: 校历
+  icon: calendar
+  url: calendar
+
+calendar-history:
+  text: 校史
+  icon: history
+  url: calendar-history
+
+phone:
+  text: 师大黄页
+  icon: phone
+  url: phone
+
+under-major-plan:
+  text: 本科人才培养计划
+  icon: rule
+  url: under-major-plan
+
+website:
+  text: 东师网站
+  icon: network
+  url: website
+
+# ==== tools =====
+
+pe-calculator:
+  text: 体测计算器
+  icon: calculate
+  url: pe-calculator
+
+weather:
+  text: 东师天气
+  icon: sun
+  url: weather

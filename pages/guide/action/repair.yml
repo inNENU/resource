@@ -1,0 +1,14 @@
+title: 故障报修
+tags:
+  - 服务办理
+  - 校园生活
+icon: repair
+author: Mr.Hope
+time: 2025-06-22T11:37:38.821Z
+shareable: true
+content:
+  - tag: text
+    text: 请通过以下网址报修
+
+  - tag: action
+    content: https://gyglxt.nenu.edu.cn/repair/redirect/website/index

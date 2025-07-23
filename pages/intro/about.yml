@@ -1,0 +1,22 @@
+title: 学校介绍
+aiIgnore: true
+icon: about
+grey: true
+content:
+  - tag: grid
+    items:
+      - text: 学校概况
+        icon: about
+        path: about/
+
+      - text: 学科建设
+        icon: content
+        path: subject/
+
+      - text: 学生就业
+        icon: job
+        path: job/
+
+      - text: 资助
+        icon: subsidize
+        path: subsidize/

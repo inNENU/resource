@@ -1,0 +1,98 @@
+title: 选课
+tags:
+  - 选课
+icon: select
+author: Mr.Hope
+time: 2025-07-23T09:43:28.518Z
+grey: true
+shareable: true
+content:
+  - tag: text
+    type: info
+    header: 2024 年秋季学期选课时间
+    path: time
+
+  - tag: list
+    items:
+      - text: 本科生 2025 秋季学期选课通知
+        icon: notice
+        url: notice-detail?url=info/1031/24591.htm&title=关于2025年秋季学期本科生选课的通知
+
+      - text: 本科生 2025 春季学期选课通知
+        icon: notice
+        url: notice-detail?url=info/1031/7551.htm&title=关于2025年春季学期本科生选课的通知
+
+      # TODO: add latest notice in 2025-08
+      # - text: 2023 级学硕选课须知
+      #   icon: notice
+      #   path: notice/study
+
+      # - text: 2023 级专硕选课须知
+      #   icon: notice
+      #   path: notice/professional
+
+  - tag: list
+    header: 关于选课
+    items:
+      - text: 选/注课介绍
+        icon: intro
+        path: intro
+
+      - text: 选/注课原则
+        icon: rule
+        path: rule
+
+      - text: 选课内容
+        icon: list
+        path: content
+
+      - text: 选课参考
+        icon: reference
+        path: reference
+
+  - tag: list
+    header: 选课流程
+    items:
+      - text: 流程介绍
+        icon: intro
+        path: flow
+
+      - text: 新生注课
+        icon: add
+        path: register
+
+      - text: 预选
+        icon: flow
+        path: pre-selection
+
+      - text: 正选
+        icon: flow
+        path: selection
+
+      - text: 退补选
+        icon: flow
+        path: improve-selection
+
+  - tag: list
+    header: 选课系统
+    items:
+      - text: 选课系统介绍
+        icon: intro
+        path: system/
+
+  - tag: list
+    header: 友情提示
+    items:
+      - text: 选课技巧
+        icon: idea
+        path: skill
+
+      - text: 严禁课程买卖
+        icon: ban
+        path: ban
+
+  - tag: list
+    items:
+      - text: 官方文件
+        icon: reference
+        path: /intro/rule/under-teaching

@@ -1,0 +1,22 @@
+title: 校园网缴费
+tags:
+  - 校园网
+icon: charge
+author: Mr.Hope
+time: 2025-07-23T09:43:28.496Z
+shareable: true
+content:
+  - tag: text
+    text: 您可以在校内自助终端机上，使用校园卡余额缴纳网费，也可以通过微信企业号“东北师范大学”完成缴费。
+
+  - tag: list
+    header: 详细方式
+    items:
+      - text: 微信企业号
+        desc: 推荐
+        icon: wechat
+        path: wechat
+
+      - text: 自助终端机
+        icon: atm
+        path: terminal

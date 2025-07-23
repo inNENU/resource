@@ -1,0 +1,26 @@
+title: 净月临时售卖点
+tags:
+  - 超市
+  - 校园生活
+icon: shop
+author:
+  - Mr.Hope
+  - 王霞
+time: 2024-08-17T02:31:30.834Z
+shareable: true
+content:
+  - tag: title
+    text: 临时售卖点
+
+  - tag: text
+    text:
+      - 由于新的天猫超市入驻尚未完成（仍在装修中），天猫超市在二食堂东北侧搭建了帐篷，安放了临时售卖点，以满足新生的采购需要。
+      - 临时售卖点两侧都可以结账，另外在对面还有冰镇饮料与雪糕售卖以供新生与家长消暑。
+
+  - tag: img
+    src: $img/shop/jingyue-temp1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/shop/jingyue-temp2.jpg
+    watermark: true

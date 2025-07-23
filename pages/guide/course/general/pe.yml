@@ -1,0 +1,48 @@
+title: 体育与国防教育
+tags:
+  - 课程
+icon: basketball
+author: Mr.Hope
+time: 2025-07-23T09:43:28.440Z
+shareable: true
+content:
+  - tag: title
+    text: 学分要求
+
+  - tag: p
+    text: 总计 6 学分，由体育课程（4学分）和国防教育课程（2学分）组成。
+
+  - tag: p
+    header: 体育课程 (4学分)
+    text:
+      - 2021级及以后：须修满 4 学分必修课程。
+      - 2020级及以前：须修满 2 学分必修和 2 学分选修课程。
+
+  - tag: p
+    header: 国防教育课程 (2学分)
+    text:
+      - 由军事训练（1学分）和军事理论（1学分）两部分组成。
+
+  - tag: list
+    items:
+      - text: 军训介绍
+        icon: military
+        path: /newcomer/activity/military/
+
+  - tag: title
+    text: 课程介绍
+
+  - tag: p
+    text:
+      - 体育课程旨在培养学生的健康意识，帮助学生掌握科学锻炼身体的手段和方法。
+      - 国防教育课程旨在增强学生的国防观念与国家安全意识。
+
+  - tag: title
+    text: 主要课程安排
+
+  - tag: ul
+    header: 2020 级及以后
+    text:
+      - 体育课程：共 8 门，贯穿大一至大四每学期，每门 0.5 学分，项目自选。其中体育2、4、6、8 的课程内容与前一学期相同，学生可根据个人兴趣选择不同的体育项目。
+      - 军事训练：1 学分，通常于大一开学初进行。
+      - 军事理论：1 学分，通常于大一学年内完成。

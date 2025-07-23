@@ -1,0 +1,26 @@
+title: 第二学士历史信息
+aiIgnore: true
+icon: rule
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.769Z
+shareable: true
+content:
+  - tag: list
+    header: 历史信息
+    items:
+      - text: 2024 年第二学士学位招生简章
+        icon: rule
+        path: "2024"
+
+      - text: 2023 年第二学士学位招生简章
+        icon: rule
+        path: "2023"
+
+      - text: 2022 年第二学士学位招生简章
+        icon: rule
+        path: "2022"
+
+      - text: 2021 年第二学士学位招生简章
+        icon: rule
+        path: "2021"

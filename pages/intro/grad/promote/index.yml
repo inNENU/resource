@@ -1,0 +1,33 @@
+title: 推免 (保研)
+tags:
+  - 考研/保研
+icon: degree
+author: Mr.Hope
+time: 2025-07-23T09:43:28.579Z
+grey: true
+shareable: true
+content:
+  - tag: list
+    items:
+      # FIXME: Update at 2025-09
+      # This is still an old link, so probably not working
+      - text: 2023 年推免通知
+        icon: notice
+        url: notice-detail?id=de5eb01a8bc14ee995b97237feb733d4&title=关于推荐2025届全日制本科毕业生免试攻读硕士学位研究生工作的通知
+
+      # FIXME: Update at 2025-09
+      # This is still an old link, so probably not working
+      - text: 第 27 届研究生支教团通知
+        icon: notice
+        url: notice-detail?id=43ab771fab1146b3aa438985f5b66751&title=关于招募第27届研究生支教团的通知
+
+  - tag: list
+    items:
+      - text: 推免工作实施办法
+        desc: 保研规则
+        icon: rule
+        path: promotion-rule
+
+      - text: 实施办法解读
+        icon: explain
+        path: explain

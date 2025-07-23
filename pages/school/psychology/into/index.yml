@@ -1,0 +1,15 @@
+title: 心理学院准入要求
+aiIgnore: true
+time: 2025-06-21T15:27:25.189Z
+shareable: true
+content:
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 非公费转入要求
+        icon: alert
+        path: psy
+
+      - text: 公费转入要求
+        icon: alert
+        path: psy-normal

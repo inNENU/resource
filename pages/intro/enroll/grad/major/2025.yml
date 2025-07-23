@@ -1,0 +1,35 @@
+title: 2025 年研究生全国推免与统考招生专业目录
+tags:
+  - 招生
+icon: list
+desc: |-
+  来源: 研究生院官网
+time: 2025-07-23T09:43:28.564Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    text:
+      - 关于完整的招生专业、人数以及联系方式，请详见下方链接。
+
+  # - tag: list
+  #   items:
+  #     - text: 2024 年研究生推免计划
+  #       icon: content
+  #       url: grad-enroll-plan?recommend=true
+  #     - text: 2024 年研究生招生计划
+  #       icon: content
+  #       url: grad-enroll-plan
+  - tag: action
+    header: 硕士查询地址
+    content: https://yz.nenu.edu.cn/ssmlZsmlGbGl/enterViewSsZsmlGbb?gbsjlx=1&nd=2025
+    # env:
+    #   - web
+
+  - tag: action
+    header: 博士查询地址
+    content: https://yz.nenu.edu.cn/bsmlZsmlSb/enterViewGsBsmlZsml?nd=2025
+
+  - tag: doc
+    name: 2025 年研究生学费及培养校区
+    url: $file/enroll/post-fee-2025.xlsx

@@ -1,0 +1,115 @@
+title: 文学院招生
+tags:
+  - 招生
+  - 文学院
+icon: enroll
+author: Mr.Hope
+time: 2025-06-24T12:25:33.935Z
+shareable: true
+content:
+  - tag: title
+    text: 院长说专业
+
+  - tag: text
+    header: 文心雕龙 学在东师
+
+  - tag: video
+    src: https://zsb.nenu.edu.cn/__local/9/32/53/109E5A4D8E25768651E92F1ED1D_19F8B56F_7856C83.mp4?e=.mp4
+
+  - tag: title
+    text: 本科招生概况
+
+  - tag: ul
+    text:
+      - 开设 汉语言文学(公费师范) 与 汉语言文学 两个专业。
+
+  - tag: list
+    header: 专业详情
+    items:
+      - text: 汉语言文学
+        path: chinese
+
+      - text: 汉语言文学(公费师范)
+        path: normal
+
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
+    env:
+      - qq
+      - wx
+      - app
+
+  - tag: action
+    header: 本科人才培养方案
+    content: https://www.nenu.edu.cn/jyjx/bksjy/rcpyfa.htm
+    env:
+      - web
+
+  - tag: title
+    text: 硕士研究生招生概况
+
+  - tag: list
+    items:
+      - text: 查询地址
+        icon: search
+        url: grad-enroll-plan?school=文学院
+
+  - tag: list
+    header: 硕士专业介绍
+    items:
+      - text: 古代文学
+        path: subject/ancient
+
+      - text: 现代文学
+        path: subject/modern
+
+      - text: 语言学
+        path: subject/language
+
+      - text: 比较文学
+        path: subject/compare
+
+      - text: 文艺理论
+        path: subject/theory
+
+      - text: 古典文献学
+        path: subject/classic
+
+      - text: 汉字学
+        path: subject/character
+
+      - text: 语文教学
+        path: subject/teach
+
+      - text: 课程教学论
+        path: subject/course
+
+      - text: 广播电视学
+        path: subject/broadcast
+
+      - text: 对外汉语
+        path: subject/to-out
+
+  - tag: phone
+    header: 硕士研究生招生咨询电话
+    fName: 茂东
+    lName: 孙
+    num: 0431-85098572
+    org: 东北师范大学文学院
+    title: 硕士研究生招生负责人
+    street: 吉林省长春市人民大街 5268 号
+    postCode: 130024
+    mail: sunmd108@nenu.edu.cn
+
+  - tag: phone
+    header: 中国古典文献学硕士研究生招生咨询电话
+    fName: 德浩
+    lName: 才
+    num: 0431-85099796
+    org: 东北师范大学文学院
+    title: 中国古典文献学硕士研究生招生负责人
+    street: 吉林省长春市人民大街 5268 号
+    postCode: 130024

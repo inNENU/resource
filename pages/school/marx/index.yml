@@ -1,0 +1,45 @@
+title: 马克思主义学部
+tags:
+  - 马克思主义学部
+icon: marx
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.392Z
+shareable: true
+content:
+  - tag: account
+    name: 马克思主义学部
+    logo: $img/media/marx.png
+    detail: 东北师范大学马克思主义学部
+    wxid: gh_32d2742e1204
+    account: marx
+    loc: 43.86268,125.32826
+    site: https://marxism.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 思想政治教育
+        path: mind
+
+      - text: 哲学
+        path: philosophy
+
+      - text: 社会学
+        path: social
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 转入要求
+        path: into

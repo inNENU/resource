@@ -1,0 +1,58 @@
+title: 企业微信充值校园卡
+tags:
+  - 校园卡
+icon: wechat
+author: Mr.Hope
+time: 2025-07-23T09:43:28.431Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    text: 完成企业微信认证后，您即可通过其内置的“校园卡”应用为校园卡进行充值。
+
+  - tag: list
+    items:
+      - text: 企业微信认证指引
+        icon: wechat
+        path: /guide/account/wechat/
+
+  - tag: title
+    text: 充值流程
+
+  - tag: text
+    text: 进入企业微信，在工作台中找到并打开“校园卡”应用。
+
+  - tag: img
+    src: $img/card/wechat-card-charge.jpg
+    desc: 企业微信中的工作台界面
+    watermark: true
+
+  - tag: text
+    text: 点击底部菜单栏的“校园卡”选项。
+
+  - tag: img
+    src: $img/card/wechat-card.jpg
+    desc: 在弹出的菜单中选择“校园卡充值”。
+    watermark: true
+
+  - tag: text
+    text: 根据提示输入充值金额，并完成微信支付。
+
+  - tag: title
+    text: 充值须知与重要提示
+
+  - tag: ul
+    type: warning
+    header: 注意事项
+    text:
+      - 单次充值金额上限为 500 元。
+      - 在高峰时段，转账可能会因网络繁忙提示“与学校一卡通服务连接超时”，重试即可。
+      - 夜间一卡通服务会进行短暂的例行维护，期间将无法充值或查询余额。
+      - 转账成功后，校园卡余额可能不会立即更新，通常需要等待几分钟。为避免影响使用，建议您提前充值。
+
+  - tag: text
+    type: danger
+    header: 余额上限提醒
+    text:
+      - 请确保校园卡账户总余额不超过 999 元。因部分消费终端系统限制，余额达到四位数（即 1000 元及以上）可能导致无法刷卡。
+      - 如不慎使余额超过上限，请持本人校园卡前往信息化办公室办理部分退费。

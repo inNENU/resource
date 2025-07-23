@@ -1,0 +1,48 @@
+title: 校外功能
+tags:
+  - 服务办理
+grey: true
+content:
+  - tag: grid
+    items:
+      - text: 统一身份认证
+        icon: account
+        url: web?url=https://authserver-443.webvpn.nenu.edu.cn/authserver/login
+
+      - text: Web VPN
+        icon: vpn
+        url: web?url=https://webvpn.nenu.edu.cn/users/sign_in
+
+      - text: 网上服务大厅
+        icon: network
+        url: web?url=https://oa-443.webvpn.nenu.edu.cn/
+
+      - text: 校园邮箱
+        icon: email
+        url: web?url=https://mail.nenu.edu.cn/
+    env:
+      - app
+
+  - tag: action
+    header: 统一身份认证
+    content: https://authserver-443.webvpn.nenu.edu.cn/authserver/login
+    env:
+      - web
+
+  - tag: action
+    header: Web VPN
+    content: https://webvpn.nenu.edu.cn/users/sign_in
+    env:
+      - web
+
+  - tag: action
+    header: 网上服务大厅
+    content: https://oa-443.webvpn.nenu.edu.cn/
+    env:
+      - web
+
+  - tag: action
+    header: 校园邮箱
+    content: https://mail.nenu.edu.cn/
+    env:
+      - web

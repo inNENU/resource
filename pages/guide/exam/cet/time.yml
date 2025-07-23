@@ -1,0 +1,39 @@
+# TODO: Update at 2025-09
+title: 大学英语水平测试时间
+tags:
+  - 国家考试
+icon: time
+author: Mr.Hope
+time: 2025-07-23T09:43:28.463Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    header: 2025 年上半年报名时间
+    text:
+      - 2025年3月17日9时－3月25日17时
+
+  # - tag: text
+  #   type: info
+  #   header: 2022 年下半年打印准考证时间
+  #   text:
+  #     - 口语报名成功的考生须于 2022 年 11 月 15 日 9 时起登录进入“个人中心”，下载并打印准考证。
+  #     - 笔试报名成功的考生须于 2022 年 12 月 5 日 8 时起登录进入“个人中心”，下载并打印准考证。
+
+  - tag: text
+    type: info
+    header: 2025 年上半年口试考试时间
+    text:
+      - |-
+        英语四级考试 (CET4): 5 月 24 日
+      - |-
+        英语六级考试 (CET6): 5 月 25 日
+
+  - tag: text
+    type: info
+    header: 2025 年上半年笔试考试时间
+    text:
+      - |-
+        英语四级考试 (CET4): 6 月 14 日 9:00 - 11:20
+      - |-
+        英语六级考试 (CET6): 6 月 14 日 15:00 - 17:25

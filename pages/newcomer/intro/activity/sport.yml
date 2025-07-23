@@ -1,0 +1,60 @@
+title: 运动会介绍
+tags:
+  - 校园生活
+icon: sports
+author: Mr.Hope
+time: 2025-07-23T09:43:28.641Z
+shareable: true
+content:
+  - tag: title
+    text: 校运动会
+
+  - tag: p
+    text:
+      - 学校通常在每年春季（5月）举办校级运动会，是全校性的体育盛事。
+      - 运动会分为预赛和决赛两个阶段。预赛在两校区分别举行，旨在选拔出进入决赛的运动员。
+      - 决赛是运动会的主体部分，通常于周末在两校区之一集中举办，包括开幕式、各项目决赛、颁奖典礼和闭幕式等环节，学校主要领导均会出席。
+      - 按照惯例，大一学生是开幕式的主要观众。如果决赛场地不在本校区，学生需要在当天清晨乘坐学校统一安排的班车前往。
+
+  - tag: title
+    text: 开幕式
+
+  - tag: p
+    text:
+      - 开幕式通常以大型团体表演开场，如千人太极拳、舞龙舞狮及武术表演等，展现了学校的体育文化特色。
+      - 表演结束后，裁判员方阵和各学院的运动员代表队会依次入场，接受主席台检阅。
+
+  - tag: img
+    src: $img/activity/sport-meeting/open1.jpg
+
+  - tag: img
+    src: $img/activity/sport-meeting/open2.jpg
+
+  - tag: img
+    src: $img/activity/sport-meeting/open3.jpg
+
+  - tag: img
+    src: $img/activity/sport-meeting/open4.jpg
+
+  - tag: img
+    src: $img/activity/sport-meeting/open5.jpg
+
+  - tag: img
+    src: $img/activity/sport-meeting/open6.jpg
+
+  - tag: title
+    text: 比赛
+
+  - tag: p
+    text:
+      - 决赛日的赛程安排较为紧凑，各田径项目决赛在运动场内依次进行。全部比赛通常会在下午三点前结束。
+
+  - tag: img
+    src: $img/activity/sport-meeting/race1.jpg
+
+  - tag: title
+    text: 颁奖与闭幕式
+
+  - tag: p
+    text:
+      - 所有比赛项目结束后，学校将举行颁奖典礼，由校领导为获奖运动员和团体颁奖。最后，校领导致闭幕词，宣告本届运动会圆满结束。

@@ -1,0 +1,27 @@
+title: 招生办公室
+tags:
+  - 招生
+  - 学校机构
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.364Z
+icon: enroll
+shareable: true
+content:
+  - tag: account
+    name: 招生办公室
+    logo: $img/media/official.png
+    detail: 东北师范大学招生办公室
+    wxid: nenuzsb
+    account: enroll
+    mail: zsb@nenu.edu.cn
+    site: https://zsb.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 招生办公室人员信息
+        path: /apartment/course/info/enroll
+
+      - text: 招生办公室联系方式
+        icon: phone
+        path: contact

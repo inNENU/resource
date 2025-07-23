@@ -1,0 +1,33 @@
+title: 教育学类介绍
+tags:
+  - 教育学部
+  - 专业介绍
+desc: |-
+  来源: 2025 年本科招生指南
+time: 2025-06-22T18:36:07.273Z
+cite:
+  - https://book.zjzw.cn/books/lzsj/mobile/index.html
+shareable: true
+content:
+  - tag: title
+    text: 专业简介
+
+  - tag: p
+    text:
+      - 本专业为教育部批准备案的师范专业，学生毕业后可选择从事教师职业，也可选择继续攻读研究生，或选择从事其他职业。
+      - 学生入学一年后进行专业选择，包括教育学、学前教育、小学教育 3 个专业。
+      - 学习成绩优秀者可直接推荐免试攻读硕士学位研究生。
+
+  - tag: title
+    text: 专业介绍
+
+  - tag: list
+    items:
+      - text: 教育学
+        path: edu
+
+      - text: 小学教育
+        path: primary
+
+      - text: 学前教育
+        path: before

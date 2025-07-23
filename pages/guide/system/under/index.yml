@@ -1,0 +1,28 @@
+title: 本科教学服务系统
+aiIgnore: true
+icon: system
+author: Mr.Hope
+time: 2025-07-23T09:43:28.529Z
+grey: true
+shareable: true
+content:
+  # FIXME: @YinXin 添加更多功能流程
+  - tag: list
+    items:
+      - text: 系统介绍
+        icon: intro
+        path: intro
+
+      - text: 学籍注册与建立
+        icon: rule
+        path: school-roll
+
+      - text: 转专业申请
+        icon: flow
+        path: change-major
+
+  - tag: list
+    items:
+      - text: 常见问题
+        icon: faq
+        path: faq

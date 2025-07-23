@@ -1,0 +1,25 @@
+title: 本部图书馆学术沙龙座位预约
+tags:
+  - 服务办理
+  - 图书馆
+icon: study
+author: Mr.Hope
+time: 2025-06-22T11:37:38.819Z
+shareable: true
+cite: https://my.nenu.edu.cn/hallIndex/showAppDetail?appid=9be775d2a0a54ec892cee17fc7409bbf
+content:
+  - tag: text
+    text: 目前只能在图书馆线下办理
+
+  - tag: title
+    text: 办理流程
+
+  - tag: img
+    src: $img/action/benbu-salon.png
+
+  - tag: title
+    text: 相关文件
+
+  - tag: doc
+    name: 学术沙龙座位预约表
+    url: $file/action/benbu-salon.docx

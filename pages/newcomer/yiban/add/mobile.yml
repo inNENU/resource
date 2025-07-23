@@ -1,0 +1,38 @@
+title: 客户端新生课程添加
+tags:
+  - 入学教育
+icon: cellphone
+author: Mr.Hope
+time: 2024-08-01T03:27:09.115Z
+shareable: true
+content:
+  - tag: text
+    text: 点击图中的『精品优程』 ↓
+
+  - tag: img
+    src: $img/yiban/mobile-add1.png
+    watermark: true
+
+  - tag: text
+    text: 之后点击右下角『课群』 ↓
+
+  - tag: img
+    src: $img/yiban/mobile-add2.png
+    watermark: true
+
+  - tag: text
+    text: 点击下方的『添加课程』 ↓
+
+  - tag: img
+    src: $img/yiban/mobile-add4.jpg
+    watermark: true
+
+  - tag: text
+    text: 输入『F8EP3PU2』 ↓
+
+  - tag: action
+    content: F8EP3PU2
+
+  - tag: img
+    src: $img/yiban/mobile-add3.png
+    watermark: true

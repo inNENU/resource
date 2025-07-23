@@ -1,0 +1,48 @@
+title: 保险介绍
+tags:
+  - 保险
+icon: insurance
+author: Mr.Hope
+time: 2025-07-23T09:43:28.474Z
+shareable: true
+content:
+  - tag: title
+    text: 学校提供的医疗保障
+
+  - tag: text
+    text:
+      - 为保障学生在校期间的健康，学校将统一组织办理“长春市城乡居民基本医疗保险”与“大学生医疗补充保险”（商业补充保险），并为全体在校生提供“大学生公费医疗”作为基础保障。
+
+  - tag: text
+    type: tip
+    header: 参保建议
+    text:
+      - 近年来，大学生群体的健康状况不容乐观。根据教育部数据，约有15%至35%的学生存在不同程度的身心健康问题。
+      - 大学生体质健康指标近年来仅增长0.2%，整体体质呈下降趋势，潜在的健康风险不容忽视。
+      - 此外，在全国各高校中，每年因健康问题等原因而被迫休学或退学的学生数量亦呈增加趋势。
+
+  - tag: title
+    text: 保费标准
+
+  - tag: ul
+    text:
+      - 长春市城乡居民基本医疗保险：400元 (2025年度)
+      - 大学生医疗补充保险：65元/年
+
+  - tag: title
+    text: 相关详情
+
+  - tag: text
+    type: info
+    header: 城乡居民基本医疗保险
+    path: base
+
+  - tag: text
+    type: info
+    header: 大学生医疗补充保险
+    path: supplement
+
+  - tag: text
+    type: info
+    header: 大学生公费医疗
+    path: public

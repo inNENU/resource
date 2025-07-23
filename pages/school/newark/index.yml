@@ -1,0 +1,28 @@
+title: 罗格斯大学纽瓦克学院
+tags:
+  - 纽瓦克学院
+icon: music
+grey: true
+author: Mr.Hope
+time: 2025-06-23T05:07:46.384Z
+shareable: true
+content:
+  - tag: account
+    name: 罗格斯大学纽瓦克学院
+    logo: $img/media/music.png
+    detail: 罗格斯大学纽瓦克学院
+    wxid: yinwudongshi
+    account: music
+    loc: 43.82651,125.42935
+    mail: yyxy@nenu.edu.cn
+    site: https://music.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll

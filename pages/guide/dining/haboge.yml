@@ -1,0 +1,20 @@
+title: 哈波格汉堡
+tags:
+  - 食堂
+icon: hamburger
+author:
+  - Mr.Hope
+  - 王霞
+time: 2024-08-30T15:58:22.221Z
+shareable: true
+content:
+  - tag: text
+    text: 净月浴池旁边有一个哈波格汉堡，由于不靠近任何一个食堂，因此单列
+
+  - tag: location
+    header: 哈波格汉堡
+    points:
+      - loc: 43.826128,125.420734
+
+  - tag: img
+    src: $img/dining/haboge.jpg

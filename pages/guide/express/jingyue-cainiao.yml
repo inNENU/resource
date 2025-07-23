@@ -1,0 +1,127 @@
+title: 净月菜鸟驿站
+tags:
+  - 快递
+icon: cainiao
+desc: 照片来自王慕梓
+author:
+  - Mr.Hope
+time: 2025-07-23T09:43:28.472Z
+shareable: true
+content:
+  - tag: title
+    text: 简介
+
+  - tag: p
+    text:
+      - 净月驿站是学校为便捷师生收发快递设立的快递信件派发点。
+
+  - tag: location
+    header: 菜鸟驿站
+    points:
+      - loc: 43.82504,125.424923
+        detail: 二食堂东南角
+
+  - tag: title
+    text: 营业时间
+
+  - tag: text
+    text:
+      # FIXME: 需要校对
+      - 8:30 - 20:00
+      - 四季时间不变，节假日不休息
+
+  - tag: title
+    text: 环境介绍
+
+  - tag: ul
+    header: 分布情况
+    text:
+      - 位于左侧的人工服务台负责处理 EMS、邮政包裹及寄件业务。
+      - 京东在最里面中间的人工服务台。
+      - 顺丰在最里面右手边的人工服务台。
+
+  - tag: img
+    src: $img/express/jingyue/map.png
+    watermark: true
+
+  - tag: img
+    src: $img/express/jingyue/cainiao.jpg
+    desc: 正门
+    watermark: true
+
+  - tag: img
+    src: $img/express/jingyue/cainiao1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/express/jingyue/cainiao2.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/express/jingyue/cainiao3.jpg
+    desc: 自助取件处
+    watermark: true
+
+  - tag: img
+    src: $img/express/jingyue/cainiao4.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/express/jingyue/cainiao5.jpg
+    watermark: true
+
+  - tag: title
+    text: 取件方式
+
+  - tag: text
+    type: info
+    header: 取件码的格式
+    text: 货架号 — 层号(自上而下编号 1-6) — 位置
+
+  - tag: ol
+    text:
+      - 按照菜鸟 APP 或手机短信的取件码寻找货架找到快递
+        右手边的货架从里到外是 1 - 32 号，左手边的货架从外到里是 64 - 33 号。
+      - 调出菜鸟驿站身份码
+      - 在自助扫描机扫描处，同时扫描快递单号与身份码
+      - 机器发出取件成功的提示音后，取件完成
+
+  - tag: list
+    items:
+      - text: 身份码获得
+        icon: code
+        path: cainiao-code
+
+  - tag: ul
+    type: warning
+    header: 取件提示
+    text:
+      - 由于菜鸟驿站允许代取，使用自己身份码扫描他人快递也可成功取出，(机器语音提示代取成功)，在扫码之前建议二次确认收件人名称，避免错拿快递造成不便与误会。
+      - 如果不幸错取他人快递，请及时联系原主，和 TA 协商送还，或者直接与工作人员联系存放在驿站中。
+
+  - tag: ul
+    type: warning
+    header: 扫描提示
+    text:
+      - 请确保将快递包含单号的那面朝上，保证快递单上的条形码和手机显示的身份码全都进入扫描区域并无遮挡方可取件成功。
+      - 如果网不好或者操作不当导致出错，机器会发出“出错了，请联系工作人员”的提示音。此时请移出快递，待机器屏幕警示消失后，再次尝试扫描。
+      - 如果一直扫描出错，请联系驿站工作人员处理。
+
+  # - tag: title
+  #   text: 联系方式
+
+  # - tag: action
+  #   header: 菜鸟驿站微信号
+  #   content: wxid_vik9unh166a322
+
+  # - tag: phone
+  #   header: 净月京东快递
+  #   num: 13021088631
+  #   fName: 净月京东快递
+  #   org: 东北师范大学
+
+  # - tag: phone
+  #   header: 净月顺丰快递
+  #   num: 13804374160
+  #   fName: 净月顺丰快递
+  #   org: 东北师范大学

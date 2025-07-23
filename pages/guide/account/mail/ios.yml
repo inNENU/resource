@@ -1,0 +1,66 @@
+title: iOS 邮件客户端设置
+tags:
+  - 校园邮箱
+icon: apple
+author: Mr.Hope
+time: 2025-07-23T09:43:28.398Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 本教程将指导您如何在 iPhone 或 iPad 的原生“邮件”应用中添加学校邮箱。
+
+  - tag: ul
+    text: 前往“设置” > “邮件” > “帐户”。
+
+  - tag: text
+    type: note
+    text: 系统版本较旧的设备，路径可能为“设置” > “密码与帐户”。
+
+  - tag: img
+    src: $img/account/mail/ios-1.jpg
+    watermark: true
+
+  - tag: ul
+    text: 选择“添加帐户”。
+
+  - tag: img
+    src: $img/account/mail/ios-2.jpg
+    watermark: true
+
+  - tag: ul
+    text: 在类型中选择“其他”。
+
+  - tag: img
+    src: $img/account/mail/ios-3.jpg
+    watermark: true
+
+  - tag: ul
+    text: 点击“添加邮件帐户”。
+
+  - tag: img
+    src: $img/account/mail/ios-4.jpg
+    watermark: true
+
+  - tag: ul
+    text: 输入您的姓名、邮箱地址和密码。“描述”一栏可自定义，例如“学校邮箱”。
+
+  - tag: img
+    src: $img/account/mail/ios-5.jpg
+    watermark: true
+
+  - tag: ul
+    text: 请参照下图所示，手动填写收、发件服务器信息，并确保用户名字段不包含「@nenu.edu.cn」后缀。
+
+  - tag: text
+    type: tip
+    text:
+      - 为确保稳定使用，请配置网易官方的企业邮箱服务器。学校自有的「smtp.nenu.edu.cn」服务器因证书问题，可能无法在原生邮件客户端上添加。
+
+  - tag: img
+    src: $img/account/mail/ios-6.jpg
+    watermark: true
+
+  - tag: ul
+    text: 点击“存储”即可完成设置。此后，您便可以在“邮件”应用中收发学校邮件。

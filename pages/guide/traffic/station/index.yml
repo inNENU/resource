@@ -1,0 +1,31 @@
+title: 长春火车站介绍
+tags:
+  - 交通/通勤
+icon: railway
+author: Mr.Hope
+time: 2025-07-23T09:43:28.550Z
+shareable: true
+content:
+  - tag: title
+    text: 概览
+
+  - tag: text
+    text: 长春市主要有三个火车站，各自承担着不同的功能。
+
+  - tag: ul
+    text:
+      - 长春站
+      - 长春西站
+      - 长春南站
+
+  - tag: text
+    header: 长春站
+    text: 长春站是集普通列车与高速动车（高铁）于一体的综合性枢纽，客流量约占全市铁路客运总量的 60%。
+
+  - tag: text
+    header: 长春西站
+    text: 长春西站主要停靠高速动车组列车（高铁），旨在分担长春站日益增长的客运压力。
+
+  - tag: text
+    header: 长春南站
+    text: 长春南站为货运站，主要承担货物运输任务，基本不办理客运业务。

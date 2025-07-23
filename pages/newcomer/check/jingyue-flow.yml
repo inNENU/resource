@@ -1,0 +1,120 @@
+title: 净月校区新生报到流程
+tags:
+  - 报到
+  - 新生入学
+icon: flow
+author:
+  - Mr.Hope
+  - 王欣越
+time: 2025-07-23T09:43:28.633Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 报到前，请务必随身携带录取通知书、身份证原件及小二寸免冠照片。
+
+  - tag: title
+    text: 第一步：抵达校区与报到处
+
+  - tag: location
+    header: 净月校区指定校门与报到处
+    points:
+      - loc: 43.829067,125.427172
+        name: 二号门
+        detail: 净月校区二号门（雕塑门）
+        path: jingyue/gate/gate2
+
+      - loc: 43.826572,125.420067
+        name: 四号门
+        detail: 净月校区四号门
+        path: jingyue/gate/gate4
+
+      - loc: 43.826361,125.424778
+        name: 报到处
+        detail: 2024年净月校区新生集中报到处
+
+  - tag: ol
+    type: tip
+    header: Mr.Hope 的友情提示
+    text:
+      - 请家长注意，净月大街两侧未设置长期停车位，为避免违章罚款，请勿长时间停车。
+      - 从距离上看，2号门与4号门距集中报到处的路程相近，您可以根据实际情况任选其一进入。
+
+  - tag: text
+    type: note
+    text:
+      - 上方地图可实时显示您的当前位置，请根据地图指引，步行前往报到处。
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: title
+    text: 第二步：办理报到手续
+
+  - tag: text
+    text:
+      - 请根据现场指引，找到图书馆正门前所属学院的接待点，办理新生报到手续。
+
+  - tag: img
+    src: $img/check/jingyue-2024.png
+    desc: 净月校区 2024 年迎新接待点示意图
+    watermark: true
+
+  - tag: text
+    text:
+      - 在学院接待点，负责迎新的学长学姐会查验您的录取通知书并核实身份，随后发放宿舍钥匙、校园卡及一张未激活的银行卡。
+
+  - tag: text
+    type: note
+    text:
+      - 若您未提前获知床位信息，现场工作人员会告知具体的宿舍及床位安排。
+      - 部分学院可能会在报到时收取班费或年级费，请按学院通知提前准备。
+      - 您领取的银行卡尚处未激活状态，无法使用，学校后续将统一组织激活。为防遗失，部分学院可能选择稍后统一发放银行卡，具体安排请以学院通知为准。
+
+  - tag: img
+    src: $img/check/jingyue-check1.jpg
+    desc: 新生报到现场
+    watermark: true
+
+  - tag: img
+    src: $img/check/jingyue-check2.jpg
+    desc: 新生报到现场
+    watermark: true
+
+  - tag: img
+    src: $img/check/jingyue-check3.jpg
+    desc: 新生报到现场
+    watermark: true
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: title
+    text: 第三步：办理宿舍入住
+
+  - tag: text
+    text:
+      - 领取物品后，请携带行李前往指定宿舍楼。在宿舍大厅管理员处，凭相关凭证与分配到的床位号办理入住登记，随后可乘电梯将行李运至房间。
+
+  - tag: text
+    type: tip
+    text:
+      - 办理入住登记时需提交两张小二寸照片，建议提前备好。
+
+  - tag: title
+    text: 后续报到流程
+
+  - tag: list
+    items:
+      - text: 后续报到流程
+        icon: flow
+        path: after-flow

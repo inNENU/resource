@@ -1,0 +1,208 @@
+title: 长春西站-到净月-轨道交通
+tags:
+  - 到校路线
+  - 报到
+icon: train
+author: Mr.Hope
+time: 2025-07-23T09:43:28.629Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text: 轨道交通是连接长春西站与净月校区最为快捷、经济的公共交通方式。单程票价为5元。
+
+  - tag: text
+    type: info
+    header: 运营时间提醒
+    text:
+      - 长春轨道交通各线路的末班车时间普遍在21:00左右。
+      - 若您深夜抵达，建议优先选择出租车前往住处，待次日再办理报到手续。
+      - 详细的各线路首末班车时刻表，请参阅“地铁运营时间”页面。
+    path: /guide/traffic/railway/time
+
+  - tag: text
+    text:
+      - 从长春西站前往净月校区，主要有以下两种换乘方案：
+
+  - tag: ul
+    text:
+      - 方案一：地铁2号线 → 地铁1号线 → 轻轨3号线
+      - 方案二：地铁2号线 → 轻轨4号线 → 轻轨3号线
+
+  - tag: text
+    type: tip
+    text:
+      - 通常情况下，方案一（经1号线）的乘车时间略短于方案二，因此作为首选推荐。
+      - 两种方案的票价与乘坐要求无差异，故下文将以方案一为例进行详细介绍。
+
+  - tag: title
+    text: 换乘路线详解
+
+  - tag: ol
+    header: 方案一：2号线 → 1号线 → 3号线
+    text:
+      - 从长春西站火车站出站（站内只有一个出站方向，无需担心走错）。
+      - 前往地铁2号线“长春西站”站。
+      - 乘坐开往“东方广场”方向的列车。
+      - 乘坐9站后，在“解放大路”站下车。
+      - 根据站内指引，下楼换乘地铁1号线。
+      - 乘坐开往“红嘴子”方向的列车。
+      - 乘坐4站后，在“卫星广场”站下车换乘。
+      - 上楼并通过换乘通道前往轻轨3号线站台。
+      - 乘坐开往“长影世纪城”方向的列车。
+      - 乘坐8站后，在“博硕路”站下车。
+      # - 下车出站后右转(向西南)直行，即可在右手侧看到 1 号门
+      - 出站后左转前行约50米至十字路口，再左转沿博硕路步行约100米，即可在左手侧看到2号门。
+
+  - tag: ol
+    header: 方案二：2号线 → 4号线 → 3号线
+    text:
+      - 从长春西站火车站出站。
+      - 前往地铁2号线“长春西站”站。
+      - 乘坐开往“东方广场”方向的列车。
+      - 乘坐12站后，在“吉林大路”站下车。
+      - 根据站内指引，换乘轻轨4号线。
+      - 乘坐开往“天工路”方向的列车。
+      - 乘坐6站后，在“职业学院”站下车换乘。
+      - 通过换乘通道前往轻轨3号线站台。
+      - 乘坐开往“长影世纪城”方向的列车。
+      - 乘坐5站后，在“博硕路”站下车。
+      # - 下车出站后右转(向西南)直行，即可在右手侧看到 1 号门
+      - 出站后左转前行约50米至十字路口，再左转沿博硕路步行约100米，即可在左手侧看到2号门。
+
+  - tag: title
+    text: 出站与进站指引
+
+  - tag: text
+    type: tip
+    header: 火车站出站口
+    text:
+      - 长春西站的火车站出站口是唯一的，您只需跟随客流和指示牌出站即可。
+
+  - tag: text
+    text:
+      - 从火车站出站后右转，即可看到地铁2号线“长春西站”的入口。
+
+  - tag: img
+    src: $img/arrival/train-west-subway-entrance1.jpg
+    desc: 地铁2号线“长春西站”入口
+    watermark: true
+
+  - tag: img
+    src: $img/arrival/train-west-subway-entrance2.jpg
+    desc: 前往“长春西站”站台的下行扶梯
+    watermark: true
+
+  - tag: text
+    text:
+      - 进站后下楼至站台，并乘坐开往“东方广场”方向的列车。
+
+  - tag: text
+    type: info
+    header: 关于地铁安检
+    text:
+      - 为保障运营安全，乘坐地铁需接受安全检查。如您携带了大量化妆品、喷雾或水果刀等物品，建议提前查询禁止及限制携带物品清单，以免耽误行程。
+    path: /guide/traffic/railway/ban
+
+  - tag: title
+    text: 购票与票价
+
+  - tag: text
+    text: 从长春西站到博硕路站，单程票价为5元。
+
+  - tag: text
+    type: tip
+    header: 交通联合卡（推荐）
+    text:
+      - 长春轨道交通已全面支持交通联合卡，如果你手机钱包或实体卡中有交通联合卡，可以直接使用该卡乘坐地铁。
+
+  - tag: text
+    type: tip
+    header: 扫码乘车
+    text:
+      - 长春轨道交通已全面支持微信和支付宝的乘车码，该方式无需购票方便快捷。详情请参阅“扫码乘车”页面。
+    path: /guide/traffic/railway/scan
+
+  - tag: text
+    header: 自助购票机
+    text:
+      - 如果您无法使用手机扫码，可以使用站厅内的自助售票机购票。购票机支持现金、长春一卡通以及微信、支付宝等多种扫码支付方式。
+
+  - tag: text
+    type: tip
+    text:
+      - 长春的地铁票按票价计费，不与特定下车站绑定。
+      - 如果您初次使用自助售票机，在密集的线路图上寻找“博硕路”站可能较为费时。一个快捷方法是：直接在屏幕右侧的票价列表中选择“5元”，然后选择张数并完成支付即可。
+
+  - tag: img
+    src: $img/arrival/ticket-machine.jpg
+    desc: 自助售票机
+    watermark: true
+
+  - tag: img
+    src: $img/arrival/subway-ticket.jpg
+    desc: 轨道交通单程票
+    watermark: true
+
+  - tag: title
+    text: 换乘与验票须知
+
+  - tag: ul
+    text:
+      - 若使用单程票，进站时刷票，出站时需将票投入闸机回收口。
+      - 若使用手机扫码，进站和出站时均需使用同一个App的乘车码。
+
+  - tag: text
+    type: tip
+    text: 请留意车厢内的广播和电子显示屏，确保在正确的站点下车换乘或出站。
+
+  - tag: ul
+    header: 关键换乘站提示（解放大路站）
+    text:
+      - 2号线“解放大路”站采用“西班牙式”站台布局，列车会双侧开门，请注意下车方向。
+      - 下车后，请根据换乘指示穿过站台，然后左转下楼前往1号线站台，切勿直行刷卡出站。
+      - 在1号线站台，开往“红嘴子”方向的列车是正确的乘车方向。
+
+  - tag: img
+    src: $img/traffic/ccqg/subway-2.png
+    desc: 地铁2号线线路图
+
+  - tag: img
+    src: $img/traffic/ccqg/subway-1.png
+    desc: 地铁1号线线路图
+
+  - tag: img
+    src: $img/traffic/ccqg/railway-4.png
+    desc: 轻轨4号线线路图
+
+  - tag: img
+    src: $img/traffic/ccqg/railway-3.png
+    desc: 轻轨3号线线路图
+
+  - tag: img
+    src: $img/arrival/subway-env.jpg
+    desc: 轨道交通列车内部环境
+    watermark: true
+
+  - tag: title
+    text: 到达校区
+
+  - tag: text
+    type: tip
+    header: 2024年迎新报到指定校门
+    text:
+      - 2号门（雕塑门）与4号门，均位于博硕路上。
+
+  # - tag: text
+  #   type: warning
+  #   text:
+  #     - 2022 年报到仅开放学校 1 号门 (正门、东北门)。
+  #     - 2022 年报到仅开放学校 2 号门 (雕塑门)。
+
+  - tag: ul
+    text:
+      # - 请您下车后沿车辆行驶方向继续向前 (向东南)
+      # - 继续行进即可在右手边 (西南侧) 看到学校正门。
+      - 从“博硕路”站出站后，向西北方向（与列车驶离方向相反）步行约150米至十字路口。
+      - 在路口左转进入博硕路。
+      - 继续沿博硕路前行约100米，即可在左手侧看到学校的2号门。

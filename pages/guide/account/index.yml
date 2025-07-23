@@ -1,0 +1,42 @@
+title: 账户
+tags:
+  - 统一身份认证（账户）
+icon: account
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.396Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    header: 统一身份认证
+    text:
+      - 学校为每位师生提供了一个专属的校园账号。
+      - 该账户是您在校期间进行各类线上操作的统一凭证，可用于登录校园网、访问各类教学与服务系统（如“智慧东师”平台、选课系统）、查询成绩课表、图书借阅、校园卡消费记录等。
+    path: authorize/
+
+  - tag: list
+    header: 校园邮箱
+    items:
+      - text: 邮箱介绍
+        icon: intro
+        path: mail/intro
+
+      - text: 邮箱客户端设置
+        icon: email
+        path: mail/client
+
+  - tag: list
+    header: 企业微信
+    items:
+      - text: 企业号介绍
+        icon: wechat
+        path: wechat/intro
+
+      - text: 企业号认证
+        icon: authorize
+        path: wechat/authorize
+
+      - text: 手机号更改
+        icon: phone
+        path: wechat/change

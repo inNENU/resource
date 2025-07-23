@@ -1,0 +1,42 @@
+title: 音乐学院
+tags:
+  - 音乐学院
+icon: music
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.397Z
+shareable: true
+content:
+  - tag: account
+    name: 音乐学院
+    logo: $img/media/music.png
+    detail: 东北师范大学音乐学院
+    wxid: yinwudongshi
+    account: music
+    loc: 43.82651,125.42935
+    mail: yyxy@nenu.edu.cn
+    site: https://music.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: |-
+          音乐学 (师范: 钢琴、声乐)
+        path: normal
+
+      - text: |-
+          音乐学 (普通: 器乐)
+        path: music
+
+      - text: 舞蹈编导
+        path: dance

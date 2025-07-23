@@ -1,0 +1,31 @@
+title: 国际汉学院
+tags:
+  - 国际汉学院
+icon: school
+grey: true
+author: Mr.Hope
+time: 2025-06-23T05:07:46.373Z
+shareable: true
+content:
+  - tag: account
+    name: 国际汉学院
+    logo: $img/media/international.png
+    detail: 东北师范大学国际汉学院
+    wxid: nenuscs
+    account: international
+    loc: 43.825102,125.426706
+    site: https://scs.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: action
+    header: 官网地址
+    content: https://scs.nenu.edu.cn/

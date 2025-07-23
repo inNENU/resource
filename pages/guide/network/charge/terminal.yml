@@ -1,0 +1,19 @@
+title: 校园网自助终端机缴费
+tags:
+  - 校园网
+icon: atm
+author: Mr.Hope
+time: 2025-07-23T09:43:28.496Z
+shareable: true
+content:
+  - tag: text
+    text: 您可以在校内自助终端机上，使用校园卡余额缴纳网费。
+
+  - tag: title
+    text: 详细流程
+
+  - tag: ol
+    text:
+      - 在校园终端机上点击 “生活服务” —“ 网费服务”
+      - 将一卡通放置在刷卡区并点击“检测一卡通”或手动输入上网账号
+      - 终端机自动获取账号相关信息后，输入金额并完成支付

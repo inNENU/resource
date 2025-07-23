@@ -1,0 +1,78 @@
+title: 校园卡常见故障及解决方法
+tags:
+  - 校园卡
+  - 校园生活
+icon: error
+author: Mr.Hope
+time: 2025-07-23T09:43:28.428Z
+shareable: true
+content:
+  - tag: title
+    text: 无法正常使用生活用水
+
+  - tag: text
+    header: 常见原因
+    text: 生活用水功能未激活或信息失效。
+
+  - tag: text
+    header: 解决方法
+    text: 请前往宿舍楼内的生活用水自助机，将校园卡贴在感应区重新激活。
+
+  - tag: text
+    header: 自助机位置
+    text:
+      - 各宿舍楼一层入口处，可以找到生活用水自助机（墙上的绿盒子）。
+
+  - tag: img
+    src: $img/card/water-terminal.jpg
+    desc: 生活用水自助机
+    watermark: true
+
+  - tag: text
+    header: 其他情况
+    text: 如问题仍未解决，请联系信息化办公室进行咨询。
+
+  - tag: title
+    text: 无法正常使用直饮水机
+
+  - tag: ul
+    header: 根据错误代码选择解决方案
+    text:
+      - |-
+        E-01 (读卡失败): 卡片无法被正常感应。请清洁卡片后重试。若仍失败，卡片可能已消磁，需前往信息化办公室处理。
+      - |-
+        E-06 (卡已挂失): 请前往自助终端机解除挂失状态。如您确认卡片未挂失，则可能是饮水服务未正常开通，请联系信息化办公室处理。
+      - |-
+        E-07 (余额不足或未生效): 请通过自助终端机向饮水账户转账充值，或等待激活满 24 小时后重试。
+      - |-
+        E-09 (卡片故障): 卡片数据异常。请前往自助终端机，在饮水服务菜单中选择“卡片纠错”功能进行修复。
+
+  - tag: text
+    type: tip
+    text: 新补办的卡片在开通饮水功能后，可能需要等待最多 24 小时才能正常使用。
+
+  - tag: title
+    text: 无法在食堂等场所刷卡消费
+
+  - tag: text
+    header: 可能原因与处理方式
+    text:
+      - 最常见的原因是卡片消磁或芯片损坏。请持卡前往信息化办公室进行检测，工作人员会根据情况进行初始化修复或建议您补办新卡。
+
+  - tag: title
+    text: 故障报修与咨询
+
+  - tag: text
+    text: 如以上方法无法解决您的问题，或遇到其他故障，请通过以下方式联系信息化办公室。
+
+  - tag: phone
+    num: 0431-85099005
+    fName: 人工服务电话
+    org: 东北师范大学信息化办
+    site: https://xxhb.nenu.edu.cn/
+
+  - tag: phone
+    num: 0431-85099119
+    fName: 24小时自助服务电话
+    org: 东北师范大学信息化办
+    site: https://xxhb.nenu.edu.cn/

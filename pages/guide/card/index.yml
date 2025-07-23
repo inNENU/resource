@@ -1,0 +1,77 @@
+title: 校园卡
+tags:
+  - 校园卡
+  - 校园生活
+icon: card
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.427Z
+shareable: true
+content:
+  - tag: text
+    type: warning
+    header: 注意：校园卡并非手机卡
+    text:
+      - 校园卡是学校官方发放的校内身份与消费凭证，为 IC 卡片形式，与任何运营商的手机卡均无关联。
+      - 如遇任何人以“校园卡”名义推销手机卡，请注意甄别并谨慎办理。如对方明显使用话术暗示这个卡新生必办，请悄悄录音并向辅导员或学校保卫处反映情况。
+
+  - tag: list
+    header: 初识校园卡
+    items:
+      - text: 校园卡介绍
+        icon: about
+        path: intro
+
+      - text: 使用前准备
+        desc: 新卡激活与检查
+        icon: prepare
+        path: prepare
+
+      - text: 校园卡照片
+        icon: photo
+        desc: 啊？好丑
+        path: photo
+
+      - text: 校园卡使用与保管
+        icon: card
+        path: protect
+
+  - tag: list
+    header: 校园卡充值
+    items:
+      - text: 校园卡充值
+        icon: charge
+        path: charge/
+
+      - text: 自助终端机
+        icon: atm
+        path: terminal
+
+  - tag: list
+    header: 校园卡丢失
+    items:
+      - text: 校园卡挂失
+        icon: lost
+        path: lost
+
+      - text: 校园卡补办
+        icon: add
+        path: remake
+
+  - tag: list
+    header: 其他
+    items:
+      - text: 常见故障与解决方法
+        icon: error
+        path: malfunction
+
+      - text: 其他业务办理
+        desc: 信息化办公室
+        icon: tech
+        path: /apartment/xxhb/
+
+  - tag: list
+    items:
+      - text: 来自 Mr.Hope 的建议
+        icon: idea
+        path: advice

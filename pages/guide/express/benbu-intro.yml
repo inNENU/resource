@@ -1,0 +1,77 @@
+title: 本部校区快递介绍
+tags:
+  - 快递
+icon: about
+author: Mr.Hope
+time: 2025-07-23T09:43:28.470Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 为方便领取大件行李，建议新生优先选择在校内设有官方服务站的快递公司。
+      - 其他快递公司虽可寄达，但通常需要您前往校门附近的校外自提点取件。
+
+  - tag: title
+    text: 校内快递服务点
+
+  - tag: text
+    text:
+      - 本部快递点在校园内的有：
+
+  - tag: ul
+    text:
+      - 邮政 EMS
+      - 邮政小包
+      - 韵达
+      - 圆通
+      - 申通
+      - 中通
+      - 极兔
+      - 黄马甲
+      - 顺丰
+      - 京东
+
+  - tag: title
+    text: 邮寄地址
+
+  - tag: action
+    header: 本部校区地址
+    content: 吉林省长春市南关区南岭街道人民大街 5268 号
+
+  - tag: action
+    header: 邮政编码
+    content: "130024"
+
+  - tag: title
+    text: 主要收件点
+
+  - tag: list
+    items:
+      - text: 菜鸟驿站
+        icon: cainiao
+        path: benbu-cainiao
+
+      - text: 快递柜
+        icon: express-cabinet
+        path: benbu-cabinet
+
+  - tag: title
+    text: 其他校外快递
+
+  # FIXME: @YinXin 检查是否需要更新
+  - tag: text
+    header: 南门临时取件点
+    text: |-
+      本部校区南门（文昌路）外，是部分未在校内设立服务站的快递公司（如宅急送、天天快递、德邦快递等）的临时取件点。派件员通常会在此处通过电话或短信联系师生取件。
+
+  - tag: text
+    type: tip
+    text: |-
+      取件地点通常位于文昌路北侧，请留意路边停靠的快递派送车辆，并根据派件员的通知寻找。
+
+  - tag: text
+    header: 邮政与 EMS 特别说明
+    text:
+      - 邮政（含EMS）的包裹支持楼宇派送。若收件地址精确到具体学院或行政楼，包裹通常会被送至该楼宇的传达室。
+      - 若收件地址不够详细（如仅填写“东北师范大学”），包裹则会被统一送至校内菜鸟驿站，等待自取。

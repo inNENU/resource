@@ -1,0 +1,28 @@
+title: 净月超市
+author: Mr.Hope
+time: 2023-08-24T20:06:42.417Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: Mr.Hope 的建议
+        icon: idea
+        path: /guide/shop/tip
+
+  # TODO: Update
+  - tag: text
+    text: 净月校区原有超市已于 2024 年暑假撤出，新入驻的天猫超市仍在装修中。
+
+  - tag: list
+    items:
+      # TODO: Update
+      - text: 天猫超市
+        desc: 装修中
+
+      # TODO: Update
+      - text: 二食堂生活区
+        desc: 装修中
+
+      # TODO: Remove later
+      # - text: 净月临时售卖点
+      #   path: /guide/shop/jingyue-temp

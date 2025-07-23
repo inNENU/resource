@@ -1,0 +1,48 @@
+title: 浴池提现
+tags:
+  - 浴池
+icon: money
+author: Mr.Hope
+time: 2025-07-23T09:43:28.425Z
+shareable: true
+content:
+  - tag: title
+    text: 浴池账户余额提现
+
+  - tag: text
+    text: 请在“台州博诚”公众号内，依次点击“钱包充值”菜单，选择所在校区，然后进入充值页面并点击“提现”按钮。
+
+  - tag: img
+    src: $img/bath/charge-pay.jpg
+    desc: 充值页面
+    watermark: true
+
+  - tag: text
+    text: 点击“提现”按钮后，页面提示“发起提现成功”仅表示您的申请已提交，并非资金已到账，后续需等待系统审批。
+
+  - tag: img
+    src: $img/bath/return.jpg
+    desc: 提现页面
+    watermark: true
+
+  - tag: img
+    src: $img/bath/return-success.jpg
+    desc: 发起提现成功提示
+    watermark: true
+
+  - tag: img
+    src: $img/bath/return-wait.jpg
+    desc: 请注意：此提示仅表示提现申请已提交，资金尚未到账，需等待后续通知并手动领取。
+    watermark: true
+
+  - tag: text
+    type: tip
+    header: 注意事项
+    text:
+      - 根据微信支付的规定，单次提现金额不得低于 1 元。
+      - 提现时，微信支付将收取 0.6% 的手续费，该费用会从提现金额中直接扣除。
+
+  - tag: text
+    text:
+      - 提现申请通常会在 24 小时内完成系统审批。审批通过后，您将收到一条由服务商【卡博士】发送的微信通知。
+      - 此时需要手动点击打开通知并领取红包，才能领取退款。

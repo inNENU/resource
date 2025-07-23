@@ -1,0 +1,37 @@
+title: NCRE 介绍
+tags:
+  - 国家考试
+icon: ncre
+author: Mr.Hope
+time: 2025-07-23T09:43:28.465Z
+cite:
+  - https://ncre.neea.edu.cn/html1/report/1712/4347-1.htm
+  - https://ncre.neea.edu.cn/html1/report/1712/4313-1.htm
+shareable: true
+content:
+  - tag: title
+    text: NCRE
+
+  - tag: p
+    text:
+      - 全国计算机等级考试（National Computer Rank Examination，简称 NCRE），是经原国家教育委员会（现教育部）批准，由教育部教育考试院（原教育部考试中心）主办，面向社会，用于考查应试人员计算机应用知识与技能的全国性计算机水平测评体系。
+
+  - tag: title
+    text: 考试形式
+
+  - tag: text
+    text:
+      - 考统一命题，统一考试。全部实行上机考试。
+
+  - tag: title
+    text: 考试时间
+
+  - tag: text
+    text: 一级、四级为90分钟；二级、三级为120分钟。
+
+  - tag: list
+    header: 考核方式
+    items:
+      - text: 查看详情
+        icon: test
+        path: grade

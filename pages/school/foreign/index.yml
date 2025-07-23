@@ -1,0 +1,77 @@
+title: 外国语学院
+tags:
+  - 外国语学院
+icon: foreign
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.383Z
+shareable: true
+content:
+  - tag: account
+    name: 外国语学院
+    logo: $img/media/foreign.jpg
+    detail: 东北师范大学外国语学院
+    wxid: nenuwgy
+    account: foreign
+    loc: 43.8611,125.32707
+    mail: wy@nenu.edu.cn
+    site: https://wy.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 历史沿革
+        icon: time
+        path: history
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 英语
+        path: english
+
+      - text: 英语 (中外合作办学)
+        path: english-cop
+
+      - text: 日语
+        path: japanese
+
+      - text: 俄语
+        path: russia
+
+      # - text: 德语
+      #   path: german
+
+      - text: 商务英语
+        path: business
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 英语专业
+        path: into/english
+
+      - text: 英语专业 (公费师范)
+        path: into/normal
+
+      - text: 英语专业 (优师专项)
+        path: into/great
+
+      - text: 德语
+        path: into/german
+
+      - text: 俄语
+        path: into/russia
+
+      - text: 日语
+        path: into/japanese
+
+      - text: 商务英语
+        path: into/business

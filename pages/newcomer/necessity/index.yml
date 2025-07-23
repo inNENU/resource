@@ -1,0 +1,70 @@
+title: 需带物品
+tags:
+  - 需带物品
+icon: necessity
+author: Mr.Hope
+time: 2025-07-23T09:43:28.644Z
+grey: true
+shareable: true
+content:
+  - tag: p
+    type: tip
+    text: 本清单所列物品，既可从家中携带，也可到校后根据实际需要逐步添置。其中，标有“*”的物品通常可在校内超市方便地购买到。
+
+  - tag: text
+    type: warning
+    text: 请注意：本清单仅为一份全面的参考指南，并非要求购齐所有物品。请务必结合个人生活习惯与实际需求，理性选择，按需准备。
+
+  - tag: list
+    header: 校内售卖点
+    items:
+      - text: 校内外超市
+        icon: shop
+        path: /guide/shop/
+
+  - tag: list
+    header: 物品分类
+    items:
+      - text: 证件材料类
+        icon: id
+        path: material
+
+      - text: 学习用品
+        icon: study
+        path: study
+
+      - text: 生活用品
+        icon: life
+        path: life
+
+      - text: 洗护用品类
+        icon: washing
+        path: washing
+
+      - text: 其他工具类
+        icon: repair
+        path: tool
+
+      - text: 饮食相关类
+        icon: dining
+        path: food
+
+      - text: 宿舍神器类
+        icon: star
+        path: artifact
+
+      - text: 数码产品类
+        icon: digital
+        path: digital
+
+  - tag: list
+    items:
+      - text: 宿舍违禁物品
+        icon: ban
+        path: /guide/dorm/ban
+
+  - tag: list
+    items:
+      - text: Mr.Hope 的建议
+        icon: idea
+        path: advice

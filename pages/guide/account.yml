@@ -1,0 +1,34 @@
+title: 数字东师
+aiIgnore: true
+icon: authorize
+grey: true
+content:
+  - tag: grid
+    items:
+      - text: 统一身份认证
+        icon: authorize
+        path: account/authorize/
+
+      - text: 校园邮箱
+        icon: email
+        path: account/mail/
+
+      - text: 校园卡
+        icon: card
+        path: card/
+
+      - text: 校园网
+        icon: network
+        path: network/
+
+      - text: 企业号
+        icon: wechat
+        path: account/wechat/
+
+      - text: 教务系统
+        icon: system
+        path: system/
+
+      - text: 选课系统
+        icon: select
+        path: select/system/

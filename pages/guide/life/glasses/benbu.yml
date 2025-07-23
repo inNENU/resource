@@ -1,0 +1,50 @@
+title: 本部眼镜店
+tags:
+  - 校园生活
+icon: glasses
+desc: 感谢晴子提供照片
+author: Mr.Hope
+time: 2024-08-30T15:58:22.323Z
+shareable: true
+content:
+  - tag: title
+    text: 校内店铺
+
+  - tag: ul
+    text:
+      - |-
+        镜舍: 浴池正门里右转
+
+  - tag: location
+    header: 本部眼镜店
+    points:
+      - loc: 43.862525,125.337083
+        name: 镜舍
+        detail: 浴池正门里右转
+
+  - tag: text
+    header: 镜舍位置
+    text:
+      - 位于浴池一楼正门内。
+      - 您需要走进浴池正门，即可在右面看到镜舍的店门。
+
+  - tag: img
+    src: $img/life/benbu/jingshe-location.jpg
+    desc: 镜舍位置
+    watermark: true
+
+  - tag: img
+    src: $img/life/benbu/jingshe.jpg
+    watermark: true
+
+  - tag: list
+    items:
+      - text: 店铺详情
+        icon: glasses
+        path: jingshe
+
+  - tag: title
+    text: 校外
+
+  - tag: text
+    text: 文昌路上有一家查尔斯眼镜店。

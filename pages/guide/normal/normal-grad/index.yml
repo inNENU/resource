@@ -1,0 +1,33 @@
+title: 本研衔接师范生介绍
+tags:
+  - 师范生
+  - 人才培养
+icon: teacher
+author: Mr.Hope
+time: 2024-08-05T08:53:16.458Z
+grey: true
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 本研衔接师范生介绍
+        icon: teacher
+        path: intro
+
+      - text: 部属师范本研衔接师范生公费教育实施办法
+        icon: rule
+        path: rule
+
+      - text: 部属师范本研衔接师范生公费教育实施办法解释
+        icon: explain
+        path: explain
+
+      - text: 部属师范本研衔接师范生公费教育实施办法常见问题
+        icon: faq
+        path: faq
+
+    footer: 在符合条件的情况下，本科毕业后直接推荐免试攻读硕士的师范生，按 4+2 年限培养。
+
+  - tag: doc
+    name: 东师履约地点
+    url: $file/normal/2024-limit.pdf

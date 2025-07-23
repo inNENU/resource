@@ -1,0 +1,74 @@
+title: 校园卡自助终端机充值
+tags:
+  - 校园卡
+icon: atm
+desc: |-
+  部分图像来源：20级历史文化学院杨同学
+author: Mr.Hope
+time: 2025-07-23T09:43:28.431Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    header: 银行卡充值
+    text: 在自助终端机上，您可以将绑定的银行卡余额直接转入校园卡。学校统一办理的交通银行学子卡无需开通网银即可绑定使用。
+
+  - tag: ul
+    type: tip
+    text:
+      - 其他银行卡则需预先开通网上银行服务。
+
+  - tag: img
+    src: $img/card/bank.jpg
+    desc: 银行服务列表
+    watermark: true
+
+  - tag: title
+    text: 绑定银行卡
+
+  - tag: img
+    src: $img/card/main.jpg
+    desc: 在主界面点击右上角的“银行服务”
+    watermark: true
+
+  - tag: img
+    src: $img/card/bank.jpg
+    desc: 在银行服务列表，点击最后一项“申请绑定”
+    watermark: true
+
+  - tag: img
+    src: $img/card/bank-bind.jpg
+    desc: 按提示输入银行卡号、银行预留手机号与校园卡密码
+
+  - tag: title
+    text: 转账操作
+
+  - tag: img
+    src: $img/card/main.jpg
+    desc: 点击右上角的“银行服务”
+    watermark: true
+
+  # FIXME: @YinXin 确认功能可用性
+  - tag: p
+    text: 点击“银校转账”选项，按提示依次输入身份证号、银行卡号与银行卡密码，点击“确定”申请转账。之后，再输入转账金额与校园卡密码，即可完成转账。
+
+  - tag: title
+    text: Mr.Hope の提示
+
+  - tag: text
+    type: info
+    text: 通过此渠道单次充值上限为 200 元。
+
+  - tag: ul
+    type: warning
+    text:
+      - 在高峰时段，转账可能会因网络繁忙提示“与学校一卡通服务连接超时”，重试即可。
+      - 夜间一卡通服务会进行短暂的例行维护，期间将无法充值或查询余额。
+      - 转账成功后，校园卡余额可能不会立即更新，通常需要等待几分钟。为避免影响使用，建议您提前充值。
+
+  - tag: text
+    type: danger
+    header: 余额上限提醒
+    text:
+      - 请确保校园卡账户总余额不超过 999 元。因部分消费终端系统限制，余额达到四位数（即 1000 元及以上）可能导致无法刷卡。
+      - 如不慎使余额超过上限，请持本人校园卡前往信息化办公室办理部分退费。

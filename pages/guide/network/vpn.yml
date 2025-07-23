@@ -1,0 +1,43 @@
+title: 校园 VPN
+tags:
+  - 校园网
+icon: vpn
+author: Mr.Hope
+time: 2025-07-23T09:43:28.495Z
+shareable: true
+content:
+  - tag: title
+    text: Web VPN
+
+  - tag: p
+    text: Web VPN 是师生在校外访问校内资源时推荐使用的主要方式。它无需安装客户端，通过网页浏览器即可登录，方便快捷地访问大部分校内系统与资源。
+
+  - tag: action
+    header: 登录地址
+    content: https://webvpn.nenu.edu.cn/
+
+  - tag: img
+    src: $img/account/webvpn-login.jpg
+    desc: Web VPN 登录界面
+    watermark: true
+
+  - tag: text
+    text: 请使用您的统一身份认证账户（学号/工号或个人邮箱）完成登录。
+
+  - tag: img
+    src: $img/account/webvpn.jpg
+    desc: Web VPN 功能主页
+    watermark: true
+
+  - tag: text
+    text: 登录后，即可在页面中直接点击访问所需校内资源。
+
+  - tag: title
+    text: EasyConnect 客户端
+
+  - tag: p
+    text: 若需访问少数尚不支持 Web VPN 的特定系统（通常为部分面向教职工的管理系统），则仍需安装 EasyConnect 客户端进行连接。
+
+  - tag: doc
+    name: VPN 使用方式介绍
+    url: $file/network/vpn.pdf

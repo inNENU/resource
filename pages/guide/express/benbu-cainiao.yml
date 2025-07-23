@@ -1,0 +1,102 @@
+title: 本部菜鸟驿站
+tags:
+  - 快递
+icon: cainiao
+author:
+  - Mr.Hope
+  - 战俊华
+time: 2025-07-23T09:43:28.470Z
+shareable: true
+content:
+  - tag: title
+    text: 简介
+
+  - tag: p
+    text:
+      - 菜鸟驿站是学校为便捷师生收发快递设立的快递信件派发点。目前进驻的快递服务公司有申通、韵达、圆通、极兔、顺丰、京东、黄马甲。部分小型 EMS 邮件也会由菜鸟驿站代理签收。
+
+  - tag: location
+    header: 菜鸟驿站
+    points:
+      - loc: 43.86365,125.33315
+        detail: 学生二舍东侧
+
+  - tag: img
+    src: $img/express/benbu/map.jpg
+    desc: 菜鸟驿站分布图
+
+  - tag: text
+    header: 营业时间
+    text: 9:00—19:00(周六、周日正常派发快递信件)
+
+  - tag: text
+    type: tip
+    text: 双十一期间，驿站关闭时间延长至 21:30。
+
+  - tag: img
+    src: $img/express/benbu/cainiao-contact.jpg
+    desc: 菜鸟驿站联系方式
+
+  - tag: title
+    text: 取件方式
+
+  - tag: text
+    type: info
+    header: 取件码的格式
+    text: 货架号 — 层号(自上而下编号 1-6) — 位置
+
+  - tag: ol
+    text:
+      - 按照菜鸟 APP 或手机短信的取件码寻找货架找到快递
+      - 调出菜鸟驿站身份码
+      - 在自助扫描机扫描处，同时扫描快递单号与身份码
+      - 机器发出取件成功的提示音后，取件完成
+
+  - tag: list
+    items:
+      - text: 获取身份码
+        icon: code
+        path: cainiao-code
+
+  - tag: ul
+    type: warning
+    header: 取件提示
+    text:
+      - 由于菜鸟驿站允许代取，使用自己身份码扫描他人快递也可成功取出，（机器语音提示代取成功），在扫码之前建议二次确认收件人名称，避免错拿快递造成不便与误会。
+      - 如果不幸错取他人快递，请及时联系原主柜共9个，与对方协商送还，或者直接与工作人员联系存放在驿站中。
+
+  - tag: ul
+    type: warning
+    header: 扫描提示
+    text:
+      - 请确保将快递包含单号的那面朝上，保证快递单上的条形码和手机显示的身份码全都进入扫描区域并无遮挡方可取件成功。
+      - 如果网不好或者操作不当导致出错，机器会发出“出错了，请联系工作人员”的提示音。此时请移出快递，待机器屏幕警示消失后，再次尝试扫描。
+      - 如果一直扫描出错，请联系驿站工作人员处理。
+
+  - tag: title
+    text: 环境介绍
+
+  - tag: img
+    src: $img/express/benbu/cainiao1.jpg
+    desc: 菜鸟驿站柜台
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/cainiao2.jpg
+    desc: 菜鸟驿站货架
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/cainiao-scan.jpg
+    desc: 菜鸟驿站扫描处
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/cainiao-temp1.jpg
+    desc: 菜鸟驿站室外取件扫描处
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/cainiao-temp2.jpg
+    desc: 菜鸟驿站室外取件点
+    watermark: true

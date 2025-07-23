@@ -1,0 +1,41 @@
+title: 奖学金
+aiIgnore: true
+icon: metal
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.598Z
+shareable: true
+content:
+  - tag: list
+    header: 本科生
+    items:
+      - text: 本科生奖学金介绍
+        icon: metal
+        path: under
+
+      - text: 本科奖学金评审说明
+        icon: about
+        path: explain
+
+  - tag: list
+    header: 研究生
+    items:
+      - text: 研究生奖学金介绍
+        icon: metal
+        path: grad
+
+      # FIXME: Update at 2025-09
+      - text: 2023 - 2024 学年通知
+        icon: notice
+        url: notice-detail?id=https://m.nenu.edu.cn/page/viewNews?ID=006390980d514995b118f5a981f402af&flag=new&title=关于开展2023-2024学年研究生评奖评优工作的通知
+
+  - tag: list
+    header: 奖学金申请
+    items:
+      - text: 奖学金申请
+        icon: apply
+        path: apply
+
+  - tag: doc
+    name: 东北师范大学学生奖励办法
+    url: $file/scholarship/reward.pdf

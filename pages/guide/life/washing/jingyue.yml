@@ -1,0 +1,37 @@
+title: 净月洗衣店
+tags:
+  - 校园生活
+icon: washer
+author: Mr.Hope
+time: 2024-08-30T15:58:22.356Z
+shareable: true
+content:
+  - tag: title
+    text: 校内店铺
+
+  - tag: ul
+    text:
+      - |-
+        糖果洗衣: 浴池后侧
+
+  - tag: location
+    header: 净月洗衣店
+    points:
+      - loc: 43.826169,125.421143
+        name: 糖果洗衣
+        detail: 浴池后侧
+
+  - tag: text
+    header: 糖果洗衣
+    text: 位于学生浴池旁
+
+  - tag: img
+    src: $img/life/jingyue/candy.jpg
+    watermark: true
+
+  - tag: title
+    text: 校外店铺
+
+  - tag: text
+    text:
+      - 暂无信息

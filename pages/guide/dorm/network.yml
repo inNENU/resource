@@ -1,0 +1,36 @@
+title: 寝室供网
+tags:
+  - 宿舍
+  - 校园网
+icon: network
+author: Mr.Hope
+time: 2025-07-23T09:43:28.453Z
+shareable: true
+content:
+  - tag: title
+    text: 寝室网络服务
+
+  - tag: text
+    header: 本部校区
+    text:
+      - "三舍：每日 6:00 至次日 0:00"
+      - "体育公寓：因实行军事化管理，无网络覆盖"
+
+  - tag: text
+    header: 净月校区
+    text:
+      - "春华、日华、秋华、光华公寓：每日 6:00 至次日 0:00"
+      - "夏华公寓：全天候供网"
+      - "天华公寓：供网时间与供电时间同步"
+
+  - tag: ul
+    header: 补充说明
+    text:
+      - 所有研究生宿舍均全天候供网。
+      - 所有本科生寝室均不屏蔽手机运营商信号。
+
+  - tag: list
+    items:
+      - text: 了解更多校园网相关
+        icon: network
+        path: /guide/network/

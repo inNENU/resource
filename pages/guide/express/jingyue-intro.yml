@@ -1,0 +1,72 @@
+title: 净月校区快递介绍
+tags:
+  - 快递
+icon: about
+author: Mr.Hope
+time: 2025-07-23T09:43:28.472Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 为方便领取大件行李，建议新生优先选择在校内设有官方服务站的快递公司。
+      - 其他快递公司虽可寄达，但通常需要您前往校门附近的校外自提点取件。
+
+  - tag: title
+    text: 校内快递服务点
+
+  - tag: text
+    text:
+      - |-
+        以下快递公司在净月校区内设有官方服务站点：
+
+  - tag: ul
+    text:
+      - 中通
+      - 申通
+      - 圆通
+      - 韵达
+      - 极兔
+      - 天天
+      - 苏宁
+      - 顺丰
+      - 京东
+      - 邮政小包
+      - 邮政 EMS
+
+  - tag: title
+    text: 邮寄地址
+
+  - tag: action
+    header: 净月标准地址
+    content: 吉林省长春市南关区净月街道净月大街 2555 号
+
+  - tag: action
+    header: 净月部分 App 地址
+    content: 吉林省长春市净月高新技术产业开发区净月街道净月大街 2555 号
+
+  - tag: text
+    type: note
+    text:
+      - 注：由于净月高新技术产业开发区行政上隶属于南关区，部分地图或应用可能显示后者。两种地址格式均可正常投递，请放心填写。
+
+  - tag: action
+    header: 邮政编码
+    content: "130117"
+
+  - tag: title
+    text: 快递中心
+
+  - tag: img
+    src: $img/express/jingyue/map.png
+    watermark: true
+
+  - tag: list
+    items:
+      - text: 菜鸟驿站
+        icon: cainiao
+        path: jingyue-cainiao
+
+      - text: 户外取件点
+        icon: express
+        path: jingyue-out

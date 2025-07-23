@@ -1,0 +1,68 @@
+title: 中小学教师资格考试
+tags:
+  - 国家考试
+icon: teacher
+author: Mr.Hope
+time: 2025-07-23T09:43:28.467Z
+grey: true
+shareable: true
+content:
+  - tag: ul
+    type: info
+    header: 2025 年下半年时间安排
+    text:
+      - 报名时间：7月4日10时—7日16时
+      - 审核时间：7月4日12时—8日16时
+      - 缴费时间：7月4日12时—9日24时
+      - 打印准考证时间：9月8日—13日
+      - 笔试时间：9月13日
+      - 成绩查询时间：预计11月7日
+
+  - tag: list
+    items:
+      - text: 相关公告
+        icon: notice
+        path: notice
+
+  - tag: list
+    header: 介绍
+    items:
+      - text: 介绍
+        icon: about
+        path: intro
+
+      - text: 考试科目
+        icon: books
+        path: subject
+
+      - text: 考试大纲
+        icon: rule
+        path: outline
+
+  - tag: list
+    header: 考试
+    items:
+      - text: 笔试报名
+        icon: enroll
+        path: enroll
+
+      - text: 笔试详情
+        icon: test
+        path: writing
+
+      - text: 面试详情
+        icon: association
+        path: facing
+
+  - tag: list
+    header: 申请
+    items:
+      - text: 资格证申请
+        icon: apply
+        path: apply
+
+  - tag: list
+    items:
+      - text: 常见问题
+        icon: faq
+        path: faq

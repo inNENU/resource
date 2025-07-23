@@ -1,0 +1,89 @@
+title: 美术学院招生
+tags:
+  - 招生
+  - 美术学院
+icon: enroll
+author: Mr.Hope
+time: 2025-06-24T12:25:33.921Z
+shareable: true
+content:
+  - tag: title
+    text: 院长说专业
+
+  - tag: text
+    header: 艺术并重 道器兼修
+
+  - tag: video
+    src: https://zsb.nenu.edu.cn/__local/D/0A/54/CFC42507F5BD77DE0C3611A4063_8E717C5D_4549490.mp4?e=.mp4
+
+  - tag: title
+    text: 本科招生情况
+
+  - tag: p
+    text: 美术学院设有美术学(师范)、美术学(普通方向)、设计学类、雕塑等四个专业。
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 美术学(师范)
+        path: art-normal
+
+      - text: 美术学(非师范)
+        path: art
+
+      - text: 设计学类
+        path: design
+
+      - text: 雕塑
+        path: sculpture
+
+  - tag: list
+    header: 其他院系介绍
+    items:
+      - text: 综合实验艺术
+        path: experiment
+
+  - tag: list
+    items:
+      - text: 本科人才培养方案
+        icon: rule
+        url: under-major-plan
+    env:
+      - qq
+      - wx
+      - app
+
+  - tag: action
+    header: 本科人才培养方案
+    content: https://www.nenu.edu.cn/jyjx/bksjy/rcpyfa.htm
+    env:
+      - web
+
+  - tag: phone
+    fName: 美术学院本科招生电话
+    num: 0431-84536535
+    org: 东北师范大学
+    street: 吉林省长春市净月大街 2555 号
+    postCode: 130117
+    mail: nenuart@nenu.edu.cn
+    site: https://fineart.nenu.edu.cn/
+
+  - tag: title
+    text: 硕士研究生招生概况
+
+  - tag: list
+    items:
+      - text: 查询地址
+        icon: search
+        url: grad-enroll-plan?school=美术学院
+
+  - tag: phone
+    header: 硕士研究生招生咨询电话
+    fName: 志新
+    lName: 程
+    num: 0431-84537613
+    org: 东北师范大学美术学院
+    title: 硕士研究生招生负责人
+    street: 吉林省长春市净月大街 2555 号
+    postCode: 130117
+    mail: chengzx977@nenu.edu.cn

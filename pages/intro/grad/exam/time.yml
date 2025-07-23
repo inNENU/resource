@@ -1,0 +1,37 @@
+# TODO: Update at 2025-09
+title: 2025 年考研时间安排
+tags:
+  - 考研/保研
+icon: time
+time: 2025-06-21T07:59:38.678Z
+author: Mr.Hope
+shareable: true
+content:
+  - tag: title
+    text: 报名
+
+  - tag: ul
+    text:
+      - 预报名工作安排在10月9日至10月12日 (每天 9:00 - 22:00)
+      - 网上报名工作安排在10月15日至10月28日 (每天 9:00 - 22:00)
+
+  - tag: title
+    text: 下载打印准考证
+
+  - tag: text
+    text:
+      - 考试前十天，登录研招网下载。
+
+  - tag: title
+    text: 初试时间
+
+  - tag: text
+    header: 日期
+    text:
+      - 2024年12月21日至12月22日
+
+  - tag: ul
+    header: 时间
+    text:
+      - 上午 8:30 - 11:30
+      - 下午 14:00 - 17:00

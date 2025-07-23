@@ -1,0 +1,93 @@
+title: 学院介绍
+aiIgnore: true
+icon: school
+grey: true
+author: Mr.Hope
+time: 2024-08-29T09:00:55.056Z
+shareable: true
+content:
+  - tag: grid
+    items:
+      - text: 教育学部
+        icon: education
+        path: education/
+
+      - text: 心理学院
+        icon: psychology
+        path: psychology/
+
+      - text: 政法学院
+        icon: politics
+        path: politics/
+
+      - text: 经济与管理学院
+        icon: economy
+        path: economy/
+
+      - text: 文学院
+        icon: chinese
+        path: chinese/
+
+      - text: 历史文化学院
+        icon: history
+        path: history/
+
+      - text: 外国语学院
+        icon: foreign
+        path: foreign/
+
+      - text: 音乐学院
+        icon: music
+        path: music/
+
+      - text: 美术学院
+        icon: art
+        path: art/
+
+      - text: 马克思主义学部
+        icon: marx
+        path: marx/
+
+      - text: 数学与统计学院
+        icon: math
+        path: math/
+
+      - text: 信息科学与技术学院
+        icon: ist
+        path: ist/
+
+      - text: 物理学院
+        icon: physics
+        path: physics/
+
+      - text: 化学学院
+        icon: chemistry
+        path: chemistry/
+
+      - text: 生命科学学院
+        icon: biology
+        path: biology/
+
+      - text: 地理科学学院
+        icon: geography
+        path: geography/
+
+      - text: 环境学院
+        icon: environment
+        path: environment/
+
+      - text: 体育学院
+        icon: basketball
+        path: pe/
+
+      - text: 传媒科学学院
+        icon: media
+        path: media/
+
+      - text: 国际汉学院
+        icon: network
+        path: international/
+
+      - text: 纽瓦克学院
+        icon: activity
+        path: newark/

@@ -1,0 +1,37 @@
+title: 选课系统使用说明
+tags:
+  - 选课
+icon: idea
+author: Mr.Hope
+time: 2025-07-23T09:43:28.522Z
+shareable: true
+content:
+  - tag: title
+    text: 东北师范大学选课系统使用说明
+
+  - tag: ul
+    header: 步骤一
+    text:
+      - 进入选课网站
+      - 输入用户名和密码登录系统
+
+  - tag: action
+    header: 本科生
+    content: http://bkjx.nenu.edu.cn/
+
+  # FIXME: 更新研究生选课系统网址
+  - tag: action
+    header: 研究生
+    content: https://dsyjs.nenu.edu.cn/yjsxk/
+
+  - tag: ul
+    text:
+      - |-
+        本科生: 在【报名服务】下选择【选课报名】
+      # FIXME: 研究生选课系统路径
+      - |-
+        研究生: 在【选课系统】下选择【选课系统】
+
+  # TODO: 2025-09 在选课时更新
+  # - tag: title
+  #   text: 具体操作简介

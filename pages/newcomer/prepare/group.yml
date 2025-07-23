@@ -1,0 +1,221 @@
+# TODO: Update at 2026-04
+title: 团员组织关系接转
+tags:
+  - 新生入学
+  - 服务办理
+icon: https://assets.innenu.com/img/about/group.png
+author: Mr.Hope
+time: 2025-07-23T09:43:28.647Z
+shareable: true
+cite:
+  - https://youth.nenu.edu.cn/info/1067/6852.htm
+content:
+  - tag: title
+    text: 办理须知
+
+  - tag: text
+    text:
+      - 所有新生团员均应在入学后，按要求及时办理团组织关系转接手续。
+
+  - tag: p
+    text: 新生团组织关系转接包含线下和线上两个部分。线下转接需凭原毕业学校开具的纸质版《中国共产主义青年团组织关系介绍信》，介绍信抬头应统一填写为“共青团东北师范大学委员会”，入学后提交至所在学院（部）团委。线上转接依托“智慧团建”系统进行，但根据团中央统一要求，新生线上转入申请将在开学后由各学院（部）统一受理，开学前学校暂不处理相关申请。
+
+  - tag: text
+    type: warning
+    header: Mr.Hope 提示
+    text:
+      - 线上转接：虽然学校在开学后才统一处理线上转接申请，但你仍可以提前通过“智慧团建”系统自行或联系原学校发起转出申请。当然，更稳妥的方式是等开学后，遵循学院和辅导员的统一安排进行操作。
+      - 团籍档案：你的团籍档案通常会与个人学籍档案一同封装。为确保材料安全、避免遗失，辅导员一般会在报到后另行通知具体收取时间，报到当天通常不会单独收取。
+
+  - tag: title
+    text: 团籍档案材料核查
+
+  - tag: ul
+    text:
+      - 2019 年后入团的团员：团籍档案通常包括“两表、两书、一证”，即《入团积极分子培养考察登记表》、《团员信息登记表》、《入团申请书》、《入团志愿书》和团员证。
+      - 2019 年前入团的团员：团籍档案通常包括《入团志愿书》和团员证。
+
+  - tag: title
+    text: 线上转接指引
+
+  - tag: p
+    text:
+      - 线上转接可通过以下任一方式完成：由原属团支部在“智慧团建”系统发起转出；由本人申请转出并等待原属团支部审批；或入学后由所在学院（部）团委直接发起转入。
+      - 新生转入的目标团支部通常为“吉林省东北师范大学XX学院（部）团支部”，具体名称请以入学后学院的通知为准。
+
+  - tag: ul
+    type: info
+    header: 注意事项
+    text:
+      - 因超龄等原因未录入“智慧团建”系统的团员，仅需按要求完成线下转接即可。
+      - 根据上级团组织要求，所有新生的线上团组织关系均在开学后统一办理。开学前，学校及各学院（部）均不受理个人或原单位发起的转入申请。
+      - 部分学院可能会统一为新生发起线上转入申请，届时可能无需学生个人操作，请密切关注辅导员的具体通知。
+
+  - tag: title
+    text: 线上转接具体流程
+
+  - tag: list
+    items:
+      - text: 智慧团建 PC 端转接流程
+        icon: pc
+        path: zhtj/pc
+
+      - text: 智慧团建小程序转接流程
+        icon: miniapp
+        path: zhtj/miniapp
+
+  - tag: title
+    text: 联系电话
+
+  - tag: text
+    text: 如在办理过程中遇到问题，请联系相关负责老师。
+
+  - tag: phone
+    header: 校团委
+    fName: 于老师
+    num: 0431-85098526
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 教育学部
+    fName: 刘老师
+    num: 0431-85099267
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 心理学院
+    fName: 薛老师
+    num: 0431-85098613
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 政法学院
+    fName: 郑老师
+    num: 0431-84536092
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 经济与管理学院
+    fName: 潘老师
+    num: 0431-84536802
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 文学院
+    fName: 曹老师
+    num: 0431-85099499
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 历史文化学院
+    fName: 陈老师
+    num: 0431-85098093
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 外国语学院
+    fName: 李老师
+    num: 0431-85099672
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 音乐学院
+    fName: 李老师
+    num: 0431-84536317
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 美术学院
+    fName: 肖老师
+    num: 0431-84537610
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 马克思主义学部
+    fName: 白老师
+    num: 0431-85099587
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 数学与统计学院
+    fName: 马老师
+    num: 0431-85098116
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 信息科学与技术学院
+    fName: 张老师
+    num: 0431-84536300
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 物理学院
+    fName: 刘老师
+    num: 0431-85099890
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 化学学院
+    fName: 毕老师
+    num: 0431-85099136
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 生命科学学院
+    fName: 孟老师
+    num: 0431-85099781
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 地理科学学院
+    fName: 赵老师
+    num: 0431-85099244
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 环境学院
+    fName: 闫老师
+    num: 0431-89165609
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 体育学院
+    fName: 霍老师
+    num: 0431-85098672
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 传媒科学学院
+    fName: 郎老师
+    num: 0431-84536484
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 罗格斯大学纽瓦克学院
+    fName: 孙老师
+    num: 0431-84537018
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 教师教育研究院
+    fName: 杨老师
+    num: 0431-85098183
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 思想政治教育研究中心
+    fName: 张老师
+    num: 0431-85099705
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 国际汉学院
+    fName: 张老师
+    num: 0431-84538509
+    remark: 新生团员组织关系接转咨询
+
+  - tag: phone
+    header: 东北民族民俗博物馆
+    fName: 吴老师
+    num: 0431-89165506
+    remark: 新生团员组织关系接转咨询

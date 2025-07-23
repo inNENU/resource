@@ -1,0 +1,19 @@
+title: 研究生教学服务系统
+aiIgnore: true
+icon: system
+author: Mr.Hope
+time: 2025-07-23T09:43:28.528Z
+grey: true
+shareable: true
+content:
+  # FIXME: @Mister-Hope 需要添加更多内容
+
+  - tag: list
+    items:
+      - text: 系统介绍
+        icon: intro
+        path: intro
+
+      - text: 评教
+        icon: teacher
+        path: course-evaluate

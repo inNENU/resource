@@ -1,0 +1,75 @@
+title: 本科录取通知书
+tags:
+  - 新生入学
+  - 招生
+icon: letter
+author: Mr.Hope
+time: 2025-07-23T09:43:28.649Z
+shareable: true
+content:
+  - tag: title
+    text: 录取通知书制作与寄送
+
+  - tag: text
+    text: 录取通知书将在各批次录取工作结束后，根据录取进程分批制作与寄出。
+
+  - tag: card
+    cover: $img/tab/admission.jpg
+    title: 录取查询
+    logo: letter
+    url: admission?type=search
+
+  - tag: text
+    type: info
+    text: 学校本科生录取通知书统一通过中国邮政特快专递（EMS）进行寄送，通常为航空件，以确保能快速、安全地送达各位同学手中。
+
+  - tag: title
+    text: 录取通知书内含材料
+
+  - tag: ul
+    text:
+      - 录取通知书 1 份
+      - 新生入学指南 1 本
+      - 资助政策介绍册 1 本
+      - 家庭经济困难学生认定申请表 1 张
+
+  - tag: text
+    type: warning
+    header: 特别提醒
+    text:
+      - 录取通知书邮寄袋内不包含任何实体卡片，如手机卡、银行卡或校园卡。
+      - 相关卡片将在新生入学报到时统一办理或发放，请同学们知悉。
+
+  - tag: title
+    text: 学号
+
+  - tag: text
+    text: 学号即为录取通知书上的证书编号。该编号为 2025 开头的十位数字，位于通知书下方区域。
+
+  - tag: title
+    text: 师范生协议
+
+  - tag: text
+    text: 报考公费师范生或优师专项计划的同学，录取通知书邮寄袋内将附有师范生协议。协议中教育行政部门的印章均已加盖完毕。
+
+  - tag: ul
+    text:
+      - |-
+        公费师范生：协议书一式四份
+      - |-
+        优师专项师范生：协议书一式五份
+
+  - tag: img
+    src: $img/prepare/admission-bag.jpg
+    desc: 录取通知书 EMS 邮寄袋
+    watermark: true
+
+  - tag: img
+    src: $img/prepare/under-admission-letter.jpg
+    desc: 本科生录取通知书样式
+    watermark: true
+
+  - tag: img
+    src: $img/prepare/under-admission-gift.jpg
+    watermark: true
+    desc: 随录取通知书附赠的纪念品（共四种颜色，随机发放）

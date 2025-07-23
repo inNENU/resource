@@ -1,0 +1,24 @@
+# TODO: Update at 2025-09
+title: 考研报考
+aiIgnore: true
+icon: test
+author: Mr.Hope
+time: 2025-06-21T07:59:38.678Z
+grey: true
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 2025 年时间安排
+        icon: time
+        path: time
+
+      - text: 2025 年全国招生规定
+        icon: rule
+        path: /intro/enroll/grad/rule/2025-all
+
+  - tag: list
+    items:
+      - text: 考研报名
+        icon: apply
+        path: apply

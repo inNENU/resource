@@ -1,0 +1,62 @@
+title: QQ 群
+tags:
+  - 迎新
+icon: qq-group
+author: Mr.Hope
+time: 2025-07-23T09:43:28.635Z
+grey: true
+shareable: true
+content:
+  - tag: list
+    header: 防止诈骗
+    items:
+      - text: 常见网上诈骗
+        icon: alert
+        path: /newcomer/safety/
+
+      - text: 诈骗群聊
+        icon: alert
+        path: cheat
+
+  - tag: list
+    header: 找到组织
+    items:
+      - text: 专业所属学院
+        icon: content
+        path: /intro/enroll/under/major/2025
+
+      - text: 学校新生群
+        icon: qq-group
+        path: all
+
+      - text: 学院迎新群
+        icon: qq-group
+        path: school
+
+      - text: 老乡群
+        icon: qq-group
+        path: fellow
+
+      - text: 家长群
+        icon: qq-group
+        path: parent
+
+      - text: inNENU 咨询群
+        icon: qq-group
+        path: innenu
+
+  - tag: text
+    type: warning
+    header: 注意
+    text:
+      - 学校从未设立任何全校性的官方新生总群⚠。任何以“官方”名义建立的群聊，其宣传均不属实，请注意辨别。
+      - 每年都有一些商业团队或个人以建立新生群为名，伺机推销被褥、电话卡、培训课程等产品或服务，请对此类行为保持警惕。
+      - 此外，部分使用“东师”字样或校徽的“表白墙”、“资料墙”等平台，并非由本校学生运营，可能存在信息泄露或诈骗风险，请务必谨慎。
+
+  - tag: ul
+    type: info
+    header: 官方群
+    text:
+      - 招生季期间，各学院的招生老师可能会建立招生咨询群，此类群聊主要用于解答招生政策相关问题，并通常会在招生工作结束后解散。
+      - 部分学院的团委或学生会等官方学生组织，会在辅导员或学院老师的指导下建立官方新生群。这类群聊的管理者为学院的学生干部和老师。
+      - 开学前后，辅导员通常会建立正式的年级或班级群，用于发布通知和日常管理。这是获取官方信息的重要渠道，请务必及时关注群公告及“@全体成员”消息。

@@ -1,0 +1,51 @@
+title: 浴池账户
+tags:
+  - 浴池
+icon: account
+author: Mr.Hope
+time: 2025-07-23T09:43:28.424Z
+shareable: true
+content:
+  - tag: title
+    text: 浴池服务提供商
+
+  - tag: text
+    text:
+      - 我校公共浴池服务由第三方公司“台州博诚”负责运营。因此，浴池采用独立的账户系统进行管理和计费，与校园一卡通系统分离，不支持使用校园一卡通支付。
+
+  - tag: title
+    text: 首次使用与账户激活
+
+  - tag: text
+    text: 首次使用时，请通过微信搜索并关注“台州博诚”公众号。
+
+  - tag: img
+    src: $img/bath/account.jpg
+    desc: 公众号
+    watermark: true
+
+  - tag: text
+    text:
+      - 关注后，请根据页面提示完成手机号的绑定操作。
+
+  - tag: img
+    src: $img/bath/cellphone.jpg
+    desc: 公众号
+    watermark: true
+
+  - tag: title
+    text: 洗浴价格
+
+  - tag: text
+    text: 洗浴费用按实际用水量计算，单价为 0.035 元/升。
+
+  - tag: title
+    text: 使用方式与计费特性
+
+  - tag: ol
+    text:
+      - 账户需通过微信公众号线上充值，在浴池终端上进行消费。
+      - 通过手机蓝牙与淋浴设备自动配对并连接。
+      - 在手机端确认或输入密码以启动设备，消费数据将实时同步。
+      - 淋浴设备配有物理按键，可随时控制出水与暂停，实现精准计费。
+      - 每次使用结束后，消费明细会立即在微信公众号的账户中更新。

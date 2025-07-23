@@ -1,0 +1,52 @@
+title: 传媒科学学院
+tags:
+  - 传媒科学学院
+icon: media
+grey: true
+author: Mr.Hope
+time: 2025-06-24T11:44:08.395Z
+shareable: true
+content:
+  - tag: account
+    name: 传媒科学学院
+    logo: $img/media/media.png
+    detail: 东师传媒
+    wxid: nenu_media
+    account: media
+    loc: 43.82637,125.42704
+    mail: chuanmei@nenu.edu.cn
+    site: https://chuanmei.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院介绍
+        icon: about
+        path: intro
+
+      - text: 招生专业介绍
+        icon: enroll
+        path: enroll
+
+  - tag: list
+    header: 本科专业介绍
+    items:
+      - text: 广播电视编导
+        path: director
+
+      - text: 播音与主持艺术
+        path: host
+
+      - text: 新闻传播学类
+        path: class
+
+      - text: 数字媒体技术
+        path: digital
+
+  - tag: list
+    header: 转专业准入要求
+    items:
+      - text: 数字媒体技术
+        path: into/digital
+
+      - text: 新闻传播学类
+        path: into/news

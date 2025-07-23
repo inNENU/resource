@@ -1,0 +1,42 @@
+title: 选课系统
+tags:
+  - 选课
+icon: select
+author: Mr.Hope
+time: 2024-07-23T11:29:28.542Z
+grey: true
+shareable: true
+content:
+  - tag: card
+    cover: $img/tab/select.png
+    title: 选课系统
+    logo: select
+    url: under-select
+
+  - tag: list
+    header: inNENU 选课系统
+    items:
+      - text: inNENU 选课系统指南
+        icon: idea
+        path: intro
+
+  # - tag: list
+  #   header: 官方系统
+  #   items:
+  #     - text: 登录系统
+  #       icon: intro
+  #       path: login
+
+  #     - text: 使用指南
+  #       icon: idea
+  #       path: guide
+
+  # - tag: list
+  #   items:
+  #     - text: 注意事项
+  #       icon: alert
+  #       path: alert
+
+  #     - text: 常见问题
+  #       icon: faq
+  #       path: faq

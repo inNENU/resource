@@ -1,0 +1,42 @@
+title: 吹风机
+tags:
+  - 宿舍
+  - 校园生活
+icon: hair-dryer
+author: Mr.Hope
+time: 2025-07-23T09:43:28.454Z
+shareable: true
+content:
+  - tag: title
+    text: 简介
+
+  - tag: p
+    text:
+      - 每栋宿舍楼的各楼层均配备一至两台共享吹风机，通过扫描机身二维码并启动小程序即可使用。
+      - 计费标准为 0.15 元/分钟，用户可根据需要自由选择不同的使用时长。
+
+  - tag: text
+    type: tip
+    text:
+      - 吹风机通常设置在楼层的公共洗漱间内。
+      - 部分宿舍楼（如三舍）则将其设置在热水房。
+      - 为避免打扰其他同学休息，吹风机的工作时间为 7:00 至 22:00，其他时间无法使用。
+
+  - tag: img
+    src: $img/dorm/hair-dryer1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dorm/hair-dryer2.jpg
+    desc: 使用微信扫码即可使用
+    watermark: true
+
+  - tag: img
+    src: $img/dorm/hair-dryer3.jpg
+    desc: 使用时必须打开蓝牙以连接设备
+    watermark: true
+
+  - tag: img
+    src: $img/dorm/hair-dryer4.jpg
+    desc: 提供多种时长套餐，可按需自由选择
+    watermark: true

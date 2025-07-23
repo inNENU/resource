@@ -1,0 +1,103 @@
+title: 净月生活
+aiIgnore: true
+icon: life
+author: Mr.Hope
+time: 2025-07-23T09:43:28.483Z
+shareable: true
+content:
+  - tag: title
+    text: 净月
+
+  - tag: list
+    items:
+      - text: 二食堂生活区介绍
+        icon: shop
+        desc: 装修中
+        # path: dining2-district
+
+      - text: 浴池生活区介绍
+        icon: bath
+        path: jingyue-bath-district
+
+  - tag: title
+    text: 分板块介绍
+
+  - tag: grid
+    header: 衣
+    items:
+      - text: 洗衣店
+        icon: washer
+        path: washing/jingyue
+
+  - tag: grid
+    header: 食
+    items:
+      - text: 食堂
+        icon: dining
+        path: /guide/dining/jingyue
+
+      - text: 水果
+        icon: fruit
+        path: fruit/jingyue
+
+      - text: 烘焙坊
+        icon: bake
+        path: bake/jingyue
+
+      - text: 饮品店
+        icon: drink
+        path: drink/jingyue
+
+  - tag: grid
+    header: 住
+    items:
+      - text: 学生公寓
+        icon: dorm
+        path: /guide/dorm/
+
+      - text: 浴池
+        icon: bath
+        path: /guide/bath/jingyue
+
+      - text: 理发
+        icon: haircut
+        path: haircut/jingyue
+
+      - text: 照相
+        icon: photo
+        path: photo/jingyue
+
+      - text: 打印复印
+        icon: print
+        path: print/jingyue
+
+      - text: 数码电子
+        icon: digital
+        path: digital/jingyue
+
+      - text: 书店
+        icon: books
+        path: book/jingyue
+
+      - text: 营业厅
+        icon: sim
+        path: sim/
+
+  - tag: grid
+    header: 行
+    items:
+      - text: 交通出行
+        icon: traffic
+        path: /guide/traffic/
+
+      - text: 存取款
+        icon: atm
+        path: atm/jingyue
+
+      - text: 就医
+        icon: hospital
+        path: hostpital/jingyue
+
+      - text: 校园周边
+        icon: nearby
+        path: nearby/jingyue

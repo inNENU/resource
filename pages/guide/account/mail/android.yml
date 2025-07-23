@@ -1,0 +1,95 @@
+title: 安卓邮件客户端设置
+tags:
+  - 校园邮箱
+icon: android
+author: Mr.Hope
+time: 2025-07-23T09:43:28.397Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 本教程将指导您如何在安卓（Android）设备上配置学校邮箱。
+      - 教程以 Gmail 客户端为例，其他客户端的设置流程类似。
+
+  - tag: ul
+    text: 打开邮件客户端，选择“添加其他账号”。
+
+  - tag: img
+    src: $img/account/mail/gmail-1.jpg
+    watermark: true
+
+  - tag: ul
+    text: 在账号类型中选择“其他”。
+
+  - tag: img
+    src: $img/account/mail/gmail-2.jpg
+    watermark: true
+
+  - tag: ul
+    text:
+      - 输入您的学校邮箱地址（例如 `username@nenu.edu.cn`）。
+      - 点击左下角的“手动设置”。
+
+  - tag: img
+    src: $img/account/mail/gmail-3.jpg
+    watermark: true
+
+  - tag: ul
+    text: 账户类型选择“个人(IMAP)”。
+
+  - tag: img
+    src: $img/account/mail/gmail-4.jpg
+    watermark: true
+
+  - tag: ul
+    text: 输入您的邮箱密码。
+
+  - tag: img
+    src: $img/account/mail/gmail-5.jpg
+    watermark: true
+
+  - tag: ul
+    text: 将“接收服务器”地址设置为：
+
+  - tag: action
+    content: imaphz.qiye.163.com
+
+  - tag: img
+    src: $img/account/mail/gmail-6.jpg
+    watermark: true
+
+  - tag: ul
+    text: 将“外发服务器”地址设置为：
+
+  - tag: action
+    content: smtphz.qiye.163.com
+
+  - tag: text
+    type: warning
+    header: 关于服务器地址的说明
+    text:
+      - 尽管学校官方提供了「smtp.nenu.edu.cn」作为服务器地址，但由于其尚未配置有效的安全证书，可能导致多数邮件客户端无法添加该邮箱，或在使用中频繁弹出安全警告。
+      - 在学校解决此问题前，建议您统一使用网易官方提供的服务器地址。
+
+  - tag: img
+    src: $img/account/mail/gmail-7.jpg
+    watermark: true
+
+  - tag: ul
+    text: 根据个人需求，选择合适的同步频率。
+
+  - tag: text
+    type: note
+    text: 请注意，同步频率越高，手机的电量消耗也可能相应增加。
+
+  - tag: img
+    src: $img/account/mail/gmail-8.jpg
+    watermark: true
+
+  - tag: ul
+    text: 最后，设置您希望显示的帐户名称与发件人姓名。
+
+  - tag: img
+    src: $img/account/mail/gmail-9.jpg
+    watermark: true

@@ -1,0 +1,22 @@
+title: 东师服务
+aiIgnore: true
+icon: contact
+grey: true
+content:
+  - tag: grid
+    items:
+      - text: 学费缴纳
+        icon: money
+        path: pay/
+
+      - text: 保险
+        icon: insurance
+        path: insurance/
+
+      - text: 规章制度
+        icon: rule
+        path: /intro/rule/
+
+      - text: 常见服务
+        icon: service
+        path: action/

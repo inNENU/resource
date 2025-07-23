@@ -1,0 +1,31 @@
+title: 宿舍楼微波炉
+tags:
+  - 宿舍
+  - 校园生活
+icon: microwave
+author: Mr.Hope
+time: 2025-07-23T09:43:28.455Z
+shareable: true
+content:
+  - tag: title
+    text: 宿舍楼公共微波炉
+
+  - tag: text
+    text:
+      - 部分宿舍楼大厅设有公共微波炉，方便同学们加热餐食。
+
+  - tag: img
+    src: $img/dorm/microwave.jpg
+    watermark: true
+
+  - tag: text
+    type: info
+    header: 微波炉安全使用须知
+    text:
+      - 一、请使用中高火及以下档位，禁止使用高火。
+      - 二、加热前请移除食品的纸质、塑料等外包装，以防引发火灾。
+      - 三、严禁使用任何金属容器、金属餐具或锡箔纸。
+      - 四、严禁加热鸡蛋、板栗等带壳食物，以及牛奶等密封包装的饮品，以防爆裂。
+      - 五、请合理控制加热时间，避免过度加热或让微波炉空转。
+      - 六、本设备仅限用于加热熟食，严禁烹煮生食（如土豆、红薯、粽子、中药等）。
+      - 安全第一，请务必遵守以上规定！

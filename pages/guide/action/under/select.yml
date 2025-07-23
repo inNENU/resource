@@ -1,0 +1,23 @@
+title: 本科生选课
+tags:
+  - 选课
+icon: select
+author: Mr.Hope
+time: 2025-06-22T11:37:38.823Z
+shareable: true
+cite: https://my.nenu.edu.cn/hallIndex/showAppDetail?appid=9d28701efc164f0986d4a635fd8ea93a
+content:
+  - tag: title
+    text: 执行流程
+
+  - tag: img
+    src: $img/action/select.jpg
+
+  - tag: title
+    text: 相关内容
+
+  - tag: list
+    items:
+      - text: 选课介绍
+        icon: select
+        path: /guide/select/

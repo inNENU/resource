@@ -1,0 +1,102 @@
+title: 官方招生咨询群
+tags:
+  - 招生
+icon: qq-group
+author: Mr.Hope
+time: 2025-07-23T09:43:28.569Z
+shareable: true
+content:
+  - tag: title
+    text: 学校招生咨询群
+
+  - tag: text
+    text: 无，因招生办人员有限，暂无精力解答 QQ 群内容。如有疑问请致电招生办或向招生办留言。
+
+  - tag: list
+    items:
+      - text: 招生办公室联系方式
+        icon: phone
+        path: /apartment/enroll/contact
+
+  - tag: title
+    text: 各学院招生咨询群
+
+  - tag: action
+    header: 教育学部
+    content: "1054286279"
+
+  - tag: action
+    header: 心理学院
+    content: "362591074"
+
+  - tag: action
+    header: 政法学院
+    content: "494246946"
+
+  - tag: action
+    header: 经济与管理学院
+    content: "534717235"
+
+  - tag: action
+    header: 文学院
+    content: "641294516"
+
+  - tag: action
+    header: 历史文化学院
+    content: "630585876"
+
+  - tag: action
+    header: 外国语学院
+    content: "883124010"
+
+  - tag: action
+    header: 音乐学院
+    content: "541448217"
+
+  - tag: action
+    header: 美术学院
+    content: "542212248"
+
+  - tag: action
+    header: 马克思主义学部
+    content: "783367212"
+
+  - tag: action
+    header: 数学与统计学院
+    content: "984407159"
+
+  - tag: action
+    header: 信息科学与技术学院
+    content: "822633326"
+
+  - tag: action
+    header: 物理学院
+    content: "779708748"
+
+  - tag: action
+    header: 化学学院
+    content: "751531977"
+
+  - tag: action
+    header: 生命科学学院
+    content: "760257654"
+
+  - tag: action
+    header: 地理科学学院
+    content: "1049868559"
+
+  - tag: action
+    header: 环境学院
+    content: "543240107"
+
+  - tag: action
+    header: 体育学院 (冰雪学院)
+    content: "838947549"
+
+  - tag: action
+    header: 传媒科学学院 (新闻学院)
+    content: "1054605584"
+
+  - tag: action
+    header: 纽瓦克学院
+    content: "414010323"

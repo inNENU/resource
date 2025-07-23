@@ -1,0 +1,27 @@
+title: 迎新指引服务
+tags:
+  - 到校路线
+  - 报到
+  - 迎新
+icon: pickup
+author: Mr.Hope
+time: 2025-07-23T09:43:28.623Z
+shareable: true
+content:
+  - tag: title
+    text: 关于新生指引点
+
+  - tag: p
+    text:
+      - 为方便新生顺利到校，学校通常会在迎新期间于长春站（含南北出站口）、长春西站及龙嘉机场设立“新生指引点”。
+      - 届时，由校学生会组织的志愿者们会手持“东北师范大学”的指示牌在现场等候，为新生及家长提供热情的路线引导和咨询服务。请注意，指引点不提供统一的接站校车。
+
+  - tag: img
+    src: $img/arrival/pickup.jpg
+    desc: 往年迎新现场的学生志愿者
+    watermark: true
+
+  - tag: text
+    header: 2025 年迎新服务安排
+    text:
+      - 学校暂未落实具体安排，后续会更新。

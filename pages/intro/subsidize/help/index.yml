@@ -1,0 +1,18 @@
+title: 助学金
+tags:
+  - 资助
+icon: heart
+grey: true
+author: Mr.Hope
+time: 2025-07-23T09:43:28.604Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 助学金介绍
+        icon: about
+        path: intro
+
+      - text: 助学金申请
+        icon: apply
+        path: apply

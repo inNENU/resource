@@ -1,0 +1,95 @@
+title: 智慧团建小程序操作流程
+tags:
+  - 服务办理
+icon: miniapp
+author: Mr.Hope
+time: 2025-07-23T09:43:28.649Z
+shareable: true
+content:
+  - tag: title
+    text: 第一步：登录智慧团建系统
+
+  - tag: img
+    src: $img/prepare/youth-code.jpg
+    env:
+      - app
+      - qq
+
+  - tag: card
+    action: miniProgram
+    title: 智慧团建
+    appId: wx88263d1ad6c5ea60
+    path: pages/login/accountLogin
+    env:
+      - wx
+
+  - tag: text
+    text: 或使用浏览器访问以下网址：
+
+  - tag: action
+    content: https://zhtj.youth.cn/zhtj/signin
+
+  - tag: img
+    src: $img/prepare/youth-miniapp-login1.jpg
+    watermark: true
+
+  - tag: text
+    text: 请输入您的身份证号与密码，登录智慧团建系统。
+
+  - tag: text
+    type: info
+    header: 智慧团建默认密码
+    text: 身份证号后八位
+
+  - tag: text
+    text: 若为首次登录，系统会提示您设置手势密码，请按指引完成操作。
+
+  - tag: img
+    src: $img/prepare/youth-miniapp-login2.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/prepare/youth-miniapp-login3.jpg
+    watermark: true
+
+  - tag: title
+    text: 第二步：发起组织关系转接
+
+  - tag: text
+    text: 成功登录后，请在首页点击“关系转接”。
+
+  - tag: img
+    src: $img/prepare/youth-miniapp-main.jpg
+    watermark: true
+
+  - tag: ol
+    header: 请按以下要求填写转接申请：
+    text:
+      - “转入组织是否属于北京/广东/福建”一项，请选择“否”。
+      - “转出原因”一项，请选择“升学”。
+      # - “毕业去向” 选择 “普通高中升普通高校(本科)” (本科生)
+      # - “新学校名称” 填入 “东北师范大学”
+      # - “新学校所在地详细地址” 选择 “吉林省 - 长春市 - 南关区” 后输入 “人民大街 5268 号” (净月填写净月大街 2555 号)
+
+  - tag: text
+    text:
+      - 在“申请转入组织”处，请输入“东北师范大学 XX学院”（请将XX替换为您的学院全称）并进行搜索。
+      - 重要提示：若辅导员或学院已提供具体指引，请务必以官方要求为准。如有疑问，建议及时与辅导员联系确认。
+      - 在无明确指引的情况下，请按以下顺序选择转入组织：优先选择含本人专业或班级名称的团支部；若无，则选择学院的团总支或临时团支部；若仍无法找到，可选择“2025级团支部”等新生团支部。
+      - 研究生新生请务必选择名称中含“研究生”字样的团支部，不含相关字样的通常为本科生团支部。
+
+  - tag: img
+    src: $img/prepare/youth-miniapp-select.jpg
+    watermark: true
+
+  - tag: text
+    type: danger
+    text:
+      - 请注意：图中的“物理学院”仅为示例，您必须根据个人情况选择自己实际所在的学院。
+
+  - tag: p
+    text: 请仔细核对所填信息，确认无误后提交申请。后续请耐心等待原学校团组织审批转出，以及东北师范大学相应学院团组织审批转入。
+
+  - tag: img
+    src: $img/prepare/youth-miniapp-apply.png
+    watermark: true

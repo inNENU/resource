@@ -1,0 +1,30 @@
+name: Linter test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  linter-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Linter Test
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: pnpm lint:check

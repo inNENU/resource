@@ -1,0 +1,34 @@
+title: inNENU 咨询群
+tags:
+  - 迎新
+icon: qq-group
+author: Mr.Hope
+time: 2025-07-23T09:43:28.635Z
+shareable: true
+content:
+  - tag: title
+    text: inNENU 咨询群
+
+  - tag: img
+    src: $img/about/innenu.jpg
+    env:
+      - app
+      - wx
+
+  - tag: functional-list
+    items:
+      - text: 加入 inNENU 咨询群
+        icon: qq-group
+        type: button
+        openType: openGroupProfile
+        groupId: "1139044856"
+    env:
+      - qq
+
+  - tag: title
+    text: 相关说明
+
+  - tag: text
+    text:
+      - 本群主要作为 inNENU 小程序的官方反馈与交流平台，同时为备考学生提供报考、录取与考研相关的咨询。对于小程序中未能详尽解答的疑问，Mr.Hope 会在群内提供补充说明。
+      - 如果您希望帮助我们改进小程序，或想更深入地了解东北师范大学，欢迎加入本群。

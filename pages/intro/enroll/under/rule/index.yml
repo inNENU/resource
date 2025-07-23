@@ -1,0 +1,38 @@
+title: 本科招生简章
+tags:
+  - 招生
+icon: rule
+grey: true
+author: Mr.Hope
+time: 2025-06-21T07:59:38.678Z
+shareable: true
+content:
+  - tag: list
+    header: 2025 年
+    items:
+      - text: 2025 年本科招生章程
+        path: "2025"
+
+      - text: 2025 年本科招生体检要求
+        path: 2025-requirement
+
+      - text: 2025 年高校专项计划招生简章
+        path: 2025-plan
+
+      - text: 2025 年国家优师专项计划招生简章
+        path: 2025-great
+
+      - text: 2025 年音乐学专业招生简章
+        path: 2025-music
+
+      - text: 2025 年美术类专业招生简章
+        path: 2025-art
+
+      - text: 2025 年舞蹈编导专业招生简章
+        path: 2025-dance
+
+      - text: 2025 年运动训练、武术与民族传统体育专业招生简章
+        path: 2025-pe
+
+      - text: 2025 年高水平运动队招生简章
+        path: 2025-team
