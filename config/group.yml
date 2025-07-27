@@ -12,7 +12,7 @@ admission-card:
 
 qq-group-card:
   tag: card
-  cover: $img/tab/qq-group.jpg
+  cover: $img/tab/qq-group.png
   title: QQ 群
   path: newcomer/contact/
 
