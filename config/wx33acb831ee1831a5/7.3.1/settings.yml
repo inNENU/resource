@@ -5,11 +5,11 @@ main-page:
 
 main-presets:
   guest:
-    - tag: list
-      items:
-        - text: 登录开启海量校园功能
-          url: account-login
-
+    # - tag: list
+    #   items:
+    #     - text: 登录开启海量校园功能
+    #       url: account-login
+    - qq-group-card
     - admission-card
     # - under-enroll
     - enroll-basic-info

@@ -10,6 +10,12 @@ admission-card:
   title: 录取查询
   url: admission?type=search
 
+qq-group-card:
+  tag: card
+  cover: $img/tab/qq-group.jpg
+  title: QQ 群
+  path: newcomer/contact/
+
 faq-card:
   tag: card
   cover: $img/tab/faq.png
