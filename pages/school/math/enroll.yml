@@ -5,7 +5,7 @@ tags:
 icon: enroll
 desc: |-
   来源: 2025 年本科招生指南
-time: 2025-06-24T12:25:33.973Z
+time: 2025-07-27T10:25:38.689Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -58,7 +58,6 @@ content:
         icon: rule
         url: under-major-plan
     env:
-      - qq
       - wx
       - app
 

@@ -3,7 +3,7 @@ tags:
   - 人才培养
 icon: plan
 author: Mr.Hope
-time: 2025-07-23T09:43:28.442Z
+time: 2025-07-27T10:25:37.197Z
 shareable: true
 content:
   - tag: title
@@ -27,7 +27,6 @@ content:
         icon: rule
         url: under-major-plan
     env:
-      - qq
       - wx
       - app
 

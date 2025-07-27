@@ -11,7 +11,7 @@
       "description": "环境",
       "type": "array",
       "items": {
-        "enum": ["app", "qq", "wx", "web"]
+        "enum": ["app", "wx", "web"]
       }
     },
     "style-object": {
@@ -251,9 +251,7 @@
     "base-list-item": {
       "description": "基础列表项目，现在支持多种导航和动作",
       "oneOf": [
-        {
-          "$ref": "#/$defs/base-nav-option"
-        },
+        { "$ref": "#/$defs/base-nav-option" },
         {
           "allOf": [
             { "$ref": "#/$defs/base-nav-option" },
@@ -479,9 +477,7 @@
     "grid-item": {
       "description": "网格项目",
       "oneOf": [
-        {
-          "$ref": "#/$defs/base-nav-option"
-        },
+        { "$ref": "#/$defs/base-nav-option" },
         {
           "allOf": [
             { "$ref": "#/$defs/base-nav-option" },
@@ -915,10 +911,6 @@
           "description": "主体的 QQ 号",
           "type": "number"
         },
-        "qqid": {
-          "description": "主体的 QQ Openid",
-          "type": "string"
-        },
         "qqcode": {
           "description": "主体的 QQ 二维码地址",
           "type": "string"
@@ -1091,12 +1083,8 @@
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#card",
       "description": "卡片组件",
       "allOf": [
-        {
-          "$ref": "#/$defs/card-base-option"
-        },
-        {
-          "$ref": "#/$defs/route-option"
-        }
+        { "$ref": "#/$defs/card-base-option" },
+        { "$ref": "#/$defs/route-option" }
       ]
     },
     "grid-component": {

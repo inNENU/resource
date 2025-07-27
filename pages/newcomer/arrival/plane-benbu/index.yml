@@ -4,7 +4,7 @@ tags:
   - 报到
 icon: plane
 author: Mr.Hope
-time: 2025-07-23T09:43:28.624Z
+time: 2025-07-27T10:25:38.230Z
 shareable: true
 content:
   - tag: text
@@ -30,7 +30,6 @@ content:
   - tag: text
     type: warning
     env:
-      - qq
       - app
     text:
       - 导航功能仅在微信小程序上提供!

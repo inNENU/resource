@@ -2,7 +2,7 @@ title: Mr.Hope 个人简介
 tags:
   - 小程序
 author: Mr.Hope
-time: 2025-07-23T09:43:28.757Z
+time: 2025-07-27T10:25:38.810Z
 shareable: true
 content:
   - tag: account
@@ -76,42 +76,36 @@ content:
     header: Github
     content: https://github.com/Mister-Hope
     env:
-      - qq
       - wx
 
   - tag: action
     header: QQ 空间
     content: https://1178522294.qzone.qq.com/
     env:
-      - qq
       - wx
 
   - tag: action
     header: 知乎
     content: https://www.zhihu.com/people/mister-hope
     env:
-      - qq
       - wx
 
   - tag: action
     header: Steam
     content: https://steamcommunity.com/id/Mr-Hope/
     env:
-      - qq
       - wx
 
   - tag: action
     header: BiliBili
     content: https://space.bilibili.com/630395917
     env:
-      - qq
       - wx
 
   - tag: action
     header: 微博
     content: https://weibo.com/u/5253461473
     env:
-      - qq
       - wx
 
   - tag: title

@@ -24,7 +24,6 @@
   header: 图书馆主页
   content: https://www.library.nenu.edu.cn/
   env:
-    - qq
     - wx
     - web
 
@@ -32,7 +31,6 @@
   header: 知网访问
   content: https://www-cnki-net-s.webvpn.nenu.edu.cn/
   env:
-    - qq
     - wx
     - web
 
@@ -40,7 +38,6 @@
   header: 我的图书馆
   content: https://authserver.nenu.edu.cn/authserver/login?service=https://nenu.primo.exlibrisgroup.com.cn/discovery/account?vid=86NEN_INST:NEN
   env:
-    - qq
     - wx
     - web
 
@@ -48,7 +45,6 @@
   header: 知行搜索
   content: https://nenu.primo.exlibrisgroup.com.cn/discovery/search?vid=86NEN_INST:NEN
   env:
-    - qq
     - wx
     - web
 
@@ -56,6 +52,5 @@
   header: 电子资源远程访问系统
   content: https://evpn.library.nenu.edu.cn/
   env:
-    - qq
     - wx
     - web

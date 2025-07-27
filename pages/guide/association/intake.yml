@@ -4,7 +4,7 @@ tags:
 desc: |-
   新增、修改、删除社团纳新信息请联系 Mr.Hope
 author: Mr.Hope
-time: 2023-09-02T16:14:35.769Z
+time: 2025-07-27T10:25:37.035Z
 shareable: true
 content:
   - tag: card
@@ -43,11 +43,3 @@ content:
         openType: contact
         env:
           - wx
-
-      - text: 联系 Mr.Hope
-        icon: contact
-        type: button
-        openType: addFriend
-        openId: 868D7B2F0C609B4285698EAB77A47BA1
-        env:
-          - qq

@@ -4,7 +4,7 @@ tags:
   - 信息科学与技术学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-24T12:25:33.964Z
+time: 2025-07-27T10:25:38.656Z
 shareable: true
 content:
   - tag: title
@@ -58,7 +58,6 @@ content:
         icon: rule
         url: under-major-plan
     env:
-      - qq
       - wx
       - app
 

@@ -3,7 +3,7 @@ tags:
   - 学校介绍
 icon: activity
 desc: 2024年9月10日更新，由党委办公室、校长办公室、党委宣传部提供。
-time: 2025-07-23T09:43:28.558Z
+time: 2025-07-27T10:25:37.816Z
 shareable: true
 cite:
   - https://www.nenu.edu.cn/xxgk/wyds.htm
@@ -71,7 +71,6 @@ content:
       - text: 观看 MV
         url: video?type=video&name=东北师范大学校歌
     env:
-      - qq
       - wx
 
   - tag: action

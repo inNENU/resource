@@ -4,7 +4,7 @@ tags:
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2025-07-23T09:43:28.416Z
+time: 2025-07-27T10:25:37.081Z
 shareable: true
 content:
   - tag: title
@@ -30,11 +30,3 @@ content:
         openType: contact
         env:
           - wx
-
-      - text: 联系 Mr.Hope
-        icon: contact
-        type: button
-        openType: addFriend
-        openId: 868D7B2F0C609B4285698EAB77A47BA1
-        env:
-          - qq

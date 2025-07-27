@@ -3,7 +3,7 @@ tags:
   - 服务办理
 icon: miniapp
 author: Mr.Hope
-time: 2025-07-23T09:43:28.649Z
+time: 2025-07-27T10:25:38.367Z
 shareable: true
 content:
   - tag: title
@@ -13,7 +13,6 @@ content:
     src: $img/prepare/youth-code.jpg
     env:
       - app
-      - qq
 
   - tag: card
     action: miniProgram

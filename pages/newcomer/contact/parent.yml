@@ -3,7 +3,7 @@ tags:
   - 迎新
 icon: qq-group
 author: Mr.Hope
-time: 2025-07-23T09:43:28.635Z
+time: 2025-07-27T10:25:38.301Z
 shareable: true
 content:
   - tag: text
@@ -23,16 +23,6 @@ content:
     env:
       - app
       - wx
-
-  - tag: functional-list
-    items:
-      - text: 加入东北师范大学家长群
-        icon: qq-group
-        type: button
-        openType: openGroupProfile
-        groupId: "154562293"
-    env:
-      - qq
 
   - tag: text
     type: warning

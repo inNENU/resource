@@ -1,7 +1,7 @@
 title: 欢迎加入 2025 本科新生群
 aiIgnore: true
 author: Mr.Hope
-time: 2025-07-23T09:43:28.756Z
+time: 2025-07-27T10:25:38.802Z
 shareable: true
 content:
   - tag: title
@@ -49,16 +49,6 @@ content:
     content: "1139044856"
     env:
       - wx
-
-  - tag: functional-list
-    items:
-      - text: 加入 in 东北师大
-        icon: qq-group
-        type: button
-        openType: openGroupProfile
-        groupId: "1139044856"
-    env:
-      - qq
 
   - tag: p
     type: info

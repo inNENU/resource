@@ -6,7 +6,7 @@ icon: letter
 author:
   - Mr.Hope
   - 薇
-time: 2025-07-23T09:43:28.571Z
+time: 2025-07-27T10:25:37.889Z
 shareable: true
 cite:
   - https://answer.eol.cn/index/index?id=718&source=gw_pc
@@ -404,7 +404,6 @@ content:
         url: under-enroll-score
     env:
       - app
-      - qq
       - wx
 
   - tag: action

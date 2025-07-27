@@ -4,7 +4,7 @@ tags:
   - 外国语学院
 icon: enroll
 author: Mr.Hope
-time: 2025-07-23T09:43:28.706Z
+time: 2025-07-27T10:25:38.592Z
 shareable: true
 content:
   - tag: title
@@ -80,7 +80,6 @@ content:
         icon: rule
         url: under-major-plan
     env:
-      - qq
       - wx
       - app
 

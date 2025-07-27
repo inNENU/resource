@@ -4,7 +4,7 @@ tags:
   - 报到
 icon: railway
 author: Mr.Hope
-time: 2024-08-15T17:31:26.926Z
+time: 2025-07-27T10:25:38.263Z
 shareable: true
 content:
   - tag: title
@@ -35,7 +35,6 @@ content:
     text:
       - 导航功能仅在微信小程序上提供
     env:
-      - qq
       - app
 
   - tag: title

@@ -5,7 +5,7 @@ tags:
 icon: enroll
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2025-06-24T12:25:33.989Z
+time: 2025-07-27T10:25:38.760Z
 shareable: true
 content:
   - tag: title
@@ -62,7 +62,6 @@ content:
         icon: rule
         url: under-major-plan
     env:
-      - qq
       - wx
       - app
 

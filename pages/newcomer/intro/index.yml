@@ -2,7 +2,7 @@ title: 大学生活简介
 aiIgnore: true
 icon: about
 author: Mr.Hope
-time: 2024-08-12T11:22:49.295Z
+time: 2025-07-27T10:25:38.322Z
 grey: true
 shareable: true
 content:
@@ -19,12 +19,6 @@ content:
       - text: 辅导员介绍
         icon: intro
         path: counselor/intro
-
-      - text: 2024 级辅导员大揭秘
-        icon: teacher
-        path: counselor/2024
-        env:
-          - qq
 
   - tag: card
     cover: https://mmbiz.qpic.cn/mmbiz_jpg/1LGPufKFDreYSmIlc6yiavJq899WcZw7C4t9j21Y8cxM0n20FXSSGG3CODoqZejfRLJ9IbHnrP2rTPibLoxYwm3A/0?wx_fmt=jpeg

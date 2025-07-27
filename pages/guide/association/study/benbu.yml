@@ -3,7 +3,7 @@ aiIgnore: true
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2023-09-02T16:14:35.826Z
+time: 2025-07-27T10:25:37.091Z
 grey: true
 shareable: true
 content:
@@ -45,11 +45,3 @@ content:
         openType: contact
         env:
           - wx
-
-      - text: 联系 Mr.Hope
-        icon: contact
-        type: button
-        openType: addFriend
-        openId: 868D7B2F0C609B4285698EAB77A47BA1
-        env:
-          - qq

@@ -10,7 +10,6 @@
       url: under-enroll-plan
       env:
         - app
-        - qq
         - wx
 
     - text: 2024 年本科招生计划
@@ -26,7 +25,6 @@
       url: under-enroll-score
       env:
         - app
-        - qq
         - wx
 
     - text: 历史分数线

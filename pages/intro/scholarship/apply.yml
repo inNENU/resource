@@ -3,7 +3,7 @@ tags:
   - 奖学金
 icon: apply
 author: Mr.Hope
-time: 2025-07-23T09:43:28.597Z
+time: 2025-07-27T10:25:38.052Z
 shareable: true
 content:
   - tag: title
@@ -26,7 +26,6 @@ content:
     desc: 奖学宝小程序二维码
     env:
       - app
-      - qq
 
   - tag: title
     text: 相关文件

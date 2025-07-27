@@ -3,7 +3,7 @@ tags:
   - 招生
 icon: apply
 author: Mr.Hope
-time: 2025-07-23T09:43:28.570Z
+time: 2025-07-27T10:25:37.881Z
 shareable: true
 content:
   - tag: title
@@ -94,7 +94,6 @@ content:
         url: under-enroll-score
     env:
       - app
-      - qq
       - wx
 
   - tag: action

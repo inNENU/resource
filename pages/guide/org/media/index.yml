@@ -13,47 +13,6 @@ content:
     account: nenuyouth
     mail: su@nenu.edu.cn
 
-  - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmJeFl3bsgZ07CUuyBTcRZCSojzEQsLiaD3qLLGDJKOPvYab4nPk3pRWXscZIcL7SabdToEgAIvaQg/0?wx_fmt=jpeg
-    logo: $img/organization/nenuyouth.png
-    name: 东师青年
-    title: 纳新 | 欣欣向“融”，“媒”你不行
-    desc: 本部融媒体大家庭期待你的到来!
-    url: https://mp.weixin.qq.com/s/em6A95hFPczubpB_lX24-A
-    env:
-      - app
-      - wx
-
-  - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmJeFl3bsgZ07CUuyBTcRZCSojzEQsLiaD3qLLGDJKOPvYab4nPk3pRWXscZIcL7SabdToEgAIvaQg/0?wx_fmt=jpeg
-    logo: $img/organization/nenuyouth.png
-    name: 东师青年
-    title: 纳新 | 欣欣向“融”，“媒”你不行
-    desc: 本部融媒体大家庭期待你的到来!
-    path: intake
-    env:
-      - qq
-
-  - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJn5IickDPVSLsMGH4acCSJZDl5ozPdVL3tdnIkZV3J1Y3UlBuic2gN7BngUED4X5w1G5DiaB1uD5RUdQ/0?wx_fmt=jpeg
-    name: 东师青年
-    title: 纳新进行时丨“融”汇力量 “媒”好启程
-    desc: 净月融媒体大家庭期待你的到来!
-    url: https://mp.weixin.qq.com/s/TBfVD-FSotCpVCSsGDoGhw
-    env:
-      - app
-      - wx
-
-  - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJn5IickDPVSLsMGH4acCSJZDl5ozPdVL3tdnIkZV3J1Y3UlBuic2gN7BngUED4X5w1G5DiaB1uD5RUdQ/0?wx_fmt=jpeg
-    logo: $img/organization/nenuyouth.png
-    name: 东师青年
-    title: 纳新进行时丨“融”汇力量 “媒”好启程
-    desc: 净月融媒体大家庭期待你的到来!
-    path: intake
-    env:
-      - qq
-
   - tag: p
     text:
       - “东师青年”微信公众号是由东北师范大学团委，学生会主办，团委融媒体中心承担运营的以为学校广大师生提供优质服务为宗旨，以宣扬“勤奋创新，为人师表”的校风为重要目标的微信公众平台。

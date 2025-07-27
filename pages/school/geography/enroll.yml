@@ -4,7 +4,7 @@ tags:
   - 地理科学学院
 icon: enroll
 author: Mr.Hope
-time: 2025-06-24T12:25:33.957Z
+time: 2025-07-27T10:25:38.616Z
 shareable: true
 content:
   - tag: title
@@ -51,7 +51,6 @@ content:
         icon: rule
         url: under-major-plan
     env:
-      - qq
       - wx
       - app
 

@@ -3,7 +3,7 @@ tags:
   - 保险
 icon: insurance
 author: Mr.Hope
-time: 2025-07-23T09:43:28.473Z
+time: 2025-07-27T10:25:37.331Z
 shareable: true
 content:
   - tag: text
@@ -67,7 +67,6 @@ content:
     src: $img/insurance/base-pay.jpg
     env:
       - app
-      - qq
     watermark: true
 
   - tag: ul

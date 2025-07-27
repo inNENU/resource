@@ -4,7 +4,7 @@ tags:
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2025-07-23T09:43:28.568Z
+time: 2025-07-27T10:25:37.871Z
 shareable: true
 content:
   - tag: list
@@ -19,7 +19,6 @@ content:
         url: under-enroll-plan
         env:
           - app
-          - qq
           - wx
 
       - text: 历史分数线
@@ -27,7 +26,6 @@ content:
         url: under-enroll-score
         env:
           - app
-          - qq
           - wx
 
       # TODO: Update at 2026-06

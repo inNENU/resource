@@ -10,14 +10,6 @@ content:
       - text: 联系 Mr.Hope
         icon: contact
         type: button
-        openType: addFriend
-        openId: 868D7B2F0C609B4285698EAB77A47BA1
-        env:
-          - qq
-
-      - text: 联系 Mr.Hope
-        icon: contact
-        type: button
         openType: contact
         env:
           - wx

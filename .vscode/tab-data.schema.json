@@ -103,7 +103,7 @@
     "env": {
       "type": "array",
       "items": {
-        "enum": ["app", "qq", "wx", "web"]
+        "enum": ["app", "wx", "web"]
       }
     }
   },

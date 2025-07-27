@@ -29,4 +29,3 @@ content:
     content: https://docs.qq.com/sheet/DYnJRZ2RpenJ3WGFH
     env:
       - app
-      - qq
