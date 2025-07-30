@@ -455,4 +455,4 @@ copyright: |-
 
 :::
 
-![小程序二维码](/qrcode.jpg)
+![小程序二维码](https://assets.innenu.com/img/qrcode/miniapp.jpg)
