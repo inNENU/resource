@@ -122,5 +122,7 @@ cpx.copySync("./data/icon/**", "./.resource/icons");
 cpx.copySync("./service/**", "./.resource/service");
 // 复制 schema 配置
 cpx.copySync("./.vscode/**", "./.resource/.vscode");
+// 复制文件
+cpx.copySync("./public/**", "./.resource");
 
 console.info("All completed");

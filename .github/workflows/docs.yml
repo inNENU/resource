@@ -9,7 +9,6 @@ on:
       - "data/**"
       - "pages/**"
       - "scripts/**"
-      - "service/**"
       - "site/**"
       - "package.json"
 
