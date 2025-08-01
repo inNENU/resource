@@ -41,7 +41,7 @@
     "@vuepress/helper": "2.0.0-rc.112",
     "@vuepress/plugin-feed": "2.0.0-rc.112",
     "@vuepress/plugin-meilisearch": "2.0.0-rc.112",
-    "@vueuse/core": "13.5.0",
+    "@vueuse/core": "13.6.0",
     "cheerio": "1.1.2",
     "cpx2": "8.0.0",
     "del": "8.0.0",
@@ -64,18 +64,18 @@
     "domhandler": "5.0.3",
     "eslint": "9.32.0",
     "eslint-config-mister-hope": "0.9.6",
-    "eslint-plugin-vue": "10.3.0",
+    "eslint-plugin-vue": "10.4.0",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
     "prettier": "3.6.2",
     "tsx": "4.20.3",
-    "typescript": "5.8.3",
+    "typescript": "5.9.2",
     "vitest": "3.2.4"
   },
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.14.0",
   "pnpm": {
     "overrides": {
-      "esbuild": "^0.25.6"
+      "esbuild": "^0.25.7"
     },
     "onlyBuiltDependencies": [
       "@alicloud/openapi-core",
