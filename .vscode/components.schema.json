@@ -584,9 +584,7 @@
       "required": ["tag", "header", "body"],
       "additionalProperties": false
     },
-    "text-component": {
-      "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#text",
-      "description": "文本组件",
+    "text-base-option": {
       "type": "object",
       "properties": {
         "tag": {
@@ -631,6 +629,15 @@
       },
       "required": ["tag"],
       "additionalProperties": false
+    },
+    "text-component": {
+      "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#text",
+      "description": "文本组件",
+      "type": "object",
+      "allOf": [
+        { "$ref": "#/$defs/text-base-option" },
+        { "$ref": "#/$defs/route-option" }
+      ]
     },
     "list-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#list",

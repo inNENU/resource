@@ -4,7 +4,7 @@ tags:
 icon: english
 author: Mr.Hope
 desc: 感谢梦雨提供订正
-time: 2025-07-23T09:43:28.530Z
+time: 2025-08-01T11:06:51.202Z
 shareable: true
 content:
   # TODO: Update at 2025-08
@@ -36,7 +36,29 @@ content:
     text: 题目形式
 
   - tag: p
-    text: CET (大学英语水平测试) 以及雅思托福的综合，大致有听力(有填空题)、阅读理解(选择题)、选词填空、英译汉、汉译英、作文等。
+    text:
+      - CET (大学英语水平测试) 以及雅思托福的综合。
+
+  - tag: p
+    header: 听力
+    text:
+      - 15道选择无题干，10道填空，听力原文挖空让你填（与原文一致）
+
+  - tag: p
+    header: 阅读
+    text:
+      - 一篇大阅读，包含根据原文内容判断对错，给出某段中心主题选择对应的段落，句子挖空根据原文内容填空（与原文内容不完全一致）
+      - 一篇小阅读即选词填空，给出 15 个词填到 10 个空中
+
+  - tag: p
+    header: 翻译
+    text:
+      - 包含一篇汉译英和一篇英译汉
+
+  - tag: p
+    header: 作文
+    text:
+      - 一般是议论文
 
   - tag: title
     text: 考试难度

@@ -9,7 +9,7 @@ desc: |-
   · 群内该地区的东北师大在校生人数不少于 50 人；
   · 原群主失联且活跃管理员少于两人，或申请替换的群聊活跃度显著高于原群聊（满足其一即可）；
   · 允许 Mr.Hope 加入群聊以进行核验。
-time: 2025-07-23T09:43:28.635Z
+time: 2025-08-01T11:06:51.451Z
 shareable: true
 content:
   - tag: title
@@ -79,7 +79,7 @@ content:
 
   - tag: action
     header: 青海
-    content: "193593119"
+    content: "538829636"
 
   - tag: action
     header: 宁夏
@@ -143,13 +143,9 @@ content:
     content: "518898289"
 
   # 不在
-
-  # 不在
   - tag: action
     header: 海南
     content: "48355600"
-
-  # 不在
 
   # NOTE: 不允许我入群
   - tag: action
