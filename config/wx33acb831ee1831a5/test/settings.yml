@@ -1,18 +1,18 @@
 main-page:
   guest: guest
-  "2024": newcomer
+  "2025": newcomer
   default: at-school
 
 main-presets:
   guest:
-    - tag: list
-      items:
-        - text: 登录开启海量校园功能
-          url: account-login
-
-    # - check
-
-    - school-basic-info
+    # - tag: list
+    #   items:
+    #     - text: 登录开启海量校园功能
+    #       url: account-login
+    - activate-card
+    - qq-group-card
+    # - under-enroll
+    - enroll-basic-info
 
   newcomer:
     - tag: functional-list
@@ -22,8 +22,6 @@ main-presets:
           icon: share
           type: button
           openType: share
-
-    # - check
 
     - school-basic-info
 
@@ -158,7 +156,12 @@ user:
         type: button
         openType: share
 
-      - text: 查看 inNENU 微信视频号
+      - text: inNENU 微信公众号
+        icon: wechat
+        type: button
+        handler: openOfficial
+
+      - text: inNENU 微信视频号
         icon: wechat
         type: button
         handler: openChannel
@@ -234,6 +237,7 @@ service:
   under-system-login: online
   # 本科教务系统全部存在 Referrer 问题
   under-study-check: online
+  under-course-table: online
   under-commentary: online
   under-grade-detail: online
   under-grade-list: online
@@ -250,14 +254,13 @@ notice:
     title: 欢迎使用 inNENU
     content: 欢迎使用 inNENU。这是一个由 Mr.Hope 个人制作的非官方小程序，内含 106 万字的新生攻略。希望大家能够通过小程序摆脱对大学的迷茫。
 
+  account-login:
+    title: 异地登录提示
+    content: 为了通过统一身份认证系统，小程序需要通过服务器转发登录请求解析登录令牌后以小程序可以理解的方式返回。由于小程序服务器位于北京，这一过程会出现异地登录提示。请放心，这并不会影响您的账号安全。
+
   account-activate:
     title: 提示
-    content: 如果你认为你输入了正确的信息但无法激活，请联系我校信息化办公室，电话 0431-85099005。
-    force: true
-
-  course-table:
-    title: 暂未适配
-    content: 请使用 weNENU 微信小程序查看新学期课表。
+    content: 目前 2025 级新生已经可以进行账号激活了。如遇到问题，请联系 0431-85099005
     force: true
 
 update:

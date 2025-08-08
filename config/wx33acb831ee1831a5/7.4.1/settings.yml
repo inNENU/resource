@@ -120,6 +120,16 @@ user:
         type: button
         openType: share
 
+      - text: inNENU 微信公众号
+        icon: wechat
+        type: button
+        handler: openOfficial
+
+      - text: inNENU 微信视频号
+        icon: wechat
+        type: button
+        handler: openChannel
+
       - text: 联系 Mr.Hope
         icon: contact
         type: button
@@ -176,7 +186,7 @@ notice:
 
   account-activate:
     title: 提示
-    content: 如果你认为你输入了正确的信息但无法激活，请联系我校信息化办公室，电话 0431-85099005。
+    content: 目前 2025 级新生已经可以进行账号激活了。如遇到问题，请联系 0431-85099005
     force: true
 
 update:
