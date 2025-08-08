@@ -14,7 +14,7 @@
     "lvl4": "[vp-content] h4",
     "lvl5": "[vp-content] h5",
     "lvl6": "[vp-content] h6",
-    "content": "[vp-content] p, [vp-content] li, [vp-content] figcaption, .innenu-doc, .innenu-card-title, .innenu-card-desc, .innenu-account-name, .innenu-account-desc, ",
+    "content": "[vp-content] p, [vp-content] li, [vp-content] figcaption, .innenu-account-name, .innenu-account-desc, .innenu-card-title, .innenu-card-desc, .innenu-doc",
     "lang": {
       "selector": "/html/@lang",
       "global": true,
