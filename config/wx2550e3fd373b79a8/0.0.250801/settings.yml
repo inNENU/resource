@@ -10,8 +10,8 @@ main-presets:
     #     - text: 登录开启海量校园功能
     #       url: account-login
 
+    - activate-card
     - qq-group-card
-    - admission-card
     # - under-enroll
     - enroll-basic-info
     - faq-card
@@ -261,8 +261,7 @@ notice:
 
   account-activate:
     title: 提示
-    content: 2025级新生账户尚未启用，研究生新生目前无法激活账户。
-    # content: 如果你认为你输入了正确的信息但无法激活，请联系我校信息化办公室，电话 0431-85099005。
+    content: 目前 2025 级新生已经可以进行账号激活了。如遇到问题，请联系 0431-85099005
     force: true
 
 update:
