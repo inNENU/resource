@@ -31,48 +31,18 @@ main-presets:
     - common
 
 intro-page:
-  guest:
+  default:
     items:
-      # - under-enroll
-      # - grad-enroll
-      # - about
-      # - school
-      - apartment
+      - about-fake
     more: []
 
-  default:
-    items:
-      # - about
-      # - school
-      - apartment
-    more:
-      - under-enroll
-      - grad-enroll
-
 guide-page:
-  guest:
-    items:
-      # - newcomer
-      # - life
-      - study
-      - enjoy
-    more:
-      # - account
-      # - service
-      # - tip
-      - graduate
-
   default:
     items:
-      # - service
-      - study
-      # - life
-    more:
-      # - account
-      # - tip
+      - guide-fake
       - enjoy
-      # - newcomer
-      - graduate
+      - tip
+    more: []
 
 function-page:
   guest: guest
@@ -89,25 +59,7 @@ function-presets:
           icon: map
           url: map
 
-    - tag: grid
-      header: 信息查询
-      items:
-        - text: 校历
-          icon: calendar
-          url: calendar
-
     - tool
-
-    - tag: grid
-      header: 本科招生
-      items:
-        - text: 招生计划
-          icon: enroll
-          url: under-enroll-plan
-
-        - text: 历史分数
-          icon: time
-          url: under-enroll-score
 
     - tag: list
       items:
@@ -188,7 +140,7 @@ about:
     items:
       - text: 小程序全部内容均由 Mr.Hope 独立开发。
 
-      - text: 小程序现有字数为 1060698 字，其中东师指南部分 316768 字，新生迎新部分 98607 字，东师介绍部分 238295 字，机构介绍部分 57210 字，学院介绍部分 158529 字，功能大厅部分 38646 字，其他部分 152643 字。
+      - text: 小程序现有字数为 1060769 字，其中东师指南部分 316768 字，新生迎新部分 98607 字，东师介绍部分 238295 字，机构介绍部分 57210 字，学院介绍部分 158529 字，功能大厅部分 38717 字，其他部分 152643 字。
 
       - text: Mr.Hope 个人介绍
         url: info?path=Oabout/mrhope

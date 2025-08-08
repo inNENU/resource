@@ -1,3 +1,49 @@
+intro-fake:
+  icon: about
+  name: 学校介绍
+  path: intro/about
+  items:
+    - text: 师大黄页
+      icon: phone
+      url: phone
+
+    - text: 校历
+      icon: calendar
+      url: calendar
+
+    - text: 校史
+      icon: history
+      url: calendar-history
+
+guide-fake:
+  icon: guide
+  name: 东师指南
+  path: guide/
+  items:
+    - text: 寝室
+      icon: dorm
+      path: guide/dorm/advice
+
+    - text: 校园卡
+      icon: card
+      path: guide/card/advice
+
+    - text: 快递
+      icon: express
+      path: guide/express/advice
+
+    - text: 转专业
+      icon: change
+      path: guide/change-major/advice
+
+    - text: 学位
+      icon: degree
+      path: guide/degree/advice
+
+    - text: 优秀毕业生建议
+      icon: idea
+      path: newcomer/advice/
+
 about:
   icon: about
   name: 学校介绍
