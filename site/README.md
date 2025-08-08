@@ -381,7 +381,7 @@ highlights:
 
       - title: 保卫科
         icon: https://res.innenu.com/icons/safe.svg
-        link: ./apartment/defend.html
+        link: ./apartment/defend/
 
       - title: 图书馆
         icon: https://res.innenu.com/icons/library.svg

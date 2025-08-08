@@ -3,7 +3,7 @@ aiIgnore: true
 icon: metal
 grey: true
 author: Mr.Hope
-time: 2025-07-23T09:43:28.598Z
+time: 2025-08-08T11:17:00.279Z
 shareable: true
 content:
   - tag: list
@@ -27,7 +27,7 @@ content:
       # FIXME: Update at 2025-09
       - text: 2023 - 2024 学年通知
         icon: notice
-        url: notice-detail?id=https://m.nenu.edu.cn/page/viewNews?ID=006390980d514995b118f5a981f402af&flag=new&title=关于开展2023-2024学年研究生评奖评优工作的通知
+        url: notice-detail?id=006390980d514995b118f5a981f402af&title=关于开展2023-2024学年研究生评奖评优工作的通知
 
   - tag: list
     header: 奖学金申请

@@ -54,7 +54,7 @@ apartment:
 
     - text: 保卫科
       icon: police
-      path: apartment/defend
+      path: apartment/defend/
 
     - text: 图书馆
       icon: library
