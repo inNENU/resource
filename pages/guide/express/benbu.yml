@@ -2,7 +2,7 @@ title: 本部快递
 aiIgnore: true
 icon: express
 author: Mr.Hope
-time: 2025-07-23T09:43:28.470Z
+time: 2025-08-08T12:11:54.953Z
 grey: true
 shareable: true
 content:
@@ -11,7 +11,7 @@ content:
     items:
       - text: 新生邮寄快递提示
         icon: idea
-        path: tip
+        path: advice
 
   - tag: list
     items:

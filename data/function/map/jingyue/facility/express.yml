@@ -9,7 +9,7 @@ content:
     items:
       - text: 新生邮寄快递提示
         icon: idea
-        path: /guide/express/tip
+        path: /guide/express/advice
 
   - tag: list
     items:

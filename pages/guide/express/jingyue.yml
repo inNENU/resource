@@ -2,7 +2,7 @@ title: 净月快递
 aiIgnore: true
 icon: express
 author: Mr.Hope
-time: 2024-08-30T15:58:22.285Z
+time: 2025-08-08T12:11:54.957Z
 grey: true
 shareable: true
 content:
@@ -11,7 +11,7 @@ content:
     items:
       - text: 新生邮寄快递提示
         icon: idea
-        path: tip
+        path: advice
 
   - tag: list
     items:

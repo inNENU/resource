@@ -3,7 +3,7 @@ tags:
   - 快递
 icon: express
 author: Mr.Hope
-time: 2025-07-23T09:43:28.472Z
+time: 2025-08-08T12:11:54.954Z
 grey: true
 shareable: true
 content:
@@ -12,7 +12,7 @@ content:
     items:
       - text: 新生邮寄快递提示
         icon: idea
-        path: tip
+        path: advice
 
   - tag: list
     header: 本部

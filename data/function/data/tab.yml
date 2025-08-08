@@ -22,15 +22,19 @@ guide-fake:
   items:
     - text: 寝室
       icon: dorm
-      path: guide/dorm/advice
+      path: guide/dorm/
 
-    - text: 校园卡
-      icon: card
-      path: guide/card/advice
+    - text: 食堂
+      icon: dining
+      path: guide/dining/
 
     - text: 快递
       icon: express
-      path: guide/express/advice
+      path: guide/express/
+
+    - text: 校园卡
+      icon: card
+      path: guide/card/
 
     - text: 转专业
       icon: change
