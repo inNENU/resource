@@ -257,6 +257,7 @@ notice:
   account-login:
     title: 暂时无法登录
     content: inNENU 使用个人主体，目前发布新版本时微信审核以存在需企业主体的功能拒绝，请先使用 weNENU 小程序。按要求整改后，inNENU 会后续尝试更新。
+    force: true
 
   account-activate:
     title: 提示
