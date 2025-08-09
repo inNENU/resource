@@ -82,9 +82,6 @@ convertYamlFilesToJson(
                   : data,
 );
 
-// 转换搜索
-convertYamlFilesToJson("./data/search", "./.resource/search");
-
 // 生成协议
 await generateLicense();
 
