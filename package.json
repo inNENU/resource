@@ -46,7 +46,7 @@
     "cpx2": "8.0.0",
     "del": "8.0.0",
     "dotenv": "17.2.1",
-    "innenu-generator": "0.5.8",
+    "innenu-generator": "0.6.0",
     "js-yaml": "4.1.0",
     "markdown-it": "14.1.0",
     "sass-embedded": "1.90.0",

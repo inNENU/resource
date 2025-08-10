@@ -4,6 +4,7 @@ import type {
   MapPageConfig,
   MarkersConfig,
   MusicList,
+  PageIndexes,
   QQAccounts,
   WechatAccountData,
   WechatAccounts,
@@ -16,10 +17,11 @@ import {
   getMapPageJSON,
   getMarkersJSON,
   getMusicListJSON,
+  getPageIndexesJSON,
   getPageJSON,
-  getQQAccounts,
+  getQQAccountsJSON,
   getWechatAccountDataJSON,
-  getWechatAccounts,
+  getWechatAccountsJSON,
 } from "innenu-generator";
 import type { PageConfig, PageData } from "innenu-generator/typings";
 
@@ -65,21 +67,23 @@ convertYamlFilesToJson(
   "./data/function",
   "./.resource/function",
   (data, filePath) =>
-    /map\/marker\/benbu/u.exec(filePath)
+    filePath === "map/marker/benbu"
       ? getMarkersJSON(data as MarkersConfig, "benbu")
-      : /map\/marker\/jingyue/u.exec(filePath)
+      : filePath === "map/marker/jingyue"
         ? getMarkersJSON(data as MarkersConfig, "jingyue")
-        : /map\/(benbu|jingyue)\//u.exec(filePath)
+        : /map\/(benbu|jingyue)\//u.test(filePath)
           ? getMapPageJSON(data as MapPageConfig, `function/${filePath}`)
-          : /pe-calculator\/(male|female)-(low|high)/u.exec(filePath)
+          : /pe-calculator\/(male|female)-(low|high)/u.test(filePath)
             ? generatePEScore(data as PEConfig)
-            : /account\/wx/u.exec(filePath)
-              ? getWechatAccounts(data as WechatAccounts, filePath)
-              : /account\/qq/u.exec(filePath)
-                ? getQQAccounts(data as QQAccounts, filePath)
-                : /music\/index/u.exec(filePath)
+            : filePath === "account/wx"
+              ? getWechatAccountsJSON(data as WechatAccounts, filePath)
+              : filePath === "account/qq"
+                ? getQQAccountsJSON(data as QQAccounts, filePath)
+                : filePath === "music/index"
                   ? getMusicListJSON(data as MusicList, filePath)
-                  : data,
+                  : filePath === "search"
+                    ? getPageIndexesJSON(data as PageIndexes, filePath)
+                    : data,
 );
 
 // 生成协议

@@ -2,6 +2,7 @@ import type {
   MapPageConfig,
   MarkersConfig,
   MusicList,
+  PageIndexes,
   QQAccounts,
   WechatAccountData,
   WechatAccounts,
@@ -11,6 +12,7 @@ import {
   checkMarkersConfig,
   checkMusicList,
   checkPageConfig,
+  checkPageIndex,
   checkQQAccounts,
   checkWechatAccountData,
   checkWechatAccounts,
@@ -41,24 +43,26 @@ checkYamlFiles<WechatAccountData>("./data/account", (data, filePath) => {
 
 // 功能大厅
 checkYamlFiles("./data/function", (data, filePath) => {
-  if (/map\/marker\/benbu/u.exec(filePath)) {
+  if (filePath.startsWith("map/marker/benbu")) {
     checkMarkersConfig(data as MarkersConfig, "benbu");
-  } else if (/map\/marker\/jingyue/u.exec(filePath)) {
+  } else if (filePath.startsWith("map/marker/jingyue")) {
     checkMarkersConfig(data as MarkersConfig, "jingyue");
-  } else if (/map\/(benbu|jingyue)\//u.exec(filePath)) {
+  } else if (/map\/(benbu|jingyue)\//u.test(filePath)) {
     checkMapPageConfig(data as MapPageConfig, `function/${filePath}`);
-  } else if (/account\/qq/u.exec(filePath)) {
+  } else if (filePath === "account/qq") {
     checkQQAccounts(data as QQAccounts, filePath);
-  } else if (/account\/wx/u.exec(filePath)) {
+  } else if (filePath === "account/wx") {
     checkWechatAccounts(data as WechatAccounts, filePath);
-  } else if (/music\/index/u.exec(filePath)) {
+  } else if (filePath === "music/index") {
     checkMusicList(data as MusicList, filePath);
+  } else if (filePath === "search") {
+    checkPageIndex(data as PageIndexes, filePath);
   }
 });
 
 // 生成 tab 页
 checkYamlFiles("./config", (data, filePath) => {
-  if (/settings$/u.exec(filePath)) generateSettings(data);
+  if (filePath.endsWith("settings")) generateSettings(data);
 });
 
 console.info("All completed");
