@@ -55,8 +55,9 @@ export const zipFile = (folderName: string): void => {
 
   // 压缩文件
   if (os === "Linux" || os === "Darwin") {
-    execSync(`zip -r ./.resource/${folderName}.zip ./.resource/${folderName}`);
-    execSync(`mv .resource/${folderName}.zip .oss/`);
+    execSync(
+      `cd ./.resource && zip -r ./../.oss/${folderName}.zip ${folderName} && cd ..`,
+    );
   } else if (os === "Windows_NT") {
     execSync(
       `cd ./.resource && "../assets/lib/7za" a -r ${folderName}.zip "${folderName}/" && cd ..`,

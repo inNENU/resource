@@ -1,12 +1,12 @@
 {
   "version": {
-    "apartment": 110,
-    "function": 326,
-    "guide": 484,
-    "intro": 226,
-    "icon": 58,
-    "school": 144,
-    "newcomer": 336
+    "apartment": 0,
+    "function": 0,
+    "guide": 0,
+    "intro": 0,
+    "icon": 0,
+    "school": 0,
+    "newcomer": 0
   },
   "size": {
     "apartment": 133,
