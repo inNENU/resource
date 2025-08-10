@@ -11,10 +11,10 @@ admission-card:
   url: admission?type=search
 
 qq-group-card:
-  tag: card
-  cover: $img/tab/qq-group.png
-  title: QQ 群
-  path: newcomer/contact/
+  tag: text
+  type: info
+  header: 加入新生群
+  path: newcomer/contact/all
 
 faq-card:
   tag: card
