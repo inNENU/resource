@@ -5,6 +5,13 @@ main-page:
 
 main-presets:
   guest:
+    - tag: text
+      type: warning
+      header: 小程序遭受攻击
+      text:
+        - 在过去 20 小时内，小程序持续遭遇渗透攻击，部分服务可能不可用。小程序服务现已基本恢复。
+        - 如果小程序因攻击期间的异常响应运行不正常，请前往“我的东师”点击左上角齿轮选择“重置小程序”
+
     # - tag: list
     #   items:
     #     - text: 登录开启海量校园功能
@@ -17,6 +24,13 @@ main-presets:
     - faq-card
 
   newcomer:
+    - tag: text
+      type: warning
+      header: 小程序遭受攻击
+      text:
+        - 在过去 20 小时内，小程序持续遭遇渗透攻击，部分服务可能不可用。小程序服务现已基本恢复。
+        - 如果小程序因攻击期间的异常响应运行不正常，请前往“我的东师”点击左上角齿轮选择“重置小程序”
+
     - tag: functional-list
       header: 如果你觉得 weNENU 对你有帮助，欢迎分享！
       items:
