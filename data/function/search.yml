@@ -1,29 +1,63 @@
+# 账号
+- text: 账号激活
+  icon: authorize
+  url: account-activate
+  tags:
+    - 统一身份认证
+    - 创建
+    - 注册
+    - 激活
+    - 学校账号
+
+- text: 登录账户
+  icon: account
+  url: account-login
+  tags:
+    - 登录
+    - 账户
+    - 统一身份认证
+
+- text: 身份码
+  icon: qrcode
+  url: account-login
+  tags:
+    - 验证
+
 # 学校信息
 - text: 本部地图
   url: map?area=benbu
   icon: map
+  tags:
+    - 导航
+    - 地点
+    - 地图
+    - 风貌
+    - 位置
 
 - text: 净月地图
   url: map?area=jingyue
   icon: map
-
-- text: 校园地图
-  url: map?area=jingyue
-  icon: map
   tags:
-    - 校园导航
-    - 校园地点
+    - 导航
+    - 地点
+    - 地图
+    - 风貌
+    - 位置
 
-- text: 东师歌曲
+- text: 音悦东师
   icon: cd
   url: music
   tags:
     - 校歌
     - 师德公约
 
-- text: 东师视频
+- text: 影约东师
   icon: media
   url: video?type=video
+  tags:
+    - 专业介绍
+    - 风貌
+    - 远方有你
 
 - text: 师大黄页
   icon: phone
@@ -39,6 +73,12 @@
   tags:
     - 开学
     - 放假
+    - 时间
+    - 安排
+
+- text: 校史
+  icon: calendar
+  url: calendar-history
 
 - text: 校园媒体
   icon: account
@@ -48,7 +88,7 @@
   icon: wechat
   url: school-media?type=wx
   tags:
-    - 微信公众号
+    - 微信
 
 - text: 校园QQ
   icon: qq
@@ -62,13 +102,52 @@
   url: website
   tags:
     - 官网
-    - 学校网站
-
-- text: 天气
-  icon: sun
-  url: weather
+    - 网站
+    - 站点
 
 # 教务系统
+- text: 本科课程表
+  icon: course-table
+  url: under-course-table
+  tags:
+    - 课表
+    - 上课
+    - 安排
+
+- text: 本科成绩查询
+  icon: grade
+  url: under-grade
+  tags:
+    - 成绩
+    - 期末
+    - 分数
+
+- text: 课程评价
+  icon: heart
+  url: under-commentary
+
+- text: 专项考试成绩
+  icon: test
+  url: grade-special
+
+- text: 选课系统
+  icon: select
+  url: under-select
+
+# - text: 转专业计划
+#   icon: change
+#   url: change-major
+#   tags:
+#     - 转专业
+
+# - text: 考场查询
+#   icon: test
+#   url: exam-place
+#   tags:
+#     - 考试
+#     - 考场
+#     - 考试地点
+
 # - text: 建立学籍
 #   icon: archive
 #   url: under-archive-create
@@ -80,95 +159,76 @@
 #     - 注册学籍
 #     - 学籍注册
 
-- text: 本科课程表
-  icon: course-table
-  url: under-course-table
-  tags:
-    - 课表
-    - 上课
-
-- text: 本科成绩查询
-  icon: grade
-  url: under-grade
-  tags:
-    - 查成绩
-    - 期末成绩
-    - 考试分数
-    - 期末分数
-
-- text: 考场查询
-  icon: test
-  url: exam-place
-  tags:
-    - 考试
-    - 考场
-    - 考试地点
-
-- text: 转专业计划
-  icon: change
-  url: change-major
-  tags:
-    - 转专业
-
 # 融合门户
-- text: 内网通知
+- text: 学校通知
   icon: notice
   url: notice-list
   tags:
+    - 内网
     - 通知
+    - 公告
 
-- text: 内网新闻
+- text: 学校新闻
   icon: news
   url: notice-list?type=news
+  tags:
+    - 内网
+    - 新闻
 
 # 网上服务大厅
-- text: 申请邮箱
-  icon: email
-  url: email-apply
-  tags:
-    - 邮箱申请
-    - 创建邮箱
+# - text: 申请邮箱
+#   icon: email
+#   url: email-apply
+#   tags:
+#     - 邮箱申请
+#     - 创建邮箱
 
 - text: 校园邮箱
   icon: email
   url: email-recent
-
-# 工具
-- text: 体测计算器
-  icon: calculate
-  url: pe-calculator
   tags:
-    - 体测分数
+    - 邮件
+    - 邮箱
+    - 教育邮
 
 # 官网
 - text: 学校通知
   icon: notice
   url: official-info-list
+  tags:
+    - 公告
 
-- text: 学校新闻
+- text: 要闻速递
   icon: news
   url: official-info-list?type=news
+  tags:
+    - 新闻
+
+- text: 媒体师大
+  icon: media
+  url: official-info-list?type=media
+  tags:
+    - 活动
+
+- text: 人文社科
+  icon: marx
+  url: official-info-list?type=social
+  tags:
+    - 学术
+    - 成果
+
+- text: 自然科学
+  icon: chemistry
+  url: official-info-list?type=science
 
 - text: 学术预告
   icon: study
   url: official-info-list?type=academic
   tags:
-    - 学术会议
-
-# 杂项
-- text: 账号激活
-  icon: authorize
-  url: account-activate
-  tags:
-    - 统一身份认证
-    - 创建账号
-    - 注册账号
-
-- text: 选课系统
-  icon: select
-  url: under-select
-  tags:
-    - 选课
+    - 学术
+    - 会议
+    - 报告
+    - 讲座
 
 - text: 图书馆
   icon: library
@@ -178,25 +238,77 @@
     - 图书
     - 借书
 
+# 招生
 - text: 录取查询
   icon: letter
   url: admission?type=search
   tags:
-    - 查专业
-    - 录取结果
+    - 专业
+    - 录取
     - 通知书
 
-- text: 登录账户
-  icon: account
-  url: account-login
+- text: 本科招生计划
+  icon: enroll
+  url: under-enroll-plan
   tags:
-    - 登录
-    - 账户
-    - 统一身份认证
+    - 招生名额
+    - 录取人数
+
+- text: 本科历史分数
+  icon: time
+  url: under-enroll-score
+  tags:
+    - 分数线
+
+- text: 研究生招生计划
+  icon: enroll
+  url: grad-enroll-plan
+  tags:
+    - 招生名额
+    - 录取人数
+
+- text: 推免计划
+  icon: time
+  url: grad-enroll-plan?recommend=true
+  tags:
+    - 保研
+
+# 工具
+- text: 体测计算器
+  icon: calculate
+  url: pe-calculator
+  tags:
+    - 体测分数
+
+- text: 天气
+  icon: sun
+  url: weather
+
+# 杂项
+- text: 小程序设置
+  icon: setting
+  url: settings
+
+- text: 小组件设置
+  icon: setting
+  url: widget-settings
+
+- text: 重置小程序
+  icon: reset
+  url: action?action=reset
+
+- text: 用户协议
+  icon: contract
+  url: license
+
+- text: 隐私协议
+  icon: privacy
+  url: privacy
 # - text: 密码重置
 #   icon: change
 #   url: account-reset
 #   tags:
-#     - 重置密码
-#     - 找回密码
-#     - 忘记密码
+#     - 重置
+#     - 找回
+#     - 忘记
+#     - 密保

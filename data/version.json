@@ -1,7 +1,7 @@
 {
   "version": {
     "apartment": 0,
-    "function": 0,
+    "function": 1,
     "guide": 0,
     "intro": 0,
     "icon": 0,
@@ -11,7 +11,7 @@
   "size": {
     "apartment": 133,
     "school": 383,
-    "function": 118,
+    "function": 119,
     "guide": 769,
     "icon": 327,
     "intro": 371,
