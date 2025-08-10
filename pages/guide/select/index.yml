@@ -3,13 +3,13 @@ tags:
   - 选课
 icon: select
 author: Mr.Hope
-time: 2025-07-23T09:43:28.518Z
+time: 2025-08-10T12:40:29.210Z
 grey: true
 shareable: true
 content:
   - tag: text
     type: info
-    header: 2024 年秋季学期选课时间
+    header: 2025 年秋季学期选课时间
     path: time
 
   - tag: list

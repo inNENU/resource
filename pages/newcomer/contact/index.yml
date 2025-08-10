@@ -3,7 +3,7 @@ tags:
   - 迎新
 icon: qq-group
 author: Mr.Hope
-time: 2025-07-23T09:43:28.635Z
+time: 2025-08-10T12:40:29.608Z
 grey: true
 shareable: true
 content:
@@ -29,9 +29,9 @@ content:
         icon: qq-group
         path: all
 
-      - text: 学院迎新群
+      - text: 年级群
         icon: qq-group
-        path: school
+        path: grade
 
       - text: 老乡群
         icon: qq-group

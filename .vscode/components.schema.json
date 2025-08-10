@@ -609,7 +609,7 @@
         },
         "type": {
           "description": "文字块类型",
-          "enum": ["tip", "warning", "danger", "info", "note"]
+          "enum": ["tip", "warning", "danger", "info", "important", "note"]
         },
         "appId": {
           "description": "跳转小程序 ID",
