@@ -6,7 +6,7 @@ icon: borrow
 desc: |-
   信息来源: 图书馆官网
 shareable: true
-time: 2025-06-22T11:37:38.789Z
+time: 2025-08-10T14:20:43.368Z
 cite:
   - https://www.library.nenu.edu.cn/page/87308/show?leftNavId=2995406&pageId=0&wfwfid=21248&websiteId=0
 content:
@@ -83,7 +83,7 @@ content:
         图书复制: 0.3元/页-1.3元/页不等+装订费+邮寄费，我馆长期向读者提供50%补贴。
 
   - tag: text
-    type: tip
+    type: note
     text: 对于所缴费用我馆可开具本校财务报销的收据。
 
   - tag: title

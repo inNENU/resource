@@ -6,7 +6,7 @@ icon: express
 desc: |-
   信息来源: 图书馆官网
 shareable: true
-time: 2025-07-23T09:43:28.369Z
+time: 2025-08-10T14:20:43.363Z
 cite:
   - https://www.library.nenu.edu.cn/page/87308/show?leftNavId=2995405&pageId=0&wfwfid=21248&websiteId=0
 content:
@@ -67,7 +67,7 @@ content:
         缩微胶片、专利、标准等特殊文献: 按照文献提供单位实际收取的费用向读者收费，图书馆不加收任何费用。
 
   - tag: text
-    type: tip
+    type: note
     text: 对于所缴费用我馆可开具本校财务报销的收据。
 
   - tag: title

@@ -11,5 +11,5 @@ content:
     text: 从这个门进去右手边是师大附属幼儿园。平时鲜有车通行。
 
   - tag: text
-    type: warning
-    text: 由于学校封闭管理，目前此门常态化关闭。
+    type: info
+    text: 目前此门常态化关闭。

@@ -4,7 +4,7 @@ tags:
   - 校园邮箱
 icon: apply
 author: Mr.Hope
-time: 2025-07-23T09:43:28.397Z
+time: 2025-08-10T14:20:43.445Z
 shareable: true
 content:
   - tag: text
@@ -97,9 +97,10 @@ content:
         path: intro
 
   - tag: text
-    type: warning
+    type: important
     text:
-      - 请妥善截图或记录初始密码，如果不小心退出或忘记初始密码，请在首页中点击“我的申请查看”
+      - 请妥善截图或记录初始密码。
+      - 如果不小心退出或忘记初始密码，请在首页中点击“我的申请查看”
 
   - tag: img
     src: $img/account/mail-apply-password.jpg

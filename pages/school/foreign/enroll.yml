@@ -4,7 +4,7 @@ tags:
   - 外国语学院
 icon: enroll
 author: Mr.Hope
-time: 2025-07-27T10:25:38.592Z
+time: 2025-08-10T14:20:44.357Z
 shareable: true
 content:
   - tag: title
@@ -23,7 +23,7 @@ content:
     text: 本科招生专业包括：英语、英语（公费师范）、英语（优师专项）、日语、俄语、商务英语、英语（中外合作办学）。
 
   - tag: ul
-    type: warning
+    type: important
     text:
       - “英语(公费师范)”和“英语”在本部校区外国语学院。
       - “日语”、“俄语”、“商务英语”、“英语 (中外合作办学)” 在净月校区外国语学院。

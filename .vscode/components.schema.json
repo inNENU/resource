@@ -246,17 +246,20 @@
           "$ref": "#/$defs/env"
         }
       },
-      "required": ["text"]
+      "required": ["text"],
+      "additionalProperties": false
     },
     "base-list-item": {
       "description": "基础列表项目，现在支持多种导航和动作",
       "oneOf": [
         { "$ref": "#/$defs/base-nav-option" },
         {
+          "type": "object",
           "allOf": [
             { "$ref": "#/$defs/base-nav-option" },
             { "$ref": "#/$defs/route-option" }
-          ]
+          ],
+          "additionalProperties": false
         }
       ]
     },
@@ -479,10 +482,12 @@
       "oneOf": [
         { "$ref": "#/$defs/base-nav-option" },
         {
+          "type": "object",
           "allOf": [
             { "$ref": "#/$defs/base-nav-option" },
             { "$ref": "#/$defs/route-option" }
-          ]
+          ],
+          "additionalProperties": false
         }
       ]
     },
@@ -584,7 +589,7 @@
       "required": ["tag", "header", "body"],
       "additionalProperties": false
     },
-    "text-base-option": {
+    "text-plain-option": {
       "type": "object",
       "properties": {
         "tag": {
@@ -607,14 +612,6 @@
             }
           ]
         },
-        "type": {
-          "description": "文字块类型",
-          "enum": ["tip", "warning", "danger", "info", "important", "note"]
-        },
-        "appId": {
-          "description": "跳转小程序 ID",
-          "type": "string"
-        },
         "align": {
           "description": "文字块对齐",
           "enum": ["left", "right", "center", "justify"]
@@ -630,13 +627,30 @@
       "required": ["tag"],
       "additionalProperties": false
     },
+    "text-route-option": {
+      "type": "object",
+      "allOf": [
+        { "$ref": "#/$defs/text-plain-option" },
+        {
+          "properties": {
+            "type": {
+              "description": "文字块类型",
+              "enum": ["tip", "warning", "danger", "info", "important", "note"]
+            }
+          }
+        },
+        { "$ref": "#/$defs/route-option" }
+      ],
+      "required": ["tag", "type"],
+      "additionalProperties": false
+    },
     "text-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#text",
       "description": "文本组件",
       "type": "object",
-      "allOf": [
-        { "$ref": "#/$defs/text-base-option" },
-        { "$ref": "#/$defs/route-option" }
+      "oneOf": [
+        { "$ref": "#/$defs/text-plain-option" },
+        { "$ref": "#/$defs/text-route-option" }
       ]
     },
     "list-component": {

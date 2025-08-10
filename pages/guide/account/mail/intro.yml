@@ -3,7 +3,7 @@ tags:
   - 校园邮箱
 icon: about
 author: Mr.Hope
-time: 2025-07-23T09:43:28.398Z
+time: 2025-08-10T14:20:43.451Z
 shareable: true
 content:
   - tag: title
@@ -46,7 +46,7 @@ content:
     content: https://mail.nenu.edu.cn/
 
   - tag: text
-    type: warning
+    type: important
     text:
       - 登录时，账号一栏只需输入用户名，无需输入「@nenu.edu.cn」后缀。
 

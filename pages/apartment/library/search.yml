@@ -35,7 +35,7 @@ content:
     content: https://nenu.primo.exlibrisgroup.com.cn/discovery/search?vid=86NEN_INST:NEN
 
   - tag: text
-    type: note
+    type: tip
     text: 也可访问图书馆微信公众号，选择“服务”，点击“知行搜索”进入检索页面。
 
   - tag: title

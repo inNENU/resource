@@ -5,7 +5,7 @@ tags:
 icon: apartment
 desc: |-
   信息来源: 校医院官网
-time: 2025-07-23T09:43:28.367Z
+time: 2025-08-10T14:20:43.356Z
 shareable: true
 cite:
   - https://hosp.nenu.edu.cn/ksjs.htm
@@ -125,7 +125,7 @@ content:
 
   - tag: text
     type: tip
-    text: 学生持医疗证，口内口外治疗部分享受半价
+    text: 学生持医疗证，口内口外治疗部分享受半价。
 
   - tag: title
     text: 门诊处置室

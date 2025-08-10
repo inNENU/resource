@@ -39,7 +39,7 @@ content:
     watermark: true
 
   - tag: text
-    type: danger
+    type: important
     header: 取完快递记得关门! 取完快递记得关门! 取完快递记得关门!
 
   - tag: title
