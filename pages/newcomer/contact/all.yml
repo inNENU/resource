@@ -3,7 +3,7 @@ tags:
   - 迎新
 icon: qq-group
 author: Mr.Hope
-time: 2025-07-27T10:25:38.294Z
+time: 2025-08-13T19:09:12.824Z
 shareable: true
 content:
   - tag: text
@@ -11,9 +11,13 @@ content:
     header: 注意
     text:
       - 学校从未设立任何官方新生群⚠。任何以“官方”名义建立的群聊，其宣传均不属实，请注意辨别。
-      - 每年都有一些组织或个人借建立新生群的名义，伺机向新生推销被褥、电话卡、培训班等产品或服务，请对此类行为保持警惕。
       - 此外，部分使用“东师”字样或校徽的“表白墙”、“资料墙”等平台，并非由本校学生运营，可能存在诈骗风险，请务必谨慎。
     path: cheat
+
+  - tag: text
+    type: tip
+    header: 请耐心等待辅导员联系你加入年级群。
+    path: grade
 
   - tag: text
     type: tip
