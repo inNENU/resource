@@ -1,27 +1,51 @@
 main-page:
   guest: guest
-  "2024": newcomer
+  "2025": newcomer
   default: at-school
 
 main-presets:
   guest:
+    - activate-card
+
+    - qq-group-card
+
+    - stream-card
+
+    - school-basic-info
+
     - tag: list
       items:
         - text: 登录开启海量校园功能
           url: account-login
 
-    - school-basic-info
+    - faq-card
 
   newcomer:
+    - qq-group-card
+
+    - stream-card
+
     - tag: functional-list
-      header: 如果你觉得 weNENU 对你有帮助，欢迎分享！
+      header: 如果你觉得 weNENU 对你有帮助
       items:
         - text: 向你的同学们分享小程序
           icon: share
           type: button
           openType: share
 
+        - text: 关注 inNENU 微信公众号
+          icon: wechat
+          url: qrcode
+
+        - text: 关注 inNENU 微信视频号
+          icon: wechat
+          action: channel
+          id: sphQlMRqDF84Orm
+          username: inNENU
+
     - school-basic-info
+
+    - faq-card
 
   at-school:
     - common
@@ -154,10 +178,17 @@ user:
         type: button
         openType: share
 
-      - text: 查看 inNENU 微信视频号
+      - text: inNENU 微信公众号
+        icon: wechat
+        action: official
+        username: gh_b4378a2c36ae
+
+      - text: inNENU 微信视频号
         icon: wechat
         type: button
-        handler: openChannel
+        action: channel
+        id: sphQlMRqDF84Orm
+        username: inNENU
 
       - text: 联系 Mr.Hope
         icon: contact
@@ -177,7 +208,7 @@ about:
         url: info?path=Oabout/mrhope
 
       - text: |-
-          记: inNENU
+          记: weNENU
         url: info?path=Oabout/history
 
       - text: 开发者访谈
@@ -230,6 +261,7 @@ service:
   under-system-login: online
   # 本科教务系统全部存在 Referrer 问题
   under-study-check: online
+  under-course-table: online
   under-commentary: online
   under-grade-detail: online
   under-grade-list: online
@@ -248,7 +280,7 @@ notice:
 
   account-activate:
     title: 提示
-    content: 如果你认为你输入了正确的信息但无法激活，请联系我校信息化办公室，电话 0431-85099005。
+    content: 2025 级新生目前可激活账号。如激活中遇到问题，请联系信息化办公室 0431-85099005。
     force: true
 
 update:

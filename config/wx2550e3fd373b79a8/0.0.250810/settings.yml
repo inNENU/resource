@@ -271,7 +271,7 @@ notice:
 
   account-activate:
     title: 提示
-    content: 目前 2025 级新生已经可以进行账号激活了。如遇到问题，请联系 0431-85099005
+    content: 2025 级新生目前可激活账号。如激活中遇到问题，请联系信息化办公室 0431-85099005。
     force: true
 
 update:
