@@ -5,27 +5,49 @@ main-page:
 
 main-presets:
   guest:
-    # - tag: list
-    #   items:
-    #     - text: 登录开启海量校园功能
-    #       url: account-login
-
     - activate-card
+
     - qq-group-card
-    # - under-enroll
-    - enroll-basic-info
+
+    - stream-card
+
+    - school-basic-info
+
+    - tag: list
+      items:
+        - text: 登录开启海量校园功能
+          url: account-login
+
     - faq-card
 
   newcomer:
+    - qq-group-card
+
+    - stream-card
+
     - tag: functional-list
-      header: 如果你觉得 weNENU 对你有帮助，欢迎分享！
+      header: 如果你觉得 weNENU 对你有帮助
       items:
         - text: 向你的同学们分享小程序
           icon: share
           type: button
           openType: share
 
+        - text: 关注 inNENU 微信公众号
+          icon: wechat
+          action: official
+          username: gh_b4378a2c36ae
+
+        - text: 关注 inNENU 微信视频号
+          icon: wechat
+          type: button
+          action: channel
+          id: sphQlMRqDF84Orm
+          username: inNENU
+
     - school-basic-info
+
+    - faq-card
 
   at-school:
     - common
@@ -168,6 +190,7 @@ user:
         type: button
         action: channel
         id: sphQlMRqDF84Orm
+        username: inNENU
 
       - text: 联系 Mr.Hope
         icon: contact
@@ -181,7 +204,7 @@ about:
     items:
       - text: 小程序全部内容均由 Mr.Hope 独立开发。
 
-      - text: 小程序现有字数为 1061280 字，其中东师指南部分 316839 字，新生迎新部分 98881 字，东师介绍部分 238295 字，机构介绍部分 57210 字，学院介绍部分 158529 字，功能大厅部分 38883 字，其他部分 152643 字。
+      - text: 小程序现有字数为 1061801 字，其中东师指南部分 316839 字，新生迎新部分 99402 字，东师介绍部分 238295 字，机构介绍部分 57210 字，学院介绍部分 158529 字，功能大厅部分 38883 字，其他部分 152643 字。
 
       - text: Mr.Hope 个人介绍
         url: info?path=Oabout/mrhope

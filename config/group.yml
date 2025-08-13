@@ -25,7 +25,7 @@ faq-card:
 stream-card:
   tag: card
   cover: $img/tab/stream.png
-  title: 经验分享与答疑
+  title: 本周五晚经验分享与答疑
   path: newcomer/activity/streaming
 
 check:

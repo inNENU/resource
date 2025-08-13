@@ -57,8 +57,7 @@
           "type": "string"
         }
       },
-      "required": ["action", "username"],
-      "additionalProperties": false
+      "required": ["action", "username"]
     },
     "channel-option": {
       "$comment": "视频号主页选项",
@@ -76,8 +75,7 @@
           "type": "string"
         }
       },
-      "required": ["action", "username", "id"],
-      "additionalProperties": false
+      "required": ["action", "username", "id"]
     },
     "article-option": {
       "$comment": "公众号文章选项",
@@ -91,8 +89,7 @@
           "type": "string"
         }
       },
-      "required": ["action", "url"],
-      "additionalProperties": false
+      "required": ["action", "url"]
     },
     "video-option": {
       "$comment": "视频号视频选项",
@@ -141,8 +138,7 @@
           "enum": ["develop", "trial", "release"]
         }
       },
-      "required": ["action", "appId"],
-      "additionalProperties": false
+      "required": ["action", "appId"]
     },
     "miniprogram-shortlink-option": {
       "$comment": "小程序短链跳转选项",
@@ -164,8 +160,7 @@
           "enum": ["develop", "trial", "release"]
         }
       },
-      "required": ["action", "shortLink"],
-      "additionalProperties": false
+      "required": ["action", "shortLink"]
     },
     "route-option": {
       "description": "路由选项",
@@ -246,20 +241,20 @@
           "$ref": "#/$defs/env"
         }
       },
-      "required": ["text"],
-      "additionalProperties": false
+      "required": ["text"]
     },
     "base-list-item": {
       "description": "基础列表项目，现在支持多种导航和动作",
       "oneOf": [
-        { "$ref": "#/$defs/base-nav-option" },
+        {
+          "$ref": "#/$defs/base-nav-option"
+        },
         {
           "type": "object",
           "allOf": [
             { "$ref": "#/$defs/base-nav-option" },
             { "$ref": "#/$defs/route-option" }
-          ],
-          "additionalProperties": false
+          ]
         }
       ]
     },
@@ -480,14 +475,15 @@
     "grid-item": {
       "description": "网格项目",
       "oneOf": [
-        { "$ref": "#/$defs/base-nav-option" },
+        {
+          "$ref": "#/$defs/base-nav-option"
+        },
         {
           "type": "object",
           "allOf": [
             { "$ref": "#/$defs/base-nav-option" },
             { "$ref": "#/$defs/route-option" }
-          ],
-          "additionalProperties": false
+          ]
         }
       ]
     },
@@ -612,6 +608,10 @@
             }
           ]
         },
+        "type": {
+          "description": "文字块类型",
+          "enum": ["tip", "warning", "danger", "info", "important", "note"]
+        },
         "align": {
           "description": "文字块对齐",
           "enum": ["left", "right", "center", "justify"]
@@ -629,20 +629,17 @@
     },
     "text-route-option": {
       "type": "object",
+      "properties": {
+        "type": {
+          "description": "文字块类型",
+          "enum": ["tip", "warning", "danger", "info", "important", "note"]
+        }
+      },
       "allOf": [
         { "$ref": "#/$defs/text-plain-option" },
-        {
-          "properties": {
-            "type": {
-              "description": "文字块类型",
-              "enum": ["tip", "warning", "danger", "info", "important", "note"]
-            }
-          }
-        },
         { "$ref": "#/$defs/route-option" }
       ],
-      "required": ["tag", "type"],
-      "additionalProperties": false
+      "required": ["tag", "type"]
     },
     "text-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#text",
