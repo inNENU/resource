@@ -126,7 +126,7 @@ user:
     items:
       - text: 使用指南
         icon: idea
-        url: info?path=Oguide/
+        url: info?path=Oapp-intro/
 
       - text: 更新日志
         icon: log
@@ -171,7 +171,7 @@ about:
     items:
       - text: 小程序全部内容均由 Mr.Hope 独立开发。
 
-      - text: 小程序现有字数为 1061801 字，其中东师指南部分 316839 字，新生迎新部分 99402 字，东师介绍部分 238295 字，机构介绍部分 57210 字，学院介绍部分 158529 字，功能大厅部分 38883 字，其他部分 152643 字。
+      - text: 小程序现有字数为 1061966 字，其中东师指南部分 316839 字，新生迎新部分 99402 字，东师介绍部分 238295 字，机构介绍部分 57210 字，学院介绍部分 158529 字，功能大厅部分 38883 字，其他部分 152808 字。
 
       - text: Mr.Hope 个人介绍
         url: info?path=Oabout/mrhope
@@ -183,11 +183,11 @@ about:
       - text: 开发者访谈
         url: info?path=Oabout/interview
 
-      - text: 常见问题
-        url: info?path=Oabout/function
-
       - text: 致谢名单
         url: info?path=Oabout/thanks
+
+      - text: 更多详情
+        url: info?path=Oapp-intro/
 
   - tag: functional-list
     header: 支持小程序

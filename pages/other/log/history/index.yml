@@ -49,3 +49,6 @@ content:
 
       - text: v5 开发日志
         url: info?path=Olog/history/v5
+
+      - text: v6 开发日志
+        url: info?path=Olog/history/v6

@@ -14,7 +14,7 @@ content:
     title: Mr.Hope 需要您的帮助
     logo: $img/inNENU.png
     name: inNENU
-    url: info?path=Oguide/volunteer
+    url: info?path=Oapp-intro/volunteer
 
   - tag: card
     action: miniProgram

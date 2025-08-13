@@ -21,7 +21,7 @@ actions:
 
   - type: secondary
     text: 小程序介绍
-    link: /other/guide/
+    link: /other/app-intro/
 
   - type: secondary
     text: 安卓 App 下载
