@@ -12,7 +12,7 @@ import {
   checkMarkersConfig,
   checkMusicList,
   checkPageConfig,
-  checkPageIndex,
+  checkPageIndexes,
   checkQQAccounts,
   checkWechatAccountData,
   checkWechatAccounts,
@@ -56,7 +56,7 @@ checkYamlFiles("./data/function", (data, filePath) => {
   } else if (filePath === "music/index") {
     checkMusicList(data as MusicList, filePath);
   } else if (filePath === "search") {
-    checkPageIndex(data as PageIndexes, filePath);
+    checkPageIndexes(data as PageIndexes, filePath);
   }
 });
 
