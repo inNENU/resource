@@ -5,11 +5,13 @@ main-page:
 
 main-presets:
   guest:
-    - activate-card
-
-    - qq-group-card
-
     - stream-card
+
+    - yiban-card
+
+    - activate-hint
+
+    - qq-group-hint
 
     - school-basic-info
 
@@ -21,17 +23,31 @@ main-presets:
     - faq-card
 
   newcomer:
-    - qq-group-card
-
     - stream-card
 
+    - yiban-card
+
     - tag: functional-list
-      header: 如果你觉得 weNENU 对你有帮助，欢迎分享！
+      header: 如果你觉得 inNENU 对你有帮助
       items:
         - text: 向你的同学们分享小程序
           icon: share
           type: button
           openType: share
+
+        - text: 关注 inNENU 微信公众号
+          icon: wechat
+          type: button
+          handler: openOfficial
+
+        - text: 关注 inNENU 微信视频号
+          icon: wechat
+          type: button
+          handler: openChannel
+
+    - activate-hint
+
+    - qq-group-hint
 
     - school-basic-info
 

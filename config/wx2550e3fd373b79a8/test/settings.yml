@@ -5,11 +5,13 @@ main-page:
 
 main-presets:
   guest:
-    - activate-card
-
-    - qq-group-card
-
     - stream-card
+
+    - yiban-card
+
+    - activate-hint
+
+    - qq-group-hint
 
     - school-basic-info
 
@@ -21,9 +23,9 @@ main-presets:
     - faq-card
 
   newcomer:
-    - qq-group-card
-
     - stream-card
+
+    - yiban-card
 
     - tag: functional-list
       header: 如果你觉得 weNENU 对你有帮助
@@ -42,6 +44,10 @@ main-presets:
           action: channel
           id: sphQlMRqDF84Orm
           username: inNENU
+
+    - activate-hint
+
+    - qq-group-hint
 
     - school-basic-info
 

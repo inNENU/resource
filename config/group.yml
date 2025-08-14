@@ -4,6 +4,12 @@ activate-card:
   title: 账号激活
   url: account-activate
 
+activate-hint:
+  tag: text
+  type: info
+  header: 账号激活
+  url: account-activate
+
 admission-card:
   tag: card
   cover: $img/tab/admission.jpg
@@ -11,6 +17,12 @@ admission-card:
   url: admission?type=search
 
 qq-group-card:
+  tag: card
+  cover: $img/tab/qq-group.jpg
+  title: 快来加入新生群
+  path: newcomer/contact/all
+
+qq-group-hint:
   tag: text
   type: info
   header: 加入新生群
@@ -27,6 +39,12 @@ stream-card:
   cover: $img/tab/stream.png
   title: 本周五晚经验分享与答疑
   path: newcomer/activity/streaming
+
+yiban-card:
+  tag: card
+  cover: $img/tab/yiban.jpg
+  title: 新生入学教育现已开放
+  path: newcomer/yiban/
 
 check:
   tag: grid

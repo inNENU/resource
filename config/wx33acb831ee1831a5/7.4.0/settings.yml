@@ -37,14 +37,13 @@ main-presets:
 
         - text: 关注 inNENU 微信公众号
           icon: wechat
-          action: official
-          username: gh_b4378a2c36ae
+          type: button
+          handler: openOfficial
 
         - text: 关注 inNENU 微信视频号
           icon: wechat
-          action: channel
-          id: sphQlMRqDF84Orm
-          username: inNENU
+          type: button
+          handler: openChannel
 
     - activate-hint
 
@@ -187,15 +186,13 @@ user:
 
       - text: inNENU 微信公众号
         icon: wechat
-        action: official
-        username: gh_b4378a2c36ae
+        type: button
+        handler: openOfficial
 
       - text: inNENU 微信视频号
         icon: wechat
         type: button
-        action: channel
-        id: sphQlMRqDF84Orm
-        username: inNENU
+        handler: openChannel
 
       - text: 联系 Mr.Hope
         icon: contact
