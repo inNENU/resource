@@ -7,8 +7,14 @@ activate-card:
 activate-hint:
   tag: text
   type: info
-  header: 账号激活
+  header: 点击激活学校账号（未激活）
   url: account-activate
+
+login-hint:
+  tag: text
+  type: info
+  header: 点击登录学校账号（已激活）
+  url: account-login
 
 admission-card:
   tag: card
