@@ -3,7 +3,7 @@ tags:
   - 入学教育
 icon: pc
 author: Mr.Hope
-time: 2025-08-14T15:55:45.050Z
+time: 2025-08-18T10:29:23.541Z
 shareable: true
 content:
   - tag: text
@@ -36,6 +36,7 @@ content:
 
   - tag: img
     src: $img/yiban/web-add3.jpg
+    desc: 截图没更新，别用截图的
     watermark: true
 
   - tag: text

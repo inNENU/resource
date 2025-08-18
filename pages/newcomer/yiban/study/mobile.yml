@@ -3,11 +3,11 @@ tags:
   - 入学教育
 icon: cellphone
 author: Mr.Hope
-time: 2025-07-23T09:43:28.658Z
+time: 2025-08-18T10:29:23.548Z
 shareable: true
 content:
   - tag: ul
-    text: 点击 “东北师范大学 2024 年新生入学教育”
+    text: 点击 “东北师范大学 2025 年新生入学教育”
 
   - tag: img
     src: $img/yiban/mobile-study1.jpg
@@ -41,8 +41,13 @@ content:
     src: $img/yiban/mobile-study5.jpg
     watermark: true
 
-  - tag: ol
+  - tag: text
+    type: tip
+    text:
+      - 院长说专业那里看自己学院的就行
+
+  - tag: text
     type: warning
     text:
-      - 课程学习有进度，请不要随意拖拽进度条，认真观看。
-      - 后面的考试题会涉及到这部分视频的内容
+      - 课程学习有进度，辅导员那里可以看到你的学习时间。因此不能随意拖拽进度条刷进度
+      # - 后面的考试题会涉及到这部分视频的内容

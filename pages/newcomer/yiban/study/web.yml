@@ -3,7 +3,7 @@ tags:
   - 入学教育
 icon: pc
 author: Mr.Hope
-time: 2024-01-02T08:54:06.458Z
+time: 2025-08-18T10:29:23.549Z
 shareable: true
 content:
   - tag: title
@@ -37,11 +37,16 @@ content:
     src: $img/yiban/web-study4.png
     watermark: true
 
-  - tag: ol
+  - tag: text
+    type: tip
+    text:
+      - 院长说专业那里看自己学院的就行
+
+  - tag: text
     type: warning
     text:
-      - 课程学习有进度，请不要随意拖拽进度条，认真观看。
-      - 后面的考试题会涉及到这部分视频的内容
+      - 课程学习有进度，辅导员那里可以看到你的学习时间。因此不能随意拖拽进度条刷进度
+      # - 后面的考试题会涉及到这部分视频的内容
 
   - tag: text
     type: tip

@@ -3,7 +3,7 @@ tags:
   - 入学教育
 icon: cellphone
 author: Mr.Hope
-time: 2025-08-14T15:55:45.047Z
+time: 2025-08-18T10:29:23.540Z
 shareable: true
 content:
   - tag: text
@@ -35,4 +35,5 @@ content:
 
   - tag: img
     src: $img/yiban/mobile-add3.png
+    desc: 截图没更新，别用截图的
     watermark: true
