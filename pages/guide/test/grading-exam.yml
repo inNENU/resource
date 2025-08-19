@@ -4,16 +4,16 @@ tags:
 icon: english
 author: Mr.Hope
 desc: 感谢梦雨提供订正
-time: 2025-08-10T12:40:29.274Z
+time: 2025-08-19T03:56:56.150Z
 shareable: true
 content:
-  # TODO: Update at 2025-08
+  # TODO: Update at 2026-08
   - tag: text
     type: info
     # FIXME: @YinXin 确认考试的名字
-    header: 2024 年英语分班考试时间
+    header: 2025 年英语分班考试时间
     text:
-      - 9 月 7 日 9:00 - 11:30
+      - 9 月 7 日 9:00 - 11:20
 
   - tag: text
     type: warning

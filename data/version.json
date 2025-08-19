@@ -1,8 +1,8 @@
 {
   "version": {
     "apartment": 2,
-    "function": 9,
-    "guide": 6,
+    "function": 10,
+    "guide": 7,
     "intro": 1,
     "icon": 0,
     "school": 2,
@@ -12,7 +12,7 @@
     "apartment": 127,
     "school": 383,
     "function": 247,
-    "guide": 763,
+    "guide": 1582,
     "icon": 327,
     "intro": 371,
     "newcomer": 247

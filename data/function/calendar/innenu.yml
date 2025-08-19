@@ -188,3 +188,13 @@ content:
     text: |-
       小程序发布 V6
       小程序突破 100 万字
+
+  - title: 2024 年 6 月
+    icon: ./icon/flag.svg
+    text: |-
+      小程序支持小组件
+
+  - title: 2025 年 7 月
+    icon: ./icon/flag.svg
+    text: |-
+      上线 inNENU 智能体
