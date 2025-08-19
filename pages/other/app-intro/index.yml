@@ -20,11 +20,11 @@ content:
 
       - text: |-
           记: inNENU/weNENU
-        url: info?path=Oabout/history
+        url: info?path=Oapp-intro/history
 
       - text: |-
           inNENU/weNENU 的区别？
-        url: info?path=Oabout/owner
+        url: info?path=Oapp-intro/owner
 
   - tag: text
     header: inNENU/weNENU 内容
