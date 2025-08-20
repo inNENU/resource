@@ -43,7 +43,8 @@ faq-card:
 stream-card:
   tag: card
   cover: $img/tab/stream.png
-  title: 本周五晚经验分享与答疑
+  title: 经验分享与答疑 (非常有用)
+  desc: 从20号开始继续经验分享与答疑。会讲很多干货，欢迎大家参与！
   path: newcomer/activity/streaming
 
 yiban-card:
