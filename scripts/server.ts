@@ -1,0 +1,148 @@
+/**
+ * Combined server for inNENU resources
+ *
+ * Route mappings:
+ * - .resource/* -> /* (default)
+ * - assets/* -> /assets/*
+ * - img/* -> /img/*
+ * - file/* -> /file/*
+ * - .oss/*.zip -> /*.zip (direct access for zip files)
+ */
+import { createReadStream, existsSync, statSync } from "node:fs";
+import { createServer } from "node:http";
+import { extname, resolve } from "node:path";
+
+const PORT = 4040;
+
+// MIME 类型映射
+const mimeTypes = new Map([
+  [".html", "text/html"],
+  [".css", "text/css"],
+  [".js", "application/javascript"],
+  [".json", "application/json"],
+  [".png", "image/png"],
+  [".jpg", "image/jpeg"],
+  [".jpeg", "image/jpeg"],
+  [".gif", "image/gif"],
+  [".webp", "image/webp"],
+  [".svg", "image/svg+xml"],
+  [".ico", "image/x-icon"],
+  [".zip", "application/zip"],
+  [".pdf", "application/pdf"],
+  [".txt", "text/plain"],
+]);
+
+const getMimeType = (filePath: string): string => {
+  const ext = extname(filePath).toLowerCase();
+
+  return mimeTypes.get(ext) ?? "application/octet-stream";
+};
+
+const server = createServer((req, res) => {
+  if (!req.url) {
+    res.writeHead(400);
+    res.end("Bad Request");
+
+    return;
+  }
+
+  // 使用 URL 对象解析路径，自动处理查询参数
+  const url = new URL(req.url, `http://localhost:${PORT}`);
+  const pathname = url.pathname;
+
+  // 设置 CORS 头
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "*");
+  res.setHeader("Cache-Control", "no-cache");
+
+  // 处理 OPTIONS 请求
+  if (req.method === "OPTIONS") {
+    res.writeHead(200);
+    res.end();
+
+    return;
+  }
+
+  let filePath: string;
+
+  // 检查特殊路径映射
+  if (pathname.startsWith("/assets/")) {
+    const relativePath = pathname.substring("/assets/".length);
+
+    filePath = resolve(process.cwd(), "assets", relativePath);
+  } else if (pathname.startsWith("/img/")) {
+    const relativePath = pathname.substring("/img/".length);
+
+    filePath = resolve(process.cwd(), "img", relativePath);
+  } else if (pathname.startsWith("/file/")) {
+    const relativePath = pathname.substring("/file/".length);
+
+    filePath = resolve(process.cwd(), "file", relativePath);
+  } else {
+    // 首先检查是否是 .oss 目录下的 zip 文件（直接根路径访问）
+    const cleanPath = pathname.startsWith("/")
+      ? pathname.substring(1)
+      : pathname;
+
+    if (cleanPath.endsWith(".zip")) {
+      const ossFilePath = resolve(process.cwd(), ".oss", cleanPath);
+
+      if (existsSync(ossFilePath)) {
+        filePath = ossFilePath;
+      } else {
+        // 如果 .oss 中没有，尝试 .resource 目录
+        filePath = resolve(process.cwd(), ".resource", cleanPath);
+      }
+    } else {
+      // 默认从 .resource 目录托管
+      filePath = resolve(process.cwd(), ".resource", cleanPath);
+    }
+  }
+
+  // 检查文件是否存在
+  if (!existsSync(filePath)) {
+    res.writeHead(404);
+    res.end("File not found");
+
+    return;
+  }
+
+  // 检查是否是目录
+  const stats = statSync(filePath);
+
+  if (stats.isDirectory()) {
+    res.writeHead(403);
+    res.end("Directory listing not allowed");
+
+    return;
+  }
+
+  // 设置响应头
+  const mimeType = getMimeType(filePath);
+
+  res.setHeader("Content-Type", mimeType);
+  res.setHeader("Content-Length", stats.size);
+
+  // 创建文件流并传输
+  const fileStream = createReadStream(filePath);
+
+  fileStream.on("error", (err) => {
+    console.error("File stream error:", err);
+    if (!res.headersSent) {
+      res.writeHead(500);
+      res.end("Internal Server Error");
+    }
+  });
+
+  fileStream.pipe(res);
+});
+
+server.listen(PORT, () => {
+  console.log(`Combined server running at http://localhost:${PORT}`);
+});
+
+server.on("error", (err) => {
+  console.error("Server error:", err);
+  process.exit(1);
+});
