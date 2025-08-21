@@ -284,6 +284,10 @@ notice:
     content: 2025 级新生目前可激活账号。如激活中遇到问题，请联系信息化办公室 0431-85099005。
     force: true
 
+  newcomer/activity/streaming:
+    title: 今天改为微信视频号直播
+    content: 抖音的实名被我改认证在另一个账号上了，播不了，改为微信视频号。
+
 update:
   force: true
   reset: false
