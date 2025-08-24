@@ -1,7 +1,7 @@
 title: 欢迎加入交流群
 aiIgnore: true
 author: Mr.Hope
-time: 2023-12-20T06:56:43.880Z
+time: 2025-08-24T06:20:26.683Z
 shareable: true
 content:
   - tag: title
@@ -25,7 +25,7 @@ content:
     type: info
     header: inNENU
     text:
-      - inNENU 包含 101 万余字的学校介绍与新生攻略，可以解答您绝大部分的疑问。我们同时提供 App、 QQ小程序、微信小程序和网站。
+      - inNENU 包含 $word-total 万余字的学校介绍与新生攻略，可以解答您绝大部分的疑问。我们同时提供微信小程序、网站和安卓 App。
       - inNENU 在顶部提供搜索栏，支持全文搜索。欢迎您搜索您的疑问，如果您在 inNENU 找不到答案，欢迎您群内提问。
 
   - tag: title
