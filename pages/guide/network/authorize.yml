@@ -3,7 +3,7 @@ tags:
   - 校园网
 icon: authorize
 author: Mr.Hope
-time: 2025-07-23T09:43:28.493Z
+time: 2025-08-24T06:10:19.857Z
 shareable: true
 content:
   - tag: title
@@ -14,7 +14,8 @@ content:
 
   - tag: action
     header: 认证网址
-    content: "10.100.100.67"
+    content: http://portal.nenu.edu.cn
+    # content: "10.100.100.67"
 
   - tag: title
     text: 认证账户
@@ -46,7 +47,8 @@ content:
 
   - tag: action
     header: 管理页面地址
-    content: "10.100.100.67:8900"
+    content: "http://portal.nenu.edu.cn:8900"
+    # content: "10.100.100.67:8900"
 
   - tag: ul
     header: 主要功能

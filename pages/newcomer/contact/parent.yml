@@ -3,12 +3,12 @@ tags:
   - 迎新
 icon: qq-group
 author: Mr.Hope
-time: 2025-07-27T10:25:38.301Z
+time: 2025-08-24T06:10:20.137Z
 shareable: true
 content:
   - tag: text
     type: info
-    text: 由于学校官方没有学校范围的大群，Mr.Hope 自己建立了一个家长群。
+    text: 校方未设立任何官方的家长群，因此 Mr.Hope 自己建立了一个家长群。
 
   - tag: ul
     type: info
@@ -36,8 +36,8 @@ content:
     text: 不使用 QQ
 
   - tag: text
-    text: 如果您不使用 QQ，Mr.Hope 建立了一个微信群。由于微信群满 200 人只能邀请入群，且邀请码仅 7 天有效，请您添加微信号 "in-NENU" 为好友，等待受邀入群。
+    text: 如果您不使用 QQ，Mr.Hope 建立了一个微信群。由于群二维码仅 7 天有效并且微信群满 200 人只能邀请入群，请您添加微信号 "in-NENU" 为好友，注明自己为“东师xx级家长”，等待受邀入群。
 
   - tag: text
     type: warning
-    text: 请务必将验证信息备注为“东师新生家长”，否则某些头像或昵称带有推广名称的好友请求可能会被直接拒绝。
+    text: 请务必将验证信息备注为“东师xx级家长”，否则某些头像或昵称带有推销信息的好友请求会被直接拒绝。

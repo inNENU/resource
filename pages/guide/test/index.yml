@@ -3,7 +3,7 @@ aiIgnore: true
 icon: test
 grey: true
 author: Mr.Hope
-time: 2023-09-23T10:52:59.563Z
+time: 2025-08-24T06:10:19.927Z
 shareable: true
 content:
   - tag: list
@@ -28,7 +28,7 @@ content:
   - tag: list
     header: 英语
     items:
-      - text: 英语分班考试
+      - text: 英语课程分班考试
         icon: test
         path: grading-exam
 

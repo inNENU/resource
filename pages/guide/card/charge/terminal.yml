@@ -5,7 +5,7 @@ icon: atm
 desc: |-
   部分图像来源：20级历史文化学院杨同学
 author: Mr.Hope
-time: 2025-07-23T09:43:28.431Z
+time: 2025-08-24T06:10:19.716Z
 shareable: true
 content:
   - tag: text
@@ -48,7 +48,7 @@ content:
     desc: 点击右上角的“银行服务”
     watermark: true
 
-  # FIXME: @YinXin 确认功能可用性
+  # FIXME: @YinXin 确认流程
   - tag: p
     text: 点击“银校转账”选项，按提示依次输入身份证号、银行卡号与银行卡密码，点击“确定”申请转账。之后，再输入转账金额与校园卡密码，即可完成转账。
 

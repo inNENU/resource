@@ -3,27 +3,26 @@ tags:
   - 统一身份认证（账户）
 icon: authorize
 author: Mr.Hope
-time: 2025-07-23T09:43:28.396Z
+time: 2025-08-24T06:10:19.635Z
 shareable: true
 content:
-  # TODO: Update at 2025-08
+  # TODO: Update at 2026-06
   - tag: text
     type: info
     text:
       - 自 2023 级起，新生需自行在线完成账号激活。
-      - 当前，2025 级新生的账号信息尚未录入系统，请在录取工作完成后再进行尝试。
-      # - 目前所有 2024 级研究生都可以激活自己账号了，2024 级本科生需要等待录取工作全部完成后才能激活账号。
+      - 当前，2025 级新生已经可以进行账号激活了。
 
   - tag: action
     header: 账号激活
     content: https://authserver.nenu.edu.cn/retrieve-password/accountActivation/index.html
 
   # TODO: Update this once the account activation page is ready
-  # - tag: card
-  #   cover: https://assets.innenu.com/img/tab/activate.jpg
-  #   title: 账号激活
-  #   logo: authorize
-  #   url: account-activate
+  - tag: card
+    cover: https://assets.innenu.com/img/tab/activate.jpg
+    title: 账号激活
+    logo: authorize
+    url: account-activate
 
   - tag: title
     text: 介绍
@@ -46,9 +45,9 @@ content:
       - 统一身份认证的用户名为您的学号（10 位数字），该号码与录取通知书上的证书编号及后续发放的校园卡💳卡号一致。
 
   - tag: text
-    header: 账户创建
+    header: 激活账户
     text:
-      - 待信息化办公室完成新生信息录入后，新生即可访问“账号激活”页面，通过校验个人信息来设置密码与密保，从而完成账户创建。
+      - 信息化办公室完成新生信息录入后，新生即可访问“账号激活”页面，通过校验个人信息来设置密码与密保，从而完成学校账户激活。
 
   - tag: action
     header: 账号激活地址

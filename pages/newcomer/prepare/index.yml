@@ -2,7 +2,7 @@ title: 入学准备
 aiIgnore: true
 icon: prepare
 author: Mr.Hope
-time: 2025-07-23T09:43:28.648Z
+time: 2025-08-24T06:10:20.163Z
 grey: true
 shareable: true
 content:
@@ -28,7 +28,7 @@ content:
         icon: archive
         path: /guide/archive/under-in
 
-      - text: 新生入学前课程学习
+      - text: 新生入学教育
         icon: study
         path: /newcomer/yiban/
 
@@ -54,6 +54,7 @@ content:
         path: /guide/archive/grad-in
 
       - text: 证件材料
+        desc: 现实情况调查表
         icon: id
         path: /newcomer/necessity/material
 

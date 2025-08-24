@@ -4,7 +4,7 @@ tags:
   - 校园生活
 icon: atm
 author: Mr.Hope
-time: 2025-07-23T09:43:28.430Z
+time: 2025-08-24T06:10:19.714Z
 shareable: true
 content:
   - tag: title
@@ -43,15 +43,13 @@ content:
     header: 净月校区
     text:
       - 第一食堂二楼南侧
-      - 第二食堂一楼东南侧
-      - 图书馆三楼、四楼阅览室
       - 冬华公寓二楼
 
   - tag: location
     header: 净月校区
     points:
-      - loc: 43.825137,125.424728
-        name: 第二食堂一楼东南侧
+      - loc: 43.826875,125.423975
+        name: 第一食堂二楼南侧
 
       - loc: 43.824557,125.425655
         name: 冬华公寓二楼

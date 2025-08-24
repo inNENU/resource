@@ -2,7 +2,7 @@ title: 本科生入学准备
 aiIgnore: true
 icon: prepare
 author: Mr.Hope
-time: 2025-07-23T09:43:28.649Z
+time: 2025-08-24T06:10:20.166Z
 grey: true
 shareable: true
 content:
@@ -30,7 +30,7 @@ content:
         icon: archive
         path: /guide/archive/under-in
 
-      - text: 新生入学前课程学习
+      - text: 新生入学教育
         icon: study
         path: /newcomer/yiban/
 

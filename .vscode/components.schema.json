@@ -247,10 +247,28 @@
       "description": "基础列表项目，现在支持多种导航和动作",
       "oneOf": [
         {
-          "$ref": "#/$defs/base-nav-option"
+          "allOf": [
+            { "$ref": "#/$defs/base-nav-option" },
+            {
+              "not": {
+                "anyOf": [
+                  { "required": ["path"] },
+                  { "required": ["url"] },
+                  { "required": ["action"] },
+                  { "required": ["account"] },
+                  { "required": ["openid"] },
+                  { "required": ["miniAppId"] },
+                  { "required": ["appId"] },
+                  { "required": ["shortLink"] },
+                  { "required": ["username"] },
+                  { "required": ["id"] },
+                  { "required": ["feedId"] }
+                ]
+              }
+            }
+          ]
         },
         {
-          "type": "object",
           "allOf": [
             { "$ref": "#/$defs/base-nav-option" },
             { "$ref": "#/$defs/route-option" }
@@ -628,18 +646,13 @@
       "additionalProperties": false
     },
     "text-route-option": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "description": "文字块类型",
-          "enum": ["tip", "warning", "danger", "info", "important", "note"]
-        }
-      },
       "allOf": [
         { "$ref": "#/$defs/text-plain-option" },
-        { "$ref": "#/$defs/route-option" }
-      ],
-      "required": ["tag", "type"]
+        { "$ref": "#/$defs/route-option" },
+        {
+          "required": ["type"]
+        }
+      ]
     },
     "text-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#text",

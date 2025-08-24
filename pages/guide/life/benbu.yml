@@ -2,7 +2,7 @@ title: 本部生活分板块介绍
 aiIgnore: true
 icon: life
 author: Mr.Hope
-time: 2024-08-29T09:00:55.798Z
+time: 2025-08-24T06:10:19.825Z
 shareable: true
 content:
   - tag: title
@@ -27,10 +27,6 @@ content:
       - text: 洗衣店
         icon: washer
         path: washing/benbu
-
-      - text: 眼镜店
-        icon: glasses
-        path: glasses/benbu
 
   - tag: grid
     header: 食

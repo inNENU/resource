@@ -5,9 +5,17 @@ icon: cainiao
 author:
   - Mr.Hope
   - 战俊华
-time: 2025-07-23T09:43:28.470Z
+time: 2025-08-24T06:10:19.800Z
 shareable: true
 content:
+  # FIXME: Update at 2025-09
+  - tag: text
+    type: warning
+    header: 暑期装修
+    text:
+      - 2025年暑假，本部快递驿站进行了全面装修，从进度来看新生报到时可能未必如期完成。
+      - 在装修完毕后，小程序会及时对驿站的最新情况进行更新。
+
   - tag: title
     text: 简介
 

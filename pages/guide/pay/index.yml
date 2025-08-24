@@ -3,7 +3,7 @@ tags:
   - 学费
 icon: money
 author: Mr.Hope
-time: 2025-07-23T09:43:28.513Z
+time: 2025-08-24T06:10:19.891Z
 cite:
   - https://publish.nenu.edu.cn/info/1068/2853.htm
   - https://publish.nenu.edu.cn/info/1068/2883.htm
@@ -65,3 +65,7 @@ content:
       - text: 缴费注意事项
         icon: alert
         path: alert
+
+      - text: 个人所得税
+        icon: money
+        path: personal-tax

@@ -4,7 +4,7 @@ tags:
   - 新生入学
 icon: time
 author: Mr.Hope
-time: 2025-07-23T09:43:28.634Z
+time: 2025-08-24T06:10:20.131Z
 shareable: true
 content:
   - tag: title
@@ -42,7 +42,8 @@ content:
   - tag: text
     type: warning
     header: 关于提前报到
-    text: 原则上不允许提前报到。如确有特殊情况，请务必提前与辅导员联系并获得批准。
+    text:
+      - 原则上不允许提前报到。如确有特殊情况，请务必提前与辅导员联系并获得批准。
 
   - tag: text
     type: danger
