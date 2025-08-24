@@ -6,9 +6,11 @@
  * - assets/* -> /assets/*
  * - img/* -> /img/*
  * - file/* -> /file/*
+ * - service/* -> res.innenu.com/service/* (proxy)
  * - .oss/*.zip -> /*.zip (direct access for zip files)
  */
 import { createReadStream, existsSync, statSync } from "node:fs";
+import type { IncomingMessage, ServerResponse } from "node:http";
 import { createServer } from "node:http";
 import { extname, resolve } from "node:path";
 
@@ -38,6 +40,165 @@ const getMimeType = (filePath: string): string => {
   return mimeTypes.get(ext) ?? "application/octet-stream";
 };
 
+// 代理转发函数
+// 使用 fetch 实现代理转发
+const proxyToService = async (
+  req: IncomingMessage,
+  res: ServerResponse,
+): Promise<void> => {
+  const targetUrl = `https://tieshi-res.shigongwei.cn${req.url}`;
+
+  try {
+    // 过滤并转换 headers
+    const headers: Record<string, string> = {};
+
+    for (const [key, value] of Object.entries(req.headers)) {
+      if (typeof value === "string") {
+        headers[key] = value;
+      } else if (Array.isArray(value)) {
+        headers[key] = value.join(", ");
+      }
+    }
+
+    headers.host = "tieshi-res.shigongwei.cn";
+
+    const fetchOptions: RequestInit = {
+      method: req.method ?? "GET",
+      headers,
+    };
+
+    // 只有非 GET 和 HEAD 请求才设置 body
+    if (req.method !== "GET" && req.method !== "HEAD") {
+      let body = "";
+
+      req.on("data", (chunk: Buffer) => {
+        body += chunk.toString();
+      });
+
+      req.on("end", () => {
+        if (body) {
+          fetchOptions.body = body;
+        }
+        sendProxyRequest(targetUrl, fetchOptions, res).catch(
+          (error: unknown) => {
+            console.error("代理请求失败:", error);
+            res.statusCode = 500;
+            res.end("代理请求失败");
+          },
+        );
+      });
+    } else {
+      await sendProxyRequest(targetUrl, fetchOptions, res);
+    }
+  } catch (error) {
+    console.error("代理请求失败:", error);
+    res.statusCode = 500;
+    res.end("代理请求失败");
+  }
+};
+
+const sendProxyRequest = async (
+  targetUrl: string,
+  options: RequestInit,
+  res: ServerResponse,
+): Promise<void> => {
+  const response = await fetch(targetUrl, options);
+
+  // 设置响应头
+  response.headers.forEach((value, key) => {
+    res.setHeader(key, value);
+  });
+
+  res.statusCode = response.status;
+
+  // 转发响应体
+  const responseText = await response.text();
+
+  res.end(responseText);
+};
+
+// 处理 settings.php 请求的特殊逻辑
+const handleSettingsRequest = (
+  req: IncomingMessage,
+  res: ServerResponse,
+): void => {
+  // 只处理 POST 请求
+  if (req.method !== "POST") {
+    res.statusCode = 405;
+    res.end("Method Not Allowed");
+
+    return;
+  }
+
+  let body = "";
+
+  req.on("data", (chunk: Buffer) => {
+    body += chunk.toString();
+  });
+
+  req.on("end", () => {
+    try {
+      const data = JSON.parse(body) as { appId?: string; version?: string };
+      const { appId, version } = data;
+
+      if (
+        !appId ||
+        !version ||
+        typeof appId !== "string" ||
+        typeof version !== "string"
+      ) {
+        res.statusCode = 400;
+        res.end("Missing or invalid appId or version");
+
+        return;
+      }
+
+      // 构建本地文件路径
+      const configPath = resolve(
+        ".resource/config",
+        appId,
+        version,
+        "settings.json",
+      );
+
+      // 检查文件是否存在
+      if (!existsSync(configPath)) {
+        res.statusCode = 404;
+        res.end("error");
+
+        return;
+      }
+
+      // 读取文件内容
+      const stats = statSync(configPath);
+
+      if (!stats.isFile()) {
+        res.statusCode = 404;
+        res.end("error");
+
+        return;
+      }
+
+      // 设置响应头
+      res.setHeader("Content-Type", "application/json");
+
+      // 创建文件流并发送
+      const fileStream = createReadStream(configPath);
+
+      fileStream.pipe(res);
+
+      fileStream.on("error", () => {
+        res.statusCode = 500;
+        res.end("error");
+      });
+    } catch (error) {
+      console.error("解析 settings 请求失败:", error);
+      res.statusCode = 400;
+      res.end("Invalid JSON");
+    }
+  });
+};
+
 const server = createServer((req, res) => {
   if (!req.url) {
     res.writeHead(400);
@@ -65,6 +226,22 @@ const server = createServer((req, res) => {
   }
 
   let filePath: string;
+
+  if (pathname === "/service/settings.php") {
+    handleSettingsRequest(req, res);
+
+    return;
+  }
+
+  if (pathname.startsWith("/service/")) {
+    proxyToService(req, res).catch((error: unknown) => {
+      console.error("代理请求失败:", error);
+      res.statusCode = 500;
+      res.end("代理请求失败");
+    });
+
+    return;
+  }
 
   // 检查特殊路径映射
   if (pathname.startsWith("/assets/")) {
