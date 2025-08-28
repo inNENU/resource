@@ -44,7 +44,8 @@ stream-card:
   tag: card
   cover: $img/tab/stream.png
   title: 经验分享与答疑 (非常有用)
-  desc: 从20号开始继续经验分享与答疑。会讲很多干货，欢迎大家参与！
+  # desc: 从20号开始继续经验分享与答疑。会讲很多干货，欢迎大家参与！
+  desc: 直播分享已结束，可看回放
   path: newcomer/activity/streaming
 
 yiban-card:

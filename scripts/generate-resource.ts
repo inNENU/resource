@@ -33,7 +33,7 @@ import type { PEConfig } from "./generate/peScore.js";
 import { generatePEScore } from "./generate/peScore.js";
 import { RESOURCE_FOLDERS, generateResource } from "./generate/resource.js";
 import { generateSettings } from "./generate/settings.js";
-import { updateWordCount } from "./generate/wordCount.js";
+import { replaceWordCount } from "./generate/wordCount.js";
 
 import "./config/env.js";
 
@@ -52,6 +52,21 @@ RESOURCE_FOLDERS.forEach((folder) => {
         allowedTags,
         removeFields: ["aiIgnore", "tags"],
       }),
+    (content, filePath) => {
+      if (
+        [
+          "about/welcome",
+          "about/2025-welcome",
+          "about/interview",
+          "app-intro/intro",
+          "app-intro/search",
+        ].includes(filePath)
+      ) {
+        return replaceWordCount(content);
+      }
+
+      return content;
+    },
   );
 });
 
@@ -102,17 +117,23 @@ convertYamlFilesToJson<Donate, PageData>(
   (data, filePath) => generateDonate(data, filePath),
 );
 
-// 更新字数
-updateWordCount();
-
 // 生成 tab 页
-convertYamlFilesToJson("./config", "./.resource/config", (data, filePath) => {
-  if (/item$/u.exec(filePath) || /group$/u.exec(filePath)) return null;
+convertYamlFilesToJson(
+  "./config",
+  "./.resource/config",
+  (data, filePath) => {
+    if (/item$/u.exec(filePath) || /group$/u.exec(filePath)) return null;
 
-  if (/settings$/u.exec(filePath)) return generateSettings(data);
+    if (/settings$/u.exec(filePath)) return generateSettings(data);
 
-  return data;
-});
+    return data;
+  },
+  (content, filePath) => {
+    if (/settings$/u.exec(filePath)) return replaceWordCount(content);
+
+    return content;
+  },
+);
 
 // 生成资源
 generateResource(diffFiles);
