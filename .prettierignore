@@ -13,3 +13,5 @@ pnpm-lock.yaml
 # Composer
 service/vendor/
 service/composer.lock
+
+assets/prompt.md
