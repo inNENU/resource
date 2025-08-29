@@ -5,6 +5,8 @@ main-page:
 
 main-presets:
   guest:
+    - first-day
+
     - check
 
     - yiban-card
@@ -19,7 +21,9 @@ main-presets:
     - school-basic-info
 
   newcomer:
-    - stream-card
+    - first-day
+
+    - check
 
     - yiban-card
 
@@ -43,9 +47,9 @@ main-presets:
 
     - qq-group-hint
 
-    - school-basic-info
+    - stream-card
 
-    - faq-card
+    - school-basic-info
 
   at-school:
     - common

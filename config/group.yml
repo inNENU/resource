@@ -367,6 +367,12 @@ under-enroll:
       icon: time
       url: under-enroll-score
 
+first-day:
+  tag: card
+  cover: $img/tab/first-day.png
+  name: 开始报到
+  path: newcomer/check/first-day
+
 under-study:
   tag: grid
   header: 本科教务系统
