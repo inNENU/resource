@@ -5,7 +5,7 @@ icon: cainiao
 author:
   - Mr.Hope
   - 战俊华
-time: 2025-08-24T06:10:19.800Z
+time: 2025-08-29T11:50:49.307Z
 shareable: true
 content:
   # FIXME: Update at 2025-09
@@ -95,16 +95,6 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/express/benbu/cainiao-scan.jpg
-    desc: 菜鸟驿站扫描处
-    watermark: true
-
-  - tag: img
-    src: $img/express/benbu/cainiao-temp1.jpg
-    desc: 菜鸟驿站室外取件扫描处
-    watermark: true
-
-  - tag: img
-    src: $img/express/benbu/cainiao-temp2.jpg
-    desc: 菜鸟驿站室外取件点
+    src: $img/express/benbu/cainiao3.jpg
+    desc: 菜鸟驿站货架
     watermark: true

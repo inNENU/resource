@@ -6,7 +6,7 @@ desc: 《北苑生活区》由 Mr.Hope 自行起名，仅用于 inNENU 文中
 author:
   - Mr.Hope
   - 小源
-time: 2024-08-15T16:53:51.485Z
+time: 2025-08-29T11:50:49.335Z
 shareable: true
 content:
   - tag: title
@@ -43,16 +43,6 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/life/beiyuan/sugar.jpg
-    desc: 属你甜甜水铺
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/liuliu.jpg
-    desc: 刘浏美味小屋
-    watermark: true
-
-  - tag: img
     src: $img/life/beiyuan/fruit.jpg
     desc: 葱蜂鲜果
     watermark: true
@@ -78,11 +68,6 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/life/beiyuan/mobile.jpg
-    desc: 移动营业厅
-    watermark: true
-
-  - tag: img
     src: $img/life/beiyuan/beiyuan-print.jpg
     desc: 北苑复印店
     watermark: true
@@ -100,11 +85,6 @@ content:
   - tag: img
     src: $img/life/beiyuan/lucky-coffee.jpg
     desc: 幸运咖
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/xi-bao.jpg
-    desc: 喜宝美甲美睫皮肤管理
     watermark: true
 
   - tag: img

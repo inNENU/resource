@@ -9,20 +9,19 @@ content:
         icon: idea
         path: /guide/shop/tip
 
-  # TODO: Update
   - tag: text
-    text: 净月校区原有超市已于 2024 年暑假撤出，新入驻的天猫超市仍在装修中。
+    text: 净月校区 2024 年暑新入驻的天猫超市。
 
   - tag: list
     items:
-      # TODO: Update
+      # FIXME: Update
       - text: 天猫超市
         desc: 装修中
 
-      # TODO: Update
+      # FIXME: Update
       - text: 二食堂生活区
         desc: 装修中
 
       # TODO: Remove later
-      # - text: 净月临时售卖点
-      #   path: /guide/shop/jingyue-temp
+      - text: 净月临时售卖点
+        path: /guide/shop/jingyue-temp

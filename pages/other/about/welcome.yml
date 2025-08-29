@@ -1,7 +1,7 @@
 title: 欢迎加入交流群
 aiIgnore: true
 author: Mr.Hope
-time: 2025-08-28T12:39:58.302Z
+time: 2025-08-29T11:50:49.982Z
 shareable: true
 content:
   - tag: title
@@ -42,15 +42,7 @@ content:
     header: 本群仅限东师学生
     text:
       - 本群仅面向已录取学生、在校生和校友，如果您非本校学生，请现在退群。
-      - 如果您有考研、报考等相关问题，您可加入“in 东北师大” QQ 群提问。
-
-  - tag: functional-list
-    items:
-      - text: 加入 in 东北师大
-        icon: qq-group
-        type: button
-        openType: openGroupProfile
-        groupId: "1139044856"
+      - 如果您有考研、报考等相关问题，您可加入“in 东北师大” QQ 群 (1139044856) 提问。
 
   - tag: p
     type: info

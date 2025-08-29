@@ -8,7 +8,6 @@ content:
     logo: $img/association/quyi.png
     desc: 一起欢乐，一起进步
     qq: 1913856914
-    qqid: 524B5980588BE76C3D5FA8B2683B9B40
     qqcode: $img/media/green-qq-qrcode.png
 
   - tag: card

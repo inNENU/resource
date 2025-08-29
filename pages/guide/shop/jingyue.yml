@@ -3,7 +3,7 @@ tags:
   - 超市
 icon: shop
 author: Mr.Hope
-time: 2024-08-30T15:58:22.444Z
+time: 2025-08-29T11:50:49.444Z
 shareable: true
 content:
   - tag: list
@@ -12,17 +12,16 @@ content:
         icon: idea
         path: tip
 
-  # TODO: Update
   - tag: text
-    text: 净月校区原有超市已于 2024 年暑假撤出，新入驻的天猫超市仍在装修中。
+    text: 净月校区 2024 年暑新入驻的天猫超市。
 
   - tag: list
     items:
-      # TODO: Update
+      # FIXME:
       - text: 天猫超市
         desc: 装修中
 
-      # TODO: Update
+      # FIXME:
       - text: 二食堂生活区
         desc: 装修中
 

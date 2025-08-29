@@ -3,7 +3,7 @@ tags:
   - 社团
 desc: |-
   来源: 校团委官网
-time: 2025-06-22T11:46:38.738Z
+time: 2025-08-29T11:50:49.414Z
 shareable: true
 content:
   - tag: account
@@ -11,7 +11,6 @@ content:
     logo: $img/organization/voice.png
     desc: 东北师范大学“东师之声”校园广播站
     qq: 3256974882
-    qqid: 485F6B43DF35335DE39C618347D24389
     qqcode: $img/media/voice-qq.png
     wxid: DSZS2555
     account: voice

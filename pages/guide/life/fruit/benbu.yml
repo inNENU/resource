@@ -4,7 +4,7 @@ tags:
 icon: fruit
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2024-08-30T15:58:22.321Z
+time: 2025-08-29T11:50:49.352Z
 shareable: true
 content:
   - tag: title
@@ -13,7 +13,7 @@ content:
   - tag: ul
     text:
       - |-
-        葱蜂鲜果: 北苑地下一楼东南角
+        葱蜂鲜果: 北苑地下一楼西北角
       - |-
         精品水果捞: 北苑地下一楼西南角
       - |-
@@ -22,30 +22,20 @@ content:
   - tag: location
     header: 本部水果店
     points:
+      # FIXME:
       - loc: 43.8627,125.332943
         name: 葱蜂鲜果
-        detail: 北苑地下一楼东南角
+        detail: 北苑地下一楼西北角
 
       - loc: 43.86267,125.332541
         name: 精品水果捞
         detail: 北苑地下一楼西南角
-
-      - loc: 43.86256,125.33705
-        name: 心随果动
-        detail: 浴池正门左侧
 
   - tag: text
     header: 葱蜂鲜果
 
   - tag: img
     src: $img/life/beiyuan/fruit.jpg
-    watermark: true
-
-  - tag: text
-    header: 心随果动
-
-  - tag: img
-    src: $img/bath/benbu-shop1.jpg
     watermark: true
 
   - tag: title

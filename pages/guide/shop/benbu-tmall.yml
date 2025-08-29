@@ -7,7 +7,7 @@ desc: |-
 author:
   - Mr.Hope
   - 晴子
-time: 2025-07-23T09:43:28.523Z
+time: 2025-08-29T11:50:49.440Z
 shareable: true
 content:
   - tag: text
@@ -17,7 +17,7 @@ content:
   - tag: carousel
     fill: true
     images:
-      - $img/shop/tmall/welcome.jpg
+      - $img/shop/benbu/welcome.jpg
 
   - tag: title
     text: 种类分布
@@ -45,7 +45,7 @@ content:
       - 需要自行将商品扫码，并使用支付宝扫码或刷脸/微信扫码进行支付
 
   - tag: img
-    src: $img/shop/tmall/pay.jpg
+    src: $img/shop/benbu/pay.jpg
     desc: 自助结账处
     watermark: true
 
@@ -67,67 +67,67 @@ content:
     header: 食品区
 
   - tag: img
-    src: $img/shop/tmall/food1.jpg
+    src: $img/shop/benbu/food1.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/food2.jpg
+    src: $img/shop/benbu/food2.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/food3.jpg
+    src: $img/shop/benbu/food3.jpg
     desc: 牛奶区
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/food4.jpg
+    src: $img/shop/benbu/food4.jpg
     desc: 饮品区
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/food5.jpg
+    src: $img/shop/benbu/food5.jpg
     desc: 面包区
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/food6.jpg
+    src: $img/shop/benbu/food6.jpg
     watermark: true
 
   - tag: text
     header: 生活用品区
 
   - tag: img
-    src: $img/shop/tmall/life1.jpg
+    src: $img/shop/benbu/life1.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/life2.jpg
+    src: $img/shop/benbu/life2.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/life3.jpg
+    src: $img/shop/benbu/life3.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/life4.jpg
+    src: $img/shop/benbu/life4.jpg
     watermark: true
 
   - tag: text
     header: 新生用品
 
   - tag: img
-    src: $img/shop/tmall/newcomer1.jpg
+    src: $img/shop/benbu/newcomer1.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/newcomer2.jpg
+    src: $img/shop/benbu/newcomer2.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/newcomer3.jpg
+    src: $img/shop/benbu/newcomer3.jpg
     watermark: true
 
   - tag: img
-    src: $img/shop/tmall/newcomer-price.jpg
+    src: $img/shop/benbu/newcomer-price.jpg
     desc: 价格
     watermark: true

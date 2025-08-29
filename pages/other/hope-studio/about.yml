@@ -28,10 +28,10 @@ content:
     header: 副室长
     text: 林传舜，教育学部 2021 届本科生。东北师范大学第 21 届“理想与成才”报告团成员，获得国家奖学金、创新创业奖学金。专业排名第二，已保研至复旦大学。
 
-  - tag: list
+  - tag: functional-list
     header: 工作室招新
     items:
-      - type: navigator
-        text: 招新详情
+      - text: 招新详情
+        type: navigator
         openType: redirect
         url: info?path=Ohope-studio/invite

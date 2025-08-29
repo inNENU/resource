@@ -4,7 +4,7 @@ tags:
 icon: drink
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2025-08-29T08:14:10.312Z
+time: 2025-08-29T11:50:49.349Z
 shareable: true
 content:
   - tag: title
@@ -65,13 +65,6 @@ content:
 
   - tag: img
     src: $img/life/beiyuan/luckin.jpg
-    watermark: true
-
-  - tag: text
-    header: 亓嘉咖啡
-
-  - tag: img
-    src: $img/life/benbu/qijia.jpg
     watermark: true
 
   - tag: text

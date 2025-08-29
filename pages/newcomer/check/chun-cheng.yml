@@ -1,7 +1,9 @@
 title: 春城卡
+tags:
+  - 新生入学
 icon: card
 author: Mr.Hope
-time: 2025-08-29T05:19:27.784Z
+time: 2025-08-29T11:50:49.668Z
 shareable: true
 content:
   - tag: title
@@ -11,4 +13,4 @@ content:
     text: 长春市为大学生们精心准备了特别礼物——“春城卡”。它不仅能让新生们在入学季免费乘坐全市的地铁、轻轨和公交，还能免费参观游览长春各大知名景点。
 
   - tag: img
-    src: $img/chun-cheng.jpg
+    src: $img/check/chun-cheng.jpg

@@ -4,9 +4,9 @@ author:
   - 战俊华
 time: 2021-08-30
 photo:
-  - $img/express/benbu/cainiao1.jpg
+  # - $img/express/benbu/cainiao1.jpg
   - $img/express/benbu/cainiao2.jpg
-  - $img/express/benbu/cainiao-scan.jpg
+  # - $img/express/benbu/cainiao-scan.jpg
 content:
   - tag: title
     text: 简介
@@ -71,17 +71,17 @@ content:
   - tag: title
     text: 环境介绍
 
-  - tag: img
-    src: $img/express/benbu/cainiao1.jpg
-    desc: 菜鸟驿站柜台
-    watermark: true
+  # - tag: img
+  #   src: $img/express/benbu/cainiao1.jpg
+  #   desc: 菜鸟驿站柜台
+  #   watermark: true
 
-  - tag: img
-    src: $img/express/benbu/cainiao2.jpg
-    desc: 菜鸟驿站货架
-    watermark: true
+  # - tag: img
+  #   src: $img/express/benbu/cainiao2.jpg
+  #   desc: 菜鸟驿站货架
+  #   watermark: true
 
-  - tag: img
-    src: $img/express/benbu/cainiao-scan.jpg
-    desc: 菜鸟驿站扫描处
-    watermark: true
+  # - tag: img
+  #   src: $img/express/benbu/cainiao-scan.jpg
+  #   desc: 菜鸟驿站扫描处
+  #   watermark: true

@@ -3,7 +3,7 @@ tags:
   - 超市
 icon: shop
 author: Mr.Hope
-time: 2024-08-16T05:53:04.511Z
+time: 2025-08-29T11:50:49.436Z
 shareable: true
 content:
   - tag: title
@@ -14,17 +14,18 @@ content:
       - 报到期间，本部天猫超市外西北角处 (靠近报到处) 会有临时售卖点。
       - 超市的促销区也会有设置新生用品售卖处。
 
-  - tag: img
-    src: $img/shop/benbu-temp1.jpg
-    watermark: true
+  # FIXME:
+  # - tag: img
+  #   src: $img/shop/benbu-temp1.jpg
+  #   watermark: true
 
-  - tag: img
-    src: $img/shop/benbu-temp2.jpg
-    watermark: true
+  # - tag: img
+  #   src: $img/shop/benbu-temp2.jpg
+  #   watermark: true
 
-  - tag: img
-    src: $img/shop/benbu-temp3.jpg
-    watermark: true
+  # - tag: img
+  #   src: $img/shop/benbu-temp3.jpg
+  #   watermark: true
 
   - tag: title
     text: 被褥

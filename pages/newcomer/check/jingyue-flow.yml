@@ -6,7 +6,7 @@ icon: flow
 author:
   - Mr.Hope
   - 王欣越
-time: 2025-08-29T05:19:27.785Z
+time: 2025-08-29T11:50:49.742Z
 shareable: true
 content:
   - tag: text
@@ -63,6 +63,22 @@ content:
   - tag: doc
     name: 2025 年迎新接待点
     url: $file/check/2025-place.pdf
+
+  - tag: img
+    src: $img/check/jingyue-check4.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/check/jingyue-check5.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/check/jingyue-check6.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/check/jingyue-check7.jpg
+    watermark: true
 
   - tag: text
     text:
