@@ -2,7 +2,7 @@ title: 辅导员
 aiIgnore: true
 icon: teacher
 author: Mr.Hope
-time: 2025-07-27T10:25:38.333Z
+time: 2025-08-29T05:29:14.160Z
 grey: true
 shareable: true
 content:
@@ -17,12 +17,9 @@ content:
         path: advice
 
   - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/1LGPufKFDreYSmIlc6yiavJq899WcZw7C4t9j21Y8cxM0n20FXSSGG3CODoqZejfRLJ9IbHnrP2rTPibLoxYwm3A/0?wx_fmt=jpeg
-    title: 2024级辅导员大揭秘
-    url: https://mp.weixin.qq.com/s/qZtZmwkGrhMX9i5nzYhV9Q
-    env:
-      - wx
-      - app
+    cover: https://mmbiz.qpic.cn/mmbiz_jpg/1LGPufKFDreOpLFHsiaaZZ8FPSiakYljaVxGibqhuNLWvETTZFwMM5icrib4xj6ZrBl22Kiajwt4u0ibAFnibwt4T4T8lg/0?wx_fmt=jpeg
+    title: 2025级辅导员大揭秘
+    url: https://mp.weixin.qq.com/s/zuxI1XH8tuL5mvfzwm-ssg
 
   - tag: list
     header: 相关要求
