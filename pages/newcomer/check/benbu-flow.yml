@@ -4,7 +4,7 @@ tags:
   - 新生入学
 icon: flow
 author: Mr.Hope
-time: 2025-07-23T09:43:28.631Z
+time: 2025-08-29T05:19:27.783Z
 shareable: true
 content:
   - tag: text
@@ -36,7 +36,7 @@ content:
 
       - loc: 43.863133,125.331584
         name: 报到处
-        detail: 2024年本部报到处
+        detail: 2025年本部报到处
 
   - tag: ol
     type: tip
@@ -65,14 +65,19 @@ content:
     text:
       - 请根据现场指引，找到惟真楼对面的所属学院接待点，办理新生报到手续。
 
-  - tag: img
-    src: $img/check/benbu-2024.png
-    desc: 本部校区 2024 年迎新接待点示意图
-    watermark: true
+  - tag: doc
+    name: 2025 年迎新接待点
+    url: $file/check/2025-place.pdf
 
   - tag: text
     text:
-      - 在学院接待点，负责迎新的学长学姐会查验您的录取通知书并核实身份，随后发放宿舍钥匙、校园卡及一张未激活的银行卡。
+      - 在学院接待点，负责迎新的学长学姐会查验您的录取通知书并核实身份，随后发放校园卡、春城卡及一张未激活的银行卡。
+
+  - tag: list
+    items:
+      - text: 春城卡
+        icon: card
+        path: chun-cheng
 
   - tag: text
     type: note
@@ -113,13 +118,19 @@ content:
 
   - tag: text
     text:
-      - 领取物品后，请携带行李前往指定宿舍楼。在宿舍大厅管理员处，凭个人信息与分配到的床位号办理入住登记，随后可乘电梯将行李运至房间。
+      - 领取物品后，请携带行李前往指定宿舍楼。在宿舍大厅管理员处，凭相关凭证与分配到的床位号办理入住登记，并领取钥匙。
+      - 随后自行或在学生志愿工作者的帮助下，乘电梯将行李运至寝室房间。
 
   - tag: text
     type: tip
     text:
       - 办理入住登记时需提交一张一寸照片，建议提前备好。
       - 特别提示：学生公寓三舍的电梯分为单层、双层及货梯。低楼层同学可搭乘货梯；高楼层同学请留意电梯口的指示牌，根据自己所在的楼层选择乘坐对应的单/双层电梯。
+
+  - tag: text
+    type: warning
+    text:
+      - 女家长可以进入男寝室，由于宿舍内有电梯，通常男家长不能进入女寝室。
 
   - tag: title
     text: 后续报到流程

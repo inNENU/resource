@@ -4,7 +4,7 @@ tags:
 icon: green-tunnel
 grey: true
 author: Mr.Hope
-time: 2024-08-16T20:57:33.092Z
+time: 2025-08-29T05:19:27.768Z
 shareable: true
 content:
   - tag: list
@@ -13,9 +13,9 @@ content:
         icon: about
         path: intro
 
-      - text: 2024 年公告
+      - text: 2025 年公告
         icon: notice
-        url: notice-detail?id=ddd1aa0974904377ab30bbdc09a06725&title=关于做好2024年本科新生“绿色通道”工作的通知
+        url: notice-detail?url=info/1031/29081.htm&title=关于做好2025年本科新生“绿色通道”工作的通知
 
   - tag: doc
     name: 东北师范大学本科学生“绿色通道”申请表

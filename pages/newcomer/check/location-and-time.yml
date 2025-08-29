@@ -4,7 +4,7 @@ tags:
   - 新生入学
 icon: time
 author: Mr.Hope
-time: 2025-08-24T06:10:20.131Z
+time: 2025-08-29T05:19:27.787Z
 shareable: true
 content:
   - tag: title
@@ -67,17 +67,16 @@ content:
   - tag: title
     text: 报到地点安排
 
-  # TODO: Update
-  - tag: text
-    type: warning
-    header: 重要提示：以下为2024年迎新安排，仅供参考。2025年具体安排待学校正式通知后更新，届时请以最新官方信息为准。
+  - tag: doc
+    name: 2025 年迎新接待点
+    url: $file/check/2025-place.pdf
 
   - tag: text
     text:
       - 本部校区报到处设于惟真楼对面区域。
 
   - tag: location
-    header: 本部校区报到处（参考2024年）
+    header: 本部校区报到处
     points:
       - loc: 43.86409,125.33468
         name: 东北门
@@ -109,7 +108,7 @@ content:
   #     - loc: 43.82886,125.42689
 
   - tag: location
-    header: 净月校区报到处（参考2024年）
+    header: 净月校区报到处
     points:
       - loc: 43.829067,125.427172
         name: 二号门
