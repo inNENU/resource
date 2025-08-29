@@ -7,8 +7,6 @@ photo:
   - $img/express/benbu/cainiao1.jpg
   - $img/express/benbu/cainiao2.jpg
   - $img/express/benbu/cainiao-scan.jpg
-  - $img/express/benbu/cainiao-temp1.jpg
-  - $img/express/benbu/cainiao-temp2.jpg
 content:
   - tag: title
     text: 简介
@@ -86,24 +84,4 @@ content:
   - tag: img
     src: $img/express/benbu/cainiao-scan.jpg
     desc: 菜鸟驿站扫描处
-    watermark: true
-
-  - tag: img
-    src: $img/express/benbu/cainiao-temp1.jpg
-    desc: 菜鸟驿站室外取件扫描处
-    watermark: true
-
-  - tag: img
-    src: $img/express/benbu/cainiao-temp2.jpg
-    desc: 菜鸟驿站室外取件点
-    watermark: true
-
-  - tag: text
-    type: important
-    text:
-      - 菜鸟驿站附近有很多垃圾桶，请妥善丢弃快递包装垃圾，不要乱扔垃圾。
-
-  - tag: img
-    src: $img/express/benbu/cainiao-trash.jpg
-    desc: 附近垃圾桶
     watermark: true

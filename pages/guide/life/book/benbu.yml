@@ -3,7 +3,7 @@ tags:
   - 校园生活
 icon: books
 author: Mr.Hope
-time: 2024-08-30T15:58:22.314Z
+time: 2025-08-29T08:14:10.311Z
 shareable: true
 content:
   - tag: title
@@ -12,45 +12,20 @@ content:
   - tag: ul
     text:
       - |-
-        樂读书庄: 北苑地下一楼北侧
+        天猫书店: 北苑地下一楼北侧
 
   - tag: location
-    header: 本部书店
+    header: 天猫书店
     points:
       - loc: 43.862959,125.332947
-        name: 樂读书庄
+        name: 天猫书店
         detail: 北苑地下一楼北侧
 
   - tag: text
-    header: 樂读书庄
+    header: 天猫书店
 
-  - tag: img
-    src: $img/life/beiyuan/ledu1.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/ledu2.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/ledu3.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/ledu4.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/ledu5.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/ledu6.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/life/beiyuan/ledu7.jpg
-    watermark: true
+  # TODO:
+  # Add tmall
 
   - tag: title
     text: 校外店铺
