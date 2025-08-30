@@ -4,7 +4,7 @@ tags:
 icon: dining
 desc: 售卖菜品与价格持续更新中，具体请以实际为准
 author: Mr.Hope
-time: 2024-08-16T20:57:33.386Z
+time: 2025-08-30T08:27:40.625Z
 shareable: true
 content:
   - tag: title
@@ -12,11 +12,6 @@ content:
 
   - tag: text
     text: 一楼特色档口位于北苑食堂南侧，包含 9 个档口。
-
-  - tag: img
-    src: $img/dining/beiyuan/1f0.jpg
-    desc: 木子铁饮品店
-    watermark: true
 
   - tag: img
     src: $img/dining/beiyuan/1f1.jpg
@@ -27,21 +22,20 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/dining/beiyuan/baozi.jpg
+    src: $img/dining/beiyuan/1f3.jpg
     watermark: true
 
   - tag: ul
     header: 包含档口
     text:
-      - 开封包子
       - 米线、麻辣烫
       - 小猴子煎肉饭
       - 喜庆日水饺
       - 李阿峰麻辣拌
       - 西部拉面
-      - 营养套餐
+      - 王宏龙馋嘴鱼
       - 老鸭粉丝汤
-      - 煎饼王、手抓饼
+      - 牛肉烧饼 VS 煎饼王
 
   - tag: list
     header: 一楼各档口菜品与价格
@@ -65,27 +59,31 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/dining/beiyuan/xiaochao.jpg
+    src: $img/dining/beiyuan/2f3.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/beiyuan/2f3.jpg
+    src: $img/dining/beiyuan/2f4.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dining/beiyuan/2f5.jpg
     watermark: true
 
   - tag: ul
     header: 包含档口
     text:
       - 东北小炒
-      - 韩国明洞料理
+      - 开封包子
       - 四川风味
-      - 五谷鱼粉
+      - 儒来砂锅居
       - 味之道营养套餐
       - 麻辣香锅
       - 港味龙叉烧饭
       - 北京风味
-      - 美食妹手拍粉 (也卖炸串)
-      - 尚品双拼饭
-      - 奇和祥
+      - 美食妹手拍粉(也卖炸串)
+      - 尚品双拼
+      - 奇和祥烫拌
       - 旋转火锅
 
   - tag: list
@@ -99,7 +97,7 @@ content:
     text: 总结
 
   - tag: text
-    text: 特色档口选择较多，味道不错，但是一般排队的人也比较多，价位比基本餐高，平均每人￥7 - 16。(男同学要可贵的点一顿吃 40 也不是梦)
+    text: 特色档口选择较多，味道不错，但是一般排队的人也比较多，价位比基本餐高，平均每人￥10 - 16。
 
   - tag: img
     src: $img/dining/beiyuan/special.jpg

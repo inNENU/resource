@@ -4,7 +4,7 @@ tags:
 icon: dining
 desc: 售卖菜品与价格持续更新中，具体请以实际为准
 author: Mr.Hope
-time: 2024-08-16T20:57:33.382Z
+time: 2025-08-30T08:27:40.624Z
 shareable: true
 content:
   - tag: title
@@ -12,15 +12,29 @@ content:
 
   - tag: ul
     text:
-      - 开封包子
       - 米线、麻辣烫
       - 小猴子煎肉饭
       - 喜庆日水饺
       - 李阿峰麻辣拌
       - 西部拉面
-      - 营养套餐
+      - 王宏龙馋嘴鱼
       - 老鸭粉丝汤
-      - 煎饼王、手抓饼
+      - 牛肉烧饼 VS 煎饼王
+
+  - tag: title
+    text: 一楼特色档口区域概览
+
+  - tag: img
+    src: $img/dining/beiyuan/1f1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dining/beiyuan/1f2.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dining/beiyuan/1f3.jpg
+    watermark: true
 
   - tag: title
     text: 档口售卖菜品与价格
@@ -55,23 +69,4 @@ content:
 
   - tag: img
     src: $img/dining/beiyuan/1f-detail8.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/dining/beiyuan/1f-detail9.jpg
-    watermark: true
-
-  - tag: title
-    text: 一楼特色档口区域概览
-
-  - tag: img
-    src: $img/dining/beiyuan/1f1.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/dining/beiyuan/1f2.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/dining/beiyuan/baozi.jpg
     watermark: true
