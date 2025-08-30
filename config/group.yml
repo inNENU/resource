@@ -369,7 +369,7 @@ under-enroll:
 first-day:
   tag: card
   cover: $img/tab/first-day.png
-  name: 开始报到
+  title: 开启你的东师校园生活
   path: newcomer/check/first-day
 
 under-study:
