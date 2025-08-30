@@ -7,6 +7,14 @@ main-presets:
   guest:
     - first-day
 
+    - tag: functional-list
+      items:
+        - text: 现在 inNENU 微信视频号直播答疑
+          icon: wechat
+          action: channel
+          id: sphQlMRqDF84Orm
+          username: inNENU
+
     - check
 
     - yiban-card
@@ -22,6 +30,14 @@ main-presets:
 
   newcomer:
     - first-day
+
+    - tag: functional-list
+      items:
+        - text: 现在 inNENU 微信视频号直播答疑
+          icon: wechat
+          action: channel
+          id: sphQlMRqDF84Orm
+          username: inNENU
 
     - check
 
