@@ -1,0 +1,127 @@
+title: 净月天猫超市
+tags:
+  - 超市
+icon: tmall
+desc: |-
+  相关照片由云泽提供
+author:
+  - Mr.Hope
+  - 云泽
+time: 2025-08-30T03:51:54.653Z
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text: 天猫超市于 2024 年暑假入驻净月校区。
+
+  - tag: carousel
+    fill: true
+    images:
+      - $img/shop/jingyue/entrance1.jpg
+      - $img/shop/jingyue/entrance2.jpg
+
+  - tag: title
+    text: 种类分布
+
+  - tag: text
+    text:
+      - 天猫超市物品种类齐全，无论是生活用品、文体用品，还是食品、饮品、面包、水果等都可以买到。
+
+  - tag: text
+    type: tip
+    text:
+      - 超市周边有杂货铺，可以买一些日杂品。
+
+  # FIXME:
+
+  - tag: text
+    type: note
+    header: 超市物品分布图正在抓紧制作中
+
+  # - tag: img
+  #   src: $img/life/beiyuan/map.jpg
+  #   desc: 超市物品分布图
+  #   watermark: true
+
+  - tag: title
+    text: 支付方式
+
+  - tag: text
+    header: 自动付款 (支付宝、微信)
+    text:
+      - 需要自行将商品扫码，并使用支付宝扫码或刷脸/微信扫码进行支付
+
+  - tag: img
+    src: $img/shop/jingyue/checkout1.jpg
+    desc: 自助结账处
+    watermark: true
+
+  - tag: text
+    header: 人工
+    text:
+      - 如使用现金或者购买促销、满赠商品需要使用人工付款。
+
+  - tag: img
+    src: $img/shop/jingyue/checkout2.jpg
+    desc: 人工结账处
+    watermark: true
+
+  - tag: title
+    text: 价格
+
+  - tag: text
+    text: 天猫超市为常规的零售价。
+
+  - tag: title
+    text: 超市图片
+
+  - tag: carousel
+    images:
+      - $img/shop/jingyue/goods1.jpg
+      - $img/shop/jingyue/goods2.jpg
+      - $img/shop/jingyue/goods3.jpg
+      - $img/shop/jingyue/goods4.jpg
+      - $img/shop/jingyue/goods5.jpg
+      - $img/shop/jingyue/goods6.jpg
+      - $img/shop/jingyue/goods7.jpg
+      - $img/shop/jingyue/goods8.jpg
+      - $img/shop/jingyue/goods9.jpg
+      - $img/shop/jingyue/goods10.jpg
+      - $img/shop/jingyue/goods11.jpg
+      - $img/shop/jingyue/goods12.jpg
+      - $img/shop/jingyue/goods13.jpg
+      - $img/shop/jingyue/goods14.jpg
+      - $img/shop/jingyue/goods15.jpg
+      - $img/shop/jingyue/goods16.jpg
+      - $img/shop/jingyue/goods17.jpg
+      - $img/shop/jingyue/goods18.jpg
+      - $img/shop/jingyue/goods19.jpg
+      - $img/shop/jingyue/goods20.jpg
+      - $img/shop/jingyue/goods21.jpg
+      - $img/shop/jingyue/goods22.jpg
+      - $img/shop/jingyue/goods23.jpg
+      - $img/shop/jingyue/goods24.jpg
+      - $img/shop/jingyue/goods25.jpg
+      - $img/shop/jingyue/goods26.jpg
+      - $img/shop/jingyue/goods27.jpg
+      - $img/shop/jingyue/goods28.jpg
+      - $img/shop/jingyue/goods29.jpg
+      - $img/shop/jingyue/goods30.jpg
+      - $img/shop/jingyue/goods31.jpg
+      - $img/shop/jingyue/goods32.jpg
+      - $img/shop/jingyue/goods33.jpg
+      - $img/shop/jingyue/goods34.jpg
+      - $img/shop/jingyue/goods35.jpg
+      - $img/shop/jingyue/goods36.jpg
+      - $img/shop/jingyue/goods37.jpg
+      - $img/shop/jingyue/goods38.jpg
+      - $img/shop/jingyue/goods39.jpg
+      - $img/shop/jingyue/goods40.jpg
+
+  - tag: text
+    text: 超市还会有一些临时区以及促销区域。
+
+  - tag: img
+    src: $img/shop/jingyue/sale1.jpg
+    desc: 促销区域
+    watermark: true

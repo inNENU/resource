@@ -3,7 +3,7 @@ tags:
   - 选课
 icon: time
 author: Mr.Hope
-time: 2025-08-10T12:40:29.240Z
+time: 2025-08-30T03:51:54.641Z
 grey: true
 shareable: true
 content:
@@ -38,12 +38,12 @@ content:
         icon: notice
         url: notice-detail?url=info/1031/24591.htm&title=关于2025年秋季学期本科生选课的通知
 
-      # FIXME: Update at 2024-09
+      # FIXME: Update at 2025-09
       # - text: 研究生 2024 秋季学期选课通知
       #   icon: notice
       #   url: notice/old
 
-      # FIXME: Update at 2024-09
+      # FIXME: Update at 2025-09
       # - text: 2023 级学硕选课须知
       #   icon: notice
       #   path: notice/study

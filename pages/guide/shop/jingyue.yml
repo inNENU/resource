@@ -3,7 +3,7 @@ tags:
   - 超市
 icon: shop
 author: Mr.Hope
-time: 2025-08-29T11:50:49.444Z
+time: 2025-08-30T03:51:54.654Z
 shareable: true
 content:
   - tag: list
@@ -17,13 +17,11 @@ content:
 
   - tag: list
     items:
-      # FIXME:
       - text: 天猫超市
-        desc: 装修中
+        path: jingyue-tmall
 
-      # FIXME:
       - text: 二食堂生活区
-        desc: 装修中
+        path: /guide/life/dining2-district
 
       - text: 净月临时售卖点
         path: jingyue-temp

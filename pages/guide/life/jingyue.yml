@@ -2,7 +2,7 @@ title: 净月生活
 aiIgnore: true
 icon: life
 author: Mr.Hope
-time: 2025-07-23T09:43:28.483Z
+time: 2025-08-30T03:51:54.549Z
 shareable: true
 content:
   - tag: title
@@ -12,8 +12,7 @@ content:
     items:
       - text: 二食堂生活区介绍
         icon: shop
-        desc: 装修中
-        # path: dining2-district
+        path: dining2-district
 
       - text: 浴池生活区介绍
         icon: bath

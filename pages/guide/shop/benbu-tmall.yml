@@ -7,7 +7,7 @@ desc: |-
 author:
   - Mr.Hope
   - 晴子
-time: 2025-08-29T11:50:49.440Z
+time: 2025-08-30T03:51:54.649Z
 shareable: true
 content:
   - tag: text
@@ -110,24 +110,4 @@ content:
 
   - tag: img
     src: $img/shop/benbu/life4.jpg
-    watermark: true
-
-  - tag: text
-    header: 新生用品
-
-  - tag: img
-    src: $img/shop/benbu/newcomer1.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/shop/benbu/newcomer2.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/shop/benbu/newcomer3.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/shop/benbu/newcomer-price.jpg
-    desc: 价格
     watermark: true
