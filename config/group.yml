@@ -44,7 +44,6 @@ stream-card:
   tag: card
   cover: $img/tab/stream.png
   title: 经验分享与答疑 (非常有用)
-  # desc: 从20号开始继续经验分享与答疑。会讲很多干货，欢迎大家参与！
   desc: 直播分享已结束，可看回放
   path: newcomer/activity/streaming
 
@@ -58,33 +57,33 @@ check:
   tag: grid
   header: 报到相关
   items:
-    - text: 入学准备
-      icon: prepare
-      path: newcomer/prepare/
-
-    - text: 新生群
-      icon: qq-group
-      path: newcomer/contact/
-
     - text: 到校路线
       icon: locate
       path: newcomer/arrival/
+
+    - text: 校园导航
+      icon: map
+      url: map
 
     - text: 新生报到
       icon: check
       path: newcomer/check/
 
-    - text: 需带物品
+    - text: 物品清单
       icon: necessity
       path: newcomer/necessity/
+
+    - text: 入学活动
+      icon: activity
+      path: newcomer/activity/
 
     - text: 军训
       icon: military
       path: newcomer/activity/military/
 
-    - text: 入学活动
-      icon: activity
-      path: newcomer/activity/
+    - text: 新生群
+      icon: qq-group
+      path: newcomer/contact/
 
     - text: 防盗防骗
       icon: safe

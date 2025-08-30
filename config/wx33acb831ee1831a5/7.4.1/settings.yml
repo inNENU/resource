@@ -78,13 +78,13 @@ guide-page:
   guest:
     items:
       - newcomer
-      - life
-      - study
-      - enjoy
-      - normal
-    more:
       - account
       - service
+      - life
+      - study
+    more:
+      - normal
+      - enjoy
       - tip
       - graduate
 
