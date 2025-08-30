@@ -5,7 +5,7 @@ tags:
 icon: bath
 grey: true
 author: Mr.Hope
-time: 2025-07-23T09:43:28.426Z
+time: 2025-08-30T12:55:23.114Z
 shareable: true
 content:
   - tag: text
@@ -16,35 +16,41 @@ content:
       - 净月校区浴池配备了免费健身房，两校区浴池均设有休息厅以及便民商家服务。
 
   - tag: list
+    header: 本部浴池
     items:
-      - text: 如何洗浴
-        icon: bath
-        path: usage
-
-  - tag: list
-    header: 浴池介绍
-    items:
-      - text: 本部
+      - text: 本部浴池介绍
         path: benbu
 
-      - text: 净月
-        path: jingyue
+      - text: 如何洗浴
+        icon: bath
+        path: benbu-usage
 
-  - tag: list
-    header: 浴池账户
-    items:
       - text: 提供商与计费
         icon: account
-        path: account
+        path: benbu-account
 
       - text: 浴池充值
         icon: charge
-        path: charge
+        path: benbu-charge
 
       - text: 浴池金额查看
         icon: money
-        path: money
+        path: benbu-money
 
       - text: 浴池提现
+        icon: change
+        path: cash
+
+  - tag: list
+    header: 净月浴池
+    items:
+      - text: 净月
+        path: jingyue
+
+      - text: 如何洗浴
+        icon: bath
+        path: jingyue-usage
+
+      - text: 原有浴池金额提现
         icon: change
         path: cash

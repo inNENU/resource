@@ -1,0 +1,24 @@
+title: 净月洗浴方式
+tags:
+  - 浴池
+  - 校园生活
+icon: bath
+author: Mr.Hope
+time: 2025-08-30T12:55:23.114Z
+shareable: true
+content:
+  - tag: title
+    text: 使用方式
+
+  - tag: text
+    text:
+      - 需要先下载“胖乖生活”APP或打开支付宝“胖乖生活”小程序使用。
+      - 洗浴方式有两种：扫码洗浴或密码输入洗浴。在设备显示屏上按“取消返回”键三次，即可切换到扫码或密码输入界面。
+
+  - tag: img
+    src: $img/bath/jingyue-scan.jpg
+    desc: 扫码洗浴
+
+  - tag: img
+    src: $img/bath/jingyue-password.jpg
+    desc: 密码输入洗浴

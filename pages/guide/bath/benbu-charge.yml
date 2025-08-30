@@ -1,10 +1,10 @@
-title: 洗浴充值
+title: 本部洗浴充值
 tags:
   - 浴池
   - 校园生活
 icon: charge
 author: Mr.Hope
-time: 2025-07-23T09:43:28.425Z
+time: 2025-08-30T12:55:23.109Z
 shareable: true
 content:
   - tag: text
@@ -13,9 +13,9 @@ content:
 
   - tag: list
     items:
-      - text: 浴池账户与计费
+      - text: 本部浴池账户与计费
         icon: account
-        path: account
+        path: benbu-account
 
   - tag: text
     text: 进入“台州博诚”公众号后，点击“钱包充值”菜单，然后选择您所在的校区。

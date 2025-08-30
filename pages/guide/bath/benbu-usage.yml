@@ -1,10 +1,10 @@
-title: 洗浴方式
+title: 本部洗浴方式
 tags:
   - 浴池
   - 校园生活
 icon: bath
 author: Mr.Hope
-time: 2025-07-23T09:43:28.426Z
+time: 2025-08-30T12:55:23.111Z
 shareable: true
 content:
   - tag: title
@@ -19,7 +19,7 @@ content:
   - tag: text
     type: note
     text: 使用前，请确保您已关注微信公众号“台州博诚”，并完成账户绑定等初始设置。
-    path: account
+    path: benbu-account
 
   - tag: title
     text: 设置洗浴密码
