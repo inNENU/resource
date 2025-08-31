@@ -304,6 +304,11 @@ notice:
     content: 2025 级新生目前可激活账号。如激活中遇到问题，请联系信息化办公室 0431-85099005。
     force: true
 
+  account-login:
+    title: 个人信息获取失败
+    content: 目前发现部分研究生账户会出现个人信息获取失败的情况，Mr.Hope 正在调查此问题。个别本科生无法登录的，请通过小程序客服联系我。
+    force: true
+
 update:
   force: true
   reset: false

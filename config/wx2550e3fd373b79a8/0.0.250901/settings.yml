@@ -5,30 +5,46 @@ main-page:
 
 main-presets:
   guest:
-    - stream-card
+    # - first-day
+
+    # - tag: functional-list
+    #   items:
+    #     - text: 现在 inNENU 微信视频号直播答疑
+    #       icon: wechat
+    #       action: channel
+    #       id: sphQlMRqDF84Orm
+    #       username: inNENU
+
+    - check
+
+    - school-basic-info
 
     - yiban-card
 
     - activate-hint
+    - login-hint
 
     - qq-group-hint
 
-    - school-basic-info
-
-    - tag: list
-      items:
-        - text: 登录开启海量校园功能
-          url: account-login
-
-    - faq-card
-
-  newcomer:
     - stream-card
 
-    - yiban-card
+  newcomer:
+    # - first-day
+
+    # - tag: functional-list
+    #   items:
+    #     - text: 现在 inNENU 微信视频号直播答疑
+    #       icon: wechat
+    #       action: channel
+    #       id: sphQlMRqDF84Orm
+    #       username: inNENU
+
+    - check
+
+    - school-basic-info
 
     - tag: functional-list
-      header: 如果你觉得 inNENU 对你有帮助
+      header: 如果你觉得 weNENU 对你有帮助
       items:
         - text: 向你的同学们分享小程序
           icon: share
@@ -37,21 +53,19 @@ main-presets:
 
         - text: 关注 inNENU 微信公众号
           icon: wechat
-          type: button
-          handler: openOfficial
+          url: qrcode
 
         - text: 关注 inNENU 微信视频号
           icon: wechat
-          type: button
-          handler: openChannel
+          action: channel
+          id: sphQlMRqDF84Orm
+          username: inNENU
 
-    - activate-hint
+    - yiban-card
 
     - qq-group-hint
 
-    - school-basic-info
-
-    - faq-card
+    - stream-card
 
   at-school:
     - common
@@ -79,17 +93,17 @@ guide-page:
   guest:
     items:
       - newcomer
-      - life
-      - study
-      - enjoy
-      - normal
-    more:
       - account
       - service
+      - life
+      - study
+    more:
+      - normal
+      - enjoy
       - tip
       - graduate
 
-  "2024":
+  "2025":
     items:
       - newcomer
       - life
@@ -186,12 +200,15 @@ user:
 
       - text: inNENU 微信公众号
         icon: wechat
-        url: qrcode
+        action: official
+        username: gh_b4378a2c36ae
 
       - text: inNENU 微信视频号
         icon: wechat
         type: button
-        handler: openChannel
+        action: channel
+        id: sphQlMRqDF84Orm
+        username: inNENU
 
       - text: 联系 Mr.Hope
         icon: contact
@@ -280,10 +297,6 @@ notice:
   main:
     title: 欢迎使用 weNENU
     content: 欢迎使用 weNENU。这是一个由 Mr.Hope 个人制作的非官方小程序，内含 $word-total 万字的新生攻略。希望大家能够通过小程序摆脱对大学的迷茫。
-
-  account-login:
-    title: 异地登录提示
-    content: 为了通过统一身份认证系统，小程序需要通过服务器转发登录请求解析登录令牌后以小程序可以理解的方式返回。由于小程序服务器位于北京，这一过程会出现异地登录提示。请放心，这并不会影响您的账号安全。
 
   account-activate:
     title: 提示
