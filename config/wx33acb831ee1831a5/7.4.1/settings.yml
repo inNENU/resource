@@ -5,17 +5,19 @@ main-page:
 
 main-presets:
   guest:
-    - first-day
+    # - first-day
 
-    - tag: functional-list
-      items:
-        - text: 现在 inNENU 微信视频号直播答疑
-          icon: wechat
-          action: channel
-          id: sphQlMRqDF84Orm
-          username: inNENU
+    # - tag: functional-list
+    #   items:
+    #     - text: 现在 inNENU 微信视频号直播答疑
+    #       icon: wechat
+    #       action: channel
+    #       id: sphQlMRqDF84Orm
+    #       username: inNENU
 
     - check
+
+    - school-basic-info
 
     - yiban-card
 
@@ -26,22 +28,20 @@ main-presets:
 
     - stream-card
 
-    - school-basic-info
-
   newcomer:
-    - first-day
+    # - first-day
 
-    - tag: functional-list
-      items:
-        - text: 现在 inNENU 微信视频号直播答疑
-          icon: wechat
-          action: channel
-          id: sphQlMRqDF84Orm
-          username: inNENU
+    # - tag: functional-list
+    #   items:
+    #     - text: 现在 inNENU 微信视频号直播答疑
+    #       icon: wechat
+    #       action: channel
+    #       id: sphQlMRqDF84Orm
+    #       username: inNENU
 
     - check
 
-    - yiban-card
+    - school-basic-info
 
     - tag: functional-list
       header: 如果你觉得 inNENU 对你有帮助
@@ -62,11 +62,11 @@ main-presets:
           id: sphQlMRqDF84Orm
           username: inNENU
 
+    - yiban-card
+
     - qq-group-hint
 
     - stream-card
-
-    - school-basic-info
 
   at-school:
     - common

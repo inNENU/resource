@@ -411,3 +411,9 @@ under-study:
     - text: 课程评价
       icon: heart
       url: under-commentary
+
+map:
+  tag: card
+  cover: $img/tab/map.jpg
+  title: 校园地图
+  url: map
