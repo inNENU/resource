@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "qq-accounts",
+  "description": "QQ 账号数据",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/qq-account-group"
+  },
+  "definitions": {
+    "qq-account-group": {
+      "id": "qq-account-group",
+      "description": "QQ 账号组",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "QQ 账号组名称",
+          "type": "string"
+        },
+        "account": {
+          "description": "QQ 账号列表",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/qq-account-info"
+          }
+        }
+      },
+      "required": ["name", "account"],
+      "additionalProperties": false
+    },
+    "qq-account-info": {
+      "id": "qq-account-info",
+      "description": "QQ 账号信息",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "QQ 账号名称",
+          "type": "string"
+        },
+        "desc": {
+          "description": "QQ 账号描述",
+          "type": "string"
+        },
+        "logo": {
+          "description": "QQ 账号 logo",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+            }
+          ]
+        },
+        "id": {
+          "description": "QQ 号",
+          "type": "number",
+          "minimum": 10000,
+          "maximum": 5000000000
+        },
+        "qrcode": {
+          "description": "QQ 账号二维码",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+            }
+          ]
+        }
+      },
+      "required": ["name", "desc", "logo", "id"],
+      "additionalProperties": false
+    }
+  },
+  "title": "QQ Accounts"
+}

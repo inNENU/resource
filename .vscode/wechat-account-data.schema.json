@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "wechat-account-data",
+  "description": "微信公众号数据",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "账户名称",
+      "type": "string"
+    },
+    "detail": {
+      "description": "账户全名",
+      "type": "string"
+    },
+    "desc": {
+      "description": "账户描述",
+      "type": "string"
+    },
+    "id": {
+      "description": "微信公众号 ID",
+      "type": "string"
+    },
+    "logo": {
+      "description": "账户图标",
+      "anyOf": [
+        {
+          "description": "HTTPS链接",
+          "type": "string",
+          "format": "uri"
+        },
+        {
+          "type": "string",
+          "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+        }
+      ]
+    },
+    "follow": {
+      "description": "关注链接",
+      "type": "string",
+      "format": "uri"
+    },
+    "article": {
+      "description": "文章列表",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/wechat-article"
+      }
+    }
+  },
+  "required": ["name", "id", "logo", "article"],
+  "additionalProperties": false,
+  "definitions": {
+    "wechat-article": {
+      "id": "wechat-article",
+      "description": "微信文章",
+      "type": "object",
+      "properties": {
+        "cover": {
+          "description": "文章封面",
+          "type": "string",
+          "format": "uri"
+        },
+        "title": {
+          "description": "文章标题",
+          "type": "string"
+        },
+        "url": {
+          "description": "文章链接",
+          "type": "string",
+          "format": "uri"
+        },
+        "desc": {
+          "description": "文章描述",
+          "type": "string"
+        }
+      },
+      "required": ["cover", "title", "url"],
+      "additionalProperties": false
+    }
+  },
+  "title": "WeChat Account Data"
+}
