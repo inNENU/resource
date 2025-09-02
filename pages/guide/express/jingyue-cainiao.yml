@@ -5,7 +5,7 @@ icon: cainiao
 desc: 照片来自王慕梓
 author:
   - Mr.Hope
-time: 2025-07-23T09:43:28.472Z
+time: 2025-09-02T04:39:47.275Z
 shareable: true
 content:
   - tag: title
@@ -45,29 +45,11 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/express/jingyue/cainiao.jpg
-    desc: 正门
-    watermark: true
-
-  - tag: img
     src: $img/express/jingyue/cainiao1.jpg
     watermark: true
 
   - tag: img
     src: $img/express/jingyue/cainiao2.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/express/jingyue/cainiao3.jpg
-    desc: 自助取件处
-    watermark: true
-
-  - tag: img
-    src: $img/express/jingyue/cainiao4.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/express/jingyue/cainiao5.jpg
     watermark: true
 
   - tag: title
@@ -81,7 +63,6 @@ content:
   - tag: ol
     text:
       - 按照菜鸟 APP 或手机短信的取件码寻找货架找到快递
-        右手边的货架从里到外是 1 - 32 号，左手边的货架从外到里是 64 - 33 号。
       - 调出菜鸟驿站身份码
       - 在自助扫描机扫描处，同时扫描快递单号与身份码
       - 机器发出取件成功的提示音后，取件完成
@@ -106,22 +87,3 @@ content:
       - 请确保将快递包含单号的那面朝上，保证快递单上的条形码和手机显示的身份码全都进入扫描区域并无遮挡方可取件成功。
       - 如果网不好或者操作不当导致出错，机器会发出“出错了，请联系工作人员”的提示音。此时请移出快递，待机器屏幕警示消失后，再次尝试扫描。
       - 如果一直扫描出错，请联系驿站工作人员处理。
-
-  # - tag: title
-  #   text: 联系方式
-
-  # - tag: action
-  #   header: 菜鸟驿站微信号
-  #   content: wxid_vik9unh166a322
-
-  # - tag: phone
-  #   header: 净月京东快递
-  #   num: 13021088631
-  #   fName: 净月京东快递
-  #   org: 东北师范大学
-
-  # - tag: phone
-  #   header: 净月顺丰快递
-  #   num: 13804374160
-  #   fName: 净月顺丰快递
-  #   org: 东北师范大学

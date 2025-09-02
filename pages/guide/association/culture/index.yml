@@ -4,7 +4,7 @@ tags:
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2025-07-27T10:25:37.061Z
+time: 2025-09-02T04:39:47.235Z
 shareable: true
 content:
   - tag: title
@@ -112,3 +112,8 @@ content:
         openType: contact
         env:
           - wx
+
+      - text: QQ 搜索 inNENU 联系 inNENU
+        icon: contact
+        env:
+          - app
