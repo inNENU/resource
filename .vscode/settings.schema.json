@@ -1,8 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema",
-  "$ref": "https://res.innenu.com/.vscode/components.schema.json",
+  "$ref": "https://res.innenu.com/.vscode/component.schema.json",
   "additionalProperties": false,
   "$defs": {
+    "components": {
+      "description": "组件列表",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/component"
+      }
+    },
     "service-status": {
       "description": "服务状态",
       "oneOf": [{ "const": "local" }, { "const": "online" }]

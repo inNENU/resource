@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "wechat-accounts",
+  "description": "微信公众号数据",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/wechat-account-group"
+  },
+  "definitions": {
+    "wechat-account-group": {
+      "id": "wechat-account-group",
+      "description": "微信公众号组",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "微信公众号组名称",
+          "type": "string"
+        },
+        "account": {
+          "description": "微信公众号列表",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/wechat-account-info"
+          }
+        }
+      },
+      "required": ["name", "account"],
+      "additionalProperties": false
+    },
+    "wechat-account-info": {
+      "id": "wechat-account-info",
+      "description": "微信公众号信息",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "微信公众号名称",
+          "type": "string"
+        },
+        "desc": {
+          "description": "微信公众号描述",
+          "type": "string"
+        },
+        "logo": {
+          "description": "微信公众号 logo",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+            }
+          ]
+        },
+        "id": {
+          "description": "微信公众号 ID",
+          "type": "string"
+        },
+        "path": {
+          "description": "微信公众号路径",
+          "type": "string"
+        },
+        "allowed": {
+          "description": "是否允许跳转",
+          "type": "boolean"
+        }
+      },
+      "required": ["name", "desc", "logo", "id"],
+      "additionalProperties": false
+    }
+  },
+  "title": "WeChat Accounts"
+}
