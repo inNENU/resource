@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "markers-config",
+  "description": "标记点配置集合",
+  "type": "object",
+  "propertyNames": {
+    "type": "string"
+  },
+  "additionalProperties": {
+    "$ref": "#/definitions/marker-category"
+  },
+  "definitions": {
+    "marker-category": {
+      "id": "marker-category",
+      "description": "标记点分类",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "分类名称",
+          "type": "string",
+          "minLength": 1
+        },
+        "content": {
+          "description": "分类内容",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/marker-config"
+          }
+        }
+      },
+      "required": ["name", "content"],
+      "additionalProperties": false
+    },
+    "marker-config": {
+      "id": "marker-config",
+      "description": "标记点配置",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "地点名称",
+          "type": "string",
+          "minLength": 1
+        },
+        "loc": {
+          "description": "位置信息",
+          "type": "string",
+          "pattern": "^-?\\d+(?:\\.\\d+)?,-?\\d+(?:\\.\\d+)?$"
+        },
+        "detail": {
+          "description": "地点详细名称",
+          "type": "string"
+        },
+        "path": {
+          "description": "地点介绍路径",
+          "type": "string"
+        }
+      },
+      "required": ["name", "loc"],
+      "additionalProperties": false
+    }
+  },
+  "title": "Map Markers"
+}

@@ -1,0 +1,4385 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "page-config",
+  "description": "页面配置",
+  "type": "object",
+  "properties": {
+    "title": {
+      "$ref": "#/definitions/page-title"
+    },
+    "icon": {
+      "description": "图标",
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+        },
+        {
+          "description": "图片地址",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+            }
+          ]
+        }
+      ]
+    },
+    "aiIgnore": {
+      "type": "boolean"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "desc": {
+      "type": "string"
+    },
+    "author": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "time": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+    },
+    "id": {
+      "type": "string"
+    },
+    "grey": {
+      "type": "boolean"
+    },
+    "content": {
+      "$ref": "#/definitions/page-content"
+    },
+    "cite": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "outdated": {
+      "type": "boolean"
+    },
+    "shareable": {
+      "type": "boolean"
+    },
+    "qrcode": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
+    "contact": {
+      "type": "boolean"
+    }
+  },
+  "required": ["title", "content"],
+  "additionalProperties": false,
+  "definitions": {
+    "page-title": {
+      "id": "page-title",
+      "description": "页面标题",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 30
+    },
+    "page-content": {
+      "id": "page-content",
+      "description": "页面内容",
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/component"
+      }
+    },
+    "component": {
+      "id": "component",
+      "description": "页面组件",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/account-component"
+        },
+        {
+          "$ref": "#/definitions/action-component"
+        },
+        {
+          "$ref": "#/definitions/audio-component"
+        },
+        {
+          "$ref": "#/definitions/card-component"
+        },
+        {
+          "$ref": "#/definitions/carousel-component"
+        },
+        {
+          "$ref": "#/definitions/doc-component"
+        },
+        {
+          "$ref": "#/definitions/footer-component"
+        },
+        {
+          "$ref": "#/definitions/functional-list-component"
+        },
+        {
+          "$ref": "#/definitions/grid-component"
+        },
+        {
+          "$ref": "#/definitions/img-component"
+        },
+        {
+          "$ref": "#/definitions/list-component"
+        },
+        {
+          "$ref": "#/definitions/location-component"
+        },
+        {
+          "$ref": "#/definitions/phone-component"
+        },
+        {
+          "$ref": "#/definitions/table-component"
+        },
+        {
+          "$ref": "#/definitions/text-component"
+        },
+        {
+          "$ref": "#/definitions/title-component"
+        },
+        {
+          "$ref": "#/definitions/video-component"
+        }
+      ]
+    },
+    "account-component": {
+      "id": "account-component",
+      "description": "账户组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "account"
+        },
+        "name": {
+          "description": "主体名称",
+          "type": "string",
+          "minLength": 1
+        },
+        "logo": {
+          "description": "图标地址",
+          "type": "string",
+          "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+        },
+        "detail": {
+          "description": "账户详情",
+          "type": "string"
+        },
+        "desc": {
+          "description": "主体描述",
+          "type": "string"
+        },
+        "qq": {
+          "description": "账户 QQ 号",
+          "type": "number",
+          "minimum": 10001,
+          "maximum": 5000000000
+        },
+        "qqcode": {
+          "description": "账户 QQ 二维码",
+          "type": "string",
+          "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+        },
+        "wxid": {
+          "description": "微信公众号 ID",
+          "type": "string",
+          "pattern": "^[a-zA-Z][-_a-zA-Z0-9]{5,19}$"
+        },
+        "account": {
+          "description": "账户 ID",
+          "type": "string"
+        },
+        "loc": {
+          "description": "位置坐标",
+          "type": "string",
+          "pattern": "^-?\\d+(?:\\.\\d+)?,-?\\d+(?:\\.\\d+)?$"
+        },
+        "mail": {
+          "description": "邮箱地址",
+          "type": "string",
+          "format": "email",
+          "pattern": "^(?!\\.)(?!.*\\.\\.)([A-Za-z0-9_'+\\-\\.]*)[A-Za-z0-9_+-]@([A-Za-z0-9][A-Za-z0-9\\-]*\\.)+[A-Za-z]{2,}$"
+        },
+        "site": {
+          "description": "网站地址",
+          "type": "string",
+          "format": "uri"
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "name", "logo"],
+      "additionalProperties": false
+    },
+    "action-component": {
+      "id": "action-component",
+      "description": "动作组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "action"
+        },
+        "header": {
+          "description": "标题",
+          "type": "string"
+        },
+        "content": {
+          "description": "动作内容",
+          "type": "string",
+          "minLength": 1
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "content"],
+      "additionalProperties": false
+    },
+    "audio-component": {
+      "id": "audio-component",
+      "description": "音频组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "audio"
+        },
+        "src": {
+          "description": "媒体文件的在线网址或本地路径",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$file\\/[\\s\\S]{0,}$"
+            }
+          ]
+        },
+        "name": {
+          "description": "音频名字",
+          "type": "string"
+        },
+        "author": {
+          "description": "音频作者",
+          "type": "string"
+        },
+        "poster": {
+          "description": "音频封面",
+          "type": "string"
+        },
+        "autoplay": {
+          "description": "是否自动播放",
+          "type": "boolean"
+        },
+        "loop": {
+          "description": "是否循环播放",
+          "type": "boolean"
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "src"],
+      "additionalProperties": false
+    },
+    "card-component": {
+      "id": "card-component",
+      "description": "卡片组件",
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "path": {
+              "description": "跳转的文件名称",
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["tag", "title", "path"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "url": {
+              "description": "处理后的路径",
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["tag", "title", "url"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "official"
+            },
+            "username": {
+              "description": "用户名",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "title", "action", "username"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "channel"
+            },
+            "username": {
+              "description": "视频号名称",
+              "type": "string"
+            },
+            "id": {
+              "description": "视频号 ID",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "title", "action", "username", "id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "article"
+            },
+            "url": {
+              "description": "文章链接",
+              "type": "string",
+              "pattern": "^https:\\/\\/mp.weixin.qq.com\\/s\\/"
+            }
+          },
+          "required": ["tag", "title", "action", "url"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "video"
+            },
+            "username": {
+              "description": "视频号 ID",
+              "type": "string"
+            },
+            "id": {
+              "description": "视频 ID",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "title", "action", "username", "id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "miniProgram"
+            },
+            "extraData": {
+              "description": "需要传递给目标小程序的数据",
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "versionType": {
+              "description": "要打开的小程序版本",
+              "type": "string",
+              "enum": ["develop", "trial", "release"]
+            },
+            "appId": {
+              "description": "要打开的小程序 appId",
+              "type": "string",
+              "minLength": 1
+            },
+            "path": {
+              "description": "打开的页面路径",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "title", "action", "appId"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "const": "card"
+            },
+            "title": {
+              "description": "卡片标题",
+              "type": "string",
+              "minLength": 1
+            },
+            "desc": {
+              "description": "卡片描述",
+              "type": "string"
+            },
+            "cover": {
+              "description": "封面图片在线地址",
+              "anyOf": [
+                {
+                  "description": "HTTPS链接",
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                }
+              ]
+            },
+            "logo": {
+              "description": "卡片 Logo 地址",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                },
+                {
+                  "description": "图片地址",
+                  "anyOf": [
+                    {
+                      "description": "HTTPS链接",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": {
+              "description": "卡片 Logo 名称",
+              "type": "string"
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "miniProgram"
+            },
+            "extraData": {
+              "description": "需要传递给目标小程序的数据",
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "versionType": {
+              "description": "要打开的小程序版本",
+              "type": "string",
+              "enum": ["develop", "trial", "release"]
+            },
+            "shortLink": {
+              "description": "小程序短链",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "title", "action", "shortLink"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "carousel-component": {
+      "id": "carousel-component",
+      "description": "轮播图组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "carousel"
+        },
+        "images": {
+          "description": "swiper 展示的图片的在线网址或本地路径",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "description": "图片地址",
+            "anyOf": [
+              {
+                "description": "HTTPS链接",
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "string",
+                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+              }
+            ]
+          }
+        },
+        "fill": {
+          "description": "轮播图是否填满屏幕宽度",
+          "type": "boolean"
+        },
+        "class": {
+          "description": "swiper 的类名",
+          "type": "string"
+        },
+        "style": {
+          "description": "样式定义",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "indicatorDots": {
+          "description": "面板指示点",
+          "type": "boolean"
+        },
+        "dotColor": {
+          "description": "指示点颜色",
+          "type": "string"
+        },
+        "dotActiveColor": {
+          "description": "当前选中的指示点颜色",
+          "type": "string"
+        },
+        "autoplay": {
+          "description": "自动切换",
+          "type": "boolean"
+        },
+        "interval": {
+          "description": "自动切换时间间隔",
+          "type": "number",
+          "minimum": 0
+        },
+        "duration": {
+          "description": "滑动动画时长",
+          "type": "number",
+          "minimum": 0
+        },
+        "circular": {
+          "description": "衔接滑动",
+          "type": "boolean"
+        },
+        "vertical": {
+          "description": "是否是纵向滑动",
+          "type": "boolean"
+        },
+        "imgClass": {
+          "description": "swiper 中图片的类名",
+          "type": "string"
+        },
+        "imgMode": {
+          "description": "图片的显示模式",
+          "type": "string",
+          "enum": [
+            "widthFix",
+            "scaleToFill",
+            "aspectFit",
+            "aspectFill",
+            "top",
+            "bottom",
+            "center",
+            "left",
+            "right",
+            "top left",
+            "top right",
+            "bottom left",
+            "bottom right"
+          ]
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "images"],
+      "additionalProperties": false
+    },
+    "doc-component": {
+      "id": "doc-component",
+      "description": "文档组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "doc"
+        },
+        "name": {
+          "description": "文档名称",
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "description": "文档地址",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$file\\/[\\s\\S]{0,}$"
+            }
+          ]
+        },
+        "downloadable": {
+          "description": "文档是否可下载",
+          "type": "boolean",
+          "const": false
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "name", "url"],
+      "additionalProperties": false
+    },
+    "footer-component": {
+      "id": "footer-component",
+      "description": "页脚组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "footer"
+        },
+        "author": {
+          "description": "作者",
+          "type": "string"
+        },
+        "time": {
+          "description": "最后更新日期",
+          "type": "string"
+        },
+        "desc": {
+          "description": "额外描述",
+          "type": "string"
+        },
+        "cite": {
+          "description": "原文链接",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag"],
+      "additionalProperties": false
+    },
+    "functional-list-component": {
+      "id": "functional-list-component",
+      "description": "功能性列表组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "functional-list"
+        },
+        "header": {
+          "description": "列表标题",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "boolean",
+              "const": false
+            }
+          ]
+        },
+        "items": {
+          "description": "列表内容",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "description": "列表单元的显示文字",
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "icon": {
+                        "description": "列表图标的本地路径或在线网址",
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                          },
+                          {
+                            "description": "图片地址",
+                            "anyOf": [
+                              {
+                                "description": "HTTPS链接",
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              {
+                                "type": "string",
+                                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "desc": {
+                        "description": "列表内容的描述",
+                        "type": "string"
+                      },
+                      "hidden": {
+                        "description": "隐藏该列表项",
+                        "type": "boolean"
+                      },
+                      "env": {
+                        "description": "环境列表",
+                        "type": "array",
+                        "items": {
+                          "description": "环境类型",
+                          "type": "string",
+                          "enum": ["web", "wx", "app"]
+                        }
+                      }
+                    },
+                    "required": ["text"],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "description": "列表单元的显示文字",
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "icon": {
+                        "description": "列表图标的本地路径或在线网址",
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                          },
+                          {
+                            "description": "图片地址",
+                            "anyOf": [
+                              {
+                                "description": "HTTPS链接",
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              {
+                                "type": "string",
+                                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "desc": {
+                        "description": "列表内容的描述",
+                        "type": "string"
+                      },
+                      "hidden": {
+                        "description": "隐藏该列表项",
+                        "type": "boolean"
+                      },
+                      "env": {
+                        "description": "环境列表",
+                        "type": "array",
+                        "items": {
+                          "description": "环境类型",
+                          "type": "string",
+                          "enum": ["web", "wx", "app"]
+                        }
+                      },
+                      "path": {
+                        "description": "跳转的文件名称",
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": ["text", "path"],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "description": "列表单元的显示文字",
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "icon": {
+                        "description": "列表图标的本地路径或在线网址",
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                          },
+                          {
+                            "description": "图片地址",
+                            "anyOf": [
+                              {
+                                "description": "HTTPS链接",
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              {
+                                "type": "string",
+                                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "desc": {
+                        "description": "列表内容的描述",
+                        "type": "string"
+                      },
+                      "hidden": {
+                        "description": "隐藏该列表项",
+                        "type": "boolean"
+                      },
+                      "env": {
+                        "description": "环境列表",
+                        "type": "array",
+                        "items": {
+                          "description": "环境类型",
+                          "type": "string",
+                          "enum": ["web", "wx", "app"]
+                        }
+                      },
+                      "url": {
+                        "description": "处理后的路径",
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": ["text", "url"],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "description": "列表单元的显示文字",
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "icon": {
+                        "description": "列表图标的本地路径或在线网址",
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                          },
+                          {
+                            "description": "图片地址",
+                            "anyOf": [
+                              {
+                                "description": "HTTPS链接",
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              {
+                                "type": "string",
+                                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "desc": {
+                        "description": "列表内容的描述",
+                        "type": "string"
+                      },
+                      "hidden": {
+                        "description": "隐藏该列表项",
+                        "type": "boolean"
+                      },
+                      "env": {
+                        "description": "环境列表",
+                        "type": "array",
+                        "items": {
+                          "description": "环境类型",
+                          "type": "string",
+                          "enum": ["web", "wx", "app"]
+                        }
+                      },
+                      "action": {
+                        "type": "string",
+                        "const": "official"
+                      },
+                      "username": {
+                        "description": "用户名",
+                        "type": "string"
+                      }
+                    },
+                    "required": ["text", "action", "username"],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "description": "列表单元的显示文字",
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "icon": {
+                        "description": "列表图标的本地路径或在线网址",
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                          },
+                          {
+                            "description": "图片地址",
+                            "anyOf": [
+                              {
+                                "description": "HTTPS链接",
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              {
+                                "type": "string",
+                                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "desc": {
+                        "description": "列表内容的描述",
+                        "type": "string"
+                      },
+                      "hidden": {
+                        "description": "隐藏该列表项",
+                        "type": "boolean"
+                      },
+                      "env": {
+                        "description": "环境列表",
+                        "type": "array",
+                        "items": {
+                          "description": "环境类型",
+                          "type": "string",
+                          "enum": ["web", "wx", "app"]
+                        }
+                      },
+                      "action": {
+                        "type": "string",
+                        "const": "channel"
+                      },
+                      "username": {
+                        "description": "视频号名称",
+                        "type": "string"
+                      },
+                      "id": {
+                        "description": "视频号 ID",
+                        "type": "string"
+                      }
+                    },
+                    "required": ["text", "action", "username", "id"],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "description": "列表单元的显示文字",
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "icon": {
+                        "description": "列表图标的本地路径或在线网址",
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                          },
+                          {
+                            "description": "图片地址",
+                            "anyOf": [
+                              {
+                                "description": "HTTPS链接",
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              {
+                                "type": "string",
+                                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "desc": {
+                        "description": "列表内容的描述",
+                        "type": "string"
+                      },
+                      "hidden": {
+                        "description": "隐藏该列表项",
+                        "type": "boolean"
+                      },
+                      "env": {
+                        "description": "环境列表",
+                        "type": "array",
+                        "items": {
+                          "description": "环境类型",
+                          "type": "string",
+                          "enum": ["web", "wx", "app"]
+                        }
+                      },
+                      "action": {
+                        "type": "string",
+                        "const": "article"
+                      },
+                      "url": {
+                        "description": "文章链接",
+                        "type": "string",
+                        "pattern": "^https:\\/\\/mp.weixin.qq.com\\/s\\/"
+                      }
+                    },
+                    "required": ["text", "action", "url"],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "description": "列表单元的显示文字",
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "icon": {
+                        "description": "列表图标的本地路径或在线网址",
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                          },
+                          {
+                            "description": "图片地址",
+                            "anyOf": [
+                              {
+                                "description": "HTTPS链接",
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              {
+                                "type": "string",
+                                "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "desc": {
+                        "description": "列表内容的描述",
+                        "type": "string"
+                      },
+                      "hidden": {
+                        "description": "隐藏该列表项",
+                        "type": "boolean"
+                      },
+                      "env": {
+                        "description": "环境列表",
+                        "type": "array",
+                        "items": {
+                          "description": "环境类型",
+                          "type": "string",
+                          "enum": ["web", "wx", "app"]
+                        }
+                      },
+                      "action": {
+                        "type": "string",
+                        "const": "video"
+                      },
+                      "username": {
+                        "description": "视频号 ID",
+                        "type": "string"
+                      },
+                      "id": {
+                        "description": "视频 ID",
+                        "type": "string"
+                      }
+                    },
+                    "required": ["text", "action", "username", "id"],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "type": {
+                    "type": "string",
+                    "const": "navigator"
+                  },
+                  "openType": {
+                    "description": "小程序提供的开放能力",
+                    "type": "string",
+                    "enum": [
+                      "navigate",
+                      "redirect",
+                      "switchTab",
+                      "reLaunch",
+                      "navigateBack",
+                      "exit"
+                    ]
+                  },
+                  "target": {
+                    "description": "跳转目标",
+                    "type": "string",
+                    "enum": ["self", "miniProgram"]
+                  },
+                  "url": {
+                    "description": "跳转到的 url",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "type"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "type": {
+                    "type": "string",
+                    "const": "switch"
+                  },
+                  "key": {
+                    "description": "所控变量在 storage 中的 key 值",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "handler": {
+                    "description": "开关对应的函数名称",
+                    "type": "string"
+                  },
+                  "color": {
+                    "description": "开关颜色",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "type", "key"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "type": {
+                    "type": "string",
+                    "const": "picker"
+                  },
+                  "select": {
+                    "description": "选择器中包含的值",
+                    "minItems": 1,
+                    "type": "array",
+                    "items": {}
+                  },
+                  "current": {
+                    "description": "选择器当前值的索引",
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "key": {
+                    "description": "选择器所控变量在 storage 中的 key 值",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "handler": {
+                    "description": "选择器对应的函数名称",
+                    "type": "string"
+                  },
+                  "single": {
+                    "description": "是否为单列选择器",
+                    "type": "boolean"
+                  }
+                },
+                "required": ["text", "type", "select", "key"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "type": {
+                    "type": "string",
+                    "const": "slider"
+                  },
+                  "key": {
+                    "description": "滑块所控变量在 storage 中的 key 值",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "handler": {
+                    "description": "滑块对应的函数名称",
+                    "type": "string"
+                  },
+                  "min": {
+                    "description": "滑块的最小值",
+                    "type": "number"
+                  },
+                  "max": {
+                    "description": "滑块的最大值",
+                    "type": "number"
+                  },
+                  "step": {
+                    "description": "滑块的步长",
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  }
+                },
+                "required": ["text", "type", "key"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "type": {
+                    "type": "string",
+                    "const": "button"
+                  },
+                  "color": {
+                    "description": "按钮颜色",
+                    "type": "string"
+                  },
+                  "handler": {
+                    "description": "按钮对应的函数名称",
+                    "type": "string"
+                  },
+                  "openType": {
+                    "description": "开放类别",
+                    "type": "string",
+                    "enum": ["contact", "share"]
+                  },
+                  "openId": {
+                    "description": "联系人/客服的 openid",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "type"],
+                "additionalProperties": false
+              }
+            ]
+          }
+        },
+        "footer": {
+          "description": "列表页脚",
+          "type": "string"
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "items"],
+      "additionalProperties": false
+    },
+    "grid-component": {
+      "id": "grid-component",
+      "description": "网格组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "grid"
+        },
+        "header": {
+          "description": "网格标题",
+          "type": "string"
+        },
+        "items": {
+          "description": "网格项目列表",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "path": {
+                    "description": "跳转的文件名称",
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": ["text", "icon", "path"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "url": {
+                    "description": "处理后的路径",
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": ["text", "icon", "url"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "official"
+                  },
+                  "username": {
+                    "description": "用户名",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "icon", "action", "username"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "channel"
+                  },
+                  "username": {
+                    "description": "视频号名称",
+                    "type": "string"
+                  },
+                  "id": {
+                    "description": "视频号 ID",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "icon", "action", "username", "id"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "article"
+                  },
+                  "url": {
+                    "description": "文章链接",
+                    "type": "string",
+                    "pattern": "^https:\\/\\/mp.weixin.qq.com\\/s\\/"
+                  }
+                },
+                "required": ["text", "icon", "action", "url"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "video"
+                  },
+                  "username": {
+                    "description": "视频号 ID",
+                    "type": "string"
+                  },
+                  "id": {
+                    "description": "视频 ID",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "icon", "action", "username", "id"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "miniProgram"
+                  },
+                  "extraData": {
+                    "description": "需要传递给目标小程序的数据",
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string"
+                    },
+                    "additionalProperties": {}
+                  },
+                  "versionType": {
+                    "description": "要打开的小程序版本",
+                    "type": "string",
+                    "enum": ["develop", "trial", "release"]
+                  },
+                  "appId": {
+                    "description": "要打开的小程序 appId",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "path": {
+                    "description": "打开的页面路径",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "icon", "action", "appId"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "网格文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "网格图标的在线路径或本地路径",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "miniProgram"
+                  },
+                  "extraData": {
+                    "description": "需要传递给目标小程序的数据",
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string"
+                    },
+                    "additionalProperties": {}
+                  },
+                  "versionType": {
+                    "description": "要打开的小程序版本",
+                    "type": "string",
+                    "enum": ["develop", "trial", "release"]
+                  },
+                  "shortLink": {
+                    "description": "小程序短链",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "icon", "action", "shortLink"],
+                "additionalProperties": false
+              }
+            ]
+          }
+        },
+        "footer": {
+          "description": "网格页脚",
+          "type": "string"
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "items"],
+      "additionalProperties": false
+    },
+    "img-component": {
+      "id": "img-component",
+      "description": "图片组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "img"
+        },
+        "src": {
+          "description": "图片的本地路径或在线网址",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+            }
+          ]
+        },
+        "desc": {
+          "description": "图片的描述文字",
+          "type": "string"
+        },
+        "lazy": {
+          "description": "图片懒加载",
+          "type": "boolean",
+          "const": false
+        },
+        "watermark": {
+          "description": "是否添加水印",
+          "type": "boolean"
+        },
+        "imgMode": {
+          "description": "图片显示模式",
+          "type": "string",
+          "enum": [
+            "widthFix",
+            "scaleToFill",
+            "aspectFit",
+            "aspectFill",
+            "top",
+            "bottom",
+            "center",
+            "left",
+            "right",
+            "top left",
+            "top right",
+            "bottom left",
+            "bottom right"
+          ]
+        },
+        "menu": {
+          "description": "是否支持长按弹出菜单",
+          "type": "boolean"
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "src"],
+      "additionalProperties": false
+    },
+    "list-component": {
+      "id": "list-component",
+      "description": "列表组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "list"
+        },
+        "header": {
+          "description": "列表标题",
+          "type": "string"
+        },
+        "items": {
+          "description": "列表内容",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  }
+                },
+                "required": ["text"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "path": {
+                    "description": "跳转的文件名称",
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": ["text", "path"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "url": {
+                    "description": "处理后的路径",
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": ["text", "url"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "official"
+                  },
+                  "username": {
+                    "description": "用户名",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "action", "username"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "channel"
+                  },
+                  "username": {
+                    "description": "视频号名称",
+                    "type": "string"
+                  },
+                  "id": {
+                    "description": "视频号 ID",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "action", "username", "id"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "article"
+                  },
+                  "url": {
+                    "description": "文章链接",
+                    "type": "string",
+                    "pattern": "^https:\\/\\/mp.weixin.qq.com\\/s\\/"
+                  }
+                },
+                "required": ["text", "action", "url"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "description": "列表单元的显示文字",
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "icon": {
+                    "description": "列表图标的本地路径或在线网址",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+                      },
+                      {
+                        "description": "图片地址",
+                        "anyOf": [
+                          {
+                            "description": "HTTPS链接",
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "desc": {
+                    "description": "列表内容的描述",
+                    "type": "string"
+                  },
+                  "hidden": {
+                    "description": "隐藏该列表项",
+                    "type": "boolean"
+                  },
+                  "env": {
+                    "description": "环境列表",
+                    "type": "array",
+                    "items": {
+                      "description": "环境类型",
+                      "type": "string",
+                      "enum": ["web", "wx", "app"]
+                    }
+                  },
+                  "action": {
+                    "type": "string",
+                    "const": "video"
+                  },
+                  "username": {
+                    "description": "视频号 ID",
+                    "type": "string"
+                  },
+                  "id": {
+                    "description": "视频 ID",
+                    "type": "string"
+                  }
+                },
+                "required": ["text", "action", "username", "id"],
+                "additionalProperties": false
+              }
+            ]
+          }
+        },
+        "footer": {
+          "description": "列表页脚",
+          "type": "string"
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "items"],
+      "additionalProperties": false
+    },
+    "location-component": {
+      "id": "location-component",
+      "description": "位置组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "location"
+        },
+        "header": {
+          "description": "地点标题",
+          "type": "string",
+          "minLength": 1
+        },
+        "points": {
+          "description": "位置点信息",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "loc": {
+                "description": "位置信息",
+                "type": "string",
+                "pattern": "^-?\\d+(?:\\.\\d+)?,-?\\d+(?:\\.\\d+)?$"
+              },
+              "name": {
+                "description": "地点名称",
+                "type": "string"
+              },
+              "detail": {
+                "description": "地点详情",
+                "type": "string"
+              },
+              "path": {
+                "description": "地图模块中的路径",
+                "type": "string"
+              }
+            },
+            "required": ["loc"],
+            "additionalProperties": false
+          }
+        },
+        "navigate": {
+          "description": "是否可以导航",
+          "type": "boolean"
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "header", "points"],
+      "additionalProperties": false
+    },
+    "phone-component": {
+      "id": "phone-component",
+      "description": "电话组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "phone"
+        },
+        "header": {
+          "description": "标题",
+          "type": "string"
+        },
+        "num": {
+          "description": "联系人电话号码",
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 10000000000,
+              "maximum": 19999999999
+            },
+            {
+              "type": "string",
+              "pattern": "^1\\d{10}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-\\d{7,8}$"
+            },
+            {
+              "type": "number",
+              "minimum": 10000,
+              "maximum": 12999
+            },
+            {
+              "type": "number",
+              "minimum": 95000,
+              "maximum": 96999
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-(?:10|11|12|95|96)\\d{3}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^400-\\d{3}-\\d{4}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{2}-"
+            }
+          ]
+        },
+        "fName": {
+          "description": "联系人的名",
+          "type": "string",
+          "minLength": 1
+        },
+        "lName": {
+          "description": "联系人的姓",
+          "type": "string"
+        },
+        "org": {
+          "description": "联系人所在公司",
+          "type": "string"
+        },
+        "remark": {
+          "description": "联系人的备注",
+          "type": "string"
+        },
+        "workNum": {
+          "description": "联系人的工作电话",
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 10000000000,
+              "maximum": 19999999999
+            },
+            {
+              "type": "string",
+              "pattern": "^1\\d{10}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-\\d{7,8}$"
+            },
+            {
+              "type": "number",
+              "minimum": 10000,
+              "maximum": 12999
+            },
+            {
+              "type": "number",
+              "minimum": 95000,
+              "maximum": 96999
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-(?:10|11|12|95|96)\\d{3}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^400-\\d{3}-\\d{4}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{2}-"
+            }
+          ]
+        },
+        "nick": {
+          "description": "联系人的昵称",
+          "type": "string"
+        },
+        "avatar": {
+          "description": "联系人头像图片路径(仅限本地路径)",
+          "type": "string",
+          "pattern": "^\\/.*"
+        },
+        "wechat": {
+          "description": "联系人的微信号",
+          "type": "string"
+        },
+        "province": {
+          "description": "联系人的地址省份",
+          "type": "string"
+        },
+        "city": {
+          "description": "联系人的地址城市",
+          "type": "string"
+        },
+        "street": {
+          "description": "联系人的地址街道",
+          "type": "string"
+        },
+        "postCode": {
+          "description": "联系人的地址邮政编码",
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{6}$"
+            },
+            {
+              "type": "number",
+              "minimum": 100000,
+              "maximum": 999999
+            }
+          ]
+        },
+        "title": {
+          "description": "联系人的职位",
+          "type": "string"
+        },
+        "hostNum": {
+          "description": "联系人的公司电话",
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 10000000000,
+              "maximum": 19999999999
+            },
+            {
+              "type": "string",
+              "pattern": "^1\\d{10}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-\\d{7,8}$"
+            },
+            {
+              "type": "number",
+              "minimum": 10000,
+              "maximum": 12999
+            },
+            {
+              "type": "number",
+              "minimum": 95000,
+              "maximum": 96999
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-(?:10|11|12|95|96)\\d{3}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^400-\\d{3}-\\d{4}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{2}-"
+            }
+          ]
+        },
+        "site": {
+          "description": "联系人的网站",
+          "type": "string",
+          "format": "uri"
+        },
+        "mail": {
+          "description": "联系人的电子邮件",
+          "type": "string",
+          "format": "email",
+          "pattern": "^(?!\\.)(?!.*\\.\\.)([A-Za-z0-9_'+\\-\\.]*)[A-Za-z0-9_+-]@([A-Za-z0-9][A-Za-z0-9\\-]*\\.)+[A-Za-z]{2,}$"
+        },
+        "homeNum": {
+          "description": "联系人的住宅电话",
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 10000000000,
+              "maximum": 19999999999
+            },
+            {
+              "type": "string",
+              "pattern": "^1\\d{10}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-\\d{7,8}$"
+            },
+            {
+              "type": "number",
+              "minimum": 10000,
+              "maximum": 12999
+            },
+            {
+              "type": "number",
+              "minimum": 95000,
+              "maximum": 96999
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{3,4}-(?:10|11|12|95|96)\\d{3}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^400-\\d{3}-\\d{4}$"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\d{2}-"
+            }
+          ]
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "num", "fName"],
+      "additionalProperties": false
+    },
+    "table-component": {
+      "id": "table-component",
+      "description": "表格组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "table"
+        },
+        "caption": {
+          "description": "表格标题",
+          "type": "string"
+        },
+        "header": {
+          "description": "表头",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "body": {
+          "description": "表格主体",
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "header", "body"],
+      "additionalProperties": false
+    },
+    "text-component": {
+      "id": "text-component",
+      "description": "文本组件",
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "type": {
+              "type": "string",
+              "const": "none"
+            }
+          },
+          "required": ["tag"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "type": {
+              "type": "string",
+              "enum": ["tip", "warning", "danger", "important", "info", "note"]
+            }
+          },
+          "required": ["tag", "type"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "type": {
+              "type": "string",
+              "enum": ["tip", "warning", "danger", "important", "info", "note"]
+            },
+            "path": {
+              "description": "跳转的文件名称",
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["tag", "type", "path"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "type": {
+              "type": "string",
+              "enum": ["tip", "warning", "danger", "important", "info", "note"]
+            },
+            "url": {
+              "description": "处理后的路径",
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["tag", "type", "url"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "official"
+            },
+            "username": {
+              "description": "用户名",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "action", "username"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "channel"
+            },
+            "username": {
+              "description": "视频号名称",
+              "type": "string"
+            },
+            "id": {
+              "description": "视频号 ID",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "action", "username", "id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "article"
+            },
+            "url": {
+              "description": "文章链接",
+              "type": "string",
+              "pattern": "^https:\\/\\/mp.weixin.qq.com\\/s\\/"
+            }
+          },
+          "required": ["tag", "action", "url"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "video"
+            },
+            "username": {
+              "description": "视频号 ID",
+              "type": "string"
+            },
+            "id": {
+              "description": "视频 ID",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "action", "username", "id"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "miniProgram"
+            },
+            "extraData": {
+              "description": "需要传递给目标小程序的数据",
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "versionType": {
+              "description": "要打开的小程序版本",
+              "type": "string",
+              "enum": ["develop", "trial", "release"]
+            },
+            "shortLink": {
+              "description": "小程序短链",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "action", "shortLink"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "enum": ["text", "p", "ol", "ul"]
+            },
+            "header": {
+              "description": "段落标题",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean",
+                  "const": false
+                }
+              ]
+            },
+            "text": {
+              "description": "段落文字",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "style": {
+              "description": "样式定义",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              ]
+            },
+            "align": {
+              "description": "段落对齐方式",
+              "type": "string",
+              "enum": ["left", "right", "center", "justify"]
+            },
+            "env": {
+              "description": "环境列表",
+              "type": "array",
+              "items": {
+                "description": "环境类型",
+                "type": "string",
+                "enum": ["web", "wx", "app"]
+              }
+            },
+            "action": {
+              "type": "string",
+              "const": "miniProgram"
+            },
+            "extraData": {
+              "description": "需要传递给目标小程序的数据",
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "versionType": {
+              "description": "要打开的小程序版本",
+              "type": "string",
+              "enum": ["develop", "trial", "release"]
+            },
+            "appId": {
+              "description": "要打开的小程序 appId",
+              "type": "string",
+              "minLength": 1
+            },
+            "path": {
+              "description": "打开的页面路径",
+              "type": "string"
+            }
+          },
+          "required": ["tag", "action", "appId"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "title-component": {
+      "id": "title-component",
+      "description": "标题组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "title"
+        },
+        "text": {
+          "description": "标题文字",
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "description": "标题 css 样式",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "text"],
+      "additionalProperties": false
+    },
+    "video-component": {
+      "id": "video-component",
+      "description": "视频组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "const": "video"
+        },
+        "src": {
+          "description": "媒体文件的在线网址或本地路径",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$file\\/[\\s\\S]{0,}$"
+            }
+          ]
+        },
+        "title": {
+          "description": "视频的标题",
+          "type": "string"
+        },
+        "loop": {
+          "description": "是否循环播放",
+          "type": "boolean"
+        },
+        "controls": {
+          "description": "是否显示默认控件",
+          "type": "boolean"
+        },
+        "poster": {
+          "description": "视频封面的图片网络资源地址",
+          "anyOf": [
+            {
+              "description": "HTTPS链接",
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "string",
+              "pattern": "^\\$img\\/[\\s\\S]{0,}(\\.png|\\.jpg|\\.jpeg|\\.gif|\\.webp|\\.avif|\\.svg|\\.bmp|\\.ico)$"
+            }
+          ]
+        },
+        "autoplay": {
+          "description": "是否自动播放",
+          "type": "boolean"
+        },
+        "startTime": {
+          "description": "视频初始播放位置",
+          "type": "number",
+          "minimum": 0
+        },
+        "danmuBtn": {
+          "description": "是否显示弹幕按钮",
+          "type": "boolean"
+        },
+        "danmuList": {
+          "description": "弹幕列表",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "description": "弹幕文字",
+                "type": "string",
+                "minLength": 1
+              },
+              "color": {
+                "description": "弹幕颜色",
+                "type": "string"
+              },
+              "time": {
+                "description": "弹幕时间",
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": ["text", "color", "time"],
+            "additionalProperties": false
+          }
+        },
+        "env": {
+          "description": "环境列表",
+          "type": "array",
+          "items": {
+            "description": "环境类型",
+            "type": "string",
+            "enum": ["web", "wx", "app"]
+          }
+        }
+      },
+      "required": ["tag", "src"],
+      "additionalProperties": false
+    }
+  },
+  "title": "Page Config"
+}
