@@ -62,7 +62,7 @@
   "devDependencies": {
     "@types/js-yaml": "4.0.9",
     "@types/markdown-it": "14.1.2",
-    "@types/node": "24.3.3",
+    "@types/node": "24.4.0",
     "domhandler": "5.0.3",
     "eslint": "9.35.0",
     "eslint-config-mister-hope": "0.9.6",
