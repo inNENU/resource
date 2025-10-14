@@ -39,7 +39,7 @@
   "dependencies": {
     "@alicloud/cdn20180510": "7.0.2",
     "@mdit-vue/plugin-frontmatter": "3.0.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/helper": "2.0.0-rc.112",
     "@vuepress/plugin-feed": "2.0.0-rc.112",
     "@vuepress/plugin-meilisearch": "2.0.0-rc.112",
