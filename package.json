@@ -49,7 +49,7 @@
     "del": "8.0.0",
     "dotenv": "17.2.2",
     "innenu-generator": "0.6.6",
-    "js-yaml": "4.1.0",
+    "js-yaml": "4.1.1",
     "markdown-it": "14.1.0",
     "sass-embedded": "1.92.1",
     "svgo": "4.0.0",
