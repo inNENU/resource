@@ -42,7 +42,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/helper": "2.0.0-rc.112",
     "@vuepress/plugin-feed": "2.0.0-rc.112",
-    "@vuepress/plugin-meilisearch": "2.0.0-rc.112",
+    "@vuepress/plugin-meilisearch": "2.0.0-rc.120",
     "@vueuse/core": "13.9.0",
     "cheerio": "1.1.2",
     "cpx2": "8.0.0",
