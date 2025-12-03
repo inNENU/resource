@@ -2,27 +2,28 @@ name: Linter test
 
 on:
   push:
-    branches:
-      - main
+
+permissions:
+  contents: read
 
 jobs:
   linter-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
-        with:
-          ref: main
+        uses: actions/checkout@v6
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        with:
-          run_install: true
 
       - name: Setup Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
+          cache: pnpm
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Linter Test
         env:
