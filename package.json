@@ -41,7 +41,7 @@
     "@mdit-vue/plugin-frontmatter": "3.0.2",
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/helper": "2.0.0-rc.120",
-    "@vuepress/plugin-feed": "2.0.0-rc.120",
+    "@vuepress/plugin-feed": "2.0.0-rc.121",
     "@vuepress/plugin-meilisearch": "2.0.0-rc.120",
     "@vueuse/core": "14.1.0",
     "cheerio": "1.1.2",
