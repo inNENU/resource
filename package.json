@@ -71,7 +71,7 @@
     "nano-staged": "0.9.0",
     "prettier": "3.7.3",
     "tsx": "4.21.0",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "vitest": "4.0.15"
   },
   "packageManager": "pnpm@10.24.0"
