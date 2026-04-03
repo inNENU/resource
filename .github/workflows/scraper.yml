@@ -8,6 +8,9 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -19,7 +22,7 @@ jobs:
           fetch-depth: 2
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v5
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
