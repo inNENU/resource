@@ -7,6 +7,8 @@ import "./config/env.js";
 // 删除旧的文件
 deleteSync(".text/**");
 
-convertYamlFilesToMarkdown("./pages", "./.text", (data, filePath) =>
-  getPageText(data as PageConfig, filePath),
+convertYamlFilesToMarkdown(
+  "./pages",
+  (data, filePath) => getPageText(data as PageConfig, filePath),
+  "./.text",
 );

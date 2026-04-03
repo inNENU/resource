@@ -16,7 +16,7 @@ cpx.copySync("./site/.vuepress/**", "./.site/.vuepress");
 RESOURCE_FOLDERS.forEach((folder) => {
   convertYamlFilesToMarkdown(
     `./pages/${folder}`,
-    `./.site/${folder}`,
     (data: PageConfig, filepath: string) => getPageMarkdown(data, filepath),
+    `./.site/${folder}`,
   );
 });

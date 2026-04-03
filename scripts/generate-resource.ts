@@ -46,11 +46,14 @@ RESOURCE_FOLDERS.forEach((folder) => {
   convertYamlFilesToJson<PageConfig, PageData>(
     `./pages/${folder}`,
     `./.resource/${folder}`,
-    (data, filePath) =>
-      getPageJSON(data, `${folder}/${filePath}`, diffFiles, {
+    (data, filePath) => {
+      console.log(typeof data.time, data.time);
+
+      return getPageJSON(data, `${folder}/${filePath}`, diffFiles, {
         allowedTags,
         removeFields: ["aiIgnore", "tags"],
-      }),
+      });
+    },
     (content, filePath) => {
       if (
         [

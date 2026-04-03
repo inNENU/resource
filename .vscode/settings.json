@@ -2,17 +2,25 @@
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "oxc.unusedDisableDirectives": "deny",
   "yaml.schemas": {
-    "./.vscode/settings.schema.json": ["/config/**/settings.yml"],
-    "./.vscode/wechat-account-data.schema.json": ["/data/account/*.yml"],
-    "./.vscode/qq-accounts.schema.json": ["/data/function/account/qq.yml"],
-    "./.vscode/wx-accounts.schema.json": ["/data/function/account/wx.yml"],
-    "./.vscode/map-markers.schema.json": ["/data/function/map/marker/*.yml"],
     "./.vscode/tab-data.schema.json": ["/data/function/data/tab.yml"],
-    "./.vscode/map-page-config.schema.json": [
+    "./.vscode/settings.schema.json": ["/config/**/settings.yml"],
+    "./node_modules/innenu-generator/schemas/wechat-account-data.schema.json": [
+      "/data/account/*.yml"
+    ],
+    "./node_modules/innenu-generator/schemas/qq-accounts.schema.json": [
+      "/data/function/account/qq.yml"
+    ],
+    "./node_modules/innenu-generator/schemas/wx-accounts.schema.json": [
+      "/data/function/account/wx.yml"
+    ],
+    "./node_modules/innenu-generator/schemas/map-markers.schema.json": [
+      "/data/function/map/marker/*.yml"
+    ],
+    "./node_modules/innenu-generator/schemas/map-page-config.schema.json": [
       "/data/function/map/benbu/**/*.yml",
       "/data/function/map/jingyue/**/*.yml"
     ],
-    "./.vscode/page-config.schema.json": ["/pages/**/*.yml"]
+    "./node_modules/innenu-generator/schemas/page-config.schema.json": ["/pages/**/*.yml"]
   },
   "cSpell.words": ["miniprogram"]
 }
