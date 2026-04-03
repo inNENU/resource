@@ -73,9 +73,9 @@ jobs:
           mkdir -p ~/.ssh/
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan res.innenu.com >> ~/.ssh/known_hosts
           git config --global user.name 'Mr.Hope'
           git config --global user.email 'mister-hope@outlook.com'
+          ssh-keyscan direct.innenu.com >> ~/.ssh/known_hosts
 
       - name: Deploy
         run: |
