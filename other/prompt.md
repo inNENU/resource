@@ -40,10 +40,7 @@
     "desc": { "description": "页面描述", "type": "string" },
     "author": {
       "description": "页面作者",
-      "oneOf": [
-        { "type": "string" },
-        { "type": "array", "items": { "type": "string" } }
-      ]
+      "oneOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" } }]
     },
     "time": {
       "description": "页面更新时间",
@@ -244,10 +241,7 @@
         { "$ref": "#/$defs/base-nav-option" },
         {
           "type": "object",
-          "allOf": [
-            { "$ref": "#/$defs/base-nav-option" },
-            { "$ref": "#/$defs/route-option" }
-          ]
+          "allOf": [{ "$ref": "#/$defs/base-nav-option" }, { "$ref": "#/$defs/route-option" }]
         }
       ]
     },
@@ -257,10 +251,7 @@
         { "$ref": "#/$defs/base-nav-option" },
         {
           "type": "object",
-          "allOf": [
-            { "$ref": "#/$defs/base-nav-option" },
-            { "$ref": "#/$defs/route-option" }
-          ]
+          "allOf": [{ "$ref": "#/$defs/base-nav-option" }, { "$ref": "#/$defs/route-option" }]
         }
       ]
     },
@@ -332,10 +323,7 @@
         "header": { "description": "文字块标题", "type": "string" },
         "text": {
           "description": "文字内容",
-          "oneOf": [
-            { "type": "string" },
-            { "type": "array", "items": { "type": "string" } }
-          ]
+          "oneOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" } }]
         },
         "type": {
           "description": "文字块类型",
@@ -362,20 +350,14 @@
           "enum": ["tip", "warning", "danger", "info", "important", "note"]
         }
       },
-      "allOf": [
-        { "$ref": "#/$defs/text-plain-option" },
-        { "$ref": "#/$defs/route-option" }
-      ],
+      "allOf": [{ "$ref": "#/$defs/text-plain-option" }, { "$ref": "#/$defs/route-option" }],
       "required": ["tag", "type"]
     },
     "text-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#text",
       "description": "文本组件",
       "type": "object",
-      "oneOf": [
-        { "$ref": "#/$defs/text-plain-option" },
-        { "$ref": "#/$defs/text-route-option" }
-      ]
+      "oneOf": [{ "$ref": "#/$defs/text-plain-option" }, { "$ref": "#/$defs/text-route-option" }]
     },
     "list-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#list",
@@ -618,10 +600,7 @@
     "card-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#card",
       "description": "卡片组件",
-      "allOf": [
-        { "$ref": "#/$defs/card-base-option" },
-        { "$ref": "#/$defs/route-option" }
-      ]
+      "allOf": [{ "$ref": "#/$defs/card-base-option" }, { "$ref": "#/$defs/route-option" }]
     },
     "grid-component": {
       "$comment": "https://innenu.com/contributing/maintainance/tag-list.html#grid",

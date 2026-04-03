@@ -1,5 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
+// oxlint-disable-next-line node/no-process-env
+const isProd = process.env.NODE_ENV === "production";
+
 export default hopeTheme({
   favicon: "/favicon.ico",
   logo: "/logo.svg",
@@ -13,15 +16,7 @@ export default hopeTheme({
   copyright: `使用 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans">CC BY-NC-ND 4.0</a> 协议`,
   displayFooter: true,
 
-  navbar: [
-    "/",
-    "/newcomer/",
-    "/guide/",
-    "/intro/",
-    "/school/",
-    "/apartment/",
-    "/contributing/",
-  ],
+  navbar: ["/", "/newcomer/", "/guide/", "/intro/", "/school/", "/apartment/", "/contributing/"],
 
   sidebar: {
     "/": false,
@@ -51,8 +46,8 @@ export default hopeTheme({
 
   plugins: {
     copyright: {
-      disableCopy: process.env.NODE_ENV !== "development",
-      disableSelection: process.env.NODE_ENV !== "development",
+      disableCopy: isProd,
+      disableSelection: isProd,
       global: true,
       author: "Mr.Hope",
       license: "CC BY-NC-ND 4.0",
@@ -68,8 +63,7 @@ export default hopeTheme({
 
     meilisearch: {
       host: "https://meilisearch.innenu.com",
-      apiKey:
-        "35f2107c9146d9f57fa00454252dce5d40c87c16ee60de6d1ef3f5095c318b50",
+      apiKey: "35f2107c9146d9f57fa00454252dce5d40c87c16ee60de6d1ef3f5095c318b50",
       indexUid: "innenu",
     },
   },

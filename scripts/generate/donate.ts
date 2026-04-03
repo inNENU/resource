@@ -11,10 +11,7 @@ export interface Donate {
 export const generateDonate = (data: Donate, filePath: string): PageData => {
   const baseName = basename(filePath);
 
-  const donateAmount = data.donations.reduce(
-    (prev, current) => prev + current[1],
-    0,
-  );
+  const donateAmount = data.donations.reduce((prev, current) => prev + current[1], 0);
 
   const bestData = data.donations
     .filter((item) => item[1] >= 50)
@@ -43,9 +40,7 @@ export const generateDonate = (data: Donate, filePath: string): PageData => {
       {
         tag: "text",
         type: "info",
-        text: [
-          "您的支持是 Mr.Hope 的不断动力，Mr.Hope 在此表示对大家由衷的感谢!",
-        ],
+        text: ["您的支持是 Mr.Hope 的不断动力，Mr.Hope 在此表示对大家由衷的感谢!"],
       },
       {
         tag: "ul",

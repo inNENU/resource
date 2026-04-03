@@ -1,12 +1,5 @@
 import { execSync } from "node:child_process";
-import {
-  existsSync,
-  mkdirSync,
-  readFileSync,
-  rmSync,
-  statSync,
-  writeFileSync,
-} from "node:fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { type } from "node:os";
 
 import type { ResourceVersionInfo } from "innenu-generator";
@@ -21,14 +14,7 @@ export const RESOURCE_NAMES = [
   "school",
 ];
 
-export const RESOURCE_FOLDERS = [
-  "apartment",
-  "guide",
-  "intro",
-  "newcomer",
-  "school",
-  "other",
-];
+export const RESOURCE_FOLDERS = ["apartment", "guide", "intro", "newcomer", "school", "other"];
 
 const DEFAULT_VERSION_INFO: ResourceVersionInfo = {
   version: {
@@ -55,9 +41,7 @@ export const zipFile = (folderName: string): void => {
 
   // 压缩文件
   if (os === "Linux" || os === "Darwin") {
-    execSync(
-      `cd ./.resource && zip -r ./../.oss/${folderName}.zip ${folderName} && cd ..`,
-    );
+    execSync(`cd ./.resource && zip -r ./../.oss/${folderName}.zip ${folderName} && cd ..`);
   } else if (os === "Windows_NT") {
     execSync(
       `cd ./.resource && "../assets/lib/7za" a -r ${folderName}.zip "${folderName}/" && cd ..`,
@@ -88,27 +72,19 @@ export const generateResource = (diffFiles: string[]): void => {
   const updatedResourceNames = getUpdatedResourceNames(diffFiles);
 
   RESOURCE_NAMES.forEach((name) => {
-    if (
-      !existsSync(`./.oss/${name}.zip`) ||
-      updatedResourceNames.includes(name)
-    )
-      zipFile(name);
+    if (!existsSync(`./.oss/${name}.zip`) || updatedResourceNames.includes(name)) zipFile(name);
 
     if (updatedResourceNames.includes(name)) {
       // 更新版本号与尺寸
       versionInfo.version[name] += 1;
-      versionInfo.size[name] = Math.round(
-        statSync(`./.oss/${name}.zip`).size / 1024,
-      );
+      versionInfo.size[name] = Math.round(statSync(`./.oss/${name}.zip`).size / 1024);
     }
   });
 
   // 写入版本信息
-  writeFileSync(
-    "./data/version.json",
-    `${JSON.stringify(versionInfo, null, 2)}\n`,
-    { encoding: "utf-8" },
-  );
+  writeFileSync("./data/version.json", `${JSON.stringify(versionInfo, null, 2)}\n`, {
+    encoding: "utf-8",
+  });
   writeFileSync("./.resource/version.json", JSON.stringify(versionInfo), {
     encoding: "utf-8",
   });

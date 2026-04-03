@@ -21,8 +21,7 @@ export const generateLicense = (): Promise<void[]> => {
       const targetFilename = `./.resource/config/${file.replace(/\.md$/, "-data.json")}`;
       const targetFolderName = dirname(targetFilename);
 
-      if (!existsSync(targetFolderName))
-        mkdirSync(targetFolderName, { recursive: true });
+      if (!existsSync(targetFolderName)) mkdirSync(targetFolderName, { recursive: true });
 
       const content = readFileSync(`./config/${file}`, "utf-8");
       const env: { frontmatter: Record<string, unknown> } = {
@@ -31,11 +30,7 @@ export const generateLicense = (): Promise<void[]> => {
 
       const nodes = await getRichTextNodes(markdownIt.render(content, env));
 
-      writeFileSync(
-        targetFilename,
-        JSON.stringify({ nodes, ...env.frontmatter }),
-        "utf-8",
-      );
+      writeFileSync(targetFilename, JSON.stringify({ nodes, ...env.frontmatter }), "utf-8");
     }),
   );
 };

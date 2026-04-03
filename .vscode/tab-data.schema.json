@@ -15,16 +15,7 @@
         "color": {
           "description": "项目颜色",
           "type": "string",
-          "enum": [
-            "red",
-            "blue",
-            "purple",
-            "orange",
-            "grey",
-            "mauve",
-            "olive",
-            "cyan"
-          ]
+          "enum": ["red", "blue", "purple", "orange", "grey", "mauve", "olive", "cyan"]
         },
         "name": {
           "description": "项目英文名称",

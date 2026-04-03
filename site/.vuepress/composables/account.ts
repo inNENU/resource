@@ -16,30 +16,28 @@ export const setupAccount = (): void => {
     const message = new Message();
 
     const registerAccount = (): void => {
-      document
-        .querySelectorAll<HTMLElement>(".account-action")
-        .forEach((el) => {
-          el.addEventListener("click", () => {
-            const { qqcode, qq, wxid } = el.dataset;
+      document.querySelectorAll<HTMLElement>(".account-action").forEach((el) => {
+        el.addEventListener("click", () => {
+          const { qqcode, qq, wxid } = el.dataset;
 
-            if (qqcode) {
-              message.pop(`<img src="${qqcode}" />`, 5000);
-            } else if (qq) {
-              void copy(qq);
-              message.pop(`${CHECK_ICON}<span>QQ 号已复制到剪切板</span>`);
-            } else if (wxid) {
-              message.pop(
-                `<img src="https://open.weixin.qq.com/qr/code?username=${wxid}" />`,
-                5000,
-              );
-            }
-          });
+          if (qqcode) {
+            message.pop(`<img src="${qqcode}" />`, 5000);
+          } else if (qq) {
+            void copy(qq);
+            message.pop(`${CHECK_ICON}<span>QQ 号已复制到剪切板</span>`);
+          } else if (wxid) {
+            message.pop(`<img src="https://open.weixin.qq.com/qr/code?username=${wxid}" />`, 5000);
+          }
         });
+      });
     };
 
     watch(
       () => page.value.path,
-      () => nextTick().then(() => registerAccount()),
+      () =>
+        nextTick().then(() => {
+          registerAccount();
+        }),
       { immediate: true },
     );
   });

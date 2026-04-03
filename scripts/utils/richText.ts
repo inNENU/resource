@@ -1,12 +1,11 @@
-/* eslint-disable @typescript-eslint/no-unsafe-enum-comparison */
+// oxlint-disable typescript/no-unsafe-enum-comparison
 import { load } from "cheerio";
 import type { AnyNode } from "domhandler";
 
-const $ = load("");
+const cheerio = load("");
 
-export const parseHTML = (content: string): AnyNode[] =>
-  // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
-  $.parseHTML(content) || [];
+// oxlint-disable-next-line typescript/strict-boolean-expressions
+export const parseHTML = (content: string): AnyNode[] => cheerio.parseHTML(content) || [];
 
 export const ALLOWED_TAGS: [tag: string, allowedAttrs?: string[]][] = [
   ["a"],
@@ -107,10 +106,7 @@ export interface TextNode {
 
 export type RichTextNode = ElementNode | TextNode;
 
-const handleNode = async (
-  node: AnyNode,
-  options: GetNodeOptions,
-): Promise<RichTextNode | null> => {
+const handleNode = async (node: AnyNode, options: GetNodeOptions): Promise<RichTextNode | null> => {
   if (node.type === "text") return { type: "text", text: node.data };
 
   if (node.type === "tag") {
@@ -119,17 +115,12 @@ const handleNode = async (
     if (config) {
       const attrs = Object.fromEntries(
         node.attributes
-          .filter(
-            ({ name }) =>
-              ["class", "style"].includes(name) || config[1]?.includes(name),
-          )
+          .filter(({ name }) => ["class", "style"].includes(name) || config[1]?.includes(name))
           .map<[string, string]>(({ name, value }) => [name, value]),
       );
       const children = (
-        await Promise.all(
-          node.children.map((node) => handleNode(node, options)),
-        )
-      ).filter((item): item is RichTextNode => item !== null);
+        await Promise.all(node.children.map((childNode) => handleNode(childNode, options)))
+      ).filter((item): item is RichTextNode => item != null);
 
       // add node name to class
       attrs.class = attrs.class ? `${attrs.class} ${node.name}` : node.name;
@@ -140,15 +131,14 @@ const handleNode = async (
           ? await options.getLinkText(node.attribs.href)
           : ` (${node.attribs.href})`;
 
-        if (text && text !== getText(node.childNodes))
-          children.push({ type: "text", text });
+        if (text && text !== getText(node.childNodes)) children.push({ type: "text", text });
       }
 
       // resolve img source for img tag
       if (node.name === "img" && attrs.src && options.getImageSrc) {
         const result = await options.getImageSrc(attrs.src);
 
-        if (result === null) return null;
+        if (result == null) return null;
 
         attrs.src = result;
       }
@@ -156,7 +146,7 @@ const handleNode = async (
       if (options.getClass) {
         const className = options.getClass(node.name, attrs.class || "");
 
-        if (className === null) delete attrs.class;
+        if (className == null) delete attrs.class;
         else if (Array.isArray(className)) attrs.class = className.join(" ");
         else attrs.class = className;
       }
@@ -183,4 +173,4 @@ export const getRichTextNodes = async (
         handleNode(node, options),
       ),
     )
-  ).filter((item): item is RichTextNode => item !== null);
+  ).filter((item): item is RichTextNode => item != null);

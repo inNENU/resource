@@ -27,9 +27,7 @@ export const generatePEScore = (config: PEConfig): PEConfig => {
   });
 
   // 转换立定跳远单位
-  config.standingLongJump = config.standingLongJump.map(
-    (element) => element / 100,
-  );
+  config.standingLongJump = config.standingLongJump.map((element) => element / 100);
 
   return config;
 };

@@ -34,7 +34,6 @@ import { generatePEScore } from "./generate/peScore.js";
 import { RESOURCE_FOLDERS, generateResource } from "./generate/resource.js";
 import { generateSettings } from "./generate/settings.js";
 import { replaceWordCount } from "./generate/wordCount.js";
-
 import "./config/env.js";
 
 const diffFiles = getCurrentChangedFiles();
@@ -47,11 +46,14 @@ RESOURCE_FOLDERS.forEach((folder) => {
   convertYamlFilesToJson<PageConfig, PageData>(
     `./pages/${folder}`,
     `./.resource/${folder}`,
-    (data, filePath) =>
-      getPageJSON(data, `${folder}/${filePath}`, diffFiles, {
+    (data, filePath) => {
+      console.log(typeof data.time, data.time);
+
+      return getPageJSON(data, `${folder}/${filePath}`, diffFiles, {
         allowedTags,
         removeFields: ["aiIgnore", "tags"],
-      }),
+      });
+    },
     (content, filePath) => {
       if (
         [
@@ -61,9 +63,8 @@ RESOURCE_FOLDERS.forEach((folder) => {
           "app-intro/intro",
           "app-intro/search",
         ].includes(filePath)
-      ) {
+      )
         return replaceWordCount(content);
-      }
 
       return content;
     },
@@ -78,27 +79,24 @@ convertYamlFilesToJson<WechatAccountData>(
 );
 
 // 功能大厅
-convertYamlFilesToJson(
-  "./data/function",
-  "./.resource/function",
-  (data, filePath) =>
-    filePath === "map/marker/benbu"
-      ? getMarkersJSON(data as MarkersConfig, "benbu")
-      : filePath === "map/marker/jingyue"
-        ? getMarkersJSON(data as MarkersConfig, "jingyue")
-        : /map\/(benbu|jingyue)\//u.test(filePath)
-          ? getMapPageJSON(data as MapPageConfig, `function/${filePath}`)
-          : /pe-calculator\/(male|female)-(low|high)/u.test(filePath)
-            ? generatePEScore(data as PEConfig)
-            : filePath === "account/wx"
-              ? getWechatAccountsJSON(data as WechatAccounts, filePath)
-              : filePath === "account/qq"
-                ? getQQAccountsJSON(data as QQAccounts, filePath)
-                : filePath === "music/index"
-                  ? getMusicListJSON(data as MusicList, filePath)
-                  : filePath === "search"
-                    ? getPageIndexesJSON(data as PageIndexes, filePath)
-                    : data,
+convertYamlFilesToJson("./data/function", "./.resource/function", (data, filePath) =>
+  filePath === "map/marker/benbu"
+    ? getMarkersJSON(data as MarkersConfig, "benbu")
+    : filePath === "map/marker/jingyue"
+      ? getMarkersJSON(data as MarkersConfig, "jingyue")
+      : /map\/(benbu|jingyue)\//u.test(filePath)
+        ? getMapPageJSON(data as MapPageConfig, `function/${filePath}`)
+        : /pe-calculator\/(male|female)-(low|high)/u.test(filePath)
+          ? generatePEScore(data as PEConfig)
+          : filePath === "account/wx"
+            ? getWechatAccountsJSON(data as WechatAccounts, filePath)
+            : filePath === "account/qq"
+              ? getQQAccountsJSON(data as QQAccounts, filePath)
+              : filePath === "music/index"
+                ? getMusicListJSON(data as MusicList, filePath)
+                : filePath === "search"
+                  ? getPageIndexesJSON(data as PageIndexes, filePath)
+                  : data,
 );
 
 // 生成协议
@@ -124,12 +122,12 @@ convertYamlFilesToJson(
   (data, filePath) => {
     if (/item$/u.exec(filePath) || /group$/u.exec(filePath)) return null;
 
-    if (/settings$/u.exec(filePath)) return generateSettings(data);
+    if (filePath.endsWith("settings")) return generateSettings(data);
 
     return data;
   },
   (content, filePath) => {
-    if (/settings$/u.exec(filePath)) return replaceWordCount(content);
+    if (filePath.endsWith("settings")) return replaceWordCount(content);
 
     return content;
   },
