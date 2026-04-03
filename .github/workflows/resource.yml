@@ -45,11 +45,11 @@ jobs:
 
       - name: Generate resource
         run: |
-          pnpm resource:generate
+          pnpm run resource:generate
 
       - name: Sync OSS
         run: |
-          pnpm sync:oss
+          pnpm run sync:oss
 
       - name: Deploy to resource branch
         uses: JamesIves/github-pages-deploy-action@v4

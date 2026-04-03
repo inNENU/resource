@@ -17,6 +17,6 @@ RESOURCE_FOLDERS.forEach((folder) => {
   convertYamlFilesToMarkdown(
     `./pages/${folder}`,
     `./.site/${folder}`,
-    (data: PageConfig) => getPageMarkdown(data),
+    (data: PageConfig, filepath: string) => getPageMarkdown(data, filepath),
   );
 });

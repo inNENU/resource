@@ -1,3 +1,4 @@
+// oxlint-disable node/no-process-env
 import "./env.js";
 
 export const appIdInfo = {

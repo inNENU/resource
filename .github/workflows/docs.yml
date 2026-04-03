@@ -38,12 +38,10 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Generate Site
-        run: pnpm site:generate
+        run: pnpm run site:generate
 
       - name: Build Site
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm site:build
+        run: pnpm run site:build
 
       - name: Deploy to gh pages
         uses: JamesIves/github-pages-deploy-action@v4

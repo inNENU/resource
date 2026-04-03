@@ -1,4 +1,6 @@
 {
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "oxc.unusedDisableDirectives": "deny",
   "yaml.schemas": {
     "./.vscode/settings.schema.json": ["/config/**/settings.yml"],
     "./.vscode/wechat-account-data.schema.json": ["/data/account/*.yml"],
@@ -11,5 +13,6 @@
       "/data/function/map/jingyue/**/*.yml"
     ],
     "./.vscode/page-config.schema.json": ["/pages/**/*.yml"]
-  }
+  },
+  "cSpell.words": ["miniprogram"]
 }

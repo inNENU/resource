@@ -16,9 +16,7 @@ const id = computed(() => page.value.path.replace(/\.html$/, ""));
   <Layout>
     <template #contentBefore>
       <div v-if="enabled" class="open-app-wrapper">
-        <a class="open-app-button" :href="`innenu://pages/info/info?id=${id}`">
-          打开 App 查看
-        </a>
+        <a class="open-app-button" :href="`innenu://pages/info/info?id=${id}`"> 打开 App 查看 </a>
       </div>
     </template>
 

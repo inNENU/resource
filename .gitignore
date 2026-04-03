@@ -1,11 +1,12 @@
 # Node modules
 node_modules/
-pnpm-lock.yaml
 
 # Generated
 .oss/
 .resource/
 .site/
+.knowledge/
+.text/
 
 # env files
 .env
