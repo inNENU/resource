@@ -41,7 +41,7 @@
     "@vuepress/plugin-meilisearch": "2.0.0-rc.128",
     "@vueuse/core": "14.2.1",
     "cheerio": "1.2.0",
-    "cpx2": "8.0.0",
+    "cpx2": "8.0.2",
     "del": "8.0.1",
     "dotenv": "17.4.0",
     "innenu-generator": "0.8.1",
