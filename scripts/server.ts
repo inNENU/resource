@@ -2,12 +2,13 @@
  * Combined server for inNENU resources
  *
  * Route mappings:
- * - .resource/* -> /* (default)
- * - assets/* -> /assets/*
- * - img/* -> /img/*
- * - file/* -> /file/*
- * - service/* -> res.innenu.com/service/* (proxy)
- * - .oss/*.zip -> /*.zip (direct access for zip files)
+ *
+ * - `.resource/*` -> `/*` (default)
+ * - `assets/*` -> `/assets/*`
+ * - `img/*` -> `/img/*`
+ * - `file/*` -> `/file/*`
+ * - `service/*` -> `res.innenu.com/service/*` (proxy)
+ * - `.oss/*.zip` -> `/*.zip` (direct access for zip files)
  */
 import { createReadStream, existsSync, statSync } from "node:fs";
 import type { IncomingMessage, ServerResponse } from "node:http";

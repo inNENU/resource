@@ -1,7 +1,7 @@
 import { defineHopeConfig } from "oxc-config-hope/oxlint";
 
 export default defineHopeConfig({
-  ignorePatterns: [".oss/**", ".resource/**", ".site/**"],
+  ignore: [".oss/**", ".resource/**", ".site/**"],
   node: true,
   rules: {
     "no-console": "off",

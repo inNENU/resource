@@ -10,6 +10,7 @@ const FOLDERS_TO_COPY = ["apartment", "guide", "intro", "icon", "newcomer", "sch
 
 /**
  * 递归复制文件夹
+ *
  * @param src - 源文件夹路径
  * @param dest - 目标文件夹路径
  */
@@ -30,9 +31,7 @@ const copyDirectory = async (src: string, dest: string): Promise<void> => {
   }
 };
 
-/**
- * 主函数
- */
+/** 主函数 */
 const main = async (): Promise<void> => {
   // 检查 MINIPROGRAM_STORAGE 环境变量
   const storageDir = process.env.MINIPROGRAM_STORAGE;

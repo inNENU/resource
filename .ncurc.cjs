@@ -1,5 +1,4 @@
 module.exports = {
-  peer: true,
   upgrade: true,
   timeout: 360000,
   target: (name) => {
