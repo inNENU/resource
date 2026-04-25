@@ -55,7 +55,7 @@
     "vuepress-theme-hope": "2.0.0-rc.106"
   },
   "devDependencies": {
-    "@mr-hope/tsconfig": "0.0.3",
+    "@mr-hope/tsconfig": "0.0.4",
     "@types/js-yaml": "4.0.9",
     "@types/markdown-it": "14.1.2",
     "@types/node": "24.12.2",
