@@ -76,5 +76,5 @@
     "**/*": "oxfmt --no-error-on-unmatched-pattern",
     "*.{js,ts}": "oxlint --fix --type-check --type-aware --report-unused-disable-directives"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.2"
 }
