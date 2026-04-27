@@ -65,7 +65,7 @@
     "oxc-config-hope": "0.3.0",
     "oxfmt": "0.45.0",
     "oxlint": "1.60.0",
-    "oxlint-tsgolint": "0.21.1",
+    "oxlint-tsgolint": "0.22.1",
     "svgo": "4.0.1",
     "typescript": "6.0.3",
     "unrun": "0.2.36",
