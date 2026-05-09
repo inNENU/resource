@@ -7,10 +7,10 @@ const appIdList = Object.keys(appIdInfo);
 export const pushPages = async (): Promise<void> => {
   const fileList = [
     ...getFileList("./pages/guide", "yml").map(
-      (filePath) => `G${filePath.replace(/\.yml$/u, "").replace(/\/index$/, "/")}`,
+      (filePath) => `G${filePath.replace(/\.yml$/u, "").replace(/\/index$/u, "/")}`,
     ),
     ...getFileList("./pages/intro", "yml").map(
-      (filePath) => `I${filePath.replace(/\.yml$/u, "").replace(/\/index$/, "/")}`,
+      (filePath) => `I${filePath.replace(/\.yml$/u, "").replace(/\/index$/u, "/")}`,
     ),
   ];
 

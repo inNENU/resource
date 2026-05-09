@@ -18,7 +18,7 @@ export const generateLicense = (): Promise<void[]> => {
 
   return Promise.all(
     licenseFiles.map(async (file) => {
-      const targetFilename = `./.resource/config/${file.replace(/\.md$/, "-data.json")}`;
+      const targetFilename = `./.resource/config/${file.replace(/\.md$/u, "-data.json")}`;
       const targetFolderName = dirname(targetFilename);
 
       if (!existsSync(targetFolderName)) mkdirSync(targetFolderName, { recursive: true });

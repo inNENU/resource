@@ -71,8 +71,8 @@ window.difyChatbotConfig = {
   extendsPage: (page) => {
     if (page.filePathRelative) {
       page.data.filePathRelative = page.filePathRelative
-        .replace(/README\.md$/, "index.yml")
-        .replace(/\.md$/, ".yml");
+        .replace(/README\.md$/u, "index.yml")
+        .replace(/\.md$/u, ".yml");
     }
   },
 

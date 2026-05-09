@@ -9,7 +9,7 @@ const enabled = computed(() =>
     page.value.path.startsWith(item),
   ),
 );
-const id = computed(() => page.value.path.replace(/\.html$/, ""));
+const id = computed(() => page.value.path.replace(/\.html$/u, ""));
 </script>
 
 <template>
