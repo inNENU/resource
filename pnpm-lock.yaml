@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@alicloud/cdn20180510':
-        specifier: 9.0.0
-        version: 9.0.0
+        specifier: 9.1.0
+        version: 9.1.0
       '@mdit-vue/plugin-frontmatter':
         specifier: 3.0.2
         version: 3.0.2
@@ -120,8 +120,8 @@ importers:
 
 packages:
 
-  '@alicloud/cdn20180510@9.0.0':
-    resolution: {integrity: sha512-r3MTi5LTc2jcuIghk5NQQmKOFk61QFK1jLhIO8P13vbOKGQbzSdKhErYz+7T2UFRfmJUwSNjHh+m4KjR63o3kA==}
+  '@alicloud/cdn20180510@9.1.0':
+    resolution: {integrity: sha512-nhcptek6sPOeXN4YpF8l/GURcFgi+/DnFKIZFgAMWgP6I6b+H9KJgPK54kKhOVD4mVLOZsp1DMzFtgYL56VxsQ==}
 
   '@alicloud/credentials@2.4.4':
     resolution: {integrity: sha512-/eRAGSKcniLIFQ1UCpDhB/IrHUZisQ1sc65ws/c2avxUMpXwH1rWAohb76SVAUJhiF4mwvLzLJM1Mn1XL4Xe/Q==}
@@ -1284,6 +1284,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@vitejs/plugin-vue@6.0.6':
     resolution: {integrity: sha512-u9HHgfrq3AjXlysn0eINFnWQOJQLO9WN6VprZ8FXl7A2bYisv3Hui9Ij+7QZ41F/WYWarHjwBbXtD7dKg3uxbg==}
@@ -3612,7 +3613,7 @@ packages:
 
 snapshots:
 
-  '@alicloud/cdn20180510@9.0.0':
+  '@alicloud/cdn20180510@9.1.0':
     dependencies:
       '@alicloud/openapi-core': 1.0.7
       '@darabonba/typescript': 1.0.4
