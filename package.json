@@ -33,7 +33,7 @@
     "text:generate": "unrun ./scripts/generate-text.ts"
   },
   "dependencies": {
-    "@alicloud/cdn20180510": "9.1.0",
+    "@alicloud/cdn20180510": "9.2.0",
     "@mdit-vue/plugin-frontmatter": "3.0.2",
     "@vuepress/bundler-vite": "2.0.0-rc.28",
     "@vuepress/helper": "2.0.0-rc.128",
