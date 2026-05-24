@@ -46,7 +46,7 @@
     "dotenv": "17.4.2",
     "innenu-generator": "0.8.2",
     "js-yaml": "4.1.1",
-    "markdown-it": "14.1.1",
+    "markdown-it": "14.2.0",
     "sass-embedded": "1.99.0",
     "vidstack": "1.12.13",
     "vue": "3.5.34",
