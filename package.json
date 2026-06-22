@@ -63,7 +63,7 @@
     "husky": "9.1.7",
     "nano-staged": "1.0.2",
     "oxc-config-hope": "0.3.4",
-    "oxfmt": "0.48.0",
+    "oxfmt": "0.56.0",
     "oxlint": "1.63.0",
     "oxlint-tsgolint": "0.22.1",
     "svgo": "4.0.1",
