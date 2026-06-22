@@ -64,7 +64,7 @@
     "nano-staged": "1.0.2",
     "oxc-config-hope": "0.3.4",
     "oxfmt": "0.48.0",
-    "oxlint": "1.63.0",
+    "oxlint": "1.71.0",
     "oxlint-tsgolint": "0.22.1",
     "svgo": "4.0.1",
     "typescript": "6.0.3",
