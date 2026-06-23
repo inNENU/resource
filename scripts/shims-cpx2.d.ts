@@ -1,3 +1,3 @@
 declare module "cpx2" {
-  export function copySync(src: string, dest: string): void;
+  export function copy(src: string, dest: string): Promise<void>;
 }

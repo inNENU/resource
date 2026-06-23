@@ -33,44 +33,44 @@
     "text:generate": "unrun ./scripts/generate-text.ts"
   },
   "dependencies": {
-    "@alicloud/cdn20180510": "9.1.0",
+    "@alicloud/cdn20180510": "9.2.0",
     "@mdit-vue/plugin-frontmatter": "3.0.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.28",
-    "@vuepress/helper": "2.0.0-rc.128",
-    "@vuepress/plugin-feed": "2.0.0-rc.128",
-    "@vuepress/plugin-meilisearch": "2.0.0-rc.128",
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/helper": "2.0.0-rc.130",
+    "@vuepress/plugin-feed": "2.0.0-rc.130",
+    "@vuepress/plugin-meilisearch": "2.0.0-rc.130",
     "@vueuse/core": "14.3.0",
     "cheerio": "1.2.0",
-    "cpx2": "8.0.2",
+    "cpx2": "9.0.0",
     "del": "8.0.1",
     "dotenv": "17.4.2",
     "innenu-generator": "0.8.2",
-    "js-yaml": "4.1.1",
-    "markdown-it": "14.1.1",
-    "sass-embedded": "1.99.0",
+    "js-yaml": "5.0.0",
+    "markdown-it": "14.2.0",
+    "sass-embedded": "1.100.0",
     "vidstack": "1.12.13",
-    "vue": "3.5.34",
-    "vuepress": "2.0.0-rc.28",
-    "vuepress-shared": "2.0.0-rc.106",
-    "vuepress-theme-hope": "2.0.0-rc.106"
+    "vue": "3.5.38",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-shared": "2.0.0-rc.107",
+    "vuepress-theme-hope": "2.0.0-rc.107"
   },
   "devDependencies": {
     "@mr-hope/tsconfig": "0.0.4",
     "@types/js-yaml": "4.0.9",
     "@types/markdown-it": "14.1.2",
-    "@types/node": "24.12.3",
+    "@types/node": "24.13.2",
     "domhandler": "6.0.1",
     "husky": "9.1.7",
     "nano-staged": "1.0.2",
-    "oxc-config-hope": "0.3.4",
-    "oxfmt": "0.48.0",
-    "oxlint": "1.63.0",
-    "oxlint-tsgolint": "0.22.1",
+    "oxc-config-hope": "0.3.8",
+    "oxfmt": "0.56.0",
+    "oxlint": "1.71.0",
+    "oxlint-tsgolint": "0.23.0",
     "svgo": "4.0.1",
     "typescript": "6.0.3",
-    "unrun": "0.3.0",
-    "vite": "8.0.11",
-    "vitest": "4.1.5"
+    "unrun": "0.3.1",
+    "vite": "8.0.16",
+    "vitest": "4.1.9"
   },
   "nano-staged": {
     "**/*": "oxfmt --no-error-on-unmatched-pattern",
@@ -79,12 +79,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "11.0.9",
+      "version": "11.8.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^24.15.0",
+      "version": "^24.16.0",
       "onFail": "error"
     }
   }

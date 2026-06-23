@@ -3,3 +3,23 @@ allowBuilds:
   "@parcel/watcher": true
   esbuild: true
   unrs-resolver: true
+
+# configDependencies:
+#   pacquet: ^0.11.10
+
+enableGlobalVirtualStore: true
+
+minimumReleaseAgeExclude:
+  - "@oxfmt/*"
+  - "@oxlint/*"
+  - oxc-config-hope
+  - oxfmt
+  - oxlint
+
+trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  # ali-oss, babel
+  - semver@5.7.2 || 6.3.1
+  # node types
+  - undici-types@6.21.0

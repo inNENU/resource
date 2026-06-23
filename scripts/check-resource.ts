@@ -45,7 +45,7 @@ checkYamlFiles("./data/function", (data, filePath) => {
   if (filePath.startsWith("map/marker/benbu")) checkMarkersConfig(data as MarkersConfig, "benbu");
   else if (filePath.startsWith("map/marker/jingyue"))
     checkMarkersConfig(data as MarkersConfig, "jingyue");
-  else if (/map\/(benbu|jingyue)\//u.test(filePath))
+  else if (/map\/(?:benbu|jingyue)\//u.test(filePath))
     checkMapPageConfig(data as MapPageConfig, `function/${filePath}`);
   else if (filePath === "account/qq") checkQQAccounts(data as QQAccounts, filePath);
   else if (filePath === "account/wx") checkWechatAccounts(data as WechatAccounts, filePath);

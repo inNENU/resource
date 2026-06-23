@@ -13,7 +13,7 @@
 import { createReadStream, existsSync, statSync } from "node:fs";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { createServer } from "node:http";
-import { extname, resolve } from "node:path";
+import path from "node:path";
 
 const PORT = 4040;
 
@@ -36,7 +36,7 @@ const mimeTypes = new Map([
 ]);
 
 const getMimeType = (filePath: string): string => {
-  const ext = extname(filePath).toLowerCase();
+  const ext = path.extname(filePath).toLowerCase();
 
   return mimeTypes.get(ext) ?? "application/octet-stream";
 };
@@ -139,7 +139,7 @@ const handleSettingsRequest = (req: IncomingMessage, res: ServerResponse): void 
       }
 
       // 构建本地文件路径
-      const configPath = resolve(".resource/config", appId, version, "settings.json");
+      const configPath = path.resolve(".resource/config", appId, version, "settings.json");
 
       // 检查文件是否存在
       if (!existsSync(configPath)) {
@@ -229,28 +229,28 @@ const server = createServer((req, res) => {
   if (pathname.startsWith("/assets/")) {
     const relativePath = pathname.slice("/assets/".length);
 
-    filePath = resolve(process.cwd(), "assets", relativePath);
+    filePath = path.resolve(process.cwd(), "assets", relativePath);
   } else if (pathname.startsWith("/img/")) {
     const relativePath = pathname.slice("/img/".length);
 
-    filePath = resolve(process.cwd(), "img", relativePath);
+    filePath = path.resolve(process.cwd(), "img", relativePath);
   } else if (pathname.startsWith("/file/")) {
     const relativePath = pathname.slice("/file/".length);
 
-    filePath = resolve(process.cwd(), "file", relativePath);
+    filePath = path.resolve(process.cwd(), "file", relativePath);
   } else {
     // 首先检查是否是 .oss 目录下的 zip 文件（直接根路径访问）
     const cleanPath = pathname.startsWith("/") ? pathname.slice(1) : pathname;
 
     if (cleanPath.endsWith(".zip")) {
-      const ossFilePath = resolve(process.cwd(), ".oss", cleanPath);
+      const ossFilePath = path.resolve(process.cwd(), ".oss", cleanPath);
 
       filePath = existsSync(ossFilePath)
         ? ossFilePath
-        : resolve(process.cwd(), ".resource", cleanPath);
+        : path.resolve(process.cwd(), ".resource", cleanPath);
     } else {
       // 默认从 .resource 目录托管
-      filePath = resolve(process.cwd(), ".resource", cleanPath);
+      filePath = path.resolve(process.cwd(), ".resource", cleanPath);
     }
   }
 

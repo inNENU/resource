@@ -1,4 +1,4 @@
-import { basename } from "node:path";
+import path from "node:path";
 
 import { getPageJSON } from "innenu-generator";
 import type { PageConfig, PageData } from "innenu-generator/typings";
@@ -9,7 +9,7 @@ export interface Donate {
 }
 
 export const generateDonate = (data: Donate, filePath: string): PageData => {
-  const baseName = basename(filePath);
+  const baseName = path.basename(filePath);
 
   const donateAmount = data.donations.reduce((prev, current) => prev + current[1], 0);
 

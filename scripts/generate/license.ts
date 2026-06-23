@@ -1,5 +1,5 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname } from "node:path";
+import path from "node:path";
 
 import { frontmatterPlugin } from "@mdit-vue/plugin-frontmatter";
 import { getFileList } from "innenu-generator";
@@ -13,13 +13,13 @@ export const generateLicense = (): Promise<void[]> => {
   const fileList = getFileList("./config", "md");
 
   const licenseFiles = fileList.filter(
-    (path) => path.endsWith("/license.md") || path.endsWith("/privacy.md"),
+    (filePath) => filePath.endsWith("/license.md") || filePath.endsWith("/privacy.md"),
   );
 
   return Promise.all(
     licenseFiles.map(async (file) => {
       const targetFilename = `./.resource/config/${file.replace(/\.md$/u, "-data.json")}`;
-      const targetFolderName = dirname(targetFilename);
+      const targetFolderName = path.dirname(targetFilename);
 
       if (!existsSync(targetFolderName)) mkdirSync(targetFolderName, { recursive: true });
 

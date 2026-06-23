@@ -1,4 +1,4 @@
-import cpx from "cpx2";
+import { copy } from "cpx2";
 import { deleteSync } from "del";
 import type {
   MapPageConfig,
@@ -84,9 +84,9 @@ convertYamlFilesToJson("./data/function", "./.resource/function", (data, filePat
     ? getMarkersJSON(data as MarkersConfig, "benbu")
     : filePath === "map/marker/jingyue"
       ? getMarkersJSON(data as MarkersConfig, "jingyue")
-      : /map\/(benbu|jingyue)\//u.test(filePath)
+      : /map\/(?:benbu|jingyue)\//u.test(filePath)
         ? getMapPageJSON(data as MapPageConfig, `function/${filePath}`)
-        : /pe-calculator\/(male|female)-(low|high)/u.test(filePath)
+        : /pe-calculator\/(?:male|female)-(?:low|high)/u.test(filePath)
           ? generatePEScore(data as PEConfig)
           : filePath === "account/wx"
             ? getWechatAccountsJSON(data as WechatAccounts, filePath)
@@ -137,12 +137,12 @@ convertYamlFilesToJson(
 generateResource(diffFiles);
 
 // 复制图标
-cpx.copySync("./data/icon/**", "./.resource/icons");
+await copy("./data/icon/**", "./.resource/icons");
 // 复制服务
-cpx.copySync("./service/**", "./.resource/service");
+await copy("./service/**", "./.resource/service");
 // 复制 schema 配置
-cpx.copySync("./.vscode/**", "./.resource/.vscode");
+await copy("./.vscode/**", "./.resource/.vscode");
 // 复制文件
-cpx.copySync("./public/**", "./.resource");
+await copy("./public/**", "./.resource");
 
 console.info("All completed");

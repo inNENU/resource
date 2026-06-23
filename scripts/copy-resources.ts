@@ -1,7 +1,7 @@
 // oxlint-disable node/no-process-env
 // oxlint-disable no-await-in-loop
 import { copyFile, mkdir, readdir, stat } from "node:fs/promises";
-import { join } from "node:path";
+import path from "node:path";
 
 import "./config/env.js";
 
@@ -22,8 +22,8 @@ const copyDirectory = async (src: string, dest: string): Promise<void> => {
   const entries = await readdir(src);
 
   for (const entry of entries) {
-    const srcPath = join(src, entry);
-    const destPath = join(dest, entry);
+    const srcPath = path.join(src, entry);
+    const destPath = path.join(dest, entry);
 
     const stats = await stat(srcPath);
 
@@ -43,7 +43,7 @@ const main = async (): Promise<void> => {
   }
 
   // 在路径后追加 usr/
-  const targetDir = join(storageDir, "usr");
+  const targetDir = path.join(storageDir, "usr");
 
   try {
     // 检查目标目录是否存在，不存在则报错
@@ -59,8 +59,8 @@ const main = async (): Promise<void> => {
   try {
     // 复制每个指定的文件夹
     for (const folder of FOLDERS_TO_COPY) {
-      const srcPath = join(RESOURCE_DIR, folder);
-      const destPath = join(targetDir, folder);
+      const srcPath = path.join(RESOURCE_DIR, folder);
+      const destPath = path.join(targetDir, folder);
 
       // 检查源文件夹是否存在
       try {
