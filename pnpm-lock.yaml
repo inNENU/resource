@@ -329,8 +329,8 @@ importers:
         specifier: 0.8.2
         version: 0.8.2
       js-yaml:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 5.2.1
+        version: 5.2.1
       markdown-it:
         specifier: 14.2.0
         version: 14.2.0
@@ -2692,8 +2692,8 @@ packages:
     resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
     hasBin: true
 
-  js-yaml@5.0.0:
-    resolution: {integrity: sha512-GSvaPUbk1U+FMZ7rJzF+F8e5YVtu7KnD40et/5rBXXRBv2jCO9L3qCewvIDDdudC0QycTFlf6EAA+h3kxBsuUw==}
+  js-yaml@5.2.1:
+    resolution: {integrity: sha512-zfLtNfQqxVqq3uaTqSkh4x4hZw3KHobGUA0fJUj4wawW8bsQLTVqpHdXSIzidh7o+4lEW36tANuAGdaFx6Zgnw==}
     hasBin: true
 
   jsesc@3.1.0:
@@ -6376,7 +6376,7 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  js-yaml@5.0.0:
+  js-yaml@5.2.1:
     dependencies:
       argparse: 2.0.1
 
