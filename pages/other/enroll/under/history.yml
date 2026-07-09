@@ -4,12 +4,16 @@ tags:
 icon: time
 grey: true
 author: Mr.Hope
-time: 2025-07-23T09:43:28.770Z
+time: 2026-07-09T03:13:08.984Z
 shareable: true
 content:
   - tag: list
     header: 本科招生专业
     items:
+      - text: 2024 年本科开设专业
+        icon: list
+        path: major/2024
+
       - text: 2023 年本科开设专业
         icon: list
         path: major/2023
@@ -33,6 +37,14 @@ content:
   - tag: list
     header: 本科招生章程
     items:
+      - text: 2025 年本科招生章程
+        icon: rule
+        path: rule/2025
+
+      - text: 2024 年本科招生章程
+        icon: rule
+        path: rule/2024
+
       - text: 2023 年本科招生章程
         icon: rule
         path: rule/2023
@@ -56,8 +68,29 @@ content:
   - tag: list
     header: 其他招生简章
     items:
-      - text: 2024 年本科招生章程
-        path: rule/2024
+      - text: 2025 年本科招生体检要求
+        path: rule/2025-requirement
+
+      - text: 2025 年高校专项计划招生简章
+        path: rule/2025-plan
+
+      - text: 2025 年国家优师专项计划招生简章
+        path: rule/2025-great
+
+      - text: 2025 年音乐学专业招生简章
+        path: rule/2025-music
+
+      - text: 2025 年美术类专业招生简章
+        path: rule/2025-art
+
+      - text: 2025 年舞蹈编导专业招生简章
+        path: rule/2025-dance
+
+      - text: 2025 年运动训练、武术与民族传统体育专业招生简章
+        path: rule/2025-pe
+
+      - text: 2025 年高水平运动队招生简章
+        path: rule/2025-team
 
       - text: 2024 年本科招生体检要求
         path: rule/2024-requirement

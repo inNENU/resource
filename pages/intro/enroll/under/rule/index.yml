@@ -4,23 +4,23 @@ tags:
 icon: rule
 grey: true
 author: Mr.Hope
-time: 2025-06-21T07:59:38.678Z
+time: 2026-07-09T03:13:08.484Z
 shareable: true
 content:
   - tag: list
-    header: 2025 年
+    header: 2026 年
     items:
-      - text: 2025 年本科招生章程
-        path: "2025"
+      - text: 2026 年本科招生章程
+        path: "2026"
 
-      - text: 2025 年本科招生体检要求
-        path: 2025-requirement
+      - text: 2026 年本科招生体检要求
+        path: 2026-requirement
 
       - text: 2025 年高校专项计划招生简章
         path: 2025-plan
 
-      - text: 2025 年国家优师专项计划招生简章
-        path: 2025-great
+      - text: 2026 年国家优师专项计划招生简章
+        path: 2026-great
 
       - text: 2025 年音乐学专业招生简章
         path: 2025-music
@@ -36,3 +36,11 @@ content:
 
       - text: 2025 年高水平运动队招生简章
         path: 2025-team
+
+  - tag: doc
+    name: 东北师范大学 2026 级本研衔接公费师范生履约任教范围
+    url: $file/enroll/2026-normal-scope.pdf
+
+  - tag: p
+    type: warning
+    text: 东北师范大学本科招生网后续发布公告对上述文件进行了更正，涉及广西、天津、安徽。请相关省市考生以官网订正为准。
