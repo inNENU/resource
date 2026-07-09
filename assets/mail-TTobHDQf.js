@@ -1,0 +1,1 @@
+var e=`/assets/icon/mail.svg`;export{e as t};
