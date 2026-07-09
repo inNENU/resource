@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 jobs:
-  deploy-gh-pages:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -46,51 +46,18 @@ jobs:
       - name: Deploy to gh pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
+          branch: docs
           folder: .site/.vuepress/dist
           single-commit: true
 
-  deploy-server:
-    runs-on: ubuntu-latest
-    needs: deploy-gh-pages
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          ref: gh-pages
-          fetch-depth: 0
+      - name: Trigger Hook
+        run: curl -s "${{ secrets.BT_DOCS_WEBHOOK_URL }}"
 
-      - name: Config environment
-        env:
-          HOST: direct.innenu.com
-          SSH_PORT: ${{ secrets.SSH_PORT }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-
-          echo "Host $HOST" >> ~/.ssh/config
-          echo "  HostName $HOST" >> ~/.ssh/config
-          echo "  Port $SSH_PORT" >> ~/.ssh/config
-          echo "  User git" >> ~/.ssh/config
-          echo "  IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
-          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
-
-          git config --global user.name 'Mr.Hope'
-          git config --global user.email 'mister-hope@outlook.com'
-
-      - name: Deploy
-        env:
-          HOST: direct.innenu.com
-          DEST: /www/wwwroot/innenu
-          BRANCH: gh-pages
-        run: |
-          git push -f git@$HOST:$DEST $BRANCH
-          ssh git@$HOST "cd $DEST && git reset --hard HEAD"
+      - name: Wait 30 seconds for the deploy to finish
+        run: sleep 30
 
   scrape:
-    needs: deploy-server
+    needs: deploy
     uses: ./.github/workflows/scraper.yml
     secrets:
       MEILISEARCH_MASTER_KEY: ${{ secrets.MEILISEARCH_MASTER_KEY }}

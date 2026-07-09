@@ -58,41 +58,5 @@ jobs:
           folder: .resource
           single-commit: true
 
-  deploy-server:
-    runs-on: ubuntu-latest
-    needs: generate-data
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          ref: resource
-          fetch-depth: 0
-
-      - name: Config environment
-        env:
-          HOST: direct.innenu.com
-          SSH_PORT: ${{ secrets.SSH_PORT }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-
-          echo "Host $HOST" >> ~/.ssh/config
-          echo "  HostName $HOST" >> ~/.ssh/config
-          echo "  Port $SSH_PORT" >> ~/.ssh/config
-          echo "  User git" >> ~/.ssh/config
-          echo "  IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
-          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
-
-          git config --global user.name 'Mr.Hope'
-          git config --global user.email 'mister-hope@outlook.com'
-
-      - name: Deploy
-        env:
-          HOST: direct.innenu.com
-          DEST: /www/wwwroot/innenu-res
-          BRANCH: resource
-        run: |
-          git push -f git@$HOST:$DEST $BRANCH
-          ssh git@$HOST "cd $DEST && git reset --hard HEAD"
+      - name: Trigger Hook
+        run: curl -s "${{ secrets.BT_RESOURCE_WEBHOOK_URL }}"

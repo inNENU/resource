@@ -63,7 +63,7 @@ export default hopeTheme({
 
     meilisearch: {
       host: "https://meilisearch.innenu.com",
-      apiKey: "35f2107c9146d9f57fa00454252dce5d40c87c16ee60de6d1ef3f5095c318b50",
+      apiKey: "380e19ebed51ee8f36bbc4793fdafdce762742a519984d01d3082a9b194d29ef",
       indexUid: "innenu",
     },
   },

@@ -44,24 +44,6 @@ export default defineUserConfig({
         content: "black",
       },
     ],
-    [
-      "script",
-      {},
-      `\
-window.difyChatbotConfig = {
-  token: 'nsFTs8LGewxcPpgf',
-  baseUrl: 'https://search-ai.cn',
-}
-`,
-    ],
-    [
-      "script",
-      {
-        src: "https://search-ai.cn/embed.min.js",
-        id: "nsFTs8LGewxcPpgf",
-        defer: "",
-      },
-    ],
   ],
 
   bundler: viteBundler(),

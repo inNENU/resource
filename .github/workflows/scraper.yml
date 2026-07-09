@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Install pnpm
         uses: pnpm/action-setup@v6
@@ -41,15 +41,15 @@ jobs:
 
       - name: Run scraper
         env:
-          # replace with your own MeiliSearch host URL
           HOST_URL: https://meilisearch.innenu.com
           API_KEY: ${{ secrets.MEILISEARCH_MASTER_KEY }}
-          # replace it with the path to your config file
           CONFIG_FILE_PATH: ${{ github.workspace }}/config/scraper.json
         run: |
           docker run -t --rm \
             --network=host \
             -e MEILISEARCH_HOST_URL=$HOST_URL \
             -e MEILISEARCH_API_KEY=$API_KEY \
+            -e CONCURRENT_REQUESTS=2 \
+            -e DOWNLOAD_DELAY=1.0 \
             -v $CONFIG_FILE_PATH:/docs-scraper/config.json \
             jqiue/docs-scraper:latest pipenv run ./docs_scraper config.json
