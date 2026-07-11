@@ -387,8 +387,8 @@ importers:
         specifier: 0.24.0
         version: 0.24.0
       svgo:
-        specifier: 4.0.1
-        version: 4.0.1
+        specifier: 4.0.2
+        version: 4.0.2
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -3416,8 +3416,8 @@ packages:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
 
-  svgo@4.0.1:
-    resolution: {integrity: sha512-XDpWUOPC6FEibaLzjfe0ucaV0YrOjYotGJO1WpF0Zd+n6ZGEQUsSugaoLq9QkEZtAfQIxT42UChcssDVPP3+/w==}
+  svgo@4.0.2:
+    resolution: {integrity: sha512-ekx94z1rRc5LDi6oSUaeRnYhd0UOJxdtQCL2rF8xpWxD3TPAsISWOrxezqGovqS38GRZOdpDfvQe3ts6F7nsng==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -7055,7 +7055,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  svgo@4.0.1:
+  svgo@4.0.2:
     dependencies:
       commander: 11.1.0
       css-select: 5.2.2
