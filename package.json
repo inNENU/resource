@@ -36,7 +36,7 @@
     "@alicloud/cdn20180510": "9.2.0",
     "@mdit-vue/plugin-frontmatter": "3.0.2",
     "@vuepress/bundler-vite": "2.0.0-rc.30",
-    "@vuepress/helper": "2.0.0-rc.130",
+    "@vuepress/helper": "2.0.0-rc.131",
     "@vuepress/plugin-feed": "2.0.0-rc.130",
     "@vuepress/plugin-meilisearch": "2.0.0-rc.130",
     "@vueuse/core": "14.3.0",
