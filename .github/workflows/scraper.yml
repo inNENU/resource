@@ -1,12 +1,27 @@
-name: Generate and deploy docs
+name: Deploy and Scrape
 
 on:
+  push:
+    branches:
+      - main
+
   workflow_call:
     secrets:
       MEILISEARCH_MASTER_KEY:
         required: true
 
   workflow_dispatch:
+    inputs:
+      fetch-depth:
+        description: "Number of commits to fetch for diff"
+        required: false
+        type: number
+        default: 2
+      full-scrape:
+        description: "Force a full re-scrape"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -14,12 +29,12 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    name: re-scrape documentation for MeiliSearch
+    name: re-scrape documentation for Meilisearch
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
-          fetch-depth: 0
+          fetch-depth: ${{ inputs.fetch-depth || 2 }}
 
       - name: Install pnpm
         uses: pnpm/action-setup@v6
@@ -37,9 +52,22 @@ jobs:
         run: pnpm run site:generate
 
       - name: Generate Only URLs
-        run: pnpm exec vp-meilisearch-scrapper .site config/scraper.json
+        id: generate
+        continue-on-error: true
+        env:
+          DOCS_DIR: .site
+          SCRAPER_CONFIG: config/scraper.json
+        run: >
+          pnpm exec vp-meilisearch-scrapper ${{ env.DOCS_DIR }} ${{ env.SCRAPER_CONFIG }}
+          ${{ inputs.full-scrape && '--full-scrape' || '' }}
+          --diff-depth ${{ (inputs.fetch-depth || 2) - 1 }}
+
+      - name: Skip scrape (no changes)
+        if: steps.generate.outcome == 'failure'
+        run: echo '::notice::No changed markdown files detected, skipping scrape.'
 
       - name: Run scraper
+        if: steps.generate.outcome == 'success'
         env:
           HOST_URL: https://meilisearch.innenu.com
           API_KEY: ${{ secrets.MEILISEARCH_MASTER_KEY }}
