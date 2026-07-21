@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "oxc.oxc-vscode",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "mrmlnc.vscode-scss",
+    "redhat.vscode-yaml",
+    "stylelint.vscode-stylelint",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
