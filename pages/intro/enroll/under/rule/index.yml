@@ -4,7 +4,7 @@ tags:
 icon: rule
 grey: true
 author: Mr.Hope
-time: 2026-07-09T03:13:08.484Z
+time: 2026-07-21T03:22:27.033Z
 shareable: true
 content:
   - tag: list
@@ -16,26 +16,41 @@ content:
       - text: 2026 年本科招生体检要求
         path: 2026-requirement
 
-      - text: 2025 年高校专项计划招生简章
-        path: 2025-plan
+      - text: 2026 年高校专项计划招生简章
+        path: 2026-plan
 
       - text: 2026 年国家优师专项计划招生简章
         path: 2026-great
 
-      - text: 2025 年音乐学专业招生简章
-        path: 2025-music
+      - text: 2026 年音乐学专业招生简章
+        path: 2026-music
 
-      - text: 2025 年美术类专业招生简章
-        path: 2025-art
+      - text: 2026 年美术类专业招生简章
+        path: 2026-art
 
-      - text: 2025 年舞蹈编导专业招生简章
-        path: 2025-dance
+      - text: 2026 年舞蹈编导专业招生简章
+        path: 2026-dance
 
-      - text: 2025 年运动训练、武术与民族传统体育专业招生简章
-        path: 2025-pe
+      - text: 2026 年运动训练、武术与民族传统体育专业招生简章
+        path: 2026-pe
 
-      - text: 2025 年高水平运动队招生简章
-        path: 2025-team
+      - text: 2026 年高水平运动队招生简章
+        path: 2026-team
+
+      - text: 2026 年保送录取优秀运动员招生简章
+        path: 2026-athlete
+
+      - text: 2026 年外语类保送生招生简章
+        path: 2026-language
+
+      - text: 2026 年台湾高中毕业生招生简章
+        path: 2026-tw
+
+      - text: 2026 年香港中学文凭考试学生招生简章
+        path: 2026-hk
+
+      - text: 2026 年澳门保送生招生简章
+        path: 2026-mo
 
   - tag: doc
     name: 东北师范大学 2026 级本研衔接公费师范生履约任教范围

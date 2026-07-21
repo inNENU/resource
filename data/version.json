@@ -3,7 +3,7 @@
     "apartment": 2,
     "function": 26,
     "guide": 30,
-    "intro": 9,
+    "intro": 10,
     "icon": 0,
     "school": 6,
     "newcomer": 25
@@ -14,7 +14,7 @@
     "function": 246,
     "guide": 783,
     "icon": 327,
-    "intro": 378,
+    "intro": 398,
     "newcomer": 248
   }
 }
