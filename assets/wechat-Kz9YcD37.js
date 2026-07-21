@@ -1,0 +1,1 @@
+var e=`/assets/icon/wechat.svg`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/assets/icon/pdf.svg`;export{e as t};

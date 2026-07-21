@@ -1,0 +1,1 @@
+var e=`/assets/icon/xls.svg`;export{e as t};

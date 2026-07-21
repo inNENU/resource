@@ -1,0 +1,1 @@
+var e=`/assets/icon/qq.svg`;export{e as t};
