@@ -3,7 +3,7 @@ tags:
   - 政法学院
   - 专业介绍
 author: Mr.Hope
-time: 2025-06-22T04:41:00.263Z
+time: 2026-07-21T02:12:28.376Z
 shareable: true
 content:
   - tag: title
@@ -13,8 +13,14 @@ content:
     text:
       - 为普通类专业。学生入学半年后分为政治学与行政学、国际政治和行政管理三个专业。
 
+  - tag: text
+    type: info
+    text: 2025 级及以前适用。2026 级起政治学类不再大类招生，改为专业直招。
+
+  - tag: title
+    text: 专业介绍
+
   - tag: list
-    header: 专业介绍
     items:
       - text: 政治学与行政学
         path: politics

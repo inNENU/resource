@@ -4,7 +4,7 @@ tags:
   - 经济与管理学院
 icon: enroll
 author: Mr.Hope
-time: 2025-07-27T10:25:38.531Z
+time: 2026-07-21T02:12:28.350Z
 shareable: true
 content:
   - tag: title
@@ -17,16 +17,20 @@ content:
     src: https://zsb.nenu.edu.cn/__local/1/D9/BC/A06D4194EC4CCAD52CD14D880C8_1A36202C_D2251F3.mp4?e=.mp4
 
   - tag: title
-    text: 本科招生情况
+    text: 本科招生概况
 
   - tag: p
-    text: 经济学院设有市场营销、人力资源管理、经济学、金融学、会计学、会计学(中外合作办学) 6 个本科专业，其中前五个专业采取大类招生。
+    text: 学院人力资源管理、会计学、市场营销、金融学四个专业按经济学大类招生，学生入学后第 2 学期再进行专业分流培养。经济学按"经济学-统计学"双学士学位项目招生和培养。会计学中外合作办学项目按专业招生和培养。
 
   - tag: list
     header: 专业详情
     items:
       - text: 经济学类
         path: class
+
+      - text: 经济学-统计学双学士学位
+        desc: 2026 级起
+        path: economy-data
 
       - text: 会计学(中外合作办学)
         path: accountant-cop

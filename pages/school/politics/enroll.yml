@@ -5,7 +5,7 @@ tags:
 icon: enroll
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2025-07-27T10:25:38.760Z
+time: 2026-07-21T02:12:28.377Z
 shareable: true
 content:
   - tag: title
@@ -21,7 +21,7 @@ content:
     text: 本科招生概况
 
   - tag: p
-    text: 政法学院现设有思想政治教育 (公费师范)、法学、行政管理、国际政治、政治学与行政学 5 个本科专业，其中后三个专业采取政治学大类招生。
+    text: 2026 年，政法学院本科招生专业/类包括：思想政治教育（公费师范）、思想政治教育（优师专项）、法学、政治学与行政学、政治学与行政学-数据科学与大数据技术双学士学位，均为国家级一流本科专业建设点。
 
   - tag: list
     header: 专业详情
@@ -32,8 +32,11 @@ content:
       - text: 法学
         path: law
 
-      - text: 政治学类
-        path: class
+      - text: 政治学与行政学
+        path: politics
+
+      - text: 政治学与行政学-数据科学与大数据技术双学士学位
+        path: politics-data
 
   - tag: list
     header: 准入要求

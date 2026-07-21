@@ -15,6 +15,7 @@ minimumReleaseAgeExclude:
   - oxc-config-hope
   - oxfmt
   - oxlint
+  - innenu-generator
 
 trustPolicy: no-downgrade
 

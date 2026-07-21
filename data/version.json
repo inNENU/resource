@@ -3,18 +3,18 @@
     "apartment": 2,
     "function": 26,
     "guide": 30,
-    "intro": 7,
+    "intro": 8,
     "icon": 0,
-    "school": 2,
+    "school": 3,
     "newcomer": 25
   },
   "size": {
     "apartment": 127,
-    "school": 383,
+    "school": 381,
     "function": 246,
     "guide": 783,
     "icon": 327,
-    "intro": 357,
+    "intro": 344,
     "newcomer": 248
   }
 }
