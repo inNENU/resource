@@ -5,7 +5,7 @@ tags:
 icon: archive
 grey: true
 author: Mr.Hope
-time: 2025-06-22T11:46:38.613Z
+time: 2026-07-21T03:48:55.446Z
 shareable: true
 content:
   - tag: account
@@ -23,9 +23,13 @@ content:
         icon: intro
         path: intro
 
-      - text: 联系方式
+      - text: 科室介绍
         icon: phone
         path: contact
+
+      - text: 人员信息
+        icon: account
+        path: staff
 
   - tag: action
     header: 毕业生档案转递系统

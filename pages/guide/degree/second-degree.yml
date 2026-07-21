@@ -3,7 +3,7 @@ tags:
   - 学位
 icon: degree
 author: Mr.Hope
-time: 2025-07-23T09:43:28.444Z
+time: 2026-07-21T03:48:55.497Z
 shareable: true
 content:
   - tag: title
@@ -25,7 +25,7 @@ content:
 
   - tag: list
     items:
-      # TODO: Update at 2026-05
-      - text: 2025 年第二学士学位招生简章
+      # TODO: Update at 2027-05
+      - text: 2026 年第二学士学位招生简章
         icon: rule
-        path: /intro/enroll/second-degree/2025
+        path: /intro/enroll/second-degree/2026

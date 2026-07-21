@@ -3,19 +3,19 @@ title: 考研报考
 aiIgnore: true
 icon: test
 author: Mr.Hope
-time: 2025-06-21T07:59:38.678Z
+time: 2026-07-21T03:48:55.568Z
 grey: true
 shareable: true
 content:
   - tag: list
     items:
-      - text: 2025 年时间安排
+      - text: 2026 年时间安排
         icon: time
         path: time
 
-      - text: 2025 年全国招生规定
+      - text: 2026 年全国招生规定
         icon: rule
-        path: /intro/enroll/grad/rule/2025-all
+        path: /intro/enroll/grad/rule/2026-all
 
   - tag: list
     items:

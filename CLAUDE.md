@@ -254,6 +254,7 @@ pages/**/xxx.yml  →  innenu-generator (getPageJSON)  →  .resource/**/xxx.jso
 
 ## 注意事项
 
+- `phone` 组件仅渲染为一个电话号和添加联系人按钮，不展示 `remark`、`street` 等附加字段。因此，凡涉及人员信息展示的页面，应在 `phone` 组件之前先用 `text` / `p` 等组件写出人员的姓名、职务、职责、办公地点等正文内容，再用 `phone` 组件提供一键拨号/保存功能。信息需要在正文和 `phone` 组件中各写一遍。
 - 所有 YAML 文件均在 VS Code 中通过 schema 获得智能提示和校验
 - `aiIgnore: true` 的页面将在 AI 处理时被跳过
 - 图片引用使用 `$img/` 前缀（而非直接相对路径），构建时会由 `innenu-generator` 解析

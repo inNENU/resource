@@ -5,27 +5,27 @@ tags:
 icon: enroll
 grey: true
 author: Mr.Hope
-time: 2025-07-23T09:43:28.562Z
+time: 2026-07-21T03:48:55.561Z
 shareable: true
 content:
   - tag: list
-    header: 2025 年统招
+    header: 2026 年统招
     items:
       - text: 2025 年招生专业、人数与联系方式
         icon: list
         path: major/2025
 
-      - text: 2025 年硕士研究生招生简章
+      - text: 2026 年硕士研究生招生简章
         icon: rule
-        path: rule/2025
+        path: rule/2026
 
-      - text: 2025 年博士研究生招生简章
+      - text: 2026 年博士研究生招生简章
         icon: rule
-        path: rule/2025-doc
+        path: rule/2026-doc
 
-      - text: 2025 年全国硕士研究生招生工作管理规定
+      - text: 2026 年全国硕士研究生招生工作管理规定
         icon: rule
-        path: rule/2025-all
+        path: rule/2026-all
 
   - tag: list
     header: 硕博连读

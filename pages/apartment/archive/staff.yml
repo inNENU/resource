@@ -1,0 +1,189 @@
+title: 档案馆人员信息
+tags:
+  - 档案
+  - 学校机构
+icon: account
+author: Mr.Hope
+time: 2026-07-21T03:48:55.446Z
+shareable: true
+cite: https://dag.nenu.edu.cn/
+content:
+  - tag: title
+    text: 馆领导
+
+  - tag: text
+    header: 王丹彤（馆长）
+    text:
+      - 全面负责档案馆工作。主要分管档案制度建设、档案安全、档案编研、队伍建设、对外交流合作、经费使用审批等。
+      - 办公地点：本部校区行政楼 104 室
+
+  - tag: phone
+    fName: 王丹彤
+    title: 馆长
+    num: 0431-85099650
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 104 室
+    mail: wangdt379@nenu.edu.cn
+
+  - tag: text
+    header: 孙波（副馆长）
+    text:
+      - 分管档案业务运行、信息化建设、行政事务管理等工作。
+      - 办公地点：本部校区行政楼 110 室
+
+  - tag: phone
+    fName: 孙波
+    title: 副馆长
+    num: 0431-85098098
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 110 室
+    mail: sunbo@nenu.edu.cn
+
+  - tag: title
+    text: 综合档案部
+
+  - tag: text
+    header: 王刚（综合档案部主任）
+    text:
+      - 负责综合档案的收集、管理、保存和利用；推进电子文档归档（单套制）；管理保密档案；负责信息化建设；负责专兼职档案工作人员的业务指导和培训。
+      - 办公地点：本部校区行政楼 126 室
+
+  - tag: phone
+    fName: 王刚
+    title: 综合档案部主任
+    num: 0431-85099339
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 126 室
+    mail: dag@nenu.edu.cn
+
+  - tag: text
+    header: 王钰（综合档案部职员）
+    text:
+      - 负责各归档单位日常档案的收集指导、检查验收和移交；重要工作、重大活动、声像、人物等档案的收集；建设综合档案目录数据库和全文数据库；协助电子文档归档和信息化建设。
+      - 办公地点：本部校区行政楼 120 室
+
+  - tag: phone
+    fName: 王钰
+    title: 综合档案部职员
+    num: 0431-85098670
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 120 室
+    mail: dag@nenu.edu.cn
+
+  - tag: text
+    header: 张璇（综合档案部职员）
+    text:
+      - 负责综合档案到馆查借阅服务，出具相关证明材料；学历学位核查认证初审及复核；综合档案接收入库及鉴定销毁；协助管理保密档案。
+      - 办公地点：本部校区行政楼 126 室
+
+  - tag: phone
+    fName: 张璇
+    title: 综合档案部职员
+    num: 0431-85099339
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 126 室
+    mail: dag@nenu.edu.cn
+
+  - tag: text
+    header: 张艳婷（综合档案部职员）
+    text:
+      - 负责综合档案到馆查借阅服务，出具相关证明材料；学历学位核查认证初审及复核；综合档案接收入库；协助管理综合档案库房。
+      - 办公地点：本部校区行政楼 126 室
+
+  - tag: phone
+    fName: 张艳婷
+    title: 综合档案部职员
+    num: 0431-85099339
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 126 室
+    mail: dag@nenu.edu.cn
+
+  - tag: text
+    header: 张志强（综合档案部职员）
+    text:
+      - 负责综合档案线上查询服务；线上中英文成绩单、学历学位翻译及证明出具；协助综合档案接收入库和库房管理。
+      - 办公地点：本部校区行政楼 120 室
+
+  - tag: phone
+    fName: 张志强
+    title: 综合档案部职员
+    num: 0431-85098670
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 120 室
+    mail: dag@nenu.edu.cn
+
+  - tag: title
+    text: 人事档案部
+
+  - tag: text
+    header: 李竟彤（人事档案部主任）
+    text:
+      - 负责教职工档案和学生档案的接收、管理、利用和转递；教职工档案散件材料的接收、插卷和目录更新；新入职教职工档案的接收和整理；教职工档案查阅服务；人事档案库房安全和信息安全。
+      - 办公地点：本部校区行政楼 108 室
+
+  - tag: phone
+    fName: 李竟彤
+    title: 人事档案部主任
+    num: 0431-85099149
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 108 室
+    mail: archives@nenu.edu.cn
+
+  - tag: text
+    header: 李梦诗（人事档案部职员）
+    text:
+      - 负责新生档案的接收和在校生档案的管理；学生档案查阅服务；毕业生档案派遣和日常转档；学生档案库房安全和信息安全。
+      - 办公地点：本部校区行政楼 108 室
+
+  - tag: phone
+    fName: 李梦诗
+    title: 人事档案部职员
+    num: 0431-85099149
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 108 室
+    mail: archives@nenu.edu.cn
+
+  - tag: text
+    header: 孟振东（人事档案部职员）
+    text:
+      - 协助学生档案和教职工档案的接收、管理和利用；协助毕业生档案派遣和日常转档；协助管理人员档案和学生档案库房。
+      - 办公地点：本部校区行政楼 108 室
+
+  - tag: phone
+    fName: 孟振东
+    title: 人事档案部职员
+    num: 0431-85099149
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 108 室
+    mail: archives@nenu.edu.cn
+
+  - tag: title
+    text: 档案编研部
+
+  - tag: text
+    header: 付希金（档案编研部主任）
+    text:
+      - 负责档案编研和日常行政事务；研究、规划和推进有组织档案编研及其成果运用；起草规章制度、发展规划、计划总结、新闻报道等；督办落实馆务会决策；网站、微信公众号管理和信息发布。
+      - 办公地点：本部校区行政楼 124 室
+
+  - tag: phone
+    fName: 付希金
+    title: 档案编研部主任
+    num: 0431-85095022
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 124 室
+    mail: archives@nenu.edu.cn
+
+  - tag: text
+    header: 刘熙桥（档案编研部职员）
+    text:
+      - 协助档案编研及其成果运用；负责人事、文件收发、信息统计、会议和活动组织、勤工助学学生管理、资产管理、维修维护、采购发放、值班安排、财务报销等日常行政事务；工会工作；联络和慰问离退休人员。
+      - 办公地点：本部校区行政楼 124 室
+
+  - tag: phone
+    fName: 刘熙桥
+    title: 档案编研部职员
+    num: 0431-85095022
+    org: 东北师范大学档案馆
+    street: 本部校区行政楼 124 室
+    mail: archives@nenu.edu.cn

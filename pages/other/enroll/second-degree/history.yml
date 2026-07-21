@@ -3,15 +3,15 @@ aiIgnore: true
 icon: rule
 grey: true
 author: Mr.Hope
-time: 2026-07-09T03:13:08.983Z
+time: 2026-07-21T03:48:56.035Z
 shareable: true
 content:
   - tag: list
     header: 历史信息
     items:
-      - text: 2026 年第二学士学位招生简章
+      - text: 2025 年第二学士学位招生简章
         icon: rule
-        path: "2026"
+        path: "2025"
 
       - text: 2024 年第二学士学位招生简章
         icon: rule
