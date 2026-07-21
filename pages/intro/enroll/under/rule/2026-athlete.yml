@@ -4,7 +4,7 @@ tags:
 icon: rule
 desc: |-
   来源: 本科招生网
-time: 2026-07-21T03:22:27.030Z
+time: 2026-07-21T04:23:46.821Z
 shareable: true
 aiIgnore: true
 cite: https://zsb.nenu.edu.cn/
@@ -28,7 +28,7 @@ content:
     text: 二、招生计划及省份范围
 
   - tag: table
-    head:
+    header:
       - 招生专业
       - 招生项目
       - 性别

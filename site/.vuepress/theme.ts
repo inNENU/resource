@@ -33,6 +33,8 @@ export default hopeTheme({
 
   pure: true,
 
+  focus: false,
+
   metaLocales: {
     date: "更新日期",
   },

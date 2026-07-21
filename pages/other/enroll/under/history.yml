@@ -4,12 +4,16 @@ tags:
 icon: time
 grey: true
 author: Mr.Hope
-time: 2026-07-09T03:13:08.984Z
+time: 2026-07-21T04:23:47.298Z
 shareable: true
 content:
   - tag: list
     header: 本科招生专业
     items:
+      - text: 2025 年本科开设专业
+        icon: list
+        path: major/2025
+
       - text: 2024 年本科开设专业
         icon: list
         path: major/2024

@@ -2,7 +2,7 @@ title: 本科生入学准备
 aiIgnore: true
 icon: prepare
 author: Mr.Hope
-time: 2025-08-24T06:10:20.166Z
+time: 2026-07-21T04:23:46.859Z
 grey: true
 shareable: true
 content:
@@ -51,7 +51,7 @@ content:
     items:
       - text: 专业所属学院、校区
         icon: content
-        path: /intro/enroll/under/major/2025
+        path: /intro/enroll/under/major/2026
 
       - text: 新生群
         icon: qq-group
