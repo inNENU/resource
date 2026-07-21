@@ -1,6 +1,6 @@
 {
   "version": {
-    "apartment": 6,
+    "apartment": 7,
     "function": 26,
     "guide": 34,
     "intro": 15,
@@ -9,7 +9,7 @@
     "newcomer": 26
   },
   "size": {
-    "apartment": 132,
+    "apartment": 133,
     "school": 384,
     "function": 246,
     "guide": 779,

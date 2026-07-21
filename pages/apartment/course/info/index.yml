@@ -5,7 +5,7 @@ tags:
 icon: jwc
 cite:
   - https://jwc.nenu.edu.cn/jwgl1/ryxx.htm
-time: 2025-07-23T09:43:28.360Z
+time: 2026-07-21T05:34:27.479Z
 shareable: true
 content:
   - tag: list
@@ -16,7 +16,7 @@ content:
       - text: 综合办公室
         path: complex
 
-      - text: 教学建设与改革办公室（教材工作办公室）
+      - text: 教学建设与改革办公室
         path: construct
 
       - text: 教学运行与信息化管理办公室
@@ -28,7 +28,7 @@ content:
       - text: 教学质量管理办公室
         path: quality
 
-      - text: 创新实验区建设办公室
+      - text: 创新实验区办公室
         path: innovate
 
       - text: 本科生招生办公室

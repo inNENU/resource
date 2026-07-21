@@ -4,7 +4,7 @@ tags:
 icon: jwc
 grey: true
 author: Mr.Hope
-time: 2025-07-23T09:43:28.358Z
+time: 2026-07-21T05:34:27.477Z
 shareable: true
 content:
   - tag: account
@@ -25,10 +25,6 @@ content:
       - text: 机构设置
         icon: apartment
         path: apartment
-
-      - text: 各学院教务秘书电话
-        icon: jwc
-        path: contact
 
   - tag: list
     header: 教务处规范
