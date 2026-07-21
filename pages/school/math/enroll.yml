@@ -4,8 +4,8 @@ tags:
   - 数学与统计学院
 icon: enroll
 desc: |-
-  来源: 2025 年本科招生指南
-time: 2025-07-27T10:25:38.689Z
+  来源: 2026 年本科招生指南
+time: 2026-07-21T02:35:08.896Z
 cite:
   - https://book.zjzw.cn/books/lzsj/mobile/index.html
 shareable: true
@@ -23,10 +23,7 @@ content:
     text: 本科招生概况
 
   - tag: p
-    text:
-      - 学院现有数学与应用数学、统计学两个本科专业，其中数学与应用数学专业被教育部批准为 2007 年度“第一批高等学校师范类特色专业建设点”。数学与应用数学专业分为师范和普通两个方向。
-      - |-
-        学院本科招生专业包括：数学与应用数学（陆家羲试验班、公费师范、优师专项、非公费师范）和统计学，其中数学与应用数学（非公费师范）和统计学2个专业按数学类专业大类招生。
+    text: 学院本科招生专业包括：数学与应用数学（陆家羲试验班、公费师范、优师专项、非公费师范）、统计学（数智试验班）、数据科学。
 
   - tag: list
     header: 专业详情
@@ -34,8 +31,17 @@ content:
       - text: 数学与应用数学(公费师范)
         path: normal
 
-      - text: 数学类
-        path: class
+      - text: 数学与应用数学
+        desc: 2025 级之前
+        path: math
+
+      - text: 统计学（数智试验班）
+        desc: 2026 级起
+        path: statistics-data
+
+      - text: 数据科学
+        desc: 2026 级起
+        path: data-science
 
   - tag: list
     header: 准入要求
