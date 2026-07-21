@@ -3,9 +3,9 @@
     "apartment": 2,
     "function": 26,
     "guide": 30,
-    "intro": 8,
+    "intro": 9,
     "icon": 0,
-    "school": 5,
+    "school": 6,
     "newcomer": 25
   },
   "size": {
@@ -14,7 +14,7 @@
     "function": 246,
     "guide": 783,
     "icon": 327,
-    "intro": 344,
+    "intro": 378,
     "newcomer": 248
   }
 }
